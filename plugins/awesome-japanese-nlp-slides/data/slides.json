@@ -368,6 +368,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "犬でもわかる Minimal Acyclic Subsequential Transducer / Introduction to Minimal Acyclic Subsequential Transducer",
+  "u": "https://speakerdeck.com/takuyaa/introduction-to-minimal-acyclic-subsequential-transducer",
+  "a": "Takuya Asano",
+  "d": "2019-06-27",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Lucene/Elasticsearch の Character Filter でユニコード正規化するとトークンのオフセットがズレるバグへの Workaround - Search Engineering Tech Talk 2024 Spring",
+  "u": "https://speakerdeck.com/kampersanda/elasticsearch-no-character-filter-deyunikodozheng-gui-hua-surutotokunnoohusetutogazurerubaguheno-workaround-search-engineering-tech-talk-2024-spring",
+  "a": "Shunsuke Kanda",
+  "d": "2024-05-31",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "speakerdeck"
+ },
+ {
   "t": "chiVe: 製品利用可能な日本語単語ベクトル資源の実現へ向けて",
   "u": "https://speakerdeck.com/sorami/chive-zhi-pin-li-yong-ke-neng-nari-ben-yu-dan-yu-bekutoruzi-yuan-falseshi-xian-hexiang-kete",
   "a": "Sorami Shiromizu",
@@ -520,36 +536,12 @@
   "src": "speakerdeck"
  },
  {
-  "t": "大規模言語モデルを支える頭脳：Transformerを30分でつかむ",
-  "u": "https://speakerdeck.com/rhagihara0844/da-gui-mo-yan-yu-moderuwozhi-erutou-noy-transformerwo30fen-detukamu",
-  "a": "r-hagihara-max",
-  "d": "2025-08-02",
-  "s": "事前学習モデル・Transformer",
-  "src": "speakerdeck"
- },
- {
-  "t": "PyTorchによるGPT-2モデルのフルスクラッチ実装と内部構造の解説",
-  "u": "https://speakerdeck.com/sennsann99/pytorchniyorugpt-2moderunohurusukuratutishi-zhuang-tonei-bu-gou-zao-nojie-shuo",
-  "a": "Chigen SEN",
-  "d": "2026-03-11",
-  "s": "事前学習モデル・Transformer",
-  "src": "speakerdeck"
- },
- {
   "t": "[DL輪読会]BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
   "u": "https://www.docswell.com/s/DeepLearning2023/5Q8L7R-dlbert-pretraining-of-deep-bidirectional-transformers-for-language-understanding",
   "a": "Deep Learning JP",
   "d": "2018-10-19",
   "s": "事前学習モデル・Transformer",
   "src": "docswell"
- },
- {
-  "t": "HackSick vol.7 LT資料【LLMアーキテクチャ入門・事前学習時の躓き所解説】 スパースなAttention・状態空間モデル",
-  "u": "https://speakerdeck.com/rikkabotan7/hacksick-vol-dot-7-ltzi-liao-llmakitekutiyaru-men-shi-qian-xue-xi-shi-nozhi-kisuo-jie-shuo-supasunaattentionzhuang-tai-kong-jian-moderu",
-  "a": "Rikka Botan",
-  "d": "2026-07-25",
-  "s": "事前学習モデル・Transformer",
-  "src": "speakerdeck"
  },
  {
   "t": "大規模言語モデルの驚異と脅威",
@@ -1040,6 +1032,102 @@
   "src": "docswell"
  },
  {
+  "t": "Elasticsearch における類似度ベクトル検索のベストプラクティスを求めて/es-vector-search",
+  "u": "https://speakerdeck.com/takahiko03/es-vector-search",
+  "a": "Takahiko Ito",
+  "d": "2019-07-31",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ヤフーにおける機械学習検索ランキングの取り組み",
+  "u": "https://speakerdeck.com/szdr/yahuniokeruji-jie-xue-xi-jian-suo-rankingufalsequ-rizu-mi",
+  "a": "sz_dr",
+  "d": "2019-12-04",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "言語モデルを用いたQuery Categorizationへの取り組み / LM-based query categorization for query understanding",
+  "u": "https://speakerdeck.com/pakio/lm-based-query-categorization-for-query-understanding",
+  "a": "Kazuma Arimura",
+  "d": "2023-12-20",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "OpenProvence - クエリに関連しない文章削除モデル日本語版の作成と公開",
+  "u": "https://speakerdeck.com/hotchpotch/openprovence-kueriniguan-lian-sinaiwen-zhang-xue-chu-moderuri-ben-yu-ban-nozuo-cheng-togong-kai",
+  "a": "Yuichi Tateno",
+  "d": "2025-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Azure AI SearchでAgentic Retreival",
+  "u": "https://speakerdeck.com/takatorisatoshi/azure-ai-searchdeagentic-retreival",
+  "a": "takatori",
+  "d": "2025-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Temporal Knowledge Graphで作る！ 時間変化するナレッジを扱うAI Agentの世界",
+  "u": "https://speakerdeck.com/po3rin/temporal-knowledge-graphdezuo-ru-shi-jian-bian-hua-surunaretuziwoxi-uai-agentnoshi-jie",
+  "a": "po3rin",
+  "d": "2025-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "実践マルチモーダル検索！",
+  "u": "https://speakerdeck.com/shibuiwilliam/shi-jian-marutimodarujian-suo",
+  "a": "shibuiwilliam",
+  "d": "2025-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "2026年はチャンキングを極める！",
+  "u": "https://speakerdeck.com/shibuiwilliam/2026nian-hatiyankinguwoji-meru",
+  "a": "shibuiwilliam",
+  "d": "2026-01-28",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "MCPでつなぐElasticsearchとLLM - 深夜の障害対応を楽にしたい / Bridging Elasticsearch and LLMs with MCP",
+  "u": "https://speakerdeck.com/sashimimochi/bridging-elasticsearch-and-llms-with-mcp",
+  "a": "Sashimimochi",
+  "d": "2026-01-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "検索設計から 推論設計への重心移動と Recall-First Retrieval",
+  "u": "https://speakerdeck.com/po3rin/jian-suo-she-ji-kara-tui-lun-she-ji-henozhong-xin-yi-dong-to-recall-first-retrieval",
+  "a": "po3rin",
+  "d": "2026-04-28",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AIエージェントのための検索",
+  "u": "https://speakerdeck.com/takatorisatoshi/aiezientonotamenojian-suo",
+  "a": "takatori",
+  "d": "2026-07-23",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Retriever と Reranker、結局どうする？",
+  "u": "https://speakerdeck.com/kazuaki/retriever-to-reranker-jie-ju-dousuru",
+  "a": "hkazuakey",
+  "d": "2026-07-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "ChatGPT - LLMシステム開発大全",
   "u": "https://speakerdeck.com/hirosatogamo/chatgpt-azure-openai-da-quan",
   "a": "Hirosato Gamo",
@@ -1204,6 +1292,14 @@
   "u": "https://speakerdeck.com/stockmark/stockmark-tech-meetup-number-8",
   "a": "Stockmark",
   "d": "2024-02-26",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "アノテーション作業書作成のGood Practice",
+  "u": "https://speakerdeck.com/cierpa0905/anotesiyonzuo-ye-shu-zuo-cheng-nogood-practice",
+  "a": "Cierpa & Company",
+  "d": "2025-10-30",
   "s": "情報抽出・固有表現・アノテーション",
   "src": "speakerdeck"
  },

@@ -1,4 +1,4 @@
-# Awesome Japanese NLP Slides
+# awesome-japanese-nlp-slides
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/taishi-i/awesome-japanese-nlp-slides)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/taishi-i/awesome-japanese-nlp-slides/pulls)
@@ -7,14 +7,14 @@
 日本語の自然言語処理（NLP）に関する発表スライドを集めたキュレーションリストです。
 学会チュートリアル、大学講義、OSS 開発者による技術解説、企業の実践事例などをトピック別に整理しています。
 
-204 件の資料を 18 カテゴリに分類しています。
+216 件の資料を 18 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは現在構築途中です。今後も資料を追加し、内容を拡張していきます。
 
 ## 🔍 Claude Code から検索する
 
-このリストの資料 204 件を Claude Code から検索できるプラグインを用意しています。
+このリストの資料 216 件を Claude Code から検索できるプラグインを用意しています。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -108,6 +108,7 @@
 日本語特有の前処理を担う解析器と辞書に関する資料。
 
 - [係り受け解析を用いた法律文書中の略称規定の解析についての報告](https://speakerdeck.com/puripuri2100/xi-rishou-kejie-xi-woyong-itafa-lu-wen-shu-zhong-nolue-cheng-gui-ding-nojie-xi-nituitenobao-gao) - puripuri2100（2024-09）
+- [Lucene/Elasticsearch の Character Filter でユニコード正規化するとトークンのオフセットがズレるバグへの Workaround - Search Engineering Tech Talk 2024 Spring](https://speakerdeck.com/kampersanda/elasticsearch-no-character-filter-deyunikodozheng-gui-hua-surutotokunnoohusetutogazurerubaguheno-workaround-search-engineering-tech-talk-2024-spring) - Shunsuke Kanda（2024-05）
 - [\[NLP2023\] 最小コスト法に基づく形態素解析におけるCPU キャッシュの効率化](https://speakerdeck.com/legalontechnologies/nlp2023-vibrato) - LegalOn Technologies, Inc（2024-05）
 - [\[DEIM2023\] 高速な形態素解析器Vibratoの紹介](https://speakerdeck.com/legalontechnologies/deim2023-introduction-to-vibrato-fast-morphological-analyzer) - LegalOn Technologies, Inc（2023-03）
 - [KWJA：汎用言語モデルに基づく日本語解析器 / kyoto-waseda-japanese-analyzer](https://speakerdeck.com/nobug/kyoto-waseda-japanese-analyzer) - Nobuhiro Ueda（2022-09）
@@ -116,6 +117,7 @@
 - [日本語形態素解析器 SudachiPy の 現状と今後について](https://speakerdeck.com/waptech/ri-ben-yu-xing-tai-su-jie-xi-qi-sudachipy-false-xian-zhuang-tojin-hou-nituite) - WAP（2021-07）
 - [Sudachi辞書のつくり方](https://speakerdeck.com/waptech/sudachici-shu-falsetukurifang) - WAP（2020-12）
 - [Lucene Kuromoji のコードを読む会 （辞書ビルダー編）](https://speakerdeck.com/mocobeta/lucene-kuromoji-nokodowodu-muhui-ci-shu-birudabian) - Tomoko Uchida（2019-10）
+- [犬でもわかる Minimal Acyclic Subsequential Transducer / Introduction to Minimal Acyclic Subsequential Transducer](https://speakerdeck.com/takuyaa/introduction-to-minimal-acyclic-subsequential-transducer) - Takuya Asano（2019-06）
 - [文字列正規化パタンの獲得と崩れ表記正規化に基づく日本語形態素解析](https://speakerdeck.com/atsumikan/wen-zi-lie-zheng-gui-hua-patanfalsehuo-de-tobeng-rebiao-ji-zheng-gui-hua-niji-dukuri-ben-yu-xing-tai-su-jie-xi) - Atsushi（2018-04）
 - [JUMAN++で分かち書きをしたかった...](https://speakerdeck.com/nagomiso/juman-plus-plus-defen-katishu-kiwositakatuta-dot-dot-dot) - なごみそ（2017-05）
 - [日本語の形態素解析](https://speakerdeck.com/yumeto/ri-ben-yu-falsexing-tai-su-jie-xi) - Yumeto Inaoka（2017-01）
@@ -144,9 +146,6 @@
 
 BERT 以降の事前学習モデルと Transformer の解説資料。
 
-- [HackSick vol.7 LT資料【LLMアーキテクチャ入門・事前学習時の躓き所解説】 スパースなAttention・状態空間モデル](https://speakerdeck.com/rikkabotan7/hacksick-vol-dot-7-ltzi-liao-llmakitekutiyaru-men-shi-qian-xue-xi-shi-nozhi-kisuo-jie-shuo-supasunaattentionzhuang-tai-kong-jian-moderu) - Rikka Botan（2026-07）
-- [PyTorchによるGPT-2モデルのフルスクラッチ実装と内部構造の解説](https://speakerdeck.com/sennsann99/pytorchniyorugpt-2moderunohurusukuratutishi-zhuang-tonei-bu-gou-zao-nojie-shuo) - Chigen SEN（2026-03）
-- [大規模言語モデルを支える頭脳：Transformerを30分でつかむ](https://speakerdeck.com/rhagihara0844/da-gui-mo-yan-yu-moderuwozhi-erutou-noy-transformerwo30fen-detukamu) - r-hagihara-max（2025-08）
 - [【初心者向け】まだ間に合う！ Hugging Face入門 -TransformersでAI推論&学習](https://speakerdeck.com/tkhresk/huggingfaceru-men) - Takahiro Esaki（2023-09）
 - [Transformersによる自然言語処理の実践](https://www.docswell.com/s/flowlight0/5RX82N-2023-08-22-152738) - flowlight0（2023-08）
 - [BERTによる自然言語処理を学ぼう!【 Live!人工知能 #26】 #Live人工知能](https://speakerdeck.com/yukinaga/bertniyoruzi-ran-yan-yu-chu-li-woxue-bou-live-ren-gong-zhi-neng-number-26-number-liveren-gong-zhi-neng) - yuky_az（2020-11）
@@ -230,15 +229,27 @@ LLM 全体を俯瞰する解説・招待講演。
 
 - [【Paper&Hacks Vol.89】RAGアプリハンズオン～LLM/Embedding選択～](https://www.docswell.com/s/matsuo-lab_llm/Z8NRJE-Paper&HacksVol.89) - 松尾研LLMコミュニティ（2026-08）
 - [【Paper&Hacks Vol.80】RAGを測るモノサシを作ろう 〜 Ragas × LangSmithでRAG評価アプリ開発 〜](https://www.docswell.com/s/matsuo-lab_llm/KWRGP8-Paper&HacksVol.80) - 松尾研LLMコミュニティ（2026-08）
+- [Retriever と Reranker、結局どうする？](https://speakerdeck.com/kazuaki/retriever-to-reranker-jie-ju-dousuru) - hkazuakey（2026-07）
+- [AIエージェントのための検索](https://speakerdeck.com/takatorisatoshi/aiezientonotamenojian-suo) - takatori（2026-07）
 - [【2026年版】 ベクトル検索とEmbedding最前線](https://speakerdeck.com/mocobeta/2026nian-ban-bekutorujian-suo-embeddingzui-qian-xian) - Tomoko Uchida（2026-06）
 - [FessのAI検索モード：検索システムとLLMへの取り組み](https://speakerdeck.com/marevol/fessnoaijian-suo-modo-jian-suo-sisutemutollmhenoqu-rizu-mi) - Shinsuke Sugaya（2026-04）
+- [検索設計から 推論設計への重心移動と Recall-First Retrieval](https://speakerdeck.com/po3rin/jian-suo-she-ji-kara-tui-lun-she-ji-henozhong-xin-yi-dong-to-recall-first-retrieval) - po3rin（2026-04）
+- [MCPでつなぐElasticsearchとLLM - 深夜の障害対応を楽にしたい / Bridging Elasticsearch and LLMs with MCP](https://speakerdeck.com/sashimimochi/bridging-elasticsearch-and-llms-with-mcp) - Sashimimochi（2026-01）
 - [オープンウェイトのLLMリランカーを契約書で評価する / searchtechjp](https://speakerdeck.com/sansan_randd/searchtechjp) - Sansan R&D（2026-01）
+- [2026年はチャンキングを極める！](https://speakerdeck.com/shibuiwilliam/2026nian-hatiyankinguwoji-meru) - shibuiwilliam（2026-01）
 - [Pythonで構築する全国市町村ナレッジグラフ: GraphRAGを用いた意味的地域検索への応用](https://speakerdeck.com/negi111111/pythondegou-zhu-suruquan-guo-shi-ting-cun-naretuzigurahu-graphragwoyong-itayi-wei-de-di-yu-jian-suo-henoying-yong) - negi111111（2025-11）
+- [OpenProvence - クエリに関連しない文章削除モデル日本語版の作成と公開](https://speakerdeck.com/hotchpotch/openprovence-kueriniguan-lian-sinaiwen-zhang-xue-chu-moderuri-ben-yu-ban-nozuo-cheng-togong-kai) - Yuichi Tateno（2025-10）
+- [Azure AI SearchでAgentic Retreival](https://speakerdeck.com/takatorisatoshi/azure-ai-searchdeagentic-retreival) - takatori（2025-10）
+- [Temporal Knowledge Graphで作る！ 時間変化するナレッジを扱うAI Agentの世界](https://speakerdeck.com/po3rin/temporal-knowledge-graphdezuo-ru-shi-jian-bian-hua-surunaretuziwoxi-uai-agentnoshi-jie) - po3rin（2025-10）
+- [実践マルチモーダル検索！](https://speakerdeck.com/shibuiwilliam/shi-jian-marutimodarujian-suo) - shibuiwilliam（2025-10）
 - [「LINE MUSIC」におけるハイブリッド検索や略称抽出を用いた曖昧検索への挑戦 / Challenges in Ambiguous Search Using Hybrid Search and Abbreviation Extraction in "LINE MUSIC"](https://speakerdeck.com/lycorptech_jp/challenges-in-ambiguous-search-using-hybrid-search-and-abbreviation-extraction-in-line-music) - LINEヤフーTech (LY Corporation Tech)（2025-06）
 - [ベクトルストア入門](https://www.docswell.com/s/hmatsu47/ZP2LY6-2025-01-19-235645) - hmatsu47(まつ)（2025-02）
 - [LLMによるRAG評価用合成テストデータの生成](https://speakerdeck.com/licux/llmniyoruragping-jia-yong-he-cheng-tesutodetanosheng-cheng) - matsukada（2025-01）
 - [LLMアプリをRagasで評価して、Langfuseで可視化しよう！](https://speakerdeck.com/minorun365/llmapuriworagasdeping-jia-site-langfusedeke-shi-hua-siyou) - みのるん（2024-10）
 - [テキスト検索の原点：全文検索のしくみと活用ポイント](https://speakerdeck.com/segavvy/tekisutojian-suo-noyuan-dian-quan-wen-jian-suo-nosikumitohuo-yong-hointo) - segavvy（2024-01）
+- [言語モデルを用いたQuery Categorizationへの取り組み / LM-based query categorization for query understanding](https://speakerdeck.com/pakio/lm-based-query-categorization-for-query-understanding) - Kazuma Arimura（2023-12）
+- [ヤフーにおける機械学習検索ランキングの取り組み](https://speakerdeck.com/szdr/yahuniokeruji-jie-xue-xi-jian-suo-rankingufalsequ-rizu-mi) - sz_dr（2019-12）
+- [Elasticsearch における類似度ベクトル検索のベストプラクティスを求めて/es-vector-search](https://speakerdeck.com/takahiko03/es-vector-search) - Takahiko Ito（2019-07）
 
 ## LLM アプリケーション開発・運用
 
@@ -260,6 +271,7 @@ LLM 全体を俯瞰する解説・招待講演。
 
 - [BizDocVQA: 実世界ビジネス帳票に対する根拠付きVQAデータセットの提案](https://speakerdeck.com/icoxfog417/biz-doc-vqa-dataset) - Takahiro Kubo（2026-03）
 - [メールから送信者情報を抽出するタスクの奥深さ / kyoto\_ai\_meetup\_1](https://speakerdeck.com/sansan_randd/kyoto-ai-meetup-1) - Sansan R&D（2026-02）
+- [アノテーション作業書作成のGood Practice](https://speakerdeck.com/cierpa0905/anotesiyonzuo-ye-shu-zuo-cheng-nogood-practice) - Cierpa & Company（2025-10）
 - [Large Vision Language Modelを用いた 文書画像データ化作業自動化の検証、運用 / shibuya\_AI](https://speakerdeck.com/sansan_randd/shibuya-ai) - Sansan R&D（2025-10）
 - [AIの血肉となるアノテーションデータのために大事にしている事](https://speakerdeck.com/cyberagentdevelopers/ainoxie-rou-tonaruanotesiyondetanotamenida-shi-nisiteirushi) - CyberAgent（2024-11）
 - [メールからの名刺情報抽出におけるLLM活用 / Use of LLM in extracting business card information from e-mails](https://speakerdeck.com/sansan_randd/use-of-llm-in-extracting-business-card-information-from-e-mails) - Sansan R&D（2024-11）
