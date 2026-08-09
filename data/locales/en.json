@@ -1,0 +1,104 @@
+{
+ "lang": "en",
+ "order": 2,
+ "nav_label": "English",
+ "outputs": ["docs/README.en.md"],
+ "strings": {
+  "logo_alt": "Awesome Japanese NLP Slides",
+  "intro": [
+   "A curated list of presentation slides on Japanese natural language processing (NLP).",
+   "Conference tutorials, university lectures, technical deep dives by OSS developers, and industry case studies, organized by topic."
+  ],
+  "count": "{total} decks across {sections} categories.",
+  "wip_note": "This list is still a work in progress. More material will be added over time.",
+  "plugin_heading": "🔍 Search from Claude Code",
+  "plugin_intro": "A plugin is available to search all {total} decks in this list from Claude Code.",
+  "plugin_usage": "Once installed, pass a keyword or a natural language question to the `search` skill and you get up to 10 results ranked by relevance, plus a suggested reading order.",
+  "search_examples": ["morphological analysis", "Japanese LLM pretraining", "RAG", "evaluation benchmark"],
+  "plugin_tip": [
+   "You can search in either Japanese or English. The output language follows the language of your query.",
+   "Ask in natural language, e.g. \"I want to read these in order starting from the basics\", and you also get a suggested reading order."
+  ],
+  "toc_heading": "Contents",
+  "entry": "- [{title}]({url}) - {author} ({ym})",
+  "unknown_date": "date unknown",
+  "unknown_author": "presenter unknown",
+  "license_heading": "License",
+  "license_note": "CC0 applies to this list itself. The copyright of each linked deck belongs to its respective presenter.",
+  "titles_note": "Deck titles are kept as published, so most of them are in Japanese."
+ },
+ "sections": {
+  "入門・全体像": {
+   "section": "Getting Started / Big Picture",
+   "blurb": "Where to start if you want an overview of NLP itself."
+  },
+  "学会チュートリアル": {
+   "section": "Conference Tutorials",
+   "blurb": "Tutorial talks from ANLP, JSAI, and other academic conferences."
+  },
+  "大学講義・体系的な講義資料": {
+   "section": "University Lectures & Course Materials",
+   "blurb": "University courses and lecture series, including those used in book reading groups."
+  },
+  "日本語の基礎解析（形態素解析・構文解析）": {
+   "section": "Japanese Text Analysis (Morphological & Syntactic)",
+   "blurb": "Analyzers and dictionaries that handle preprocessing specific to Japanese."
+  },
+  "単語・文の分散表現": {
+   "section": "Word & Sentence Embeddings",
+   "blurb": "Word vectors, sentence embeddings, and the properties of embedding spaces."
+  },
+  "事前学習モデル・Transformer": {
+   "section": "Pretrained Models & Transformers",
+   "blurb": "Pretrained models from BERT onward, and how Transformers work."
+  },
+  "大規模言語モデル（概論・動向）": {
+   "section": "Large Language Models (Overview & Trends)",
+   "blurb": "Surveys and invited talks that map out the LLM landscape."
+  },
+  "日本語LLMの開発（事前学習・コーパス構築）": {
+   "section": "Building Japanese LLMs (Pretraining & Corpus Construction)",
+   "blurb": "Lessons from the teams that actually built Japanese LLMs."
+  },
+  "ファインチューニング・事後学習": {
+   "section": "Fine-tuning & Post-training",
+   "blurb": "Techniques for adapting an existing model to your target task."
+  },
+  "評価・ベンチマーク": {
+   "section": "Evaluation & Benchmarks",
+   "blurb": "How to measure Japanese LLM and NLP systems."
+  },
+  "検索・RAG": {
+   "section": "Search & RAG",
+   "blurb": "Information retrieval, vector search, and retrieval-augmented generation."
+  },
+  "LLM アプリケーション開発・運用": {
+   "section": "LLM Application Development & Operations",
+   "blurb": "Shipping LLMs inside real products and keeping them running."
+  },
+  "情報抽出・固有表現・アノテーション": {
+   "section": "Information Extraction, NER & Annotation",
+   "blurb": "Extracting structured information from text, and the training data behind it."
+  },
+  "質問応答・知識": {
+   "section": "Question Answering & Knowledge",
+   "blurb": "Knowledge-aware language models and question answering systems."
+  },
+  "機械翻訳・音声・対話": {
+   "section": "Machine Translation, Speech & Dialogue",
+   "blurb": "Translation, spoken language processing, and dialogue systems."
+  },
+  "生成・要約・校正": {
+   "section": "Generation, Summarization & Proofreading",
+   "blurb": "Text generation and its downstream tasks."
+  },
+  "解釈性・分析・言語学的視点": {
+   "section": "Interpretability, Analysis & Linguistic Perspectives",
+   "blurb": "Looking inside models and evaluating them from a linguistic angle."
+  },
+  "産業応用・実務事例": {
+   "section": "Industry Applications & Case Studies",
+   "blurb": "Case studies of NLP and LLMs embedded in real services and workflows."
+  }
+ }
+}
