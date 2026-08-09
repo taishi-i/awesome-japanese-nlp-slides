@@ -1,0 +1,30 @@
+{
+ "lang": "ja",
+ "order": 1,
+ "nav_label": "日本語 (Japanese)",
+ "outputs": ["README.md", "docs/README.ja.md"],
+ "strings": {
+  "logo_alt": "Awesome Japanese NLP Slides",
+  "intro": [
+   "日本語の自然言語処理（NLP）に関する発表スライドを集めたキュレーションリストです。",
+   "学会チュートリアル、大学講義、OSS 開発者による技術解説、企業の実践事例などをトピック別に整理しています。"
+  ],
+  "count": "{total} 件の資料を {sections} カテゴリに分類しています。",
+  "wip_note": "このリストは現在構築途中です。今後も資料を追加し、内容を拡張していきます。",
+  "plugin_heading": "🔍 Claude Code から検索する",
+  "plugin_intro": "このリストの資料 {total} 件を Claude Code から検索できるプラグインを用意しています。",
+  "plugin_usage": "インストール後、`search` スキルにキーワードや自然文を渡すと、関連度順に最大 10 件と読む順の提案が返ります。",
+  "search_examples": ["形態素解析", "日本語LLMの事前学習", "RAG", "evaluation benchmark"],
+  "plugin_tip": [
+   "日本語・英語のどちらでも検索できます。出力の言語はクエリの言語に合わせます。",
+   "「入門から順に読みたい」のように自然文で聞くと、読む順の提案も返ります。"
+  ],
+  "toc_heading": "目次",
+  "entry": "- [{title}]({url}) - {author}（{ym}）",
+  "unknown_date": "公開日不明",
+  "unknown_author": "発表者不明",
+  "license_heading": "ライセンス",
+  "license_note": "CC0 が適用されるのはこのリスト自体です。リンク先の各スライドの著作権は、それぞれの発表者に帰属します。"
+ },
+ "sections": {}
+}
