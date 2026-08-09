@@ -1,0 +1,44 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "awesome-japanese-nlp-slides",
+  "description": "Search tools for awesome-japanese-nlp-slides: find Japanese NLP presentation slides and lecture materials",
+  "owner": {
+    "name": "taishi-i"
+  },
+  "plugins": [
+    {
+      "name": "awesome-japanese-nlp-slides",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/taishi-i/awesome-japanese-nlp-slides",
+        "path": "plugins/awesome-japanese-nlp-slides"
+      },
+      "description": "Search 200+ curated Japanese NLP presentation slides: conference tutorials, university lectures, LLM development, RAG, evaluation, and industry case studies",
+      "author": {
+        "name": "taishi-i"
+      },
+      "homepage": "https://github.com/taishi-i/awesome-japanese-nlp-slides",
+      "repository": "https://github.com/taishi-i/awesome-japanese-nlp-slides",
+      "license": "CC0-1.0",
+      "keywords": [
+        "japanese",
+        "nlp",
+        "llm",
+        "slides",
+        "search",
+        "lecture",
+        "tutorial"
+      ],
+      "category": "utilities",
+      "tags": [
+        "japanese",
+        "nlp",
+        "llm",
+        "slides",
+        "search",
+        "speakerdeck",
+        "docswell"
+      ]
+    }
+  ]
+}
