@@ -44,6 +44,10 @@
    "section": "Japanese Text Analysis (Morphological & Syntactic)",
    "blurb": "Analyzers and dictionaries that handle preprocessing specific to Japanese."
   },
+  "日本語テキストの正規化・表記ゆれ": {
+   "section": "Japanese Text Normalization & Spelling Variants",
+   "blurb": "Practical know-how for taming width, variant characters, addresses, and other Japanese spelling variation."
+  },
   "単語・文の分散表現": {
    "section": "Word & Sentence Embeddings",
    "blurb": "Word vectors, sentence embeddings, and the properties of embedding spaces."
@@ -64,13 +68,21 @@
    "section": "Fine-tuning & Post-training",
    "blurb": "Techniques for adapting an existing model to your target task."
   },
+  "LLM の推論最適化・サービング": {
+   "section": "LLM Inference Optimization & Serving",
+   "blurb": "Quantization, distillation, and serving infrastructure for running trained models faster and cheaper."
+  },
   "評価・ベンチマーク": {
    "section": "Evaluation & Benchmarks",
    "blurb": "How to measure Japanese LLM and NLP systems."
   },
+  "全文検索・検索基盤": {
+   "section": "Full-text Search & Search Infrastructure",
+   "blurb": "Search engines and Japanese analyzers, query understanding, and ranking improvements in production."
+  },
   "検索・RAG": {
    "section": "Search & RAG",
-   "blurb": "Information retrieval, vector search, and retrieval-augmented generation."
+   "blurb": "Designing, improving, and evaluating retrieval-augmented generation."
   },
   "LLM アプリケーション開発・運用": {
    "section": "LLM Application Development & Operations",
@@ -80,13 +92,21 @@
    "section": "Information Extraction, NER & Annotation",
    "blurb": "Extracting structured information from text, and the training data behind it."
   },
+  "文書処理・OCR": {
+   "section": "Document AI & OCR",
+   "blurb": "Turning real-world documents — invoices, contracts, business cards — into data."
+  },
   "質問応答・知識": {
    "section": "Question Answering & Knowledge",
    "blurb": "Knowledge-aware language models and question answering systems."
   },
-  "機械翻訳・音声・対話": {
-   "section": "Machine Translation, Speech & Dialogue",
-   "blurb": "Translation, spoken language processing, and dialogue systems."
+  "機械翻訳": {
+   "section": "Machine Translation",
+   "blurb": "Translation model research and shipping translation services."
+  },
+  "音声・対話システム": {
+   "section": "Speech & Dialogue Systems",
+   "blurb": "Speech recognition and synthesis, plus spoken and text dialogue systems."
   },
   "生成・要約・校正": {
    "section": "Generation, Summarization & Proofreading",

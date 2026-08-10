@@ -1,7 +1,7 @@
 {
   "name": "awesome-japanese-nlp-slides",
-  "version": "0.1.0",
-  "description": "Search 200+ curated Japanese NLP presentation slides and lecture materials from Speaker Deck and Docswell: tutorials, university lectures, LLM development, RAG, evaluation, and industry case studies",
+  "version": "0.1.1",
+  "description": "Search 300+ curated Japanese NLP presentation slides and lecture materials from Speaker Deck and Docswell: tutorials, university lectures, LLM development, RAG, evaluation, and industry case studies",
   "author": {
     "name": "taishi-i"
   },
