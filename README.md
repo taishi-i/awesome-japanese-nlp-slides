@@ -8,7 +8,7 @@
 
 [日本語 (Japanese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) | [English](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md)
 
-日本語の自然言語処理（NLP）に関する発表スライドを集めたキュレーションリストです。
+日本語の自然言語処理（NLP）に関する発表スライドを集めた厳選リストです。
 学会チュートリアル、大学講義、OSS 開発者による技術解説、企業の実践事例などをトピック別に整理しています。
 
 314 件の資料を 23 カテゴリに分類しています。

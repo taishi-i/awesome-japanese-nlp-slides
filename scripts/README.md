@@ -12,6 +12,7 @@ generated from it, so **the only file you edit when adding a slide deck is
 ```
 .
 ├── README.md                     # generated, Japanese (never edit by hand)
+├── _config.yml                   # GitHub Pages: the Jekyll theme of the site
 ├── docs/
 │   ├── README.ja.md              # generated (same text as the root README.md)
 │   └── README.en.md              # generated, English
@@ -96,6 +97,19 @@ data/curated.json has 2 problem(s):
   [13] 検索・RAG entries[0] 大規模言語モデル時代の機械翻訳の展望: date is empty
   [13] 検索・RAG entries[3] RAG の実践: duplicate URL, already used by [2] 大学講義... entries[1]
 ```
+
+## GitHub Pages
+
+The site is served from the **root of `main`**, and `_config.yml` sets
+`jekyll-theme-cayman` as its theme. There is no landing page to maintain:
+`jekyll-readme-index` — one of the plugins GitHub Pages enables by default and
+cannot disable — publishes `README.md` as the index of a site that has no index
+file of its own. The site is therefore whatever `generate_readme.py` last
+wrote, with no extra output and no extra step.
+
+Serving from the root also keeps `images/` inside the site, so the relative
+link to the logo resolves from the repository, from `docs/`, and from the
+published site alike.
 
 ## Adding and reordering sections
 

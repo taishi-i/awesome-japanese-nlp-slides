@@ -1,0 +1,16 @@
+title: awesome-japanese-nlp-slides
+description: 日本語の自然言語処理（NLP）に関する発表スライドの厳選リスト
+theme: jekyll-theme-cayman
+lang: ja
+
+plugins:
+  - jekyll-sitemap
+
+# サイトに出す必要のないファイルは公開対象から外す。
+# docs/README.ja.md はルートの README.md と同内容なので、重複ページを作らない。
+exclude:
+  - scripts/
+  - data/
+  - plugins/
+  - contributing.md
+  - docs/README.ja.md
