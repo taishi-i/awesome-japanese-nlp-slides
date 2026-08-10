@@ -6,7 +6,7 @@
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/taishi-i/awesome-japanese-nlp-slides/pulls)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-[日本語 (Japanese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) | [English](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md)
+[日本語 (Japanese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) | [English](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md) | [繁體中文 (Chinese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hant.md) | [简体中文 (Chinese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hans.md)
 
 A curated list of presentation slides on Japanese natural language processing (NLP).
 Conference tutorials, university lectures, technical deep dives by OSS developers, and industry case studies, organized by topic.
@@ -37,7 +37,7 @@ Once installed, pass a keyword or a natural language question to the `search` sk
 ```
 
 > [!TIP]
-> You can search in either Japanese or English. The output language follows the language of your query.
+> You can search in Japanese, English or Chinese. The output language follows the language of your query.
 > Ask in natural language, e.g. "I want to read these in order starting from the basics", and you also get a suggested reading order.
 
 ## Contents

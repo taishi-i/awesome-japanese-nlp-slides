@@ -6,7 +6,7 @@
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/taishi-i/awesome-japanese-nlp-slides/pulls)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-[日本語 (Japanese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) | [English](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md)
+[日本語 (Japanese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) | [English](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md) | [繁體中文 (Chinese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hant.md) | [简体中文 (Chinese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hans.md)
 
 日本語の自然言語処理（NLP）に関する発表スライドを集めた厳選リストです。
 学会チュートリアル、大学講義、OSS 開発者による技術解説、企業の実践事例などをトピック別に整理しています。
@@ -35,7 +35,7 @@
 ```
 
 > [!TIP]
-> 日本語・英語のどちらでも検索できます。出力の言語はクエリの言語に合わせます。
+> 日本語・英語・中国語のいずれでも検索できます。出力の言語はクエリの言語に合わせます。
 > 「入門から順に読みたい」のように自然文で聞くと、読む順の提案も返ります。
 
 ## 目次

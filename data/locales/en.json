@@ -16,7 +16,7 @@
   "plugin_usage": "Once installed, pass a keyword or a natural language question to the `search` skill and you get up to 10 results ranked by relevance, plus a suggested reading order.",
   "search_examples": ["morphological analysis", "Japanese LLM pretraining", "RAG", "evaluation benchmark"],
   "plugin_tip": [
-   "You can search in either Japanese or English. The output language follows the language of your query.",
+   "You can search in Japanese, English or Chinese. The output language follows the language of your query.",
    "Ask in natural language, e.g. \"I want to read these in order starting from the basics\", and you also get a suggested reading order."
   ],
   "toc_heading": "Contents",

@@ -1,6 +1,6 @@
 ---
 description: Search curated Japanese NLP presentation slides and lecture materials (Speaker Deck / Docswell) from awesome-japanese-nlp-slides. Accepts keywords or natural language questions in any language.
-when_to_use: "Use whenever the user is looking for Japanese NLP slides, lecture materials, or talks: conference tutorials, university lectures, LLM development / pretraining, fine-tuning, evaluation and benchmarks, RAG and search, morphological analysis, embeddings, or industry case studies. Trigger phrases include '日本語LLMのスライド', '形態素解析の発表資料', 'RAG の講演資料', '〜の勉強に使えるスライド', 'チュートリアル資料が見たい', 'Japanese NLP slides', 'lecture materials on Japanese LLM'."
+when_to_use: "Use whenever the user is looking for Japanese NLP slides, lecture materials, or talks: conference tutorials, university lectures, LLM development / pretraining, fine-tuning, evaluation and benchmarks, RAG and search, morphological analysis, embeddings, or industry case studies. Trigger phrases include '日本語LLMのスライド', '形態素解析の発表資料', 'RAG の講演資料', '〜の勉強に使えるスライド', 'チュートリアル資料が見たい', 'Japanese NLP slides', 'lecture materials on Japanese LLM', '日語 LLM 的投影片', '形態素分析的發表資料', '日语 LLM 的幻灯片', '日语自然语言处理的演讲资料'."
 argument-hint: [query]
 allowed-tools: Bash
 ---
@@ -37,6 +37,19 @@ Please pass the keyword(s) you want to search for as the argument.
   /awesome-japanese-nlp-slides:search 大学講義
 
 検索したいキーワードを引数に指定してください。
+
+---
+
+用法: /awesome-japanese-nlp-slides:search <query>
+
+查询示例 / 查詢範例:
+  /awesome-japanese-nlp-slides:search 日语 LLM 的预训练
+  /awesome-japanese-nlp-slides:search 形态素解析
+  /awesome-japanese-nlp-slides:search RAG
+  /awesome-japanese-nlp-slides:search 评测 基准测试
+  /awesome-japanese-nlp-slides:search 大学课程
+
+请把想搜索的关键词作为参数传入。
 ```
 
 Do **not** proceed to Step 1 if `$ARGUMENTS` is empty.
@@ -47,6 +60,13 @@ The user's query is: "$ARGUMENTS"
 
 The data (titles, section names, presenter names) is **mostly Japanese**, with English titles mixed in.
 So build a keyword list that contains **both Japanese and English** terms — do not search with English alone.
+
+**Keywords are always Japanese and English, whatever language the query is in.** A Chinese query has to
+be translated into the Japanese term before it can match anything: 预训练 → `事前学習`, 词向量 → `分散表現`,
+问答 → `質問応答`, 语音识别 → `音声認識`, 检索增强生成 → `RAG`/`検索`. Never put a Chinese character form in
+the keyword list: `形态素` matches nothing where `形態素` matches 22 decks, and neither `检索` nor `檢索`
+matches anything against the 46 decks holding `検索`. Traditional forms occasionally coincide with the
+Japanese spelling — translate rather than bet on the coincidence.
 
 **Keyword rules:**
 1. **Include the Japanese term and its English counterpart.** Substring match is used, so `形態素` catches 「形態素解析」「形態素解析器」, and `morpholog` catches "morphology"/"morphological".
@@ -177,10 +197,27 @@ Do not mechanically follow the Step 3 score — use it as a starting point.
 ### Step 5 — Format the output
 
 **Language detection rule (apply before writing any output):**
-- `$ARGUMENTS` contains Japanese characters (hiragana / katakana / kanji) → **Japanese**
-- Otherwise → **English** (default)
 
-Apply the detected language to all headings and prose.
+Judge the language of `$ARGUMENTS` yourself — you read it better than any character test. The rules below
+resolve the cases where judgment is genuinely split.
+
+1. **Hiragana or katakana present** → **Japanese**. Decisive: no other language uses them.
+2. **No Han characters at all** → **English**. This is also the default whenever nothing else applies.
+3. **Han characters only** (no kana) → Japanese and Chinese overlap here, so read the wording:
+   - Japanese technical compounds and this list's own section names → **Japanese**
+     (`形態素解析`, `事前学習`, `質問応答`, `情報抽出`, `全文検索`, `機械翻訳`).
+   - Chinese wording and Chinese-only character forms → **Chinese**
+     (`预训练`, `词向量`, `问答`, `語音辨識`, `檢索增強生成`, `幻灯片`, `投影片`).
+   - Still ambiguous after reading it — a bare compound spelled identically in Japanese and traditional
+     Chinese, such as `知識` or `文書` → **Japanese**, since the list itself is Japanese.
+4. **Chinese → pick the script**, because the two editions are separate:
+   - traditional-only forms (`語`, `檢`, `資`, `應`, `對`, `詞`, `處`, `實`) → **繁體中文**
+   - simplified-only forms (`语`, `检`, `资`, `应`, `对`, `词`, `处`, `实`) → **简体中文**
+   - neither appears, or both do → **简体中文**
+   Match the query's script exactly in the reply; do not mix the two.
+
+Apply the detected language to all headings and prose. Slide titles, presenter names and section names
+are quoted **as they are stored** — always Japanese — and are never translated or converted between scripts.
 
 Present the final re-ranked results:
 

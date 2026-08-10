@@ -8,65 +8,67 @@
 
 [日本語 (Japanese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) | [English](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md) | [繁體中文 (Chinese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hant.md) | [简体中文 (Chinese)](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hans.md)
 
-日本語の自然言語処理（NLP）に関する発表スライドを集めた厳選リストです。
-学会チュートリアル、大学講義、OSS 開発者による技術解説、企業の実践事例などをトピック別に整理しています。
+這是一份精選清單，收錄了日語自然語言處理（NLP）相關的簡報投影片。
+依主題整理了學會的教學演講、大學課程、OSS 開發者的技術解說，以及企業的實務案例。
 
-314 件の資料を 23 カテゴリに分類しています。
+共收錄 314 份資料，分為 23 個分類。
+
+投影片標題保留發表時的原文，因此絕大多數為日語。
 
 > [!NOTE]
-> このリストは現在構築途中です。今後も資料を追加し、内容を拡張していきます。
+> 本清單仍在建置中，今後會持續新增資料並擴充內容。
 
-## 🔍 Claude Code から検索する
+## 🔍 從 Claude Code 搜尋
 
-このリストの資料 314 件を Claude Code から検索できるプラグインを用意しています。
+我們提供了外掛，讓你可以從 Claude Code 搜尋本清單收錄的 314 份資料。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
 /plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
 ```
 
-インストール後、`search` スキルにキーワードや自然文を渡すと、関連度順に最大 10 件と読む順の提案が返ります。
+安裝後，把關鍵字或自然語句交給 `search` 技能，就會依相關度回傳最多 10 筆結果，以及建議的閱讀順序。
 
 ```
 /awesome-japanese-nlp-slides:search 形態素解析
-/awesome-japanese-nlp-slides:search 日本語LLMの事前学習
+/awesome-japanese-nlp-slides:search 日語 LLM 的預訓練
 /awesome-japanese-nlp-slides:search RAG
 /awesome-japanese-nlp-slides:search evaluation benchmark
 ```
 
 > [!TIP]
-> 日本語・英語・中国語のいずれでも検索できます。出力の言語はクエリの言語に合わせます。
-> 「入門から順に読みたい」のように自然文で聞くと、読む順の提案も返ります。
+> 日語、英語、中文皆可搜尋。輸出的語言會配合查詢所使用的語言，以繁體中文查詢就會得到繁體中文的回覆。
+> 也可以用自然語句提問，例如「我想從入門開始依序閱讀」，這樣還會得到建議的閱讀順序。
 
-## 目次
+## 目錄
 
-- [入門・全体像](#入門全体像)
-- [学会チュートリアル](#学会チュートリアル)
-- [大学講義・体系的な講義資料](#大学講義体系的な講義資料)
-- [日本語の基礎解析（形態素解析・構文解析）](#日本語の基礎解析形態素解析構文解析)
-- [日本語テキストの正規化・表記ゆれ](#日本語テキストの正規化表記ゆれ)
-- [単語・文の分散表現](#単語文の分散表現)
-- [事前学習モデル・Transformer](#事前学習モデルtransformer)
-- [大規模言語モデル（概論・動向）](#大規模言語モデル概論動向)
-- [日本語LLMの開発（事前学習・コーパス構築）](#日本語llmの開発事前学習コーパス構築)
-- [ファインチューニング・事後学習](#ファインチューニング事後学習)
-- [LLM の推論最適化・サービング](#llm-の推論最適化サービング)
-- [評価・ベンチマーク](#評価ベンチマーク)
-- [全文検索・検索基盤](#全文検索検索基盤)
-- [検索・RAG](#検索rag)
-- [LLM アプリケーション開発・運用](#llm-アプリケーション開発運用)
-- [情報抽出・固有表現・アノテーション](#情報抽出固有表現アノテーション)
-- [文書処理・OCR](#文書処理ocr)
-- [質問応答・知識](#質問応答知識)
-- [機械翻訳](#機械翻訳)
-- [音声・対話システム](#音声対話システム)
-- [生成・要約・校正](#生成要約校正)
-- [解釈性・分析・言語学的視点](#解釈性分析言語学的視点)
-- [産業応用・実務事例](#産業応用実務事例)
+- [入門・全貌](#入門全貌)
+- [學會教學演講](#學會教學演講)
+- [大學課程・系統性講義資料](#大學課程系統性講義資料)
+- [日語的基礎分析（形態素分析・句法分析）](#日語的基礎分析形態素分析句法分析)
+- [日語文本的正規化・寫法差異](#日語文本的正規化寫法差異)
+- [詞與句的分散式表示](#詞與句的分散式表示)
+- [預訓練模型・Transformer](#預訓練模型transformer)
+- [大型語言模型（概論・趨勢）](#大型語言模型概論趨勢)
+- [日語 LLM 的開發（預訓練・語料庫建置）](#日語-llm-的開發預訓練語料庫建置)
+- [微調・後訓練](#微調後訓練)
+- [LLM 的推論最佳化・服務部署](#llm-的推論最佳化服務部署)
+- [評測・基準測試](#評測基準測試)
+- [全文檢索・搜尋基礎架構](#全文檢索搜尋基礎架構)
+- [檢索・RAG](#檢索rag)
+- [LLM 應用開發・維運](#llm-應用開發維運)
+- [資訊抽取・命名實體・標註](#資訊抽取命名實體標註)
+- [文件處理・OCR](#文件處理ocr)
+- [問答・知識](#問答知識)
+- [機器翻譯](#機器翻譯)
+- [語音・對話系統](#語音對話系統)
+- [生成・摘要・校對](#生成摘要校對)
+- [可解釋性・分析・語言學觀點](#可解釋性分析語言學觀點)
+- [產業應用・實務案例](#產業應用實務案例)
 
-## 入門・全体像
+## 入門・全貌
 
-自然言語処理そのものを俯瞰したい人が最初に読む資料。
+想綜觀自然語言處理全貌的人，最先該讀的資料。
 
 - [情報処理学会関西支部2024年度定期講演会「自然言語処理と大規模言語モデルの基礎」](https://speakerdeck.com/ksudoh/qing-bao-chu-li-xue-hui-guan-xi-zhi-bu-2024nian-du-ding-qi-jiang-yan-hui-zi-ran-yan-yu-chu-li-toda-gui-mo-yan-yu-moderunoji-chu) - Katsuhito Sudoh（2024-11）
 - [ae-8. 自然言語処理（問答，要約，テキスト生成，単語の特徴ベクトル，単語の類似度）](https://www.docswell.com/s/6674398749/5M4Y2K-2023-01-29-132348) - kunihikokaneko（2023-01）
@@ -78,9 +80,9 @@
 - [Python による日本語自然言語処理 〜系列ラベリングによる実世界テキスト分析〜 / PyCon JP 2019](https://speakerdeck.com/taishii/pycon-jp-2019) - taishi-i（2019-09）
 - [How Deep Learning Changes Natural Language Processing](https://speakerdeck.com/chokkan/how-deep-learning-changes-natural-language-processing) - Naoaki Okazaki（2018-09）
 
-## 学会チュートリアル
+## 學會教學演講
 
-言語処理学会・人工知能学会などのチュートリアル講演資料。
+語言處理學會、人工智慧學會等學會的教學演講資料。
 
 - [言語モデルの内部機序：解析と解釈](https://speakerdeck.com/eumesy/analysis_and_interpretation_of_language_models) - Sho Yokoi（2025-03）
 - [最強DB講義 #35 大規模言語モデルに基づく検索モデル](https://speakerdeck.com/mpkato/zui-qiang-dbjiang-yi-number-35-da-gui-mo-yan-yu-moderuniji-dukujian-suo-moderu) - Makoto P. Kato（2024-11）
@@ -96,9 +98,9 @@
 - [ゼロから始める転移学習](https://www.docswell.com/s/ydnjp/5L8XPZ-2022-04-27-133413) - Yahoo!デベロッパーネットワーク（2022-04）
 - [最適輸送と自然言語処理](https://speakerdeck.com/eumesy/optimal-transport-for-natural-language-processing) - Sho Yokoi（2022-03）
 
-## 大学講義・体系的な講義資料
+## 大學課程・系統性講義資料
 
-大学の講義や、書籍の輪読会で使われた連続講義資料。
+大學課程，以及書籍讀書會所使用的系列講義資料。
 
 - [\[輪講\] Transformer（大規模言語モデル入門第２章）](https://speakerdeck.com/taro_nakasone/lun-jiang-transformer-da-gui-mo-yan-yu-moderuru-men-di-2zhang) - Taro Nakasone（2025-09）
 - [2024Fall 大規模言語モデル(LLM)講座 Day9 : AI Safety ~ Hallucination ~ 講義資料](https://speakerdeck.com/tellterubouzu/matsuo-lab-llm-day9-hallucination-shimomura-241023) - 下村晃生（2024-10）
@@ -114,9 +116,9 @@
 - [Feedforward Neural Network (II): Multi-class Classification](https://speakerdeck.com/chokkan/feedforward-neural-network-ii-multi-class-classification) - Naoaki Okazaki（2020-07）
 - [Convolutional Neural Network](https://speakerdeck.com/chokkan/convolutional-neural-network) - Naoaki Okazaki（2020-07）
 
-## 日本語の基礎解析（形態素解析・構文解析）
+## 日語的基礎分析（形態素分析・句法分析）
 
-日本語特有の前処理を担う解析器と辞書に関する資料。
+負責日語特有前處理的分析器與詞典相關資料。
 
 - [日本語のポップアップ辞書アプリに向けて形態素解析システムの設計・実装・運用](https://speakerdeck.com/noheartpen/i2-b3-ri-ben-yu-nopotupuatupuci-shu-apurinixiang-ketexing-tai-su-jie-xi-sisutemunoshe-ji-shi-zhuang-yun-yong) - John Qing（2025-04）
 - [係り受け解析を用いた法律文書中の略称規定の解析についての報告](https://speakerdeck.com/puripuri2100/xi-rishou-kejie-xi-woyong-itafa-lu-wen-shu-zhong-nolue-cheng-gui-ding-nojie-xi-nituitenobao-gao) - puripuri2100（2024-09）
@@ -139,9 +141,9 @@
 - [1binary 自己完結型の 形態素解析器 kagome を 作ってみた話](https://speakerdeck.com/ikawaha/1binary-zi-ji-wan-jie-xing-false-xing-tai-su-jie-xi-qi-kagome-wo-zuo-tutemitahua) - ikawaha（2015-06）
 - [統計的係り受け解析入門](https://speakerdeck.com/unnonouno/tong-ji-de-xi-rishou-kejie-xi-ru-men) - Yuya Unno（2010-11）
 
-## 日本語テキストの正規化・表記ゆれ
+## 日語文本的正規化・寫法差異
 
-全半角・異体字・住所や固有名の揺れなど、日本語テキストを揃えるための実務知見。
+全形半形、異體字、地址與專有名詞的寫法差異等，統一日語文本所需的實務知識。
 
 - [POI検索システムにおける 誤字・脱字との戦い](https://speakerdeck.com/tstomoki/poijian-suo-sisutemuniokeru-wu-zi-tuo-zi-tonozhan-i) - Tomoki Saito（2025-11）
 - [Rustの住所正規化ライブラリをPythonから触る / PythonFukuoka\_Session\_2](https://speakerdeck.com/sansan_randd/pythonfukuoka-session-2) - Sansan R&D（2025-09）
@@ -151,9 +153,9 @@
 - [日本語の表記ゆれ 解決方法の検討と実装](https://speakerdeck.com/takahiko03/ri-ben-yu-falsebiao-ji-yure-jie-jue-fang-fa-falsejian-tao-toshi-zhuang) - Takahiko Ito（2017-11）
 - [日本語解析システム「雪だるま」における表記ゆれの拡張とまとめあげ](https://speakerdeck.com/nishiyama/ri-ben-yu-jie-xi-sisutemu-xue-daruma-niokerubiao-ji-yurefalsekuo-zhang-tomatomeage) - nishi-k（2016-08）
 
-## 単語・文の分散表現
+## 詞與句的分散式表示
 
-単語ベクトル、文埋め込み、埋め込み空間の性質に関する資料。
+詞向量、句子嵌入，以及嵌入空間性質的相關資料。
 
 - [Zipf 白色化：タイプとトークンの区別がもたらす良質な埋め込み空間と損失関数](https://speakerdeck.com/eumesy/zipfian-whitening) - Sho Yokoi（2024-11）
 - [NLP2024 招待論文セッション: 定義文を用いた文埋め込み構成法](https://speakerdeck.com/hpprc/nlp2024-zhao-dai-lun-wen-setusiyon-ding-yi-wen-woyong-itawen-mai-meip-migou-cheng-fa) - Hayato Tsukagoshi（2024-09）
@@ -172,9 +174,9 @@
 - [トピックモデルによる分散表現獲得手法の提案](https://speakerdeck.com/nzw0301/topitukumoderuniyorufen-san-biao-xian-huo-de-shou-fa-falseti-an) - Kento Nozawa（2016-03）
 - [分散表現に基づく文書要約#yjdsw1](https://www.docswell.com/s/ydnjp/ZXVYMK-2015-12-21-134350) - Yahoo!デベロッパーネットワーク（2015-12）
 
-## 事前学習モデル・Transformer
+## 預訓練模型・Transformer
 
-BERT 以降の事前学習モデルと Transformer の解説資料。
+BERT 之後的預訓練模型，以及 Transformer 的解說資料。
 
 - [【初心者向け】まだ間に合う！ Hugging Face入門 -TransformersでAI推論&学習](https://speakerdeck.com/tkhresk/huggingfaceru-men) - Takahiro Esaki（2023-09）
 - [Transformersによる自然言語処理の実践](https://www.docswell.com/s/flowlight0/5RX82N-2023-08-22-152738) - flowlight0（2023-08）
@@ -183,9 +185,9 @@ BERT 以降の事前学習モデルと Transformer の解説資料。
 - [事前学習言語モデルの動向 / Survey of Pretrained Language Models](https://speakerdeck.com/kyoun/survey-of-pretrained-language-models) - Kyosuke Nishida（2019-11）
 - [\[DL輪読会\]BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://www.docswell.com/s/DeepLearning2023/5Q8L7R-dlbert-pretraining-of-deep-bidirectional-transformers-for-language-understanding) - Deep Learning JP（2018-10）
 
-## 大規模言語モデル（概論・動向）
+## 大型語言模型（概論・趨勢）
 
-LLM 全体を俯瞰する解説・招待講演。
+綜觀 LLM 全貌的解說與特邀演講。
 
 - [AIはどのように考えて話すのか？ ― 言葉と知能の不思議](https://speakerdeck.com/chokkan/how-ai-thinks-and-responds) - Naoaki Okazaki（2026-07）
 - [大規模言語モデル（LLM)について人文学研究者が知っておきたいこと](https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderu-llm-nituiteren-wen-xue-yan-jiu-zhe-gazhi-tuteokitaikoto) - Yasuhiro Kondo（2025-05）
@@ -197,9 +199,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [大規模言語モデル入門 / LLM introduction (SES2023)](https://speakerdeck.com/kyoun/llm-introduction-ses2023) - Kyosuke Nishida（2023-08）
 - [大規模言語モデルの驚異と脅威](https://speakerdeck.com/chokkan/20230327_riken_llm) - Naoaki Okazaki（2023-03）
 
-## 日本語LLMの開発（事前学習・コーパス構築）
+## 日語 LLM 的開發（預訓練・語料庫建置）
 
-日本語 LLM を実際に構築した現場からの知見。
+來自實際打造日語 LLM 的第一線經驗。
 
 - [AIエージェント時代のLLM-jpモデルのあるべき姿](https://speakerdeck.com/k141303/aiezientoshi-dai-nollm-jpmoderunoarubekizi) - Kouta Nakayama（2026-04）
 - [2024-02-Tokyo-Tech-大規模言語モデルの事前学習知見](https://speakerdeck.com/fujiikazuki2000/2024-02-tokyo-tech-da-gui-mo-yan-yu-moderunoshi-qian-xue-xi-zhi-jian) - Kazuki Fujii（2025-12）
@@ -228,9 +230,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [東工大Swallowプロジェクトにおける大規模日本語Webコーパスの構築](https://speakerdeck.com/aya_se/data-centric-ai-swallow-corpus-56e2869a-f9bd-46cb-b030-1012235c37f7) - Kakeru Hattori（2024-02）
 - [Stability AI Japanにおける大規模言語モデルの研究開発](https://speakerdeck.com/iwiwi/stability-ai-japanniokeruda-gui-mo-yan-yu-moderunoyan-jiu-kai-fa) - Takuya Akiba（2023-09）
 
-## ファインチューニング・事後学習
+## 微調・後訓練
 
-既存モデルを目的に合わせて調整する手法。
+依照目的調整既有模型的各種方法。
 
 - [PLaMo 3.0 Primeの事後学習](https://speakerdeck.com/pfn/20260730_pfn_llm_1_post_training) - Preferred Networks（2026-07）
 - [PLaMoの事後学習を支える技術 / PFN LLMセミナー](https://speakerdeck.com/pfn/20251001-pfn-llm-seminar-post-training) - Preferred Networks（2025-10）
@@ -242,9 +244,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [LLMアプリケーションの Fine-tunningと蒸留を活用した改善](https://speakerdeck.com/pharma_x_tech/llmahurikesiyonno-fine-tunningtozheng-liu-wohuo-yong-sitagai-shan) - PharmaX（旧YOJO Technologies）開発チーム（2024-12）
 - [\[輪講資料\] LoRA: Low-Rank Adaptation of Large Language Models](https://speakerdeck.com/hpprc/lun-jiang-zi-liao-lora-low-rank-adaptation-of-large-language-models) - Hayato Tsukagoshi（2023-04）
 
-## LLM の推論最適化・サービング
+## LLM 的推論最佳化・服務部署
 
-学習したモデルを速く・安く動かすための量子化、蒸留、推論基盤の話。
+讓訓練好的模型跑得更快、更省的量化、蒸餾與推論基礎架構。
 
 - [国産生成AI PLaMoを支える事後学習と推論最適化](https://speakerdeck.com/pfn/20260406_plamo_3_beta_posttrain_and_inference_opt) - Preferred Networks（2026-04）
 - [契約書からの情報抽出を行うLLMのスループットを、バッチ処理を用いて最大40%改善した話](https://speakerdeck.com/sansantech/20260326-3) - SansanTech（2026-03）
@@ -255,9 +257,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [LLMを「速く」「安く」 動かすには / CloudNative Days Winter 2024](https://speakerdeck.com/pfn/cloudnative-days-2024-lean-and-swift-llm-deployment) - Preferred Networks（2024-11）
 - [大規模言語モデル (LLM)における低精度数値表現](https://speakerdeck.com/pfn/20240508-hpckenkyukai-pfn-llm) - Preferred Networks（2024-05）
 
-## 評価・ベンチマーク
+## 評測・基準測試
 
-日本語 LLM・NLP システムをどう測るか。
+該如何衡量日語 LLM 與 NLP 系統。
 
 - [HAKARI-Bench - 実運用視点での情報検索モデル評価ベンチマーク](https://speakerdeck.com/hotchpotch/hakari-bench-shi-yun-yong-shi-dian-denoqing-bao-jian-suo-moderuping-jia-bentimaku) - Yuichi Tateno（2026-07）
 - [医療 LLM ベンチマークの現在地：多面的評価 と日本ローカライズ](https://speakerdeck.com/analokmaus/yi-liao-llm-bentimakunoxian-zai-di-duo-mian-de-ping-jia-tori-ben-rokaraizu) - Hiroshi Y (RabotniKuma)（2026-06）
@@ -275,9 +277,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [llm-jp-eval 日本語大規模言語モデルの 自動評価ツールの開発に向けて](https://speakerdeck.com/olachinkei/llm-jp-eval-ri-ben-yu-da-gui-mo-yan-yu-moteruno-zi-dong-ping-jia-turunokai-fa-nixiang-kete) - Keisuke Kamata（2023-11）
 - [Auto-evaluation of ranking model by LLM](https://speakerdeck.com/legalontechnologies/auto-evaluation-of-ranking-model-by-llm) - LegalOn Technologies, Inc（2023-10）
 
-## 全文検索・検索基盤
+## 全文檢索・搜尋基礎架構
 
-検索エンジンと日本語アナライザ、クエリ理解、ランキング改善の実務事例。
+搜尋引擎與日語分析器、查詢理解、排序改善的實務案例。
 
 - [Retriever と Reranker、結局どうする？](https://speakerdeck.com/kazuaki/retriever-to-reranker-jie-ju-dousuru) - hkazuakey（2026-07）
 - [AIエージェントのための検索](https://speakerdeck.com/takatorisatoshi/aiezientonotamenojian-suo) - takatori（2026-07）
@@ -308,9 +310,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [Luceneと日本語の検索](https://speakerdeck.com/johtani/lucenetori-ben-yu-falsejian-suo) - Jun Ohtani（2014-12）
 - [SQLiteで高速全文検索〜日本語編〜](https://speakerdeck.com/shoby/sqlitedegao-su-quan-wen-jian-suo-ri-ben-yu-bian) - shoby（2014-08）
 
-## 検索・RAG
+## 檢索・RAG
 
-検索拡張生成（RAG）の設計・改善・評価。
+檢索增強生成（RAG）的設計、改善與評測。
 
 - [【Paper&Hacks Vol.89】RAGアプリハンズオン～LLM/Embedding選択～](https://www.docswell.com/s/matsuo-lab_llm/Z8NRJE-Paper&HacksVol.89) - 松尾研LLMコミュニティ（2026-08）
 - [【Paper&Hacks Vol.80】RAGを測るモノサシを作ろう 〜 Ragas × LangSmithでRAG評価アプリ開発 〜](https://www.docswell.com/s/matsuo-lab_llm/KWRGP8-Paper&HacksVol.80) - 松尾研LLMコミュニティ（2026-08）
@@ -326,9 +328,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [LLMアプリをRagasで評価して、Langfuseで可視化しよう！](https://speakerdeck.com/minorun365/llmapuriworagasdeping-jia-site-langfusedeke-shi-hua-siyou) - みのるん（2024-10）
 - [実務におけるRAG 〜学びと現場のノウハウ〜](https://www.docswell.com/s/hoxo-m_inc/K4V3MW-rag) - 株式会社ホクソエム（2024-07）
 
-## LLM アプリケーション開発・運用
+## LLM 應用開發・維運
 
-プロダクトとして LLM を組み込み、運用するための知見。
+把 LLM 放進產品並持續維運所需的知識。
 
 - [PLaMo 3.0 Primeの構造化出力サポート](https://speakerdeck.com/pfn/20260730_pfn_llm_2_structured_output) - Preferred Networks（2026-07）
 - [LangfuseによるLLMOps基盤の構築と活用事例](https://speakerdeck.com/zozotech/llmops-platform-with-langfuse) - ZOZO Developers（2026-07）
@@ -345,9 +347,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [ChatGPT - LLMシステム開発大全](https://speakerdeck.com/hirosatogamo/chatgpt-azure-openai-da-quan) - Hirosato Gamo（2023-07）
 - [プロンプトエンジニアリングから始めるLangChain入門](https://speakerdeck.com/os1ma/puronputoenziniaringukarashi-merulangchainru-men) - os1ma（2023-04）
 
-## 情報抽出・固有表現・アノテーション
+## 資訊抽取・命名實體・標註
 
-テキストから構造化情報を取り出す技術と、その学習データ。
+從文本取出結構化資訊的技術，以及支撐它的訓練資料。
 
 - [メールから送信者情報を抽出するタスクの奥深さ / kyoto\_ai\_meetup\_1](https://speakerdeck.com/sansan_randd/kyoto-ai-meetup-1) - Sansan R&D（2026-02）
 - [アノテーション作業書作成のGood Practice](https://speakerdeck.com/cierpa0905/anotesiyonzuo-ye-shu-zuo-cheng-nogood-practice) - Cierpa & Company（2025-10）
@@ -370,9 +372,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [専門用語抽出手法の研究と 抽出アプリケーションの開発](https://speakerdeck.com/kajyuuen/zhuan-men-yong-yu-chou-chu-shou-fa-falseyan-jiu-to-chou-chu-apurikesiyonfalsekai-fa) - Koga Kobayashi（2018-09）
 - [述語項構造と照応関係のアノテーション](https://speakerdeck.com/kakubari/shu-yu-xiang-gou-zao-tozhao-ying-guan-xi-falseafalsetesiyon) - kakubari（2017-05）
 
-## 文書処理・OCR
+## 文件處理・OCR
 
-帳票・契約書・名刺など、実世界の文書をデータに変える技術。
+把表單、合約、名片等真實世界的文件轉成資料的技術。
 
 - [BizDocVQA: 実世界ビジネス帳票に対する根拠付きVQAデータセットの提案](https://speakerdeck.com/icoxfog417/biz-doc-vqa-dataset) - Takahiro Kubo（2026-03）
 - [Large Vision Language Modelを用いた 文書画像データ化作業自動化の検証、運用 / shibuya\_AI](https://speakerdeck.com/sansan_randd/shibuya-ai) - Sansan R&D（2025-10）
@@ -385,9 +387,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [バクラクのAI-OCR機能の体験を支える良質なデータセット作成の仕組み / data-centric-ai-bakuraku-dataset](https://speakerdeck.com/yuya4/data-centric-ai-bakuraku-dataset) - Yuya Matsumura（2023-06）
 - [LayerXにおける機械学習を活用した請求書OCR機能に関する取り組み / deim2023-layerx-ai-ocr](https://speakerdeck.com/yuya4/deim2023-layerx-ai-ocr) - Yuya Matsumura（2023-03）
 
-## 質問応答・知識
+## 問答・知識
 
-知識を扱う言語モデルと質問応答システム。
+處理知識的語言模型與問答系統。
 
 - [An Open and Reproducible Deep Research Agent for Long-Form Question Answering](https://speakerdeck.com/ikuyamada/an-open-and-reproducible-deep-research-agent-for-long-form-question-answering) - Ikuya Yamada（2025-12）
 - [知識強化言語モデルLUKE @ LUKEミートアップ](https://speakerdeck.com/ikuyamada/zhi-shi-qiang-hua-yan-yu-moderuluke-at-lukemitoatupu) - Ikuya Yamada（2025-01）
@@ -398,9 +400,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [オープンドメイン質問応答技術の最新動向](https://speakerdeck.com/ikuyamada/opundomeinzhi-wen-ying-da-ji-shu-falsezui-xin-dong-xiang) - Ikuya Yamada（2021-03）
 - [知識ベースの自然言語処理への活用](https://speakerdeck.com/ikuyamada/zhi-shi-besufalsezi-ran-yan-yu-chu-li-hefalsehuo-yong) - Ikuya Yamada（2021-03）
 
-## 機械翻訳
+## 機器翻譯
 
-翻訳モデルの研究開発と、翻訳サービスの実装。
+翻譯模型的研究開發，以及翻譯服務的實作。
 
 - [plamo-3-translateの開発](https://speakerdeck.com/pfn/20260730_pfn_llm_3_plamo-3-translate) - Preferred Networks（2026-07）
 - [古典日本語の現代語機械翻訳のための評価資源の整備](https://speakerdeck.com/shigashiyama/20260318-aamt) - shigashiyama（2026-03）
@@ -411,9 +413,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [AWSを活用した機械翻訳のためのGPU並列処理環境の構築/aso](https://speakerdeck.com/stockmark/aso) - Stockmark（2021-06）
 - [EMNLP2015読み会：Effective Approaches to Attention-based Neural Machine Translation](https://speakerdeck.com/tkng/emnlp2015du-mihui-effective-approaches-to-attention-based-neural-machine-translation) - tkng（2015-10）
 
-## 音声・対話システム
+## 語音・對話系統
 
-音声認識・音声合成と、音声／テキストの対話システム。
+語音辨識與語音合成，以及語音／文字的對話系統。
 
 - [ASRは精度だけでは足りない − 専門用語の誤認識にどう向き合うか](https://speakerdeck.com/nishikainc/asrhajing-du-dakedehazu-rinai-zhuan-men-yong-yu-nowu-ren-shi-nidouxiang-kihe-uka) - Nishika-Inc（2026-08）
 - [会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計](https://speakerdeck.com/mixi_engineers/architecture-design-for-natural-conversations-in-the-conversational-ai-robot-romi) - MIXI ENGINEERS（2026-04）
@@ -430,9 +432,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [サイバーエージェントの音声研究開発の取り組み | CA BASE NEXT](https://speakerdeck.com/cyberagentdevelopers/saibaezientofalseyin-sheng-yan-jiu-kai-fa-falsequ-rizu-mi-ca-base-next) - CyberAgent（2021-05）
 - [ヤフー音声認識YJVOICEにおけるディープラーニングの実用化](https://www.docswell.com/s/ydnjp/KM2JLK-2017-08-01-143133) - Yahoo!デベロッパーネットワーク（2017-08）
 
-## 生成・要約・校正
+## 生成・摘要・校對
 
-テキスト生成とその応用タスク。
+文本生成及其應用任務。
 
 - [日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization](https://speakerdeck.com/upura/t5-news-summarization) - Shotaro Ishihara（2025-03）
 - [NLP2025 WS Shared Task 文法誤り訂正部門 ehiMetrick](https://speakerdeck.com/sugiyamaseiji/nlp2025-ws-shared-task-wen-fa-wu-riding-zheng-bu-men-ehimetrick) - 杉山誠治（Sugiyama Seiji）（2025-03）
@@ -445,9 +447,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [日本語文法誤り訂正における誤り傾向を考慮した擬似誤り生成](https://speakerdeck.com/youichiro/ri-ben-yu-wen-fa-wu-riding-zheng-niokeruwu-riqing-xiang-wokao-lu-sitani-si-wu-risheng-cheng) - youichiro（2020-06）
 - [文献紹介：正誤情報と文法誤りパターンを考慮した単語分散表現を用いた文法誤り検出](https://speakerdeck.com/a1da4/wen-xian-shao-jie-zheng-wu-qing-bao-towen-fa-wu-ripatanwokao-lu-sitadan-yu-fen-san-biao-xian-woyong-itawen-fa-wu-rijian-chu) - Taichi Aida（2019-01）
 
-## 解釈性・分析・言語学的視点
+## 可解釋性・分析・語言學觀點
 
-モデルの中身を覗き、言語の観点から評価する。
+窺看模型的內部，並從語言的角度加以評估。
 
 - [大規模言語モデルは誰を覚えているか / Who Do Large Language Models Memorize?](https://speakerdeck.com/upura/who-do-large-language-models-memorize) - Shotaro Ishihara（2026-06）
 - [その LLM 制御、本当に信頼できますか？ / Can We Reliably Control LLMs?](https://speakerdeck.com/shunk031/can-we-reliably-control-llms) - Shunsuke KITADA（2026-04）
@@ -464,9 +466,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [eccoによる言語モデルの可視化 (2022-01-28 NLP Hacks#1)](https://speakerdeck.com/hikomimo/ecconiyoruyan-yu-moderufalseke-shi-hua-2022-01-28-nlp-hacks-number-1) - Akira Sasaki（2022-02）
 - [Is Attention Interpretable?](https://speakerdeck.com/chokkan/is-attention-interpretable) - Naoaki Okazaki（2019-09）
 
-## 産業応用・実務事例
+## 產業應用・實務案例
 
-実サービス・実業務に NLP / LLM を組み込んだ事例。
+把 NLP／LLM 導入實際服務與實際業務的案例。
 
 - [つくって納得、つかって実感！ 大規模言語モデルことはじめ ver2.0](https://speakerdeck.com/recruitengineers/fy2026_bootcamp_kiryu) - Recruit（2026-08）
 - [LocalLLMで機密データを匿名化したい](https://speakerdeck.com/cyberagentdevelopers/localllmdeji-mi-detawoni-ming-hua-sitai) - CyberAgent（2026-05）
@@ -493,9 +495,9 @@ LLM 全体を俯瞰する解説・招待講演。
 - [【Ltech#11】住まい探しにおける対話AIの自然言語解析技術](https://www.docswell.com/s/LIFULL/KPLVGZ-%E4%BD%8F%E3%81%BE%E3%81%84%E6%8E%A2%E3%81%97%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%AF%BE%E8%A9%B1AI%E3%81%AE%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E8%A7%A3%E6%9E%90%E6%8A%80%E8%A1%93) - 株式会社LIFULL（2020-10）
 - [#devsumi 自然言語処理・機械学習によるファクトチェック業務の支援](https://speakerdeck.com/komiya_atsushi/number-devsumi-zi-ran-yan-yu-chu-li-ji-jie-xue-xi-niyoruhuakutotietukuye-wu-falsezhi-yuan) - KOMIYA Atsushi（2018-02）
 
-## ライセンス
+## 授權條款
 
 [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)
 
 > [!NOTE]
-> CC0 が適用されるのはこのリスト自体です。リンク先の各スライドの著作権は、それぞれの発表者に帰属します。
+> CC0 適用的對象是本清單本身。各份投影片的著作權，歸屬於各自的發表者。
