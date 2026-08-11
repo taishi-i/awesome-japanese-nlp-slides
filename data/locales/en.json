@@ -88,6 +88,10 @@
    "section": "LLM Application Development & Operations",
    "blurb": "Shipping LLMs inside real products and keeping them running."
   },
+  "テキスト分類・感情分析": {
+   "section": "Text Classification & Sentiment Analysis",
+   "blurb": "Sorting documents and comments into labels, and putting classifiers to work on tasks such as content moderation."
+  },
   "情報抽出・固有表現・アノテーション": {
    "section": "Information Extraction, NER & Annotation",
    "blurb": "Extracting structured information from text, and the training data behind it."
@@ -104,9 +108,17 @@
    "section": "Machine Translation",
    "blurb": "Translation model research and shipping translation services."
   },
-  "音声・対話システム": {
-   "section": "Speech & Dialogue Systems",
-   "blurb": "Speech recognition and synthesis, plus spoken and text dialogue systems."
+  "マルチモーダル・Vision-and-Language": {
+   "section": "Multimodal & Vision-and-Language",
+   "blurb": "Research on models that connect images and language, and VLMs built into real products."
+  },
+  "音声認識・音声処理": {
+   "section": "Speech Recognition & Speech Processing",
+   "blurb": "Turning speech into text, and the speech processing and speech foundation models underneath it."
+  },
+  "対話システム・音声対話": {
+   "section": "Dialogue Systems & Spoken Dialogue",
+   "blurb": "Spoken and text dialogue systems, and voice bots in production."
   },
   "生成・要約・校正": {
    "section": "Generation, Summarization & Proofreading",

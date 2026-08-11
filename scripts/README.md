@@ -50,7 +50,7 @@ python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json
 To validate without generating anything, run the shared module directly.
 
 ```bash
-python3 scripts/slides.py               # ok: 314 entries in 23 sections
+python3 scripts/slides.py               # ok: 437 entries in 26 sections
 ```
 
 There are no dependencies — the Python 3 standard library is enough (3.9 or
@@ -82,7 +82,7 @@ plugin's search data.
 
 - All five fields are required.
 - `date` is `YYYY-MM-DD`. The README rounds it to `YYYY-MM` for display.
-- `source` is either `speakerdeck` or `docswell`.
+- `source` is one of `speakerdeck`, `docswell` or `slideshare`.
 - The order of `entries` is free: the README lists each section newest first.
   Keeping the file in that order too makes diffs easier to read.
 

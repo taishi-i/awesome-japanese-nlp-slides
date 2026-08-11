@@ -1,5 +1,5 @@
 ---
-description: Search curated Japanese NLP presentation slides and lecture materials (Speaker Deck / Docswell) from awesome-japanese-nlp-slides. Accepts keywords or natural language questions in any language.
+description: Search curated Japanese NLP presentation slides and lecture materials (Speaker Deck / Docswell / SlideShare) from awesome-japanese-nlp-slides. Accepts keywords or natural language questions in any language.
 when_to_use: "Use whenever the user is looking for Japanese NLP slides, lecture materials, or talks: conference tutorials, university lectures, LLM development / pretraining, fine-tuning, evaluation and benchmarks, RAG and search, morphological analysis, embeddings, or industry case studies. Trigger phrases include '日本語LLMのスライド', '形態素解析の発表資料', 'RAG の講演資料', '〜の勉強に使えるスライド', 'チュートリアル資料が見たい', 'Japanese NLP slides', 'lecture materials on Japanese LLM', '日語 LLM 的投影片', '形態素分析的發表資料', '日语 LLM 的幻灯片', '日语自然语言处理的演讲资料'."
 argument-hint: [query]
 allowed-tools: Bash
@@ -64,8 +64,8 @@ So build a keyword list that contains **both Japanese and English** terms — do
 **Keywords are always Japanese and English, whatever language the query is in.** A Chinese query has to
 be translated into the Japanese term before it can match anything: 预训练 → `事前学習`, 词向量 → `分散表現`,
 问答 → `質問応答`, 语音识别 → `音声認識`, 检索增强生成 → `RAG`/`検索`. Never put a Chinese character form in
-the keyword list: `形态素` matches nothing where `形態素` matches 22 decks, and neither `检索` nor `檢索`
-matches anything against the 46 decks holding `検索`. Traditional forms occasionally coincide with the
+the keyword list: `形态素` matches nothing where `形態素` matches 27 decks, and neither `检索` nor `檢索`
+matches anything against the 52 decks holding `検索`. Traditional forms occasionally coincide with the
 Japanese spelling — translate rather than bet on the coincidence.
 
 **Keyword rules:**
@@ -90,14 +90,17 @@ Japanese spelling — translate rather than bet on the coincidence.
 | 文書処理・OCR | `文書`, `帳票`, `契約書`, `請求書` | `ocr`, `document`, `vlm`, `invoice` |
 | 質問応答・知識 | `質問応答`, `知識` | `qa`, `question`, `knowledge` |
 | 機械翻訳 | `翻訳`, `同時通訳` | `translat`, `nmt`, `mt` |
-| 音声・対話システム | `音声`, `対話`, `音声認識`, `音声合成` | `speech`, `asr`, `tts`, `dialog`, `whisper` |
+| テキスト分類・感情分析 | `分類`, `感情`, `評判`, `極性`, `検知` | `classif`, `sentiment`, `polarity`, `moderation`, `fasttext` |
+| マルチモーダル・V&L | `マルチモーダル`, `画像`, `視覚`, `文書画像` | `vlm`, `vision`, `multimodal`, `vqa`, `clip` |
+| 音声認識・音声処理 | `音声`, `音声認識`, `文字起こし`, `音声合成` | `speech`, `asr`, `tts`, `whisper`, `espnet` |
+| 対話システム・音声対話 | `対話`, `音声対話`, `ボイスボット`, `チャットボット` | `dialog`, `spoken`, `voicebot`, `chatbot` |
 | 生成・要約・校正 | `生成`, `要約`, `校正`, `文法誤り` | `generat`, `summar`, `correct`, `gec` |
 | 解釈性・分析 | `解釈`, `分析`, `内部`, `言語学` | `interpret`, `analys`, `probing`, `attention` |
 | 入門・チュートリアル | `入門`, `基礎`, `チュートリアル`, `講義` | `introduc`, `tutorial`, `lecture`, `basic` |
 | 産業応用・事例 | `事例`, `実務`, `活用`, `導入` | `case`, `industr`, `production` |
 
-**Section filter:** if the query clearly names a category, also note the matching section name so you can prefer it in Step 4. The 23 sections are:
-入門・全体像 / 学会チュートリアル / 大学講義・体系的な講義資料 / 日本語の基礎解析（形態素解析・構文解析） / 日本語テキストの正規化・表記ゆれ / 単語・文の分散表現 / 事前学習モデル・Transformer / 大規模言語モデル（概論・動向） / 日本語LLMの開発（事前学習・コーパス構築） / ファインチューニング・事後学習 / LLM の推論最適化・サービング / 評価・ベンチマーク / 全文検索・検索基盤 / 検索・RAG / LLM アプリケーション開発・運用 / 情報抽出・固有表現・アノテーション / 文書処理・OCR / 質問応答・知識 / 機械翻訳 / 音声・対話システム / 生成・要約・校正 / 解釈性・分析・言語学的視点 / 産業応用・実務事例
+**Section filter:** if the query clearly names a category, also note the matching section name so you can prefer it in Step 4. The 26 sections are:
+入門・全体像 / 学会チュートリアル / 大学講義・体系的な講義資料 / 日本語の基礎解析（形態素解析・構文解析） / 日本語テキストの正規化・表記ゆれ / 単語・文の分散表現 / 事前学習モデル・Transformer / 大規模言語モデル（概論・動向） / 日本語LLMの開発（事前学習・コーパス構築） / ファインチューニング・事後学習 / LLM の推論最適化・サービング / 評価・ベンチマーク / 全文検索・検索基盤 / 検索・RAG / LLM アプリケーション開発・運用 / テキスト分類・感情分析 / 情報抽出・固有表現・アノテーション / 文書処理・OCR / 質問応答・知識 / 機械翻訳 / マルチモーダル・Vision-and-Language / 音声認識・音声処理 / 対話システム・音声対話 / 生成・要約・校正 / 解釈性・分析・言語学的視点 / 産業応用・実務事例
 
 ### Step 2 — Locate the data file
 
@@ -117,11 +120,11 @@ Use the resulting absolute `SLIDES_PATH` in Step 3.
 
 Each item in the JSON array has:
 - `t`: slide title
-- `u`: Speaker Deck / Docswell URL
+- `u`: Speaker Deck / Docswell / SlideShare URL
 - `a`: author (presenter)
 - `d`: publication date (`YYYY-MM-DD`)
 - `s`: section name
-- `src`: `speakerdeck` or `docswell`
+- `src`: `speakerdeck`, `docswell` or `slideshare`
 
 Matching relies on the **title and section name only**, so cast a slightly wide keyword net.
 

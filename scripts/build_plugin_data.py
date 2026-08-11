@@ -30,7 +30,7 @@ def main() -> None:
             "a": entry["author"],
             "d": entry["date"],  # YYYY-MM-DD
             "s": section["section"],
-            "src": entry["source"],  # speakerdeck / docswell
+            "src": entry["source"],  # speakerdeck / docswell / slideshare
         }
         for section in sections
         for entry in section["entries"]

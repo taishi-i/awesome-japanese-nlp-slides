@@ -72,6 +72,30 @@
   "src": "speakerdeck"
  },
  {
+  "t": "深層学習による自然言語処理の研究動向",
+  "u": "https://www.slideshare.net/stairlab/ss-61806151",
+  "a": "STAIR Lab, Chiba Institute of Technology",
+  "d": "2016-04-28",
+  "s": "入門・全体像",
+  "src": "slideshare"
+ },
+ {
+  "t": "深層学習時代の自然言語処理",
+  "u": "https://www.slideshare.net/unnonouno/ss-43844132",
+  "a": "Yuya Unno",
+  "d": "2015-01-24",
+  "s": "入門・全体像",
+  "src": "slideshare"
+ },
+ {
+  "t": "Deep Learningと自然言語処理",
+  "u": "https://www.slideshare.net/pfi/deep-learning-42997311",
+  "a": "Preferred Networks",
+  "d": "2014-12-25",
+  "s": "入門・全体像",
+  "src": "slideshare"
+ },
+ {
   "t": "言語モデルの内部機序：解析と解釈",
   "u": "https://speakerdeck.com/eumesy/analysis_and_interpretation_of_language_models",
   "a": "Sho Yokoi",
@@ -120,14 +144,6 @@
   "src": "speakerdeck"
  },
  {
-  "t": "PAKDD2023 Tutorial 2: A Gentle Introduction to Technologies Behind Language Models and Recent Achievement in ChatGPT (Parts 3 and 4)",
-  "u": "https://speakerdeck.com/kyoun/pakdd2023-tutorial",
-  "a": "Kyosuke Nishida",
-  "d": "2023-05-25",
-  "s": "学会チュートリアル",
-  "src": "speakerdeck"
- },
- {
   "t": "Part 5: Efforts for Responsible LLMs, PAKDD 2023 Tutorial 2: A Gentle Introduction to Technologies Behind Language Models and Recent Achievement in ChatGPT",
   "u": "https://speakerdeck.com/chokkan/efforts-for-responsible-llms-pakdd-2023-tutorial-2",
   "a": "Naoaki Okazaki",
@@ -136,16 +152,24 @@
   "src": "speakerdeck"
  },
  {
-  "t": "NLPとVision-and-Languageの基礎・最新動向 (1) / DEIM Tutorial Part 1: NLP",
-  "u": "https://speakerdeck.com/kyoun/deim-tutorial-part-1-nlp",
+  "t": "PAKDD2023 Tutorial 2: A Gentle Introduction to Technologies Behind Language Models and Recent Achievement in ChatGPT (Parts 3 and 4)",
+  "u": "https://speakerdeck.com/kyoun/pakdd2023-tutorial",
   "a": "Kyosuke Nishida",
-  "d": "2023-03-08",
+  "d": "2023-05-25",
   "s": "学会チュートリアル",
   "src": "speakerdeck"
  },
  {
   "t": "NLPとVision-and-Languageの基礎・最新動向 (2) / DEIM Tutorial Part 2 Vision-and-Language",
   "u": "https://speakerdeck.com/kyoun/deim-tutorial-part-2-vision-and-language",
+  "a": "Kyosuke Nishida",
+  "d": "2023-03-08",
+  "s": "学会チュートリアル",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "NLPとVision-and-Languageの基礎・最新動向 (1) / DEIM Tutorial Part 1: NLP",
+  "u": "https://speakerdeck.com/kyoun/deim-tutorial-part-1-nlp",
   "a": "Kyosuke Nishida",
   "d": "2023-03-08",
   "s": "学会チュートリアル",
@@ -174,6 +198,30 @@
   "d": "2022-03-14",
   "s": "学会チュートリアル",
   "src": "speakerdeck"
+ },
+ {
+  "t": "[最新版] JSAI2018 チュートリアル「\"深層学習時代の\" ゼロから始める自然言語処理」",
+  "u": "https://www.slideshare.net/yukiarase/jsai2018-101054060",
+  "a": "Yuki Arase",
+  "d": "2018-06-07",
+  "s": "学会チュートリアル",
+  "src": "slideshare"
+ },
+ {
+  "t": "NLP2017 NMT Tutorial",
+  "u": "https://www.slideshare.net/ToshiakiNakazawa/nlp2017-nmt-tutorial",
+  "a": "Toshiaki Nakazawa",
+  "d": "2017-03-13",
+  "s": "学会チュートリアル",
+  "src": "slideshare"
+ },
+ {
+  "t": "ゼロから始める自然言語処理 【FIT2016チュートリアル】",
+  "u": "https://www.slideshare.net/yukiarase/fit2016-66043779",
+  "a": "Yuki Arase",
+  "d": "2016-09-15",
+  "s": "学会チュートリアル",
+  "src": "slideshare"
  },
  {
   "t": "[輪講] Transformer（大規模言語モデル入門第２章）",
@@ -384,12 +432,36 @@
   "src": "speakerdeck"
  },
  {
+  "t": "NLP2019 松田寛 - GiNZA",
+  "u": "https://www.slideshare.net/MegagonLabs/nlp2019-ginza-139011245",
+  "a": "Megagon Labs",
+  "d": "2019-03-13",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "slideshare"
+ },
+ {
+  "t": "Javaでつくる本格形態素解析器",
+  "u": "https://www.slideshare.net/WorksApplications/java-82794239",
+  "a": "Works Applications",
+  "d": "2017-11-27",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "slideshare"
+ },
+ {
   "t": "AWS APIGateway + Python Lambda + NEologdで作るサーバレス日本語形態素解析API",
   "u": "https://speakerdeck.com/satorukadowaki/aws-apigateway-plus-python-lambda-plus-neologddezuo-rusabaresuri-ben-yu-xing-tai-su-jie-xi-api",
   "a": "Satoru Kadowaki",
   "d": "2017-09-09",
   "s": "日本語の基礎解析（形態素解析・構文解析）",
   "src": "speakerdeck"
+ },
+ {
+  "t": "形態素解析",
+  "u": "https://www.slideshare.net/WorksApplications/ss-78025845",
+  "a": "Works Applications",
+  "d": "2017-06-22",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "slideshare"
  },
  {
   "t": "JUMAN++で分かち書きをしたかった...",
@@ -430,6 +502,22 @@
   "d": "2015-06-21",
   "s": "日本語の基礎解析（形態素解析・構文解析）",
   "src": "speakerdeck"
+ },
+ {
+  "t": "形態素解析器 MeCab の新語・固有表現辞書 mecab-ipadic-NEologd のご紹介",
+  "u": "https://www.slideshare.net/overlast/mecab-ipadicneologdtokyordf-46497035",
+  "a": "Toshinori Sato",
+  "d": "2015-03-28",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "slideshare"
+ },
+ {
+  "t": "形態素解析の過去・現在・未来",
+  "u": "https://www.slideshare.net/pfi/ss-9805912",
+  "a": "Preferred Networks",
+  "d": "2011-10-19",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "slideshare"
  },
  {
   "t": "統計的係り受け解析入門",
@@ -560,6 +648,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "単語分散表現と事前学習モデル - chiVe _ chiTra 利活用のための下準備 at WAP NLP Tech Talk #5",
+  "u": "https://speakerdeck.com/waptech/dan-yu-fen-san-biao-xian-toshi-qian-xue-xi-moderu-chive-chitra-li-huo-yong-falsetamefalsexia-zhun-bei-at-wap-nlp-tech-talk-number-5",
+  "a": "WAP",
+  "d": "2022-04-28",
+  "s": "単語・文の分散表現",
+  "src": "speakerdeck"
+ },
+ {
   "t": "単語分散表現 chiVeの活用方法 at WAP NLP Tech Talk #5",
   "u": "https://speakerdeck.com/waptech/dan-yu-fen-san-biao-xian-chivefalsehuo-yong-fang-fa-at-wap-nlp-tech-talk-number-5",
   "a": "WAP",
@@ -570,14 +666,6 @@
  {
   "t": "事前学習モデル chiTra の活用方法 at WAP NLP Tech Talk #5",
   "u": "https://speakerdeck.com/waptech/shi-qian-xue-xi-moderu-chitra-falsehuo-yong-fang-fa-at-wap-nlp-tech-talk-number-5",
-  "a": "WAP",
-  "d": "2022-04-28",
-  "s": "単語・文の分散表現",
-  "src": "speakerdeck"
- },
- {
-  "t": "単語分散表現と事前学習モデル - chiVe _ chiTra 利活用のための下準備 at WAP NLP Tech Talk #5",
-  "u": "https://speakerdeck.com/waptech/dan-yu-fen-san-biao-xian-toshi-qian-xue-xi-moderu-chive-chitra-li-huo-yong-falsetamefalsexia-zhun-bei-at-wap-nlp-tech-talk-number-5",
   "a": "WAP",
   "d": "2022-04-28",
   "s": "単語・文の分散表現",
@@ -624,6 +712,46 @@
   "src": "docswell"
  },
  {
+  "t": "単語の分散表現と構成性の計算モデルの発展",
+  "u": "https://www.slideshare.net/naoakiokazaki/20150530-jsai2015",
+  "a": "Naoaki Okazaki",
+  "d": "2015-05-31",
+  "s": "単語・文の分散表現",
+  "src": "slideshare"
+ },
+ {
+  "t": "PyTorchによるGPT-2モデルのフルスクラッチ実装と内部構造の解説",
+  "u": "https://speakerdeck.com/sennsann99/pytorchniyorugpt-2moderunohurusukuratutishi-zhuang-tonei-bu-gou-zao-nojie-shuo",
+  "a": "Chigen SEN",
+  "d": "2026-03-11",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "非情報系研究者へ送る Transformer入門",
+  "u": "https://speakerdeck.com/rishiyama/fei-qing-bao-xi-yan-jiu-zhe-hesong-ru-transformerru-men",
+  "a": "Ryo Ishiyama",
+  "d": "2026-03-08",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "大規模言語モデルを支える頭脳：Transformerを30分でつかむ",
+  "u": "https://speakerdeck.com/rhagihara0844/da-gui-mo-yan-yu-moderuwozhi-erutou-noy-transformerwo30fen-detukamu",
+  "a": "r-hagihara-max",
+  "d": "2025-08-02",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Transformerによるテキストベクトル化を解説",
+  "u": "https://speakerdeck.com/payanotty/transformerniyorutekisutobekutoruhua-wojie-shuo",
+  "a": "payanotty",
+  "d": "2024-01-18",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【初心者向け】まだ間に合う！ Hugging Face入門 -TransformersでAI推論&学習",
   "u": "https://speakerdeck.com/tkhresk/huggingfaceru-men",
   "a": "Takahiro Esaki",
@@ -638,6 +766,14 @@
   "d": "2023-08-22",
   "s": "事前学習モデル・Transformer",
   "src": "docswell"
+ },
+ {
+  "t": "Transformer / Vision and Languageの基礎",
+  "u": "https://speakerdeck.com/sgnm/vision-and-languagenoji-chu",
+  "a": "Masanori Suganuma",
+  "d": "2022-10-08",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
  },
  {
   "t": "BERTによる自然言語処理を学ぼう!【 Live!人工知能 #26】 #Live人工知能",
@@ -662,6 +798,14 @@
   "d": "2019-11-02",
   "s": "事前学習モデル・Transformer",
   "src": "speakerdeck"
+ },
+ {
+  "t": "BERTology のススメ",
+  "u": "https://www.slideshare.net/haradatm/bertology-177275003",
+  "a": "University of Tsukuba",
+  "d": "2019-09-09",
+  "s": "事前学習モデル・Transformer",
+  "src": "slideshare"
  },
  {
   "t": "[DL輪読会]BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
@@ -808,14 +952,6 @@
   "src": "speakerdeck"
  },
  {
-  "t": "Swallowコーパスv2: 教育的な日本語ウェブコーパスの構築（NLP2025）",
-  "u": "https://speakerdeck.com/aya_se/swallowkopasuv2-jiao-yu-de-nari-ben-yu-uebukopasunogou-zhu-nlp2025",
-  "a": "Kakeru Hattori",
-  "d": "2025-03-17",
-  "s": "日本語LLMの開発（事前学習・コーパス構築）",
-  "src": "speakerdeck"
- },
- {
   "t": "新聞記事からつくる 時事と社会に強い日本語LLM（NLP2025）",
   "u": "https://speakerdeck.com/aya_se/xin-wen-ji-shi-karatukuru-shi-shi-toshe-hui-niqiang-iri-ben-yu-llm-nlp2025",
   "a": "Kakeru Hattori",
@@ -824,10 +960,10 @@
   "src": "speakerdeck"
  },
  {
-  "t": "大規模日本語VLM Asagi-VLMにおける合成データセットの構築とモデル実装",
-  "u": "https://speakerdeck.com/kuehara/da-gui-mo-ri-ben-yu-vlm-asagi-vlmniokeruhe-cheng-detasetutonogou-zhu-tomoderushi-zhuang",
-  "a": "Kohei Uehara",
-  "d": "2025-03-02",
+  "t": "Swallowコーパスv2: 教育的な日本語ウェブコーパスの構築（NLP2025）",
+  "u": "https://speakerdeck.com/aya_se/swallowkopasuv2-jiao-yu-de-nari-ben-yu-uebukopasunogou-zhu-nlp2025",
+  "a": "Kakeru Hattori",
+  "d": "2025-03-17",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
  },
@@ -880,14 +1016,6 @@
   "src": "speakerdeck"
  },
  {
-  "t": "日本語Vision-Languageモデルの学習と評価ベンチマークの構築",
-  "u": "https://speakerdeck.com/yuyamaguchi/ri-ben-yu-vision-languagemoderunoxue-xi-toping-jia-bentimakunogou-zhu",
-  "a": "Yu Yamaguchi",
-  "d": "2024-06-18",
-  "s": "日本語LLMの開発（事前学習・コーパス構築）",
-  "src": "speakerdeck"
- },
- {
   "t": "LLM開発・活用の舞台裏@2024.04.25",
   "u": "https://speakerdeck.com/stockmark/llmkai-fa-huo-yong-nowu-tai-li-at-2024-dot-04-dot-25-slash-behind-the-scene-of-development-and-utilize-llm",
   "a": "Stockmark",
@@ -920,17 +1048,17 @@
   "src": "speakerdeck"
  },
  {
-  "t": "自然言語処理のための分散並列学習",
-  "u": "https://speakerdeck.com/fujiikazuki2000/zi-ran-yan-yu-chu-li-notamenofen-san-bing-lie-xue-xi-3dd9cdf8-cc6d-4350-8141-89ce35b9d273",
-  "a": "Kazuki Fujii",
+  "t": "言語間転移学習で大規模言語モデルを賢くする",
+  "u": "https://speakerdeck.com/ikuyamada/yan-yu-jian-zhuan-yi-xue-xi-deda-gui-mo-yan-yu-moderuwoxian-kusuru",
+  "a": "Ikuya Yamada",
   "d": "2024-03-15",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
  },
  {
-  "t": "言語間転移学習で大規模言語モデルを賢くする",
-  "u": "https://speakerdeck.com/ikuyamada/yan-yu-jian-zhuan-yi-xue-xi-deda-gui-mo-yan-yu-moderuwoxian-kusuru",
-  "a": "Ikuya Yamada",
+  "t": "自然言語処理のための分散並列学習",
+  "u": "https://speakerdeck.com/fujiikazuki2000/zi-ran-yan-yu-chu-li-notamenofen-san-bing-lie-xue-xi-3dd9cdf8-cc6d-4350-8141-89ce35b9d273",
+  "a": "Kazuki Fujii",
   "d": "2024-03-15",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
@@ -950,6 +1078,14 @@
   "d": "2023-09-20",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
+ },
+ {
+  "t": "大規模日本語ブログコーパスにおける言語モデルの構築と評価",
+  "u": "https://www.slideshare.net/techblogyahoo/nlp2011-okuno-slide",
+  "a": "Yahoo!デベロッパーネットワーク",
+  "d": "2011-03-29",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）",
+  "src": "slideshare"
  },
  {
   "t": "PLaMo 3.0 Primeの事後学習",
@@ -1048,6 +1184,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "NLPコロキウム20251022_超効率化への挑戦: LLM 1bit量子化のロードマップ",
+  "u": "https://speakerdeck.com/yumaichikawa/nlpkorokiumu20251022-chao-xiao-lu-hua-henotiao-zhan-llm-1bitliang-zi-hua-norodomatupu",
+  "a": "Yuma Ichikawa",
+  "d": "2025-10-22",
+  "s": "LLM の推論最適化・サービング",
+  "src": "speakerdeck"
+ },
+ {
   "t": "PLaMo2シリーズのvLLM実装 / PFN LLM セミナー",
   "u": "https://speakerdeck.com/pfn/20251001-pfn-llm-seminar-plamo-on-vllm",
   "a": "Preferred Networks",
@@ -1056,10 +1200,26 @@
   "src": "speakerdeck"
  },
  {
+  "t": "リソース制限環境下でのローカルLLM構築術",
+  "u": "https://speakerdeck.com/koukimiura/risosuzhi-xian-huan-jing-xia-denorokarullmgou-zhu-shu",
+  "a": "kouki.miura",
+  "d": "2025-07-14",
+  "s": "LLM の推論最適化・サービング",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Deploying PLaMo 2 with vLLM: A Practical Guide / vLLM roundup Community Meetup Tokyo",
   "u": "https://speakerdeck.com/pfn/vllm-roundup-community-meetup-tokyo",
   "a": "Preferred Networks",
   "d": "2025-06-17",
+  "s": "LLM の推論最適化・サービング",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "関東Kaggler会LT: 人狼コンペとLLM量子化について",
+  "u": "https://speakerdeck.com/nejumi/guan-dong-kagglerhui-lt-ren-lang-konpetollmliang-zi-hua-nituite",
+  "a": "YuyaYAMAMOTO",
+  "d": "2025-02-14",
   "s": "LLM の推論最適化・サービング",
   "src": "speakerdeck"
  },
@@ -1240,14 +1400,6 @@
   "src": "speakerdeck"
  },
  {
-  "t": "FessのAI検索モード：検索システムとLLMへの取り組み",
-  "u": "https://speakerdeck.com/marevol/fessnoaijian-suo-modo-jian-suo-sisutemutollmhenoqu-rizu-mi",
-  "a": "Shinsuke Sugaya",
-  "d": "2026-04-28",
-  "s": "全文検索・検索基盤",
-  "src": "speakerdeck"
- },
- {
   "t": "検索設計から 推論設計への重心移動と Recall-First Retrieval",
   "u": "https://speakerdeck.com/po3rin/jian-suo-she-ji-kara-tui-lun-she-ji-henozhong-xin-yi-dong-to-recall-first-retrieval",
   "a": "po3rin",
@@ -1259,6 +1411,14 @@
   "t": "Percolatorを廃止し、マルチ検索サービスへ刷新した話 / Search Engineering Tech Talk 2026 Spring",
   "u": "https://speakerdeck.com/visional_engineering_and_design/search-engineering-tech-talk-2026-spring",
   "a": "Visional Engineering ＆ Design",
+  "d": "2026-04-28",
+  "s": "全文検索・検索基盤",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "FessのAI検索モード：検索システムとLLMへの取り組み",
+  "u": "https://speakerdeck.com/marevol/fessnoaijian-suo-modo-jian-suo-sisutemutollmhenoqu-rizu-mi",
+  "a": "Shinsuke Sugaya",
   "d": "2026-04-28",
   "s": "全文検索・検索基盤",
   "src": "speakerdeck"
@@ -1392,6 +1552,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "実践！Elasticsearch + Sudachi を用いた全文検索エンジン",
+  "u": "https://www.slideshare.net/ssuser7eadbf/elasticsearch-sudachi",
+  "a": "S. T.",
+  "d": "2019-04-11",
+  "s": "全文検索・検索基盤",
+  "src": "slideshare"
+ },
+ {
   "t": "「いい検索」を考える",
   "u": "https://speakerdeck.com/rtechkouhou/iijian-suo-wokao-eru",
   "a": "Recruit Technologies",
@@ -1408,12 +1576,36 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Solrで日本語全文検索システムの構築と応用",
+  "u": "https://www.slideshare.net/syutahashimoto/solr-79837656",
+  "a": "Syuta Hashimoto",
+  "d": "2017-09-09",
+  "s": "全文検索・検索基盤",
+  "src": "slideshare"
+ },
+ {
   "t": "全文検索システムFessを用いた 検索システム構築入門",
   "u": "https://speakerdeck.com/marevol/quan-wen-jian-suo-sisutemufesswoyong-ita-jian-suo-sisutemugou-zhu-ru-men",
   "a": "Shinsuke Sugaya",
   "d": "2017-01-26",
   "s": "全文検索・検索基盤",
   "src": "speakerdeck"
+ },
+ {
+  "t": "Elasticsearchベースの全文検索システムFess",
+  "u": "https://www.slideshare.net/slideshow/elasticsearchfess/63500978",
+  "a": "Shinsuke Sugaya",
+  "d": "2016-06-27",
+  "s": "全文検索・検索基盤",
+  "src": "slideshare"
+ },
+ {
+  "t": "リクルート流Elasticsearchの使い方",
+  "u": "https://www.slideshare.net/recruitcojp/elasticsearch-56355817",
+  "a": "Recruit Technologies",
+  "d": "2015-12-16",
+  "s": "全文検索・検索基盤",
+  "src": "slideshare"
  },
  {
   "t": "Luceneと日本語の検索",
@@ -1430,6 +1622,14 @@
   "d": "2014-08-20",
   "s": "全文検索・検索基盤",
   "src": "speakerdeck"
+ },
+ {
+  "t": "SolrとElasticsearchを比べてみよう",
+  "u": "https://www.slideshare.net/shinsuke/solr-vses2014",
+  "a": "Shinsuke Sugaya",
+  "d": "2014-05-25",
+  "s": "全文検索・検索基盤",
+  "src": "slideshare"
  },
  {
   "t": "【Paper&Hacks Vol.89】RAGアプリハンズオン～LLM/Embedding選択～",
@@ -1552,6 +1752,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "SQL/ID抽出タスクから考える 実践的なハルシネーション対策",
+  "u": "https://speakerdeck.com/nearme_tech/safe-llm-usage-in-development",
+  "a": "NearMe",
+  "d": "2026-05-08",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
   "t": "複数プロダクト利用を前提としたセルフホストLangfuse導入事例 / shibuya_AI_4",
   "u": "https://speakerdeck.com/sansan_randd/shibuya-ai-4",
   "a": "Sansan R&D",
@@ -1564,6 +1772,22 @@
   "u": "https://speakerdeck.com/cybozuinsideout/llm-app-qa-study-session",
   "a": "Cybozu",
   "d": "2026-02-15",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMアプリケーション開発におけるセキュリティリスクと対策 / LLM Application Security",
+  "u": "https://speakerdeck.com/flatt_security/llm-application-security",
+  "a": "GMO Flatt Security",
+  "d": "2025-09-29",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "企業の生成AIガバナンスにおけるエージェントとセキュリティ",
+  "u": "https://speakerdeck.com/lycorptech_jp/enterprise-ai-governance-agent-security",
+  "a": "LINEヤフーTech (LY Corporation Tech)",
+  "d": "2025-09-08",
   "s": "LLM アプリケーション開発・運用",
   "src": "speakerdeck"
  },
@@ -1596,6 +1820,14 @@
   "u": "https://speakerdeck.com/hirosatogamo/aoai-dev-day-llmsisutemukai-fa-tipsji",
   "a": "Hirosato Gamo",
   "d": "2024-07-25",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AIアプリケーションの落とし穴",
+  "u": "https://speakerdeck.com/yusukejustinnakajima/aiapurikesiyonnoluo-tosixue",
+  "a": "YusukeJustinNakajima",
+  "d": "2024-05-09",
   "s": "LLM アプリケーション開発・運用",
   "src": "speakerdeck"
  },
@@ -1645,6 +1877,150 @@
   "a": "os1ma",
   "d": "2023-04-20",
   "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMを用いた擬似ラベルデータセットによる記事分類タスクの精度改善/yans2025",
+  "u": "https://speakerdeck.com/nikkei_engineer_recruiting/yans2025",
+  "a": "日本経済新聞社 エンジニア採用事務局",
+  "d": "2025-10-31",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "OPENREC.tv におけるLLMを活用した監視効率化",
+  "u": "https://speakerdeck.com/clom/openrec-dot-tv-niokerullmwohuo-yong-sitajian-shi-xiao-lu-hua",
+  "a": "Kento Nomiyama",
+  "d": "2024-10-24",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ChatGPTを活用した悪意のあるコメント抽出AI開発の可能性",
+  "u": "https://www.docswell.com/s/KunihiroSugiyama/524D39-2024-04-16-110104",
+  "a": "Kunihiro Sugiyama",
+  "d": "2024-04-16",
+  "s": "テキスト分類・感情分析",
+  "src": "docswell"
+ },
+ {
+  "t": "gpt-3.5-turboのFine-tuningによる分類タスク改善の試み",
+  "u": "https://speakerdeck.com/nyosu/gpt-3-dot-5-turbonofine-tuningniyorufen-lei-tasukugai-shan-noshi-mi-527dddc7-3c18-4c10-9842-de4c312886a1",
+  "a": "Nyosu",
+  "d": "2023-08-31",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "NLP2023 分類タスクにおける不確実性の高い文章の傾向調査",
+  "u": "https://speakerdeck.com/masatoto/nlp2023-fen-lei-tasukuniokerubu-que-shi-xing-nogao-iwen-zhang-noqing-xiang-diao-cha",
+  "a": "masatoto",
+  "d": "2023-03-28",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Pocochaにおける規約違反検知のための機械学習の活用【DeNA TechCon 2021 Autumn】/techcon2021autumn-08",
+  "u": "https://speakerdeck.com/dena_tech/techcon2021autumn-08",
+  "a": "DeNA_Tech",
+  "d": "2021-09-29",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【Ltech#15】Well-beingを測る「LIFE WILL」開発の舞台裏",
+  "u": "https://www.docswell.com/s/LIFULL/ZY9YPK-Well-being%E3%82%92%E6%B8%AC%E3%82%8B%E3%80%8CLIFEWILL%E3%80%8D%E9%96%8B%E7%99%BA%E3%81%AE%E8%88%9E%E5%8F%B0%E8%A3%8F",
+  "a": "株式会社LIFULL",
+  "d": "2021-03-31",
+  "s": "テキスト分類・感情分析",
+  "src": "docswell"
+ },
+ {
+  "t": "感情分析に使う極性辞書を生成してみる",
+  "u": "https://speakerdeck.com/kanto/gan-qing-fen-xi-nishi-uji-xing-ci-shu-wosheng-cheng-sitemiru",
+  "a": "g-k",
+  "d": "2020-06-26",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Neural Architecture Searchを用いて出品違反検知モデリングを高速化したお話",
+  "u": "https://speakerdeck.com/dkumazaw/neural-architecture-searchwoyong-itechu-pin-wei-fan-jian-zhi-moderinguwogao-su-hua-sitaohua",
+  "a": "Daiki Kumazawa",
+  "d": "2019-05-29",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "MeCabとKerasを使ったテキスト分類",
+  "u": "https://speakerdeck.com/itagakim/mecabtokeraswoshi-tutatekisutofen-lei",
+  "a": "masa-ita",
+  "d": "2019-02-23",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "要望分析のための投稿テキストのカテゴリ分類支援 / Assisting Text Classification for Request Post Analysis",
+  "u": "https://speakerdeck.com/sansandsoc/assisting-text-classification-for-request-post-analysis",
+  "a": "Sansan DSOC",
+  "d": "2019-02-08",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "複数言語複数タスクを扱う発話意図推定モデリングのための敵対的学習の検討",
+  "u": "https://speakerdeck.com/ryomasumura/fu-shu-yan-yu-fu-shu-tasukuwoxi-ufa-hua-yi-tu-tui-ding-moderingufalsetamefalsedi-dui-de-xue-xi-falsejian-tao",
+  "a": "Ryo Masumura",
+  "d": "2018-12-12",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Percolatorを用いたカテゴリ分類",
+  "u": "https://speakerdeck.com/tarao/percolatorwoyong-itakategorifen-lei",
+  "a": "INA Lintaro",
+  "d": "2018-08-02",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "fastTextでテキスト情報から レシピ分類器を作った話",
+  "u": "https://speakerdeck.com/atlimited/fasttextdetekisutoqing-bao-kara-resipifen-lei-qi-wozuo-tutahua",
+  "a": "Yusuke Takagi",
+  "d": "2017-05-29",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "TFUG#3 RettyにおけるDeep Learningの自然言語処理への応用事例",
+  "u": "https://speakerdeck.com/bokeneko/tfug-number-3-rettyniokerudeep-learningfalsezi-ran-yan-yu-chu-li-hefalseying-yong-shi-li",
+  "a": "bokeneko",
+  "d": "2017-02-23",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ニューラルネットワークでニュース記事を自動分類してみた",
+  "u": "https://speakerdeck.com/tsurubee/niyurarunetutowakuteniyusuji-shi-wozi-dong-fen-lei-sitemita",
+  "a": "tsurubee",
+  "d": "2017-01-15",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Pythonで動かして学ぶ機械学習入門第二回 評判分析",
+  "u": "https://speakerdeck.com/diracdiego/pythondedong-kasitexue-buji-jie-xue-xi-ru-men-di-er-hui-ping-pan-fen-xi",
+  "a": "yoppe",
+  "d": "2016-09-25",
+  "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "CNNによるテキスト分類",
+  "u": "https://speakerdeck.com/tkengo/cnnniyorutekisutofen-lei",
+  "a": "けんご",
+  "d": "2016-03-02",
+  "s": "テキスト分類・感情分析",
   "src": "speakerdeck"
  },
  {
@@ -1760,6 +2136,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "多言語統語・意味情報コーパスParallel Meaning Bank日本語版の構築",
+  "u": "https://www.slideshare.net/slideshow/parallel-meaning-bank/230689876",
+  "a": "Hitomi Yanaka",
+  "d": "2020-03-01",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "slideshare"
+ },
+ {
+  "t": "自然言語処理向け データアノテーションとそのユースケース",
+  "u": "https://www.slideshare.net/DeepLearningLab/ss-180667732",
+  "a": "Deep Learning Lab（ディープラーニング・ラボ）",
+  "d": "2019-10-07",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "slideshare"
+ },
+ {
   "t": "完全なアノテーションが得られない状況下での固有表現抽出",
   "u": "https://speakerdeck.com/kajyuuen/wan-quan-naafalsetesiyongade-rarenaizhuang-kuang-xia-defalsegu-you-biao-xian-chou-chu",
   "a": "Koga Kobayashi",
@@ -1800,12 +2192,44 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Solr から使う OpenNLP の日本語固有表現抽出",
+  "u": "https://www.slideshare.net/KojiSekiguchi/solr-opennlp-106671440",
+  "a": "Koji Sekiguchi",
+  "d": "2018-07-20",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "slideshare"
+ },
+ {
   "t": "述語項構造と照応関係のアノテーション",
   "u": "https://speakerdeck.com/kakubari/shu-yu-xiang-gou-zao-tozhao-ying-guan-xi-falseafalsetesiyon",
   "a": "kakubari",
   "d": "2017-05-19",
   "s": "情報抽出・固有表現・アノテーション",
   "src": "speakerdeck"
+ },
+ {
+  "t": "クックパッド特売情報における自然言語処理 〜固有表現抽出を利用した検索システム〜",
+  "u": "https://www.slideshare.net/abicky/ss-52441786",
+  "a": "Takeshi Arabiki",
+  "d": "2015-09-05",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "slideshare"
+ },
+ {
+  "t": "株式会社ブレインパッド_テクニカルナレッジ共有会#10 「ブートストラップ法による自然言語処理」白井尊昭",
+  "u": "https://speakerdeck.com/brainpad/zhu-shi-hui-she-bureinpatudo-tekunikarunaretuzigong-you-hui-number-10-butosutoratupufa-niyoruzi-ran-yan-yu-chu-li-bai-jing-zun-zhao",
+  "a": "brainpad-inc",
+  "d": "2014-09-18",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "言語資源と付き合う",
+  "u": "https://www.slideshare.net/unnonouno/ss-13236436",
+  "a": "Yuya Unno",
+  "d": "2012-06-07",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "slideshare"
  },
  {
   "t": "BizDocVQA: 実世界ビジネス帳票に対する根拠付きVQAデータセットの提案",
@@ -1836,6 +2260,14 @@
   "u": "https://speakerdeck.com/sansan_randd/saasxml-session-2",
   "a": "Sansan R&D",
   "d": "2025-07-29",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "文書画像のデータ化における VLM活用 / Use of VLM in document image data conversion",
+  "u": "https://speakerdeck.com/sansan_randd/use-of-vlm-in-document-image-data-conversion",
+  "a": "Sansan R&D",
+  "d": "2024-11-05",
   "s": "文書処理・OCR",
   "src": "speakerdeck"
  },
@@ -1920,10 +2352,26 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Elasticsearchによる質問応答～NLP機械学習モデルの利用～",
+  "u": "https://speakerdeck.com/shin_higuchi/elasticsearchniyoruzhi-wen-ying-da-nlpji-jie-xue-xi-moderunoli-yong",
+  "a": "樋口慎",
+  "d": "2022-08-31",
+  "s": "質問応答・知識",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Efficient Passage Retrieval with Hashing for Open-domain Question Answering (ACL 2021)",
   "u": "https://speakerdeck.com/ikuyamada/efficient-passage-retrieval-with-hashing-for-open-domain-question-answering-acl-2021",
   "a": "Ikuya Yamada",
   "d": "2022-05-20",
+  "s": "質問応答・知識",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "加藤拓真, 宮脇峻平, 第二回AI王最終報告会 - DPR ベースラインによる オープンドメイン質問応答の取り組み (2022)",
+  "u": "https://speakerdeck.com/smiyawaki0820/jia-teng-tuo-zhen-gong-xie-jun-ping-di-er-hui-aiwang-zui-zhong-bao-gao-hui-dpr-besurainniyoru-opundomeinzhi-wen-ying-da-falsequ-rizu-mi-2022",
+  "a": "Shumpei Miyawaki",
+  "d": "2022-03-11",
   "s": "質問応答・知識",
   "src": "speakerdeck"
  },
@@ -1936,16 +2384,16 @@
   "src": "speakerdeck"
  },
  {
-  "t": "オープンドメイン質問応答技術の最新動向",
-  "u": "https://speakerdeck.com/ikuyamada/opundomeinzhi-wen-ying-da-ji-shu-falsezui-xin-dong-xiang",
+  "t": "知識ベースの自然言語処理への活用",
+  "u": "https://speakerdeck.com/ikuyamada/zhi-shi-besufalsezi-ran-yan-yu-chu-li-hefalsehuo-yong",
   "a": "Ikuya Yamada",
   "d": "2021-03-18",
   "s": "質問応答・知識",
   "src": "speakerdeck"
  },
  {
-  "t": "知識ベースの自然言語処理への活用",
-  "u": "https://speakerdeck.com/ikuyamada/zhi-shi-besufalsezi-ran-yan-yu-chu-li-hefalsehuo-yong",
+  "t": "オープンドメイン質問応答技術の最新動向",
+  "u": "https://speakerdeck.com/ikuyamada/opundomeinzhi-wen-ying-da-ji-shu-falsezui-xin-dong-xiang",
   "a": "Ikuya Yamada",
   "d": "2021-03-18",
   "s": "質問応答・知識",
@@ -1992,6 +2440,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "機械翻訳をローカルマシンで( ArgosTranslate/LibreTranslate )",
+  "u": "https://speakerdeck.com/matoken/libretranslate",
+  "a": "Kenichiro MATOHARA",
+  "d": "2022-12-18",
+  "s": "機械翻訳",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "機械翻訳とエンコーダデコーダモデル",
+  "u": "https://speakerdeck.com/kyaonn/ji-jie-fan-yi-toenkodadekodamoderu",
+  "a": "Kyao",
+  "d": "2022-05-24",
+  "s": "機械翻訳",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【SIG-SLP 141 招待講演】 IWSLT Evaluation Campaign: Simultaneous Speech Translation",
   "u": "https://speakerdeck.com/ksudoh/sig-slp-141-zhao-dai-jiang-yan-iwslt-evaluation-campaign-simultaneous-speech-translation",
   "a": "Katsuhito Sudoh",
@@ -2008,6 +2472,38 @@
   "src": "speakerdeck"
  },
  {
+  "t": "機械翻訳コンペティション参加報告",
+  "u": "https://speakerdeck.com/butsugiri/ji-jie-fan-yi-konpeteisiyoncan-jia-bao-gao",
+  "a": "Shun Kiyono",
+  "d": "2021-02-26",
+  "s": "機械翻訳",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "「機械翻訳」Chapter 2 機械翻訳の自動評価と統計的検定",
+  "u": "https://speakerdeck.com/sei88888/ji-jie-fan-yi-chapter-2-ji-jie-fan-yi-falsezi-dong-ping-jia-totong-ji-de-jian-ding",
+  "a": "Seitaro Shinagawa",
+  "d": "2020-08-12",
+  "s": "機械翻訳",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "大規模な論文対訳データを利用した高精度な中日、英日ニューラル機械翻訳の開発",
+  "u": "https://www.slideshare.net/ToshiakiNakazawa/ss-83451641",
+  "a": "Toshiaki Nakazawa",
+  "d": "2017-12-01",
+  "s": "機械翻訳",
+  "src": "slideshare"
+ },
+ {
+  "t": "ニューラル機械翻訳の動向@IBIS2017",
+  "u": "https://www.slideshare.net/slideshow/ibis2017/81833961",
+  "a": "Toshiaki Nakazawa",
+  "d": "2017-11-09",
+  "s": "機械翻訳",
+  "src": "slideshare"
+ },
+ {
   "t": "EMNLP2015読み会：Effective Approaches to Attention-based Neural Machine Translation",
   "u": "https://speakerdeck.com/tkng/emnlp2015du-mihui-effective-approaches-to-attention-based-neural-machine-translation",
   "a": "tkng",
@@ -2016,83 +2512,403 @@
   "src": "speakerdeck"
  },
  {
+  "t": "機械翻訳の今昔物語",
+  "u": "https://www.slideshare.net/hirsoshnakagawa3/ss-39911667",
+  "a": "Hiroshi Nakagawa",
+  "d": "2014-10-06",
+  "s": "機械翻訳",
+  "src": "slideshare"
+ },
+ {
+  "t": "FAXが現役の業界でマルチモーダルAIプロダクトを作る",
+  "u": "https://speakerdeck.com/kakehashi/building-multimodal-ai-products",
+  "a": "KAKEHASHI",
+  "d": "2026-03-05",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【Gen-AX】20260115開催_マルチモーダルAI技術勉強会TL会登壇_CTO 木田",
+  "u": "https://speakerdeck.com/genax/gen-ax-20260115kai-cui-marutimodaruaiji-shu-mian-qiang-hui-tlhui-deng-tan-cto-mu-tian",
+  "a": "Gen-AX株式会社",
+  "d": "2026-01-23",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Qwen3-VL入門：推論・物体検出・SFTまで",
+  "u": "https://speakerdeck.com/bekku/qwen3-vlru-men-tui-lun-wu-ti-jian-chu-sftmade",
+  "a": "bekku_zer",
+  "d": "2025-12-22",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "言語だけじゃない！Qwen VLモデルの実力 The Power of Qwen VL:Beyond Language",
+  "u": "https://speakerdeck.com/sawanochika/yan-yu-dakeziyanai-qwen-vlmoderunoshi-li-the-power-of-qwen-vl-beyond-language",
+  "a": "Sawa",
+  "d": "2025-05-15",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "VLMを用いた表の質問応答:画像とテキスト入力の性能比較-",
+  "u": "https://speakerdeck.com/eida/vlmwoyong-itabiao-nozhi-wen-ying-da-hua-xiang-totekisutoru-li-noxing-neng-bi-jiao",
+  "a": "eida",
+  "d": "2025-04-24",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "2025-04-24 \"Manga AI Understanding & Localization\" Furukawa Arata (CyberAgent, Inc)",
+  "u": "https://speakerdeck.com/ornew/2025-04-24-cyberagent-inc-manga-ai-understanding-and-localization",
+  "a": "Arata Furukawa",
+  "d": "2025-04-24",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "大規模日本語VLM Asagi-VLMにおける合成データセットの構築とモデル実装",
+  "u": "https://speakerdeck.com/kuehara/da-gui-mo-ri-ben-yu-vlm-asagi-vlmniokeruhe-cheng-detasetutonogou-zhu-tomoderushi-zhuang",
+  "a": "Kohei Uehara",
+  "d": "2025-03-02",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダルLLM 実践的活用と課題",
+  "u": "https://speakerdeck.com/sakaguchikou/marutimodarullm-shi-jian-de-huo-yong-toke-ti",
+  "a": "SakaguchiKou",
+  "d": "2024-12-11",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Large Vision Language Model (LVLM) に関する最新知見まとめ (Part 1)",
+  "u": "https://speakerdeck.com/onely7/large-vision-language-model-lvlm-niguan-suruzui-xin-zhi-jian-matome-part-1",
+  "a": "Daiki Shiono",
+  "d": "2024-11-18",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【Pycon mini 東海 2024】Google Colaboratoryで試すVLM",
+  "u": "https://speakerdeck.com/kazuhitotakahashi/pycon-mini-dong-hai-2024-google-colaboratorydeshi-suvlm",
+  "a": "高橋かずひと",
+  "d": "2024-11-16",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダル AI 実装の課題と解決策 / Developer X Summit",
+  "u": "https://speakerdeck.com/upura/developer-x-summit",
+  "a": "Shotaro Ishihara",
+  "d": "2024-11-12",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダルRAGやってみた",
+  "u": "https://speakerdeck.com/tanimon/marutimodaruragyatutemita",
+  "a": "tanimon",
+  "d": "2024-10-31",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "大規模言語モデルを用いた日本語視覚言語モデルの評価方法とベースラインモデルの提案 【MIRU 2024】",
+  "u": "https://speakerdeck.com/kentosasaki/da-gui-mo-yan-yu-moderuwoyong-itari-ben-yu-shi-jue-yan-yu-moderunoping-jia-fang-fa-tobesurainmoderunoti-an-miru-2024-c2e6ec07-bd66-4a2f-866d-bf3a2fd72ef5",
+  "a": "Kento Sasaki",
+  "d": "2024-08-07",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "大規模言語モデルによる視覚・言語の融合/Large Vision Language Models",
+  "u": "https://speakerdeck.com/ryotatanaka/large-vision-language-models",
+  "a": "Ryota Tanaka",
+  "d": "2024-07-09",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【Gemini本発売記念】npaka による マルチモーダルとローカルLLMの現在と未来",
+  "u": "https://speakerdeck.com/npaka/geminiben-fa-mai-ji-nian-npaka-niyoru-marutimodarutorokarullmnoxian-zai-towei-lai",
+  "a": "npaka",
+  "d": "2024-06-27",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "日本語Vision-Languageモデルの学習と評価ベンチマークの構築",
+  "u": "https://speakerdeck.com/yuyamaguchi/ri-ben-yu-vision-languagemoderunoxue-xi-toping-jia-bentimakunogou-zhu",
+  "a": "Yu Yamaguchi",
+  "d": "2024-06-18",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダルLLMがもたらすビジネス革新と技術解説",
+  "u": "https://speakerdeck.com/elith/marutimodarullmgamotarasubizinesuge-xin-toji-shu-jie-shuo",
+  "a": "Elith",
+  "d": "2024-03-30",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダル生成AIの最前線～アプリケーションと考えるべきリスク～",
+  "u": "https://speakerdeck.com/yusukejustinnakajima/marutimodarusheng-cheng-ainozui-qian-xian-apurikesiyontokao-erubekirisuku",
+  "a": "YusukeJustinNakajima",
+  "d": "2024-02-15",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "テキストからの実世界理解に向けて",
+  "u": "https://speakerdeck.com/shuheikurita/tekisutokaranoshi-shi-jie-li-jie-nixiang-kete",
+  "a": "Shuhei Kurita",
+  "d": "2023-10-30",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "⼤規模⾔語モデルとVision-and-Language",
+  "u": "https://speakerdeck.com/kosuken/gui-mo-yu-moderutovision-and-language",
+  "a": "Kosuke Nishida",
+  "d": "2023-10-30",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "SSII2023 [OS1] GPT-4とVision-and-Languageの未来",
+  "u": "https://speakerdeck.com/ssii/ssii2023-os1-04",
+  "a": "画像センシングシンポジウム",
+  "d": "2023-06-14",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Vision and Languageの現状と展望（GPT-4）",
+  "u": "https://speakerdeck.com/sgnm/vision-and-languagenoxian-zhuang-tozhan-wang-gpt-4",
+  "a": "Masanori Suganuma",
+  "d": "2023-03-27",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "文書画像に対する質問応答技術の最新動向/ Recent Trends in Document Visual Question Answering",
+  "u": "https://speakerdeck.com/ryotatanaka/recent-trends-in-document-visual-question-answering",
+  "a": "Ryota Tanaka",
+  "d": "2022-03-11",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Vision and Language とその先へ",
+  "u": "https://speakerdeck.com/yushiku/vision-and-language-tosofalsexian-he",
+  "a": "Yoshitaka Ushiku",
+  "d": "2022-02-09",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "言語と視覚に基づく質問応答の最新動向 / Recent Trends in Vision-and-Language Studies for QA",
+  "u": "https://speakerdeck.com/kyoun/recent-trends-in-vision-and-language-studies-for-qa",
+  "a": "Kyosuke Nishida",
+  "d": "2021-03-19",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "事前学習言語モデルを用いたVision & Languageの動向 / A Survey of Pre-trained Language Models for Vision & Language",
+  "u": "https://speakerdeck.com/kyoun/a-survey-of-pre-trained-language-models-for-vision-and-language",
+  "a": "Kyosuke Nishida",
+  "d": "2019-11-30",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Deep Learning による視覚×言語融合の最前線",
+  "u": "https://speakerdeck.com/yushiku/deep-learning-niyorushi-jue-xyan-yu-rong-he-falsezui-qian-xian",
+  "a": "Yoshitaka Ushiku",
+  "d": "2017-03-22",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "会議AIエージェントに話者認識AIを乗せる難しさと重要性",
+  "u": "https://speakerdeck.com/nishikainc/hui-yi-aiezientonihua-zhe-ren-shi-aiwocheng-serunan-sisatozhong-yao-xing",
+  "a": "Nishika-Inc",
+  "d": "2026-08-05",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
   "t": "ASRは精度だけでは足りない − 専門用語の誤認識にどう向き合うか",
   "u": "https://speakerdeck.com/nishikainc/asrhajing-du-dakedehazu-rinai-zhuan-men-yong-yu-nowu-ren-shi-nidouxiang-kihe-uka",
   "a": "Nishika-Inc",
   "d": "2026-08-05",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
-  "t": "会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計",
-  "u": "https://speakerdeck.com/mixi_engineers/architecture-design-for-natural-conversations-in-the-conversational-ai-robot-romi",
-  "a": "MIXI ENGINEERS",
-  "d": "2026-04-06",
-  "s": "音声・対話システム",
+  "t": "文字起こし基盤の信頼性",
+  "u": "https://speakerdeck.com/abnoumaru/wen-zi-qi-kosiji-pan-noxin-lai-xing",
+  "a": "abnoumaru",
+  "d": "2026-07-23",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
-  "t": "音声対話モデル2025-26",
-  "u": "https://www.docswell.com/s/yuAbe/Z8W7GY-2026-01-29-120501",
-  "a": "阿部雄斗",
-  "d": "2026-01-29",
-  "s": "音声・対話システム",
+  "t": "軽量音声認識OSS Parapper",
+  "u": "https://speakerdeck.com/nadare881/qing-liang-yin-sheng-ren-shi-oss-parapper",
+  "a": "nadare",
+  "d": "2026-06-28",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "パソコンで使える日本語AI音声入力の比較（2026年3月版）",
+  "u": "https://speakerdeck.com/frievea/pasokondeshi-eruri-ben-yu-aiyin-sheng-ru-li-nobi-jiao-2026nian-3yue-ban",
+  "a": "Frieve-A",
+  "d": "2026-03-13",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Gemini APIで音声文字起こし-実装の工夫と課題解決",
+  "u": "https://speakerdeck.com/tkikuchi/gemini-apideyin-sheng-wen-zi-qi-kosi-shi-zhuang-nogong-fu-toke-ti-jie-jue",
+  "a": "t-kikuchi",
+  "d": "2026-01-30",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMが読唇術？視覚音声認識最前線",
+  "u": "https://www.docswell.com/s/hiroga/ZPG7JQ-2025-10-21-VSR-LLM",
+  "a": "Hiroaki Ogasawara",
+  "d": "2025-10-21",
+  "s": "音声認識・音声処理",
   "src": "docswell"
- },
- {
-  "t": "RAGで制御可能なFull-duplex音声対話システム",
-  "u": "https://speakerdeck.com/mssmkmr/ragdezhi-yu-ke-neng-nafull-duplexyin-sheng-dui-hua-sisutemu",
-  "a": "Convergence Lab.",
-  "d": "2025-11-26",
-  "s": "音声・対話システム",
-  "src": "speakerdeck"
- },
- {
-  "t": "実運用で学んだ 音声対話システムの評価とテスト",
-  "u": "https://speakerdeck.com/ymachida/shi-yun-yong-dexue-nda-yin-sheng-dui-hua-sisutemunoping-jia-totesuto",
-  "a": "Yuichiro Machida",
-  "d": "2025-11-26",
-  "s": "音声・対話システム",
-  "src": "speakerdeck"
  },
  {
   "t": "音声感情認識技術の進展と展望",
   "u": "https://speakerdeck.com/nagase/yin-sheng-gan-qing-ren-shi-ji-shu-nojin-zhan-tozhan-wang",
   "a": "Ryotaro Nagase",
   "d": "2025-10-08",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
-  "t": "【輪講資料】Moshi: a speech-text foundation model for real-time dialogue",
-  "u": "https://speakerdeck.com/hpprc/lun-jiang-zi-liao-moshi-a-speech-text-foundation-model-for-real-time-dialogue",
-  "a": "Hayato Tsukagoshi",
-  "d": "2025-07-15",
-  "s": "音声・対話システム",
+  "t": "Interspeech2025読み会",
+  "u": "https://speakerdeck.com/ksudoh/interspeech2025du-mihui",
+  "a": "Katsuhito Sudoh",
+  "d": "2025-09-29",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
-  "t": "イラストで学ぶ音声認識 改訂第2版 12. 音声対話システム",
-  "u": "https://www.docswell.com/s/MasahiroAraki/K9V38Y-2025-06-05-141640",
+  "t": "音素BERTと音声基盤モデルを用いた自動韻律アノテーションの検討",
+  "u": "https://speakerdeck.com/hyama5/yin-su-berttoyin-sheng-ji-pan-moderuwoyong-itazi-dong-yun-lu-anotesiyonnojian-tao",
+  "a": "hyama5",
+  "d": "2025-09-10",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LINEヤフーの音声AIがもたらす未来：ASR/TTSと対話技術の新たな可能性 / LY Corporation's Speech AI Vision: Towards Realtime Spoken Dialogue through Advanced ASR and TTS",
+  "u": "https://speakerdeck.com/lycorptech_jp/ly-corporations-speech-ai-vision-towards-realtime-spoken-dialogue-through-advanced-asr-and-tts",
+  "a": "LINEヤフーTech (LY Corporation Tech)",
+  "d": "2025-07-01",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "イラストで学ぶ音声認識 改訂第2版 11. 事前学習モデルによる音声認識",
+  "u": "https://www.docswell.com/s/MasahiroAraki/5G1DX4-2025-06-05-141601",
   "a": "荒木 雅弘",
   "d": "2025-06-05",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
   "src": "docswell"
  },
  {
-  "t": "武蔵大学 AIの社会浸透研究会 第3回公開セミナー 大規模言語モデルがもたらす対話システム技術の変革",
-  "u": "https://speakerdeck.com/mnakano/wu-zang-da-xue-ainoshe-hui-jin-tou-yan-jiu-hui-di-3hui-gong-kai-semina-da-gui-mo-yan-yu-moderugamotarasudui-hua-sisutemuji-shu-nobian-ge",
-  "a": "Mikio Nakano",
-  "d": "2024-06-16",
-  "s": "音声・対話システム",
+  "t": "イラストで学ぶ音声認識 改訂第2版 10. End-to-End の音声認識",
+  "u": "https://www.docswell.com/s/MasahiroAraki/Z1R6JE-2025-06-05-141518",
+  "a": "荒木 雅弘",
+  "d": "2025-06-05",
+  "s": "音声認識・音声処理",
+  "src": "docswell"
+ },
+ {
+  "t": "深層学習による音声処理～物理なき音声のモデル化～",
+  "u": "https://www.docswell.com/s/akinori-ito/56V8JW-2025-03-16-213358",
+  "a": "Akinori Ito",
+  "d": "2025-03-16",
+  "s": "音声認識・音声処理",
+  "src": "docswell"
+ },
+ {
+  "t": "AWS 音声基盤モデル トーク解析AI MiiTelの音声処理について",
+  "u": "https://speakerdeck.com/ken57/aws-yin-sheng-ji-pan-moderu-tokujie-xi-ai-miitelnoyin-sheng-chu-li-nituite",
+  "a": "Ken57",
+  "d": "2025-01-21",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
+ },
+ {
+  "t": "LINEヤフー株式会社における音声言語情報処理AI研究開発@SP/SLP研究会 2024.10.22",
+  "u": "https://speakerdeck.com/lycorptech_jp/20241105a",
+  "a": "LINEヤフーTech (LY Corporation Tech)",
+  "d": "2024-11-05",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMと音声基盤モデルを用いた音声認識",
+  "u": "https://speakerdeck.com/spiralai/llmtoyin-sheng-ji-pan-moderuwoyong-itayin-sheng-ren-shi",
+  "a": "Spiral.AI",
+  "d": "2024-09-17",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "音声処理ツールキットESPnetの現在と未来",
+  "u": "https://speakerdeck.com/kanbayashi1125/yin-sheng-chu-li-turukitutoespnetnoxian-zai-towei-lai",
+  "a": "Tomoki Hayashi",
+  "d": "2024-03-01",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【Pythonで学ぶ音声認識】第7章：End-to-Endモデルによる連続音声認識（7.4節）",
+  "u": "https://www.docswell.com/s/kyoto-kaira/5M18X6-2023-12-28-143451",
+  "a": "京都大学人工知能研究会KaiRA",
+  "d": "2023-12-28",
+  "s": "音声認識・音声処理",
+  "src": "docswell"
+ },
+ {
+  "t": "【Pythonで学ぶ音声認識】第7章：End-to-Endモデルによる連続音声認識（7.1～7.3節）",
+  "u": "https://www.docswell.com/s/kyoto-kaira/Z4Q7VJ-2023-12-28-143239",
+  "a": "京都大学人工知能研究会KaiRA",
+  "d": "2023-12-28",
+  "s": "音声認識・音声処理",
+  "src": "docswell"
  },
  {
   "t": "LINE CLOVAの音声認識技術",
   "u": "https://speakerdeck.com/line_developers/speech-recognition-technology-of-line-clova",
   "a": "LINE Developers",
   "d": "2023-06-23",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "音声認識と音声合成の超入門",
+  "u": "https://speakerdeck.com/tam17aki/yin-sheng-ren-shi-toyin-sheng-he-cheng-nochao-ru-men",
+  "a": "Akira Tamamori",
+  "d": "2023-06-16",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
@@ -2100,15 +2916,39 @@
   "u": "https://speakerdeck.com/line_developers/self-conditioned-ctc-and-its-development",
   "a": "LINE Developers",
   "d": "2023-06-15",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
-  "t": "ボイスボット事業における研究開発と産学連携",
-  "u": "https://speakerdeck.com/cyberagentdevelopers/boisubotutoshi-ye-niokeruyan-jiu-kai-fa-tochan-xue-lian-xi",
+  "t": "デジタルツインと電話応対における音声合成と音声認識",
+  "u": "https://speakerdeck.com/cyberagentdevelopers/dezitarutuintodian-hua-ying-dui-niokeruyin-sheng-he-cheng-toyin-sheng-ren-shi",
   "a": "CyberAgent",
   "d": "2022-07-08",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "JTubeSpeech: 音声認識と話者照合のために YouTube から構築される日本語音声コーパス",
+  "u": "https://www.slideshare.net/ShinnosukeTakamichi/jtubespeech-youtube",
+  "a": "Shinnosuke Takamichi",
+  "d": "2022-03-17",
+  "s": "音声認識・音声処理",
+  "src": "slideshare"
+ },
+ {
+  "t": "音声領域におけるLINEの研究開発",
+  "u": "https://speakerdeck.com/line_developers/line-research-and-development-in-the-voice-field",
+  "a": "LINE Developers",
+  "d": "2022-03-01",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Introduction of LINE's Speech Recognition efforts",
+  "u": "https://speakerdeck.com/line_developers/introduction-of-lines-speech-recognition-efforts",
+  "a": "LINE Developers",
+  "d": "2021-06-15",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
@@ -2116,7 +2956,23 @@
   "u": "https://speakerdeck.com/cyberagentdevelopers/saibaezientofalseyin-sheng-yan-jiu-kai-fa-falsequ-rizu-mi-ca-base-next",
   "a": "CyberAgent",
   "d": "2021-05-28",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ここまで来た＆これから来る音声合成 (明治大学 先端メディアコロキウム)",
+  "u": "https://www.slideshare.net/ShinnosukeTakamichi/ss-241884248",
+  "a": "Shinnosuke Takamichi",
+  "d": "2021-01-27",
+  "s": "音声認識・音声処理",
+  "src": "slideshare"
+ },
+ {
+  "t": "音声情報処理に便利な (Python) パッケージやソフトウェア",
+  "u": "https://speakerdeck.com/tam17aki/yin-sheng-qing-bao-chu-li-nibian-li-na-python-patukeziyasohutouea",
+  "a": "Akira Tamamori",
+  "d": "2020-12-30",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
@@ -2124,8 +2980,112 @@
   "u": "https://www.docswell.com/s/ydnjp/KM2JLK-2017-08-01-143133",
   "a": "Yahoo!デベロッパーネットワーク",
   "d": "2017-08-01",
-  "s": "音声・対話システム",
+  "s": "音声認識・音声処理",
   "src": "docswell"
+ },
+ {
+  "t": "音声認識と深層学習",
+  "u": "https://www.slideshare.net/pfi/ss-50580059",
+  "a": "Preferred Networks",
+  "d": "2015-07-16",
+  "s": "音声認識・音声処理",
+  "src": "slideshare"
+ },
+ {
+  "t": "会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計",
+  "u": "https://speakerdeck.com/mixi_engineers/architecture-design-for-natural-conversations-in-the-conversational-ai-robot-romi",
+  "a": "MIXI ENGINEERS",
+  "d": "2026-04-06",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "音声対話モデル2025-26",
+  "u": "https://www.docswell.com/s/yuAbe/Z8W7GY-2026-01-29-120501",
+  "a": "阿部雄斗",
+  "d": "2026-01-29",
+  "s": "対話システム・音声対話",
+  "src": "docswell"
+ },
+ {
+  "t": "実運用で学んだ 音声対話システムの評価とテスト",
+  "u": "https://speakerdeck.com/ymachida/shi-yun-yong-dexue-nda-yin-sheng-dui-hua-sisutemunoping-jia-totesuto",
+  "a": "Yuichiro Machida",
+  "d": "2025-11-26",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "RAGで制御可能なFull-duplex音声対話システム",
+  "u": "https://speakerdeck.com/mssmkmr/ragdezhi-yu-ke-neng-nafull-duplexyin-sheng-dui-hua-sisutemu",
+  "a": "Convergence Lab.",
+  "d": "2025-11-26",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【輪講資料】Moshi: a speech-text foundation model for real-time dialogue",
+  "u": "https://speakerdeck.com/hpprc/lun-jiang-zi-liao-moshi-a-speech-text-foundation-model-for-real-time-dialogue",
+  "a": "Hayato Tsukagoshi",
+  "d": "2025-07-15",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "イラストで学ぶ音声認識 改訂第2版 12. 音声対話システム",
+  "u": "https://www.docswell.com/s/MasahiroAraki/K9V38Y-2025-06-05-141640",
+  "a": "荒木 雅弘",
+  "d": "2025-06-05",
+  "s": "対話システム・音声対話",
+  "src": "docswell"
+ },
+ {
+  "t": "リクルートやNRIデジタルとの成功事例に学ぶ、 IVRyのAI音声対話／音声解析ソリューションが 変革するコールセンターの未来",
+  "u": "https://speakerdeck.com/miyashino/call-center-crm-demo-and-conference-20241122",
+  "a": "Shinobu Miyahara",
+  "d": "2024-11-28",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "武蔵大学 AIの社会浸透研究会 第3回公開セミナー 大規模言語モデルがもたらす対話システム技術の変革",
+  "u": "https://speakerdeck.com/mnakano/wu-zang-da-xue-ainoshe-hui-jin-tou-yan-jiu-hui-di-3hui-gong-kai-semina-da-gui-mo-yan-yu-moderugamotarasudui-hua-sisutemuji-shu-nobian-ge",
+  "a": "Mikio Nakano",
+  "d": "2024-06-16",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダル対話システム",
+  "u": "https://speakerdeck.com/sei88888/marutimodarudui-hua-sisutemu",
+  "a": "Seitaro Shinagawa",
+  "d": "2024-06-06",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ボイスボット事業における研究開発と産学連携",
+  "u": "https://speakerdeck.com/cyberagentdevelopers/boisubotutoshi-ye-niokeruyan-jiu-kai-fa-tochan-xue-lian-xi",
+  "a": "CyberAgent",
+  "d": "2022-07-08",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "マルチモーダル対話システムのスゝメ",
+  "u": "https://www.slideshare.net/slideshow/ss-62714701/62714701",
+  "a": "Takahiro Kubo",
+  "d": "2016-06-04",
+  "s": "対話システム・音声対話",
+  "src": "slideshare"
+ },
+ {
+  "t": "対話システム, 南泰浩",
+  "u": "https://www.slideshare.net/iilab/723-50838179",
+  "a": "KIT Cognitive Interaction Design",
+  "d": "2015-07-23",
+  "s": "対話システム・音声対話",
+  "src": "slideshare"
  },
  {
   "t": "日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization",
@@ -2206,6 +3166,14 @@
   "d": "2019-01-29",
   "s": "生成・要約・校正",
   "src": "speakerdeck"
+ },
+ {
+  "t": "日本語の語彙平易化システムおよび評価セットの構築",
+  "u": "https://www.slideshare.net/moguranosenshi/ss-47551205",
+  "a": "Tomoyuki Kajiwara",
+  "d": "2015-04-29",
+  "s": "生成・要約・校正",
+  "src": "slideshare"
  },
  {
   "t": "大規模言語モデルは誰を覚えているか / Who Do Large Language Models Memorize?",
@@ -2336,16 +3304,16 @@
   "src": "speakerdeck"
  },
  {
-  "t": "LLM のプロダクト導入における開発の裏側と技術的挑戦",
-  "u": "https://speakerdeck.com/recruitengineers/recruittc2026-05-1-ueyamaayaka",
+  "t": "キャリアアシスタントにおけるLLMの不確実性を制御するアプローチ",
+  "u": "https://speakerdeck.com/recruitengineers/recruittc2026-06-2-ikegamikenshin",
   "a": "Recruit",
   "d": "2026-02-27",
   "s": "産業応用・実務事例",
   "src": "speakerdeck"
  },
  {
-  "t": "キャリアアシスタントにおけるLLMの不確実性を制御するアプローチ",
-  "u": "https://speakerdeck.com/recruitengineers/recruittc2026-06-2-ikegamikenshin",
+  "t": "LLM のプロダクト導入における開発の裏側と技術的挑戦",
+  "u": "https://speakerdeck.com/recruitengineers/recruittc2026-05-1-ueyamaayaka",
   "a": "Recruit",
   "d": "2026-02-27",
   "s": "産業応用・実務事例",
@@ -2510,5 +3478,21 @@
   "d": "2018-02-19",
   "s": "産業応用・実務事例",
   "src": "speakerdeck"
+ },
+ {
+  "t": "リクルート式 自然言語処理技術の適応事例紹介",
+  "u": "https://www.slideshare.net/recruitcojp/ss-66242894",
+  "a": "Recruit Technologies",
+  "d": "2016-09-13",
+  "s": "産業応用・実務事例",
+  "src": "slideshare"
+ },
+ {
+  "t": "企業における自然言語処理技術の活用の現場（情報処理学会東海支部主催講演会@名古屋大学）",
+  "u": "https://www.slideshare.net/unnonouno/20141022-ipsj-tokai",
+  "a": "Yuya Unno",
+  "d": "2014-10-22",
+  "s": "産業応用・実務事例",
+  "src": "slideshare"
  }
 ]

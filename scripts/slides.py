@@ -25,7 +25,7 @@ SRC = ROOT / "data" / "curated.json"
 REQUIRED_FIELDS = ("title", "url", "author", "date", "source")
 
 #: Slide hosts the list covers. Used to keep ``source`` values consistent.
-KNOWN_SOURCES = ("speakerdeck", "docswell")
+KNOWN_SOURCES = ("speakerdeck", "docswell", "slideshare")
 
 _DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 # Ideographic and non-breaking spaces are matched by ``\s`` as well, but naming
