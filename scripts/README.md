@@ -50,7 +50,7 @@ python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json
 To validate without generating anything, run the shared module directly.
 
 ```bash
-python3 scripts/slides.py               # ok: 437 entries in 26 sections
+python3 scripts/slides.py               # ok: 462 entries in 28 sections
 ```
 
 There are no dependencies — the Python 3 standard library is enough (3.9 or

@@ -11,7 +11,7 @@
 這是一份精選清單，收錄了日語自然語言處理（NLP）相關的簡報投影片。
 依主題整理了學會的教學演講、大學課程、OSS 開發者的技術解說，以及企業的實務案例。
 
-共收錄 437 份資料，分為 26 個分類。
+共收錄 462 份資料，分為 28 個分類。
 
 投影片標題保留發表時的原文，因此絕大多數為日語。
 
@@ -20,7 +20,7 @@
 
 ## 🔍 從 Claude Code 搜尋
 
-我們提供了外掛，讓你可以從 Claude Code 搜尋本清單收錄的 437 份資料。
+我們提供了外掛，讓你可以從 Claude Code 搜尋本清單收錄的 462 份資料。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -46,6 +46,7 @@
 - [學會教學演講](#學會教學演講)
 - [大學課程・系統性講義資料](#大學課程系統性講義資料)
 - [日語的基礎分析（形態素分析・句法分析）](#日語的基礎分析形態素分析句法分析)
+- [NLP 函式庫與工具開發](#nlp-函式庫與工具開發)
 - [日語文本的正規化・寫法差異](#日語文本的正規化寫法差異)
 - [詞與句的分散式表示](#詞與句的分散式表示)
 - [預訓練模型・Transformer](#預訓練模型transformer)
@@ -58,6 +59,7 @@
 - [檢索・RAG](#檢索rag)
 - [LLM 應用開發・維運](#llm-應用開發維運)
 - [文字分類・情感分析](#文字分類情感分析)
+- [垃圾訊息・有害內容治理](#垃圾訊息有害內容治理)
 - [資訊抽取・命名實體・標註](#資訊抽取命名實體標註)
 - [文件處理・OCR](#文件處理ocr)
 - [問答・知識](#問答知識)
@@ -82,9 +84,11 @@
 - [最先端自然言語処理ライブラリの最適な選択と有用な利用方法 / pycon-jp-2020](https://speakerdeck.com/taishii/pycon-jp-2020) - taishi-i（2020-08）
 - [Python による日本語自然言語処理 〜系列ラベリングによる実世界テキスト分析〜 / PyCon JP 2019](https://speakerdeck.com/taishii/pycon-jp-2019) - taishi-i（2019-09）
 - [How Deep Learning Changes Natural Language Processing](https://speakerdeck.com/chokkan/how-deep-learning-changes-natural-language-processing) - Naoaki Okazaki（2018-09）
+- [Spacyでお手軽NLP / NLP with spacy](https://speakerdeck.com/himkt/nlp-with-spacy) - himkt（2018-06）
 - [深層学習による自然言語処理の研究動向](https://www.slideshare.net/stairlab/ss-61806151) - STAIR Lab, Chiba Institute of Technology（2016-04）
 - [深層学習時代の自然言語処理](https://www.slideshare.net/unnonouno/ss-43844132) - Yuya Unno（2015-01）
 - [Deep Learningと自然言語処理](https://www.slideshare.net/pfi/deep-learning-42997311) - Preferred Networks（2014-12）
+- [Java で統計とか機械学習とか自然言語処理とかをやりたい ときに役立つライブラリ達](https://speakerdeck.com/komiya_atsushi/java-detong-ji-tokaji-jie-xue-xi-tokazi-ran-yan-yu-chu-li-tokawoyaritai-tokiniyi-li-turaiburarida) - KOMIYA Atsushi（2014-10）
 
 ## 學會教學演講
 
@@ -129,31 +133,41 @@
 
 負責日語特有前處理的分析器與詞典相關資料。
 
-- [日本語のポップアップ辞書アプリに向けて形態素解析システムの設計・実装・運用](https://speakerdeck.com/noheartpen/i2-b3-ri-ben-yu-nopotupuatupuci-shu-apurinixiang-ketexing-tai-su-jie-xi-sisutemunoshe-ji-shi-zhuang-yun-yong) - John Qing（2025-04）
 - [係り受け解析を用いた法律文書中の略称規定の解析についての報告](https://speakerdeck.com/puripuri2100/xi-rishou-kejie-xi-woyong-itafa-lu-wen-shu-zhong-nolue-cheng-gui-ding-nojie-xi-nituitenobao-gao) - puripuri2100（2024-09）
-- [\[NLP2023\] 最小コスト法に基づく形態素解析におけるCPU キャッシュの効率化](https://speakerdeck.com/legalontechnologies/nlp2023-vibrato) - LegalOn Technologies, Inc（2024-05）
-- [\[DEIM2023\] 高速な形態素解析器Vibratoの紹介](https://speakerdeck.com/legalontechnologies/deim2023-introduction-to-vibrato-fast-morphological-analyzer) - LegalOn Technologies, Inc（2023-03）
 - [KWJA：汎用言語モデルに基づく日本語解析器 / kyoto-waseda-japanese-analyzer](https://speakerdeck.com/nobug/kyoto-waseda-japanese-analyzer) - Nobuhiro Ueda（2022-09）
 - [Sudachi Family近況報告 at WAP NLP Tech Talk #5](https://speakerdeck.com/waptech/sudachi-familyjin-kuang-bao-gao-at-wap-nlp-tech-talk-number-5) - WAP（2022-04）
 - [Sudachi近況報告 at WAP NLP Tech Talk #4](https://speakerdeck.com/waptech/sudachijin-kuang-bao-gao-at-wap-nlp-tech-talk-number-4) - WAP（2021-11）
-- [オープンソースとしての形態素解析器Sudachi / WAP NLP Tech Talk #4](https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4) - Sorami Shiromizu（2021-11）
-- [日本語形態素解析器 SudachiPy の 現状と今後について](https://speakerdeck.com/waptech/ri-ben-yu-xing-tai-su-jie-xi-qi-sudachipy-false-xian-zhuang-tojin-hou-nituite) - WAP（2021-07）
-- [Sudachi辞書のつくり方](https://speakerdeck.com/waptech/sudachici-shu-falsetukurifang) - WAP（2020-12）
-- [Lucene Kuromoji のコードを読む会 （辞書ビルダー編）](https://speakerdeck.com/mocobeta/lucene-kuromoji-nokodowodu-muhui-ci-shu-birudabian) - Tomoko Uchida（2019-10）
-- [犬でもわかる Minimal Acyclic Subsequential Transducer / Introduction to Minimal Acyclic Subsequential Transducer](https://speakerdeck.com/takuyaa/introduction-to-minimal-acyclic-subsequential-transducer) - Takuya Asano（2019-06）
-- [形態素解析器をフルスクラッチで作る話](https://speakerdeck.com/namachan10777/xing-tai-su-jie-xi-qi-wohurusukuratutidezuo-ruhua) - Nakano Masaki（2019-05）
 - [NLP2019 松田寛 - GiNZA](https://www.slideshare.net/MegagonLabs/nlp2019-ginza-139011245) - Megagon Labs（2019-03）
-- [Javaでつくる本格形態素解析器](https://www.slideshare.net/WorksApplications/java-82794239) - Works Applications（2017-11）
 - [AWS APIGateway + Python Lambda + NEologdで作るサーバレス日本語形態素解析API](https://speakerdeck.com/satorukadowaki/aws-apigateway-plus-python-lambda-plus-neologddezuo-rusabaresuri-ben-yu-xing-tai-su-jie-xi-api) - Satoru Kadowaki（2017-09）
 - [形態素解析](https://www.slideshare.net/WorksApplications/ss-78025845) - Works Applications（2017-06）
 - [JUMAN++で分かち書きをしたかった...](https://speakerdeck.com/nagomiso/juman-plus-plus-defen-katishu-kiwositakatuta-dot-dot-dot) - なごみそ（2017-05）
 - [日本語の形態素解析](https://speakerdeck.com/yumeto/ri-ben-yu-falsexing-tai-su-jie-xi) - Yumeto Inaoka（2017-01）
 - [第17回Lucene/Solr勉強会 #SolrJP – Apache Lucene Solrによる形態素解析の課題とN-bestの提案](https://www.docswell.com/s/ydnjp/Z9YVX5-2015-10-28-154003) - Yahoo!デベロッパーネットワーク（2015-10）
-- [Pythonで作って学ぶ形態素解析](https://speakerdeck.com/mocobeta/pythondezuo-tutexue-buxing-tai-su-jie-xi) - Tomoko Uchida（2015-10）
-- [1binary 自己完結型の 形態素解析器 kagome を 作ってみた話](https://speakerdeck.com/ikawaha/1binary-zi-ji-wan-jie-xing-false-xing-tai-su-jie-xi-qi-kagome-wo-zuo-tutemitahua) - ikawaha（2015-06）
 - [形態素解析器 MeCab の新語・固有表現辞書 mecab-ipadic-NEologd のご紹介](https://www.slideshare.net/overlast/mecab-ipadicneologdtokyordf-46497035) - Toshinori Sato（2015-03）
 - [形態素解析の過去・現在・未来](https://www.slideshare.net/pfi/ss-9805912) - Preferred Networks（2011-10）
 - [統計的係り受け解析入門](https://speakerdeck.com/unnonouno/tong-ji-de-xi-rishou-kejie-xi-ru-men) - Yuya Unno（2010-11）
+
+## NLP 函式庫與工具開發
+
+形態素分析器、搜尋引擎等 NLP 函式庫是如何實作與維護的。
+
+- [日本語のポップアップ辞書アプリに向けて形態素解析システムの設計・実装・運用](https://speakerdeck.com/noheartpen/i2-b3-ri-ben-yu-nopotupuatupuci-shu-apurinixiang-ketexing-tai-su-jie-xi-sisutemunoshe-ji-shi-zhuang-yun-yong) - John Qing（2025-04）
+- [\[NLP2023\] 最小コスト法に基づく形態素解析におけるCPU キャッシュの効率化](https://speakerdeck.com/legalontechnologies/nlp2023-vibrato) - LegalOn Technologies, Inc（2024-05）
+- [\[DEIM2023\] 高速な形態素解析器Vibratoの紹介](https://speakerdeck.com/legalontechnologies/deim2023-introduction-to-vibrato-fast-morphological-analyzer) - LegalOn Technologies, Inc（2023-03）
+- [トライとダブル配列の基礎](https://speakerdeck.com/kampersanda/toraitodaburupei-lie-falseji-chu) - Shunsuke Kanda（2022-08）
+- [\[DEIM2022\] 高速な単語分割器VaporettoとパターンマッチングマシンDaachorseの紹介](https://speakerdeck.com/legalontechnologies/deim2022-gao-su-nadan-yu-fen-ge-qi-vaporettotopatanmatutingumasindaachorsefalseshao-jie) - LegalOn Technologies, Inc（2022-03）
+- [オープンソースとしての形態素解析器Sudachi / WAP NLP Tech Talk #4](https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4) - Sorami Shiromizu（2021-11）
+- [検索エンジン自作入門](https://speakerdeck.com/omasanori/jian-suo-enzinzi-zuo-ru-men) - Masanori Ogino（2021-09）
+- [日本語形態素解析器 SudachiPy の 現状と今後について](https://speakerdeck.com/waptech/ri-ben-yu-xing-tai-su-jie-xi-qi-sudachipy-false-xian-zhuang-tojin-hou-nituite) - WAP（2021-07）
+- [検索エンジン自作入門 Go Conference 2021 Spring](https://speakerdeck.com/kotaroooo0/jian-suo-enzinzi-zuo-ru-men-go-conference-2021-spring) - kotaroooo0（2021-04）
+- [Sudachi辞書のつくり方](https://speakerdeck.com/waptech/sudachici-shu-falsetukurifang) - WAP（2020-12）
+- [Lucene Kuromoji のコードを読む会 （辞書ビルダー編）](https://speakerdeck.com/mocobeta/lucene-kuromoji-nokodowodu-muhui-ci-shu-birudabian) - Tomoko Uchida（2019-10）
+- [Fast Succinct Trie](https://speakerdeck.com/kampersanda/fast-succinct-trie) - Shunsuke Kanda（2019-08）
+- [犬でもわかる Minimal Acyclic Subsequential Transducer / Introduction to Minimal Acyclic Subsequential Transducer](https://speakerdeck.com/takuyaa/introduction-to-minimal-acyclic-subsequential-transducer) - Takuya Asano（2019-06）
+- [形態素解析器をフルスクラッチで作る話](https://speakerdeck.com/namachan10777/xing-tai-su-jie-xi-qi-wohurusukuratutidezuo-ruhua) - Nakano Masaki（2019-05）
+- [Javaでつくる本格形態素解析器](https://www.slideshare.net/WorksApplications/java-82794239) - Works Applications（2017-11）
+- [Pythonで作って学ぶ形態素解析](https://speakerdeck.com/mocobeta/pythondezuo-tutexue-buxing-tai-su-jie-xi) - Tomoko Uchida（2015-10）
+- [1binary 自己完結型の 形態素解析器 kagome を 作ってみた話](https://speakerdeck.com/ikawaha/1binary-zi-ji-wan-jie-xing-false-xing-tai-su-jie-xi-qi-kagome-wo-zuo-tutemitahua) - ikawaha（2015-06）
 
 ## 日語文本的正規化・寫法差異
 
@@ -162,6 +176,7 @@
 - [POI検索システムにおける 誤字・脱字との戦い](https://speakerdeck.com/tstomoki/poijian-suo-sisutemuniokeru-wu-zi-tuo-zi-tonozhan-i) - Tomoki Saito（2025-11）
 - [Rustの住所正規化ライブラリをPythonから触る / PythonFukuoka\_Session\_2](https://speakerdeck.com/sansan_randd/pythonfukuoka-session-2) - Sansan R&D（2025-09）
 - [Tech Kitchen #31 - グローバル版でMeCab辞書も管理したい](https://speakerdeck.com/ksh/tech-kitchen-number-31-gurobaruban-demecabci-shu-moguan-li-sitai) - k-ush（2025-04）
+- [textlintを使った表記揺れチェック ことはじめ](https://speakerdeck.com/chickp/textlintwoshi-tutabiao-ji-yao-retietuku-kotohazime) - piyo（2024-09）
 - [Lucene/Elasticsearch の Character Filter でユニコード正規化するとトークンのオフセットがズレるバグへの Workaround - Search Engineering Tech Talk 2024 Spring](https://speakerdeck.com/kampersanda/elasticsearch-no-character-filter-deyunikodozheng-gui-hua-surutotokunnoohusetutogazurerubaguheno-workaround-search-engineering-tech-talk-2024-spring) - Shunsuke Kanda（2024-05）
 - [文字列正規化パタンの獲得と崩れ表記正規化に基づく日本語形態素解析](https://speakerdeck.com/atsumikan/wen-zi-lie-zheng-gui-hua-patanfalsehuo-de-tobeng-rebiao-ji-zheng-gui-hua-niji-dukuri-ben-yu-xing-tai-su-jie-xi) - Atsushi（2018-04）
 - [日本語の表記ゆれ 解決方法の検討と実装](https://speakerdeck.com/takahiko03/ri-ben-yu-falsebiao-ji-yure-jie-jue-fang-fa-falsejian-tao-toshi-zhuang) - Takahiko Ito（2017-11）
@@ -384,14 +399,10 @@ BERT 之後的預訓練模型，以及 Transformer 的解說資料。
 把文件與留言歸入標籤的分類任務，以及內容審核等實務應用。
 
 - [LLMを用いた擬似ラベルデータセットによる記事分類タスクの精度改善/yans2025](https://speakerdeck.com/nikkei_engineer_recruiting/yans2025) - 日本経済新聞社 エンジニア採用事務局（2025-10）
-- [OPENREC.tv におけるLLMを活用した監視効率化](https://speakerdeck.com/clom/openrec-dot-tv-niokerullmwohuo-yong-sitajian-shi-xiao-lu-hua) - Kento Nomiyama（2024-10）
-- [ChatGPTを活用した悪意のあるコメント抽出AI開発の可能性](https://www.docswell.com/s/KunihiroSugiyama/524D39-2024-04-16-110104) - Kunihiro Sugiyama（2024-04）
 - [gpt-3.5-turboのFine-tuningによる分類タスク改善の試み](https://speakerdeck.com/nyosu/gpt-3-dot-5-turbonofine-tuningniyorufen-lei-tasukugai-shan-noshi-mi-527dddc7-3c18-4c10-9842-de4c312886a1) - Nyosu（2023-08）
 - [NLP2023 分類タスクにおける不確実性の高い文章の傾向調査](https://speakerdeck.com/masatoto/nlp2023-fen-lei-tasukuniokerubu-que-shi-xing-nogao-iwen-zhang-noqing-xiang-diao-cha) - masatoto（2023-03）
-- [Pocochaにおける規約違反検知のための機械学習の活用【DeNA TechCon 2021 Autumn】/techcon2021autumn-08](https://speakerdeck.com/dena_tech/techcon2021autumn-08) - DeNA_Tech（2021-09）
 - [【Ltech#15】Well-beingを測る「LIFE WILL」開発の舞台裏](https://www.docswell.com/s/LIFULL/ZY9YPK-Well-being%E3%82%92%E6%B8%AC%E3%82%8B%E3%80%8CLIFEWILL%E3%80%8D%E9%96%8B%E7%99%BA%E3%81%AE%E8%88%9E%E5%8F%B0%E8%A3%8F) - 株式会社LIFULL（2021-03）
 - [感情分析に使う極性辞書を生成してみる](https://speakerdeck.com/kanto/gan-qing-fen-xi-nishi-uji-xing-ci-shu-wosheng-cheng-sitemiru) - g-k（2020-06）
-- [Neural Architecture Searchを用いて出品違反検知モデリングを高速化したお話](https://speakerdeck.com/dkumazaw/neural-architecture-searchwoyong-itechu-pin-wei-fan-jian-zhi-moderinguwogao-su-hua-sitaohua) - Daiki Kumazawa（2019-05）
 - [MeCabとKerasを使ったテキスト分類](https://speakerdeck.com/itagakim/mecabtokeraswoshi-tutatekisutofen-lei) - masa-ita（2019-02）
 - [要望分析のための投稿テキストのカテゴリ分類支援 / Assisting Text Classification for Request Post Analysis](https://speakerdeck.com/sansandsoc/assisting-text-classification-for-request-post-analysis) - Sansan DSOC（2019-02）
 - [複数言語複数タスクを扱う発話意図推定モデリングのための敵対的学習の検討](https://speakerdeck.com/ryomasumura/fu-shu-yan-yu-fu-shu-tasukuwoxi-ufa-hua-yi-tu-tui-ding-moderingufalsetamefalsedi-dui-de-xue-xi-falsejian-tao) - Ryo Masumura（2018-12）
@@ -401,6 +412,29 @@ BERT 之後的預訓練模型，以及 Transformer 的解說資料。
 - [ニューラルネットワークでニュース記事を自動分類してみた](https://speakerdeck.com/tsurubee/niyurarunetutowakuteniyusuji-shi-wozi-dong-fen-lei-sitemita) - tsurubee（2017-01）
 - [Pythonで動かして学ぶ機械学習入門第二回 評判分析](https://speakerdeck.com/diracdiego/pythondedong-kasitexue-buji-jie-xue-xi-ru-men-di-er-hui-ping-pan-fen-xi) - yoppe（2016-09）
 - [CNNによるテキスト分類](https://speakerdeck.com/tkengo/cnnniyorutekisutofen-lei) - けんご（2016-03）
+
+## 垃圾訊息・有害內容治理
+
+找出並清除垃圾投稿、違規內容與不實資訊的技術，以及平台維運的做法。
+
+- [コンテンツモデレーションにおける適切な監査範囲の考察](https://speakerdeck.com/gree_tech/kontentumoderesiyonniokerushi-qie-najian-cha-fan-wei-nokao-cha) - gree_tech（2025-10）
+- [掲示板への不適切な投稿を防ぐ](https://speakerdeck.com/shu_kita/jie-shi-ban-henobu-shi-qie-natou-gao-wofang-gu) - 北村（2025-08）
+- [サイバー空間におけるフェイクニュースの広がりとその対策](https://speakerdeck.com/hkefka385/saibakong-jian-niokeruhueikuniyusunoguang-garitosonodui-ce) - taichi_murayama（2025-01）
+- [Orion: コンテンツモデレーションの現在と未来 / content-moderation-ai](https://speakerdeck.com/cyberagentdevelopers/content-moderation-ai) - CyberAgent（2024-10）
+- [OPENREC.tv におけるLLMを活用した監視効率化](https://speakerdeck.com/clom/openrec-dot-tv-niokerullmwohuo-yong-sitajian-shi-xiao-lu-hua) - Kento Nomiyama（2024-10）
+- [コンテンツモデレーション入門の入門](https://speakerdeck.com/yyo616/kontentumoderesiyonru-men-noru-men) - yudai yamamoto（2024-09）
+- [Zennへのスパム投稿が急増したのでLLMでなんとかした話](https://speakerdeck.com/dyoshikawa1993/zennhenosupamutou-gao-gaji-zeng-sitanodellmdenantokasitahua) - dyoshikawa（2024-09）
+- [ChatGPTを活用した悪意のあるコメント抽出AI開発の可能性](https://www.docswell.com/s/KunihiroSugiyama/524D39-2024-04-16-110104) - Kunihiro Sugiyama（2024-04）
+- [神アプデ？Amazon Comprehendで 生成系AIの毒性検出に挑戦！](https://speakerdeck.com/champ/shen-apude-amazon-comprehendde-sheng-cheng-xi-ainodu-xing-jian-chu-nitiao-zhan) - Champ（2023-11）
+- [ソーシャルメディアにおけるフェイクニュース検出と対策](https://speakerdeck.com/hkefka385/sosiyarumedeianiokeruhueikuniyusujian-chu-todui-ce) - taichi_murayama（2022-08）
+- [Pocochaにおける規約違反検知のための機械学習の活用【DeNA TechCon 2021 Autumn】/techcon2021autumn-08](https://speakerdeck.com/dena_tech/techcon2021autumn-08) - DeNA_Tech（2021-09）
+- [DEIM2021 Twitterにおけるフェイクニュース拡散モデルの提案](https://speakerdeck.com/hkefka385/deim2021-twitterniokeruhueikuniyusukuo-san-moderufalseti-an) - taichi_murayama（2021-03）
+- [Neural Architecture Searchを用いて出品違反検知モデリングを高速化したお話](https://speakerdeck.com/dkumazaw/neural-architecture-searchwoyong-itechu-pin-wei-fan-jian-zhi-moderinguwogao-su-hua-sitaohua) - Daiki Kumazawa（2019-05）
+- [「不適切コンテンツ検出」 の機械化と安定運用 / Automating "unsafe content detection" with Amazon SageMaker](https://speakerdeck.com/yaiwase/automating-unsafe-content-detection-with-amazon-sagemaker) - Yasuhiko IWASE（2019-04）
+- [最近のヤフオク!におけるAbuser対策](https://www.docswell.com/s/ydnjp/5QJJYK-2019-03-28-021910) - Yahoo!デベロッパーネットワーク（2019-03）
+- [Yahoo! JAPANの不正投稿対策 #yjmu](https://www.docswell.com/s/ydnjp/5RJ9RZ-2018-11-21-121800) - Yahoo!デベロッパーネットワーク（2018-11）
+- [#devsumi 自然言語処理・機械学習によるファクトチェック業務の支援](https://speakerdeck.com/komiya_atsushi/number-devsumi-zi-ran-yan-yu-chu-li-ji-jie-xue-xi-niyoruhuakutotietukuye-wu-falsezhi-yuan) - KOMIYA Atsushi（2018-02）
+- [「Abuse対策を10年続けた結果」#yjdsw4](https://www.docswell.com/s/ydnjp/KMRJJZ-2016-04-15%20-135923) - Yahoo!デベロッパーネットワーク（2016-04）
 
 ## 資訊抽取・命名實體・標註
 
@@ -577,6 +611,7 @@ BERT 之後的預訓練模型，以及 Transformer 的解說資料。
 - [日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization](https://speakerdeck.com/upura/t5-news-summarization) - Shotaro Ishihara（2025-03）
 - [NLP2025 WS Shared Task 文法誤り訂正部門 ehiMetrick](https://speakerdeck.com/sugiyamaseiji/nlp2025-ws-shared-task-wen-fa-wu-riding-zheng-bu-men-ehimetrick) - 杉山誠治（Sugiyama Seiji）（2025-03）
 - [ABEMA NEWSにおける映像データを活用した記事生成AI 〜記事制作者に寄り添ったソリューションにするまで〜](https://speakerdeck.com/cyberagentdevelopers/abema-newsniokeruying-xiang-detawohuo-yong-sitaji-shi-sheng-cheng-ai-ji-shi-zhi-zuo-zhe-niji-ritian-tutasoriyusiyonnisurumade) - CyberAgent（2024-11）
+- [textlintで日本語をまともに(Neovim/VS Code)](https://speakerdeck.com/matoken/vs-code) - Kenichiro MATOHARA（2024-09）
 - [大規模言語モデルを用いた意味分析による辞書記述への応用](https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderuwoyong-itayi-wei-fen-xi-niyoruci-shu-ji-shu-henoying-yong) - Yasuhiro Kondo（2023-11）
 - [LLMによる日本語ニュース記事の平易化 / Japanese News Articles Simplification via Large Language Models](https://speakerdeck.com/asahimrdc/japanese-news-articles-simplification-via-large-language-models) - Media R&D Center, The Asahi Shimbun（2023-04）
 - [実践：日本語文章生成 Transformers ライブラリで学ぶ実装の守破離 / Introduction of Japanese Text Generation with Transformers](https://speakerdeck.com/upura/introduction-of-japanese-text-generation-with-transformers) - Shotaro Ishihara（2022-10）
@@ -584,6 +619,8 @@ BERT 之後的預訓練模型，以及 Transformer 的解說資料。
 - [日本語文法誤り訂正における事前学習済みモデルを用いたデータ増強](https://speakerdeck.com/hideyoshikato/ri-ben-yu-wen-fa-wu-riding-zheng-niokerushi-qian-xue-xi-ji-mimoderuwoyong-itadetazeng-qiang) - hideyoshikato（2021-03）
 - [日本語文法誤り訂正における誤り傾向を考慮した擬似誤り生成](https://speakerdeck.com/youichiro/ri-ben-yu-wen-fa-wu-riding-zheng-niokeruwu-riqing-xiang-wokao-lu-sitani-si-wu-risheng-cheng) - youichiro（2020-06）
 - [文献紹介：正誤情報と文法誤りパターンを考慮した単語分散表現を用いた文法誤り検出](https://speakerdeck.com/a1da4/wen-xian-shao-jie-zheng-wu-qing-bao-towen-fa-wu-ripatanwokao-lu-sitadan-yu-fen-san-biao-xian-woyong-itawen-fa-wu-rijian-chu) - Taichi Aida（2019-01）
+- [キミは「TextLint」を知っているか #jsfes](https://speakerdeck.com/potato4d/kimiha-textlint-wozhi-tuteiruka-number-jsfes) - potato4d(Takuma HANATANI)（2017-05）
+- [日付曜日矛盾](https://speakerdeck.com/shirayu/ri-fu-yao-ri-mao-dun) - Yuta Hayashibe（2016-12）
 - [日本語の語彙平易化システムおよび評価セットの構築](https://www.slideshare.net/moguranosenshi/ss-47551205) - Tomoyuki Kajiwara（2015-04）
 
 ## 可解釋性・分析・語言學觀點
@@ -632,7 +669,7 @@ BERT 之後的預訓練模型，以及 Transformer 的解說資料。
 - [自然言語処理の基礎と応用 〜 料理と医療を題材として 〜 /JADI2021](https://speakerdeck.com/junharashima/jadi2021) - j.harashima（2021-09）
 - [企業で3年間言語処理と働いて思ったこと #NLP2021 #NLP2021WS4](https://www.docswell.com/s/ydnjp/Z1M3RK-2021-03-24-155120) - Yahoo!デベロッパーネットワーク（2021-03）
 - [【Ltech#11】住まい探しにおける対話AIの自然言語解析技術](https://www.docswell.com/s/LIFULL/KPLVGZ-%E4%BD%8F%E3%81%BE%E3%81%84%E6%8E%A2%E3%81%97%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%AF%BE%E8%A9%B1AI%E3%81%AE%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E8%A7%A3%E6%9E%90%E6%8A%80%E8%A1%93) - 株式会社LIFULL（2020-10）
-- [#devsumi 自然言語処理・機械学習によるファクトチェック業務の支援](https://speakerdeck.com/komiya_atsushi/number-devsumi-zi-ran-yan-yu-chu-li-ji-jie-xue-xi-niyoruhuakutotietukuye-wu-falsezhi-yuan) - KOMIYA Atsushi（2018-02）
+- [自然言語処理 @ クックパッド / nlp at cookpad](https://speakerdeck.com/himkt/nlp-at-cookpad) - himkt（2019-07）
 - [リクルート式 自然言語処理技術の適応事例紹介](https://www.slideshare.net/recruitcojp/ss-66242894) - Recruit Technologies（2016-09）
 - [企業における自然言語処理技術の活用の現場（情報処理学会東海支部主催講演会@名古屋大学）](https://www.slideshare.net/unnonouno/20141022-ipsj-tokai) - Yuya Unno（2014-10）
 

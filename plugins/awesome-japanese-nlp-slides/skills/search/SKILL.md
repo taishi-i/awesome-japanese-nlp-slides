@@ -64,8 +64,8 @@ So build a keyword list that contains **both Japanese and English** terms — do
 **Keywords are always Japanese and English, whatever language the query is in.** A Chinese query has to
 be translated into the Japanese term before it can match anything: 预训练 → `事前学習`, 词向量 → `分散表現`,
 问答 → `質問応答`, 语音识别 → `音声認識`, 检索增强生成 → `RAG`/`検索`. Never put a Chinese character form in
-the keyword list: `形态素` matches nothing where `形態素` matches 27 decks, and neither `检索` nor `檢索`
-matches anything against the 52 decks holding `検索`. Traditional forms occasionally coincide with the
+the keyword list: `形态素` matches nothing where `形態素` matches 24 decks, and neither `检索` nor `檢索`
+matches anything against the 54 decks holding `検索`. Traditional forms occasionally coincide with the
 Japanese spelling — translate rather than bet on the coincidence.
 
 **Keyword rules:**
@@ -76,6 +76,7 @@ Japanese spelling — translate rather than bet on the coincidence.
 | Domain | Japanese keywords | English / tool names to add |
 |---|---|---|
 | 形態素解析・構文解析 | `形態素`, `係り受け`, `構文解析`, `解析器` | `morpholog`, `mecab`, `sudachi`, `juman`, `vibrato`, `kwja`, `ginza` |
+| NLP ライブラリ・ツール開発 | `ライブラリ`, `実装`, `自作`, `高速化`, `辞書`, `トライ` | `library`, `oss`, `rust`, `vibrato`, `vaporetto`, `kagome`, `trie` |
 | 分散表現・埋め込み | `分散表現`, `埋め込み`, `単語ベクトル` | `embed`, `vector`, `word2vec`, `chive`, `sbert` |
 | 事前学習モデル・Transformer | `事前学習`, `言語モデル` | `bert`, `transformer`, `gpt`, `pretrain`, `huggingface` |
 | LLM 開発・事前学習 | `事前学習`, `コーパス`, `構築`, `開発` | `llm`, `swallow`, `llm-jp`, `sarashina`, `plamo` |
@@ -91,6 +92,7 @@ Japanese spelling — translate rather than bet on the coincidence.
 | 質問応答・知識 | `質問応答`, `知識` | `qa`, `question`, `knowledge` |
 | 機械翻訳 | `翻訳`, `同時通訳` | `translat`, `nmt`, `mt` |
 | テキスト分類・感情分析 | `分類`, `感情`, `評判`, `極性`, `検知` | `classif`, `sentiment`, `polarity`, `moderation`, `fasttext` |
+| スパム・有害コンテンツ対策 | `スパム`, `有害`, `不適切`, `違反`, `監視`, `フェイク` | `spam`, `abuse`, `moderation`, `toxic`, `fake` |
 | マルチモーダル・V&L | `マルチモーダル`, `画像`, `視覚`, `文書画像` | `vlm`, `vision`, `multimodal`, `vqa`, `clip` |
 | 音声認識・音声処理 | `音声`, `音声認識`, `文字起こし`, `音声合成` | `speech`, `asr`, `tts`, `whisper`, `espnet` |
 | 対話システム・音声対話 | `対話`, `音声対話`, `ボイスボット`, `チャットボット` | `dialog`, `spoken`, `voicebot`, `chatbot` |
@@ -99,8 +101,8 @@ Japanese spelling — translate rather than bet on the coincidence.
 | 入門・チュートリアル | `入門`, `基礎`, `チュートリアル`, `講義` | `introduc`, `tutorial`, `lecture`, `basic` |
 | 産業応用・事例 | `事例`, `実務`, `活用`, `導入` | `case`, `industr`, `production` |
 
-**Section filter:** if the query clearly names a category, also note the matching section name so you can prefer it in Step 4. The 26 sections are:
-入門・全体像 / 学会チュートリアル / 大学講義・体系的な講義資料 / 日本語の基礎解析（形態素解析・構文解析） / 日本語テキストの正規化・表記ゆれ / 単語・文の分散表現 / 事前学習モデル・Transformer / 大規模言語モデル（概論・動向） / 日本語LLMの開発（事前学習・コーパス構築） / ファインチューニング・事後学習 / LLM の推論最適化・サービング / 評価・ベンチマーク / 全文検索・検索基盤 / 検索・RAG / LLM アプリケーション開発・運用 / テキスト分類・感情分析 / 情報抽出・固有表現・アノテーション / 文書処理・OCR / 質問応答・知識 / 機械翻訳 / マルチモーダル・Vision-and-Language / 音声認識・音声処理 / 対話システム・音声対話 / 生成・要約・校正 / 解釈性・分析・言語学的視点 / 産業応用・実務事例
+**Section filter:** if the query clearly names a category, also note the matching section name so you can prefer it in Step 4. The 28 sections are:
+入門・全体像 / 学会チュートリアル / 大学講義・体系的な講義資料 / 日本語の基礎解析（形態素解析・構文解析） / NLP ライブラリ・ツール開発 / 日本語テキストの正規化・表記ゆれ / 単語・文の分散表現 / 事前学習モデル・Transformer / 大規模言語モデル（概論・動向） / 日本語LLMの開発（事前学習・コーパス構築） / ファインチューニング・事後学習 / LLM の推論最適化・サービング / 評価・ベンチマーク / 全文検索・検索基盤 / 検索・RAG / LLM アプリケーション開発・運用 / テキスト分類・感情分析 / スパム・有害コンテンツ対策 / 情報抽出・固有表現・アノテーション / 文書処理・OCR / 質問応答・知識 / 機械翻訳 / マルチモーダル・Vision-and-Language / 音声認識・音声処理 / 対話システム・音声対話 / 生成・要約・校正 / 解釈性・分析・言語学的視点 / 産業応用・実務事例
 
 ### Step 2 — Locate the data file
 

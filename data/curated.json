@@ -67,6 +67,13 @@
     "source": "speakerdeck"
    },
    {
+    "title": "Spacyでお手軽NLP / NLP with spacy",
+    "url": "https://speakerdeck.com/himkt/nlp-with-spacy",
+    "author": "himkt",
+    "date": "2018-06-13",
+    "source": "speakerdeck"
+   },
+   {
     "title": "深層学習による自然言語処理の研究動向",
     "url": "https://www.slideshare.net/stairlab/ss-61806151",
     "author": "STAIR Lab, Chiba Institute of Technology",
@@ -86,6 +93,13 @@
     "author": "Preferred Networks",
     "date": "2014-12-25",
     "source": "slideshare"
+   },
+   {
+    "title": "Java で統計とか機械学習とか自然言語処理とかをやりたい ときに役立つライブラリ達",
+    "url": "https://speakerdeck.com/komiya_atsushi/java-detong-ji-tokaji-jie-xue-xi-tokazi-ran-yan-yu-chu-li-tokawoyaritai-tokiniyi-li-turaiburarida",
+    "author": "KOMIYA Atsushi",
+    "date": "2014-10-24",
+    "source": "speakerdeck"
    }
   ]
  },
@@ -309,31 +323,10 @@
   "blurb": "日本語特有の前処理を担う解析器と辞書に関する資料。",
   "entries": [
    {
-    "title": "日本語のポップアップ辞書アプリに向けて形態素解析システムの設計・実装・運用",
-    "url": "https://speakerdeck.com/noheartpen/i2-b3-ri-ben-yu-nopotupuatupuci-shu-apurinixiang-ketexing-tai-su-jie-xi-sisutemunoshe-ji-shi-zhuang-yun-yong",
-    "author": "John Qing",
-    "date": "2025-04-16",
-    "source": "speakerdeck"
-   },
-   {
     "title": "係り受け解析を用いた法律文書中の略称規定の解析についての報告",
     "url": "https://speakerdeck.com/puripuri2100/xi-rishou-kejie-xi-woyong-itafa-lu-wen-shu-zhong-nolue-cheng-gui-ding-nojie-xi-nituitenobao-gao",
     "author": "puripuri2100",
     "date": "2024-09-14",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "[NLP2023] 最小コスト法に基づく形態素解析におけるCPU キャッシュの効率化",
-    "url": "https://speakerdeck.com/legalontechnologies/nlp2023-vibrato",
-    "author": "LegalOn Technologies, Inc",
-    "date": "2024-05-01",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "[DEIM2023] 高速な形態素解析器Vibratoの紹介",
-    "url": "https://speakerdeck.com/legalontechnologies/deim2023-introduction-to-vibrato-fast-morphological-analyzer",
-    "author": "LegalOn Technologies, Inc",
-    "date": "2023-03-06",
     "source": "speakerdeck"
    },
    {
@@ -358,59 +351,10 @@
     "source": "speakerdeck"
    },
    {
-    "title": "オープンソースとしての形態素解析器Sudachi / WAP NLP Tech Talk #4",
-    "url": "https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4",
-    "author": "Sorami Shiromizu",
-    "date": "2021-11-26",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "日本語形態素解析器 SudachiPy の 現状と今後について",
-    "url": "https://speakerdeck.com/waptech/ri-ben-yu-xing-tai-su-jie-xi-qi-sudachipy-false-xian-zhuang-tojin-hou-nituite",
-    "author": "WAP",
-    "date": "2021-07-06",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "Sudachi辞書のつくり方",
-    "url": "https://speakerdeck.com/waptech/sudachici-shu-falsetukurifang",
-    "author": "WAP",
-    "date": "2020-12-09",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "Lucene Kuromoji のコードを読む会 （辞書ビルダー編）",
-    "url": "https://speakerdeck.com/mocobeta/lucene-kuromoji-nokodowodu-muhui-ci-shu-birudabian",
-    "author": "Tomoko Uchida",
-    "date": "2019-10-03",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "犬でもわかる Minimal Acyclic Subsequential Transducer / Introduction to Minimal Acyclic Subsequential Transducer",
-    "url": "https://speakerdeck.com/takuyaa/introduction-to-minimal-acyclic-subsequential-transducer",
-    "author": "Takuya Asano",
-    "date": "2019-06-27",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "形態素解析器をフルスクラッチで作る話",
-    "url": "https://speakerdeck.com/namachan10777/xing-tai-su-jie-xi-qi-wohurusukuratutidezuo-ruhua",
-    "author": "Nakano Masaki",
-    "date": "2019-05-01",
-    "source": "speakerdeck"
-   },
-   {
     "title": "NLP2019 松田寛 - GiNZA",
     "url": "https://www.slideshare.net/MegagonLabs/nlp2019-ginza-139011245",
     "author": "Megagon Labs",
     "date": "2019-03-13",
-    "source": "slideshare"
-   },
-   {
-    "title": "Javaでつくる本格形態素解析器",
-    "url": "https://www.slideshare.net/WorksApplications/java-82794239",
-    "author": "Works Applications",
-    "date": "2017-11-27",
     "source": "slideshare"
    },
    {
@@ -449,20 +393,6 @@
     "source": "docswell"
    },
    {
-    "title": "Pythonで作って学ぶ形態素解析",
-    "url": "https://speakerdeck.com/mocobeta/pythondezuo-tutexue-buxing-tai-su-jie-xi",
-    "author": "Tomoko Uchida",
-    "date": "2015-10-11",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "1binary 自己完結型の 形態素解析器 kagome を 作ってみた話",
-    "url": "https://speakerdeck.com/ikawaha/1binary-zi-ji-wan-jie-xing-false-xing-tai-su-jie-xi-qi-kagome-wo-zuo-tutemitahua",
-    "author": "ikawaha",
-    "date": "2015-06-21",
-    "source": "speakerdeck"
-   },
-   {
     "title": "形態素解析器 MeCab の新語・固有表現辞書 mecab-ipadic-NEologd のご紹介",
     "url": "https://www.slideshare.net/overlast/mecab-ipadicneologdtokyordf-46497035",
     "author": "Toshinori Sato",
@@ -481,6 +411,131 @@
     "url": "https://speakerdeck.com/unnonouno/tong-ji-de-xi-rishou-kejie-xi-ru-men",
     "author": "Yuya Unno",
     "date": "2010-11-07",
+    "source": "speakerdeck"
+   }
+  ]
+ },
+ {
+  "section": "NLP ライブラリ・ツール開発",
+  "blurb": "形態素解析器や検索エンジンなど、NLP のライブラリをどう実装し、どう保守するか。",
+  "entries": [
+   {
+    "title": "日本語のポップアップ辞書アプリに向けて形態素解析システムの設計・実装・運用",
+    "url": "https://speakerdeck.com/noheartpen/i2-b3-ri-ben-yu-nopotupuatupuci-shu-apurinixiang-ketexing-tai-su-jie-xi-sisutemunoshe-ji-shi-zhuang-yun-yong",
+    "author": "John Qing",
+    "date": "2025-04-16",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "[NLP2023] 最小コスト法に基づく形態素解析におけるCPU キャッシュの効率化",
+    "url": "https://speakerdeck.com/legalontechnologies/nlp2023-vibrato",
+    "author": "LegalOn Technologies, Inc",
+    "date": "2024-05-01",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "[DEIM2023] 高速な形態素解析器Vibratoの紹介",
+    "url": "https://speakerdeck.com/legalontechnologies/deim2023-introduction-to-vibrato-fast-morphological-analyzer",
+    "author": "LegalOn Technologies, Inc",
+    "date": "2023-03-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トライとダブル配列の基礎",
+    "url": "https://speakerdeck.com/kampersanda/toraitodaburupei-lie-falseji-chu",
+    "author": "Shunsuke Kanda",
+    "date": "2022-08-03",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "[DEIM2022] 高速な単語分割器VaporettoとパターンマッチングマシンDaachorseの紹介",
+    "url": "https://speakerdeck.com/legalontechnologies/deim2022-gao-su-nadan-yu-fen-ge-qi-vaporettotopatanmatutingumasindaachorsefalseshao-jie",
+    "author": "LegalOn Technologies, Inc",
+    "date": "2022-03-02",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "オープンソースとしての形態素解析器Sudachi / WAP NLP Tech Talk #4",
+    "url": "https://speakerdeck.com/sorami/wap-nlp-tech-talk-number-4",
+    "author": "Sorami Shiromizu",
+    "date": "2021-11-26",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "検索エンジン自作入門",
+    "url": "https://speakerdeck.com/omasanori/jian-suo-enzinzi-zuo-ru-men",
+    "author": "Masanori Ogino",
+    "date": "2021-09-25",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "日本語形態素解析器 SudachiPy の 現状と今後について",
+    "url": "https://speakerdeck.com/waptech/ri-ben-yu-xing-tai-su-jie-xi-qi-sudachipy-false-xian-zhuang-tojin-hou-nituite",
+    "author": "WAP",
+    "date": "2021-07-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "検索エンジン自作入門 Go Conference 2021 Spring",
+    "url": "https://speakerdeck.com/kotaroooo0/jian-suo-enzinzi-zuo-ru-men-go-conference-2021-spring",
+    "author": "kotaroooo0",
+    "date": "2021-04-24",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Sudachi辞書のつくり方",
+    "url": "https://speakerdeck.com/waptech/sudachici-shu-falsetukurifang",
+    "author": "WAP",
+    "date": "2020-12-09",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Lucene Kuromoji のコードを読む会 （辞書ビルダー編）",
+    "url": "https://speakerdeck.com/mocobeta/lucene-kuromoji-nokodowodu-muhui-ci-shu-birudabian",
+    "author": "Tomoko Uchida",
+    "date": "2019-10-03",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Fast Succinct Trie",
+    "url": "https://speakerdeck.com/kampersanda/fast-succinct-trie",
+    "author": "Shunsuke Kanda",
+    "date": "2019-08-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "犬でもわかる Minimal Acyclic Subsequential Transducer / Introduction to Minimal Acyclic Subsequential Transducer",
+    "url": "https://speakerdeck.com/takuyaa/introduction-to-minimal-acyclic-subsequential-transducer",
+    "author": "Takuya Asano",
+    "date": "2019-06-27",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "形態素解析器をフルスクラッチで作る話",
+    "url": "https://speakerdeck.com/namachan10777/xing-tai-su-jie-xi-qi-wohurusukuratutidezuo-ruhua",
+    "author": "Nakano Masaki",
+    "date": "2019-05-01",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Javaでつくる本格形態素解析器",
+    "url": "https://www.slideshare.net/WorksApplications/java-82794239",
+    "author": "Works Applications",
+    "date": "2017-11-27",
+    "source": "slideshare"
+   },
+   {
+    "title": "Pythonで作って学ぶ形態素解析",
+    "url": "https://speakerdeck.com/mocobeta/pythondezuo-tutexue-buxing-tai-su-jie-xi",
+    "author": "Tomoko Uchida",
+    "date": "2015-10-11",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "1binary 自己完結型の 形態素解析器 kagome を 作ってみた話",
+    "url": "https://speakerdeck.com/ikawaha/1binary-zi-ji-wan-jie-xing-false-xing-tai-su-jie-xi-qi-kagome-wo-zuo-tutemitahua",
+    "author": "ikawaha",
+    "date": "2015-06-21",
     "source": "speakerdeck"
    }
   ]
@@ -508,6 +563,13 @@
     "url": "https://speakerdeck.com/ksh/tech-kitchen-number-31-gurobaruban-demecabci-shu-moguan-li-sitai",
     "author": "k-ush",
     "date": "2025-04-24",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "textlintを使った表記揺れチェック ことはじめ",
+    "url": "https://speakerdeck.com/chickp/textlintwoshi-tutabiao-ji-yao-retietuku-kotohazime",
+    "author": "piyo",
+    "date": "2024-09-12",
     "source": "speakerdeck"
    },
    {
@@ -1746,20 +1808,6 @@
     "source": "speakerdeck"
    },
    {
-    "title": "OPENREC.tv におけるLLMを活用した監視効率化",
-    "url": "https://speakerdeck.com/clom/openrec-dot-tv-niokerullmwohuo-yong-sitajian-shi-xiao-lu-hua",
-    "author": "Kento Nomiyama",
-    "date": "2024-10-24",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "ChatGPTを活用した悪意のあるコメント抽出AI開発の可能性",
-    "url": "https://www.docswell.com/s/KunihiroSugiyama/524D39-2024-04-16-110104",
-    "author": "Kunihiro Sugiyama",
-    "date": "2024-04-16",
-    "source": "docswell"
-   },
-   {
     "title": "gpt-3.5-turboのFine-tuningによる分類タスク改善の試み",
     "url": "https://speakerdeck.com/nyosu/gpt-3-dot-5-turbonofine-tuningniyorufen-lei-tasukugai-shan-noshi-mi-527dddc7-3c18-4c10-9842-de4c312886a1",
     "author": "Nyosu",
@@ -1774,13 +1822,6 @@
     "source": "speakerdeck"
    },
    {
-    "title": "Pocochaにおける規約違反検知のための機械学習の活用【DeNA TechCon 2021 Autumn】/techcon2021autumn-08",
-    "url": "https://speakerdeck.com/dena_tech/techcon2021autumn-08",
-    "author": "DeNA_Tech",
-    "date": "2021-09-29",
-    "source": "speakerdeck"
-   },
-   {
     "title": "【Ltech#15】Well-beingを測る「LIFE WILL」開発の舞台裏",
     "url": "https://www.docswell.com/s/LIFULL/ZY9YPK-Well-being%E3%82%92%E6%B8%AC%E3%82%8B%E3%80%8CLIFEWILL%E3%80%8D%E9%96%8B%E7%99%BA%E3%81%AE%E8%88%9E%E5%8F%B0%E8%A3%8F",
     "author": "株式会社LIFULL",
@@ -1792,13 +1833,6 @@
     "url": "https://speakerdeck.com/kanto/gan-qing-fen-xi-nishi-uji-xing-ci-shu-wosheng-cheng-sitemiru",
     "author": "g-k",
     "date": "2020-06-26",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "Neural Architecture Searchを用いて出品違反検知モデリングを高速化したお話",
-    "url": "https://speakerdeck.com/dkumazaw/neural-architecture-searchwoyong-itechu-pin-wei-fan-jian-zhi-moderinguwogao-su-hua-sitaohua",
-    "author": "Daiki Kumazawa",
-    "date": "2019-05-29",
     "source": "speakerdeck"
    },
    {
@@ -1863,6 +1897,138 @@
     "author": "けんご",
     "date": "2016-03-02",
     "source": "speakerdeck"
+   }
+  ]
+ },
+ {
+  "section": "スパム・有害コンテンツ対策",
+  "blurb": "スパム投稿・違反コンテンツ・偽情報を見つけて取り除く、プラットフォーム運営の技術と体制。",
+  "entries": [
+   {
+    "title": "コンテンツモデレーションにおける適切な監査範囲の考察",
+    "url": "https://speakerdeck.com/gree_tech/kontentumoderesiyonniokerushi-qie-najian-cha-fan-wei-nokao-cha",
+    "author": "gree_tech",
+    "date": "2025-10-17",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "掲示板への不適切な投稿を防ぐ",
+    "url": "https://speakerdeck.com/shu_kita/jie-shi-ban-henobu-shi-qie-natou-gao-wofang-gu",
+    "author": "北村",
+    "date": "2025-08-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "サイバー空間におけるフェイクニュースの広がりとその対策",
+    "url": "https://speakerdeck.com/hkefka385/saibakong-jian-niokeruhueikuniyusunoguang-garitosonodui-ce",
+    "author": "taichi_murayama",
+    "date": "2025-01-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Orion: コンテンツモデレーションの現在と未来 / content-moderation-ai",
+    "url": "https://speakerdeck.com/cyberagentdevelopers/content-moderation-ai",
+    "author": "CyberAgent",
+    "date": "2024-10-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "OPENREC.tv におけるLLMを活用した監視効率化",
+    "url": "https://speakerdeck.com/clom/openrec-dot-tv-niokerullmwohuo-yong-sitajian-shi-xiao-lu-hua",
+    "author": "Kento Nomiyama",
+    "date": "2024-10-24",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "コンテンツモデレーション入門の入門",
+    "url": "https://speakerdeck.com/yyo616/kontentumoderesiyonru-men-noru-men",
+    "author": "yudai yamamoto",
+    "date": "2024-09-26",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Zennへのスパム投稿が急増したのでLLMでなんとかした話",
+    "url": "https://speakerdeck.com/dyoshikawa1993/zennhenosupamutou-gao-gaji-zeng-sitanodellmdenantokasitahua",
+    "author": "dyoshikawa",
+    "date": "2024-09-19",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "ChatGPTを活用した悪意のあるコメント抽出AI開発の可能性",
+    "url": "https://www.docswell.com/s/KunihiroSugiyama/524D39-2024-04-16-110104",
+    "author": "Kunihiro Sugiyama",
+    "date": "2024-04-16",
+    "source": "docswell"
+   },
+   {
+    "title": "神アプデ？Amazon Comprehendで 生成系AIの毒性検出に挑戦！",
+    "url": "https://speakerdeck.com/champ/shen-apude-amazon-comprehendde-sheng-cheng-xi-ainodu-xing-jian-chu-nitiao-zhan",
+    "author": "Champ",
+    "date": "2023-11-21",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "ソーシャルメディアにおけるフェイクニュース検出と対策",
+    "url": "https://speakerdeck.com/hkefka385/sosiyarumedeianiokeruhueikuniyusujian-chu-todui-ce",
+    "author": "taichi_murayama",
+    "date": "2022-08-08",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Pocochaにおける規約違反検知のための機械学習の活用【DeNA TechCon 2021 Autumn】/techcon2021autumn-08",
+    "url": "https://speakerdeck.com/dena_tech/techcon2021autumn-08",
+    "author": "DeNA_Tech",
+    "date": "2021-09-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "DEIM2021 Twitterにおけるフェイクニュース拡散モデルの提案",
+    "url": "https://speakerdeck.com/hkefka385/deim2021-twitterniokeruhueikuniyusukuo-san-moderufalseti-an",
+    "author": "taichi_murayama",
+    "date": "2021-03-01",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Neural Architecture Searchを用いて出品違反検知モデリングを高速化したお話",
+    "url": "https://speakerdeck.com/dkumazaw/neural-architecture-searchwoyong-itechu-pin-wei-fan-jian-zhi-moderinguwogao-su-hua-sitaohua",
+    "author": "Daiki Kumazawa",
+    "date": "2019-05-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "「不適切コンテンツ検出」 の機械化と安定運用 / Automating \"unsafe content detection\" with Amazon SageMaker",
+    "url": "https://speakerdeck.com/yaiwase/automating-unsafe-content-detection-with-amazon-sagemaker",
+    "author": "Yasuhiko IWASE",
+    "date": "2019-04-17",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "最近のヤフオク!におけるAbuser対策",
+    "url": "https://www.docswell.com/s/ydnjp/5QJJYK-2019-03-28-021910",
+    "author": "Yahoo!デベロッパーネットワーク",
+    "date": "2019-03-28",
+    "source": "docswell"
+   },
+   {
+    "title": "Yahoo! JAPANの不正投稿対策　#yjmu",
+    "url": "https://www.docswell.com/s/ydnjp/5RJ9RZ-2018-11-21-121800",
+    "author": "Yahoo!デベロッパーネットワーク",
+    "date": "2018-11-21",
+    "source": "docswell"
+   },
+   {
+    "title": "#devsumi 自然言語処理・機械学習によるファクトチェック業務の支援",
+    "url": "https://speakerdeck.com/komiya_atsushi/number-devsumi-zi-ran-yan-yu-chu-li-ji-jie-xue-xi-niyoruhuakutotietukuye-wu-falsezhi-yuan",
+    "author": "KOMIYA Atsushi",
+    "date": "2018-02-19",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "「Abuse対策を10年続けた結果」#yjdsw4",
+    "url": "https://www.docswell.com/s/ydnjp/KMRJJZ-2016-04-15%20-135923",
+    "author": "Yahoo!デベロッパーネットワーク",
+    "date": "2016-04-15",
+    "source": "docswell"
    }
   ]
  },
@@ -2865,6 +3031,13 @@
     "source": "speakerdeck"
    },
    {
+    "title": "textlintで日本語をまともに(Neovim/VS Code)",
+    "url": "https://speakerdeck.com/matoken/vs-code",
+    "author": "Kenichiro MATOHARA",
+    "date": "2024-09-22",
+    "source": "speakerdeck"
+   },
+   {
     "title": "大規模言語モデルを用いた意味分析による辞書記述への応用",
     "url": "https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderuwoyong-itayi-wei-fen-xi-niyoruci-shu-ji-shu-henoying-yong",
     "author": "Yasuhiro Kondo",
@@ -2911,6 +3084,20 @@
     "url": "https://speakerdeck.com/a1da4/wen-xian-shao-jie-zheng-wu-qing-bao-towen-fa-wu-ripatanwokao-lu-sitadan-yu-fen-san-biao-xian-woyong-itawen-fa-wu-rijian-chu",
     "author": "Taichi Aida",
     "date": "2019-01-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "キミは「TextLint」を知っているか #jsfes",
+    "url": "https://speakerdeck.com/potato4d/kimiha-textlint-wozhi-tuteiruka-number-jsfes",
+    "author": "potato4d(Takuma HANATANI)",
+    "date": "2017-05-28",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "日付曜日矛盾",
+    "url": "https://speakerdeck.com/shirayu/ri-fu-yao-ri-mao-dun",
+    "author": "Yuta Hayashibe",
+    "date": "2016-12-29",
     "source": "speakerdeck"
    },
    {
@@ -3192,10 +3379,10 @@
     "source": "docswell"
    },
    {
-    "title": "#devsumi 自然言語処理・機械学習によるファクトチェック業務の支援",
-    "url": "https://speakerdeck.com/komiya_atsushi/number-devsumi-zi-ran-yan-yu-chu-li-ji-jie-xue-xi-niyoruhuakutotietukuye-wu-falsezhi-yuan",
-    "author": "KOMIYA Atsushi",
-    "date": "2018-02-19",
+    "title": "自然言語処理 @ クックパッド / nlp at cookpad",
+    "url": "https://speakerdeck.com/himkt/nlp-at-cookpad",
+    "author": "himkt",
+    "date": "2019-07-07",
     "source": "speakerdeck"
    },
    {

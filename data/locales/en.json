@@ -44,6 +44,10 @@
    "section": "Japanese Text Analysis (Morphological & Syntactic)",
    "blurb": "Analyzers and dictionaries that handle preprocessing specific to Japanese."
   },
+  "NLP ライブラリ・ツール開発": {
+   "section": "NLP Library & Tool Development",
+   "blurb": "How the analyzers, search engines and other NLP libraries are implemented and maintained."
+  },
   "日本語テキストの正規化・表記ゆれ": {
    "section": "Japanese Text Normalization & Spelling Variants",
    "blurb": "Practical know-how for taming width, variant characters, addresses, and other Japanese spelling variation."
@@ -91,6 +95,10 @@
   "テキスト分類・感情分析": {
    "section": "Text Classification & Sentiment Analysis",
    "blurb": "Sorting documents and comments into labels, and putting classifiers to work on tasks such as content moderation."
+  },
+  "スパム・有害コンテンツ対策": {
+   "section": "Spam & Harmful Content Countermeasures",
+   "blurb": "Finding and removing spam, policy-violating posts and misinformation, and the operations behind it."
   },
   "情報抽出・固有表現・アノテーション": {
    "section": "Information Extraction, NER & Annotation",
