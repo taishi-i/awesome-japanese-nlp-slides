@@ -52,6 +52,10 @@
    "section": "Japanese Text Normalization & Spelling Variants",
    "blurb": "Practical know-how for taming width, variant characters, addresses, and other Japanese spelling variation."
   },
+  "辞書・かな漢字変換・日本語入力": {
+   "section": "Dictionaries, Kana-Kanji Conversion & Japanese Input (IME)",
+   "blurb": "Building kana-kanji conversion engines and IMEs, and the dictionaries and lexical resources they rest on."
+  },
   "単語・文の分散表現": {
    "section": "Word & Sentence Embeddings",
    "blurb": "Word vectors, sentence embeddings, and the properties of embedding spaces."
@@ -92,6 +96,14 @@
    "section": "LLM Application Development & Operations",
    "blurb": "Shipping LLMs inside real products and keeping them running."
   },
+  "AI エージェント・MCP": {
+   "section": "AI Agents & MCP",
+   "blurb": "Designing, evaluating and operating LLM agents that use tools, and wiring those tools up through MCP."
+  },
+  "LLM の安全性・セキュリティ": {
+   "section": "LLM Safety & Security",
+   "blurb": "Attacks such as prompt injection and the defenses against them, guardrails, and the technical side of AI safety."
+  },
   "テキスト分類・感情分析": {
    "section": "Text Classification & Sentiment Analysis",
    "blurb": "Sorting documents and comments into labels, and putting classifiers to work on tasks such as content moderation."
@@ -99,6 +111,10 @@
   "スパム・有害コンテンツ対策": {
    "section": "Spam & Harmful Content Countermeasures",
    "blurb": "Finding and removing spam, policy-violating posts and misinformation, and the operations behind it."
+  },
+  "テキストマイニング・トピックモデル": {
+   "section": "Text Mining & Topic Models",
+   "blurb": "Reading free-text survey and review data quantitatively, and uncovering its latent structure with topic models."
   },
   "情報抽出・固有表現・アノテーション": {
    "section": "Information Extraction, NER & Annotation",

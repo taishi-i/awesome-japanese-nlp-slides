@@ -603,6 +603,166 @@
   ]
  },
  {
+  "section": "辞書・かな漢字変換・日本語入力",
+  "blurb": "かな漢字変換エンジンや IME の実装と、その土台になる辞書・語彙資源の構築。",
+  "entries": [
+   {
+    "title": "「ニューラルかな漢字変換」の 社会実装",
+    "url": "https://speakerdeck.com/miwa_keita/niyurarukanahan-zi-bian-huan-no-she-hui-shi-zhuang",
+    "author": "Keita Miwa",
+    "date": "2026-05-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "The Quirky Adventures of Typing and Displaying Japanese on Ubuntu & GNOME",
+    "url": "https://www.docswell.com/s/mtyshibata/KG2DY4-gnome-asia-2025",
+    "author": "Mitsuya Shibata",
+    "date": "2025-12-13",
+    "source": "docswell"
+   },
+   {
+    "title": "LLM時代のかな漢字変換のつくりかた",
+    "url": "https://speakerdeck.com/hashimom/llmshi-dai-nokanahan-zi-bian-huan-notukurikata",
+    "author": "Masahiko Hashimoto",
+    "date": "2024-09-27",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "DenoでIMEユーザー辞書を統一的に出力するツールを作った",
+    "url": "https://www.docswell.com/s/windchime-yk/K382Q1-introduce-bid",
+    "author": "WhyK",
+    "date": "2024-05-15",
+    "source": "docswell"
+   },
+   {
+    "title": "IME in Vim",
+    "url": "https://speakerdeck.com/uga_rosa/ime-in-vim",
+    "author": "NAKAI Tsuyoshi",
+    "date": "2024-04-04",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "iOSのKeyboard Extensionで日本語入力できるキーボードアプリを作ろう！ - iOSDC2023",
+    "url": "https://speakerdeck.com/miwa_keita/iosnokeyboard-extensionderi-ben-yu-ru-li-dekirukibodoapuriwozuo-rou-iosdc2023",
+    "author": "Keita Miwa",
+    "date": "2023-09-03",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "日本語入力を再考する",
+    "url": "https://speakerdeck.com/knu/ri-ben-yu-ru-li-wozai-kao-suru",
+    "author": "Akinori MUSHA",
+    "date": "2022-12-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "たまには日本語入力 Mozc の話でもしようか ― 新機能の紹介とコードコミットができないプロジェクトとの関わり方",
+    "url": "https://speakerdeck.com/ftake/tamanihari-ben-yu-ru-li-mozc-falsehua-demosiyouka-xin-ji-neng-falseshao-jie-tokodokomitutogadekinaipuroziekutotofalseguan-warifang",
+    "author": "Fuminobu TAKEYAMA",
+    "date": "2022-05-28",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "日本語入力とわたし 〜T-Codeの紹介〜",
+    "url": "https://speakerdeck.com/tamacjp/ri-ben-yu-ru-li-towatasi-t-codefalseshao-jie",
+    "author": "tama",
+    "date": "2020-07-25",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "SKKのススメ",
+    "url": "https://speakerdeck.com/t0kyh/skkfalsesusume",
+    "author": "t0kyh",
+    "date": "2019-11-19",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "▽SKKで日本語入力▼ / SKK Input Method",
+    "url": "https://speakerdeck.com/kmc_jp/skk-input-method",
+    "author": "KMC_JP",
+    "date": "2019-06-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "中山道 - 新しいオープンソースかな漢字変換エンジンを目指して",
+    "url": "https://speakerdeck.com/yoriyukiprf/zhong-shan-dao-xin-siiopunsosukanahan-zi-bian-huan-enzinwomu-zhi-site",
+    "author": "Yoriyuki Yamagata",
+    "date": "2018-05-28",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "日本語入力の落とし穴",
+    "url": "https://speakerdeck.com/mzp/ri-ben-yu-ru-li-falseluo-tosixue",
+    "author": "mzp",
+    "date": "2018-02-03",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "かな漢字変換ソフト「Genji」をつくってみた",
+    "url": "https://www.slideshare.net/hashimom/genji",
+    "author": "Masahiko Hashimoto",
+    "date": "2016-11-12",
+    "source": "slideshare"
+   },
+   {
+    "title": "日本語入力とLisp",
+    "url": "https://speakerdeck.com/mzp/ri-ben-yu-ru-li-tolisp",
+    "author": "mzp",
+    "date": "2016-04-19",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "ホットな日本語技術の（ちょっとした）お勉強。",
+    "url": "https://www.slideshare.net/hashimom/ss-52442766",
+    "author": "Masahiko Hashimoto",
+    "date": "2015-09-05",
+    "source": "slideshare"
+   },
+   {
+    "title": "Modeless Japanese Input Method",
+    "url": "https://www.docswell.com/s/yukinoi/ZW1DYX-modeless-japanese-input",
+    "author": "Yukino Ikegami",
+    "date": "2015-06-16",
+    "source": "docswell"
+   },
+   {
+    "title": "B3勉強会(2015年1月21日)日本語入力システムの歩み",
+    "url": "https://speakerdeck.com/mikamiy/b3mian-qiang-hui-2015nian-1yue-21ri-ri-ben-yu-ru-li-sisutemufalsebu-mi",
+    "author": "MIKAMI-YUKI",
+    "date": "2015-01-20",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "用言等換言辞書の構築",
+    "url": "https://speakerdeck.com/jnlp/yong-yan-deng-huan-yan-ci-shu-falsegou-zhu",
+    "author": "自然言語処理研究室",
+    "date": "2013-03-31",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "形状性用言辞書の作成",
+    "url": "https://speakerdeck.com/jnlp/xing-zhuang-xing-yong-yan-ci-shu-falsezuo-cheng",
+    "author": "自然言語処理研究室",
+    "date": "2011-03-31",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "公的文書に対する「やさしい日本語」換言辞書作成のための調査",
+    "url": "https://speakerdeck.com/jnlp/gong-de-wen-shu-nidui-suru-yasasiiri-ben-yu-huan-yan-ci-shu-zuo-cheng-falsetamefalsediao-cha",
+    "author": "自然言語処理研究室",
+    "date": "2011-03-31",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "日本語かな漢字変換における識別モデルの適用とその考察",
+    "url": "https://www.slideshare.net/tkng/nlp2011-slide",
+    "author": "tkng",
+    "date": "2011-03-13",
+    "source": "slideshare"
+   }
+  ]
+ },
+ {
   "section": "単語・文の分散表現",
   "blurb": "単語ベクトル、文埋め込み、埋め込み空間の性質に関する資料。",
   "entries": [
@@ -1327,6 +1487,13 @@
     "author": "LegalOn Technologies, Inc",
     "date": "2023-10-30",
     "source": "speakerdeck"
+   },
+   {
+    "title": "202309 kaggle 銀 LLM science exam  まとめ資料",
+    "url": "https://speakerdeck.com/sugupoko/202309-kaggle-llm-science-exam-matomezi-liao",
+    "author": "suguuuuuすぐー",
+    "date": "2023-10-13",
+    "source": "speakerdeck"
    }
   ]
  },
@@ -1704,20 +1871,6 @@
     "source": "speakerdeck"
    },
    {
-    "title": "LLMアプリケーション開発におけるセキュリティリスクと対策 / LLM Application Security",
-    "url": "https://speakerdeck.com/flatt_security/llm-application-security",
-    "author": "GMO Flatt Security",
-    "date": "2025-09-29",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "企業の生成AIガバナンスにおけるエージェントとセキュリティ",
-    "url": "https://speakerdeck.com/lycorptech_jp/enterprise-ai-governance-agent-security",
-    "author": "LINEヤフーTech (LY Corporation Tech)",
-    "date": "2025-09-08",
-    "source": "speakerdeck"
-   },
-   {
     "title": "LLMアプリケーションの品質担保に向けた プラクティスと LLMオブザーバビリティツール",
     "url": "https://speakerdeck.com/olachinkei/llmapurikesiyonnopin-zhi-dan-bao-nixiang-keta-purakuteisuto-llmobuzababiriteituru",
     "author": "Keisuke Kamata",
@@ -1760,13 +1913,6 @@
     "source": "speakerdeck"
    },
    {
-    "title": "いまこそ学ぶLLMベースのAIエージェント入門―基本的なしくみ／開発ツール／有名なOSSや論文の紹介",
-    "url": "https://speakerdeck.com/os1ma/imakosoxue-bullmbesunoaiezientoru-men-ji-ben-de-nasikumi-slash-kai-fa-turu-slash-you-ming-naossyalun-wen-noshao-jie",
-    "author": "os1ma",
-    "date": "2024-02-28",
-    "source": "speakerdeck"
-   },
-   {
     "title": "LLMの出⼒制御問題とSansan Labsにおける「Output Parsers」の活⽤ / LLM Output Control Issues and the Use of \"Output Parsers\" in Sansan Labs",
     "url": "https://speakerdeck.com/sansan_randd/llm-output-control-issues-and-the-use-of-output-parsers-in-sansan-labs",
     "author": "Sansan R&D",
@@ -1792,6 +1938,340 @@
     "url": "https://speakerdeck.com/os1ma/puronputoenziniaringukarashi-merulangchainru-men",
     "author": "os1ma",
     "date": "2023-04-20",
+    "source": "speakerdeck"
+   }
+  ]
+ },
+ {
+  "section": "AI エージェント・MCP",
+  "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
+  "entries": [
+   {
+    "title": "LLMやAIエージェントをソフトウェアに組み込むプラクティス",
+    "url": "https://speakerdeck.com/shibuiwilliam/llmyaaiezientowosohutoueanizu-miip-mupurakuteisu",
+    "author": "shibuiwilliam",
+    "date": "2026-07-15",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "AIエージェント開発フレームワークはどう選ぶ",
+    "url": "https://www.docswell.com/s/harinezumi/ZWRL8Q-2026-07-14-131052",
+    "author": "Syoitu Den",
+    "date": "2026-07-14",
+    "source": "docswell"
+   },
+   {
+    "title": "ローカルLLMを使ったエージェント開発の現在地 〜社内PR自動レビューに「ローカルLLM」は使えるか？コスト×精度で検証してみた〜",
+    "url": "https://speakerdeck.com/7nohe/rokarullmwoshi-tutaezientokai-fa-noxian-zai-di-she-nei-przi-dong-rebiyuni-rokarullm-hashi-eruka-kosutoxjing-du-dejian-zheng-sitemita",
+    "author": "daiki7nohe",
+    "date": "2026-06-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "作りっぱなしで終わらせない！ 価値を出し続ける  AI エージェントのための「信頼性」設計 / Designing Reliability for AI Agents that Deliver Continuous Value",
+    "url": "https://speakerdeck.com/aoto/designing-reliability-for-ai-agents-that-deliver-continuous-value",
+    "author": "Kento Kimura",
+    "date": "2026-03-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "エージェントAIシステムの開発は何が難しいのか？",
+    "url": "https://www.docswell.com/s/5451263343/K446XD-2025-09-10-161721",
+    "author": "高橋浩",
+    "date": "2025-09-10",
+    "source": "docswell"
+   },
+   {
+    "title": "AIエージェントの活用に重要な「MCP （Model Context Protocol）」とは何か",
+    "url": "https://speakerdeck.com/masayamoriofficial/aiezientonohuo-yong-nizhong-yao-na-mcp-model-context-protocol-tohahe-ka",
+    "author": "Masaya Mori (森正弥)",
+    "date": "2025-09-01",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "GUI操作LLMの最新動向: UI-TARSと関連論文紹介",
+    "url": "https://speakerdeck.com/kfujikawa/guicao-zuo-llmnozui-xin-dong-xiang-ui-tarstoguan-lian-lun-wen-shao-jie",
+    "author": "Kazuki Fujikawa",
+    "date": "2025-08-07",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "AI エージェントの実運用を支えるオブザーバビリティの実践",
+    "url": "https://speakerdeck.com/taka2noda/ai-agent-observability-datadog-2025-ja",
+    "author": "taka2noda",
+    "date": "2025-07-24",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "生成AIからエージェントAIへの移行の課題と展望",
+    "url": "https://www.docswell.com/s/5451263343/KV6J3P-2025-07-09-162035",
+    "author": "高橋浩",
+    "date": "2025-07-09",
+    "source": "docswell"
+   },
+   {
+    "title": "Large Language Model Agent: A Survey on Methodology, Applications and Challenges",
+    "url": "https://speakerdeck.com/shunk031/large-language-model-agent-a-survey-on-methodology-applications-and-challenges",
+    "author": "Shunsuke KITADA",
+    "date": "2025-05-28",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "「MCPを使ってる人」が より詳しくなるための解説",
+    "url": "https://speakerdeck.com/yamaguchidesu/mcpwoshi-tuteruren-ga-yorixiang-sikunarutamenojie-shuo",
+    "author": "Kota-Yamaguchi",
+    "date": "2025-05-15",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "MCPでLLMはどう進化する？",
+    "url": "https://www.docswell.com/s/karaage0703/56V4PL-2025-04-25-104216",
+    "author": "からあげ",
+    "date": "2025-04-25",
+    "source": "docswell"
+   },
+   {
+    "title": "LLMエージェント",
+    "url": "https://speakerdeck.com/philosophynote/llmeziento",
+    "author": "philosophynote",
+    "date": "2025-04-11",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "【AIエージェント開発】LLMアプリ開発の1stステップと論文キャッチアップ - 論文を活用したAIエージェント開発の始め方",
+    "url": "https://speakerdeck.com/masahiro_nishimi/aiezientokai-fa-llmapurikai-fa-no1stsutetuputolun-wen-kiyatutiatupu-lun-wen-wohuo-yong-sitaaiezientokai-fa-noshi-mefang",
+    "author": "Masahiro Nishimi",
+    "date": "2025-03-28",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "論文紹介 ”A Survey on Large Language Model based Autonomous Agents”",
+    "url": "https://speakerdeck.com/shukob/lun-wen-shao-jie-a-survey-on-large-language-model-based-autonomous-agents",
+    "author": "Shu Kobuchi",
+    "date": "2025-03-24",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "企業における AIエージェント実装の現実戦略 〜ワークフロー型 vs 完全自律型〜",
+    "url": "https://www.docswell.com/s/miyatti/K1R71G-2025-03-04-212023",
+    "author": "Daisuke Miyata",
+    "date": "2025-03-04",
+    "source": "docswell"
+   },
+   {
+    "title": "AIエージェント元年",
+    "url": "https://speakerdeck.com/shukob/aiezientoyuan-nian",
+    "author": "Shu Kobuchi",
+    "date": "2025-02-21",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "AIエージェントについてまとめてみた",
+    "url": "https://speakerdeck.com/pharma_x_tech/aiezientonituitematometemita",
+    "author": "PharmaX（旧YOJO Technologies）開発チーム",
+    "date": "2025-02-04",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LangChain/LangGraphの進化からみるLLMによるAIエージェントの開発",
+    "url": "https://speakerdeck.com/os1ma/langgraphnojin-hua-karamirullmniyoruaiezientonokai-fa",
+    "author": "os1ma",
+    "date": "2024-12-03",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "AI旅行記事生成PJから学んだ マルチエージェントの本質と可能性 -旅行スタートアップの生成ＡＩ開発ナレッジシェア-",
+    "url": "https://www.docswell.com/s/miyatti/KL1QYP-2024-11-23-122752",
+    "author": "Daisuke Miyata",
+    "date": "2024-11-23",
+    "source": "docswell"
+   },
+   {
+    "title": "AI エージェントを実現するプロンプトエンジニアリング「ReAct」を掘り下げる / react_deepdive",
+    "url": "https://speakerdeck.com/siostechlab/react-deepdive",
+    "author": "SIOS Tech. Lab",
+    "date": "2024-11-07",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LLMマルチエージェントの アプリケーション設計のコツと未来",
+    "url": "https://speakerdeck.com/pharma_x_tech/llmmarutiezientono-apurikesiyonshe-ji-nokotutowei-lai",
+    "author": "PharmaX（旧YOJO Technologies）開発チーム",
+    "date": "2024-11-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LLMマルチエージェントのフローエンジニアリングを支えるLLMOps",
+    "url": "https://speakerdeck.com/pharma_x_tech/llmmarutiezientonohuroenziniaringuwozhi-erullm-ops",
+    "author": "PharmaX（旧YOJO Technologies）開発チーム",
+    "date": "2024-09-20",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "マルチエージェントの世界",
+    "url": "https://speakerdeck.com/oshiro_kaito/marutiezientonoshi-jie",
+    "author": "大城海斗",
+    "date": "2024-08-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LangGraphを用いたマルチエージェント",
+    "url": "https://speakerdeck.com/yuto2000/langgraphwoyong-itamarutieziento",
+    "author": "Yuto Urushima",
+    "date": "2024-06-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "ICLR2024 LLMエージェントの研究動向",
+    "url": "https://speakerdeck.com/masatoto/iclr2024-llmezientonoyan-jiu-dong-xiang",
+    "author": "masatoto",
+    "date": "2024-04-26",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "いまこそ学ぶLLMベースのAIエージェント入門―基本的なしくみ／開発ツール／有名なOSSや論文の紹介",
+    "url": "https://speakerdeck.com/os1ma/imakosoxue-bullmbesunoaiezientoru-men-ji-ben-de-nasikumi-slash-kai-fa-turu-slash-you-ming-naossyalun-wen-noshao-jie",
+    "author": "os1ma",
+    "date": "2024-02-28",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LLMマルチエージェントを俯瞰する",
+    "url": "https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru",
+    "author": "masatoto",
+    "date": "2023-12-21",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LLMベースの自律型エージェントのサーベイ",
+    "url": "https://speakerdeck.com/ryok/llmbesunozi-lu-xing-ezientonosabei",
+    "author": "ryok",
+    "date": "2023-10-24",
+    "source": "speakerdeck"
+   }
+  ]
+ },
+ {
+  "section": "LLM の安全性・セキュリティ",
+  "blurb": "プロンプトインジェクションなどの攻撃と防御、ガードレール、AI セーフティの技術的論点。",
+  "entries": [
+   {
+    "title": "セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3",
+    "url": "https://www.docswell.com/s/melonattacker/ZDM6MV-seccamp-b3",
+    "author": "JJ (yuasa)",
+    "date": "2026-08-13",
+    "source": "docswell"
+   },
+   {
+    "title": "Beyond Intelligence to Safety: The Ultimate Guide to 'External AI Guardrails' in the AI Era",
+    "url": "https://speakerdeck.com/lycorptech_jp/beyond-intelligence-to-safety-the-ultimate-guide-to-external-ai-guardrails-in-the-ai-era",
+    "author": "LINEヤフーTech (LY Corporation Tech)",
+    "date": "2026-06-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "プロンプトインジェクション3層防御 — AIエージェント時代のセキュリティ実践",
+    "url": "https://www.docswell.com/s/kenimo49/5DMWW4-prompt-injection-3layer-defense",
+    "author": "井本 賢",
+    "date": "2026-06-11",
+    "source": "docswell"
+   },
+   {
+    "title": "CLAUDE.mdの防御は本当に効くのか — 10種の攻撃で検証してわかったこと",
+    "url": "https://www.docswell.com/s/kenimo49/KL3VV8-claudemd-injection-experiment",
+    "author": "井本 賢",
+    "date": "2026-06-11",
+    "source": "docswell"
+   },
+   {
+    "title": "NLP colloquium: AI Safety Survey",
+    "url": "https://speakerdeck.com/kanekomasahiro/ai-safety-survey",
+    "author": "Masahiro Kaneko",
+    "date": "2026-06-02",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "プロンプトインジェクションと事例",
+    "url": "https://www.docswell.com/s/Masao_N/KN9EXV-2026-02-19-055748",
+    "author": "Masao-N",
+    "date": "2026-02-19",
+    "source": "docswell"
+   },
+   {
+    "title": "MCPセキュリティ勉強会~MCPを狙うセキュリティ 脅威と対策について~",
+    "url": "https://www.docswell.com/s/cybozu-tech/KQX62N-2025-11-12-MCP_Security",
+    "author": "サイボウズ開発本部",
+    "date": "2026-01-19",
+    "source": "docswell"
+   },
+   {
+    "title": "20251029_Cursor Meetup Tokyo ＃02_MK_「あなたのAI、私のシェル」 - \u000bプロンプトインジェクションによるエージェントのハイジャック",
+    "url": "https://speakerdeck.com/mk0721/20251029-cursor-meetup-tokyo-number-02-mk-anatanoai-si-nosieru-puronputoinziekusiyonniyoruezientonohaiziyatuku",
+    "author": "Masayuki Kawakita",
+    "date": "2025-10-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LLMアプリケーション開発におけるセキュリティリスクと対策 / LLM Application Security",
+    "url": "https://speakerdeck.com/flatt_security/llm-application-security",
+    "author": "GMO Flatt Security",
+    "date": "2025-09-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "AIプロンプト攻撃事例について 1%理解が深まる話",
+    "url": "https://speakerdeck.com/libra850/aipuronputogong-ji-shi-li-nituite-1-percent-li-jie-gashen-maruhua",
+    "author": "WRENCH",
+    "date": "2025-09-08",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "企業の生成AIガバナンスにおけるエージェントとセキュリティ",
+    "url": "https://speakerdeck.com/lycorptech_jp/enterprise-ai-governance-agent-security",
+    "author": "LINEヤフーTech (LY Corporation Tech)",
+    "date": "2025-09-08",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "プロンプトインジェクション2.0 : 進化する防御機構とその回避手法",
+    "url": "https://speakerdeck.com/melonattacker/puronputoinziekusiyon2-dot-0-jin-hua-surufang-yu-ji-gou-tosonohui-bi-shou-fa",
+    "author": "yuasa",
+    "date": "2025-07-19",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "【DL輪読会】Prompt-to-SQL Injections in LLM-Integrated Web Applications: Risks and Defenses",
+    "url": "https://www.docswell.com/s/DeepLearning2023/ZP4EP1-2025-07-17-130446",
+    "author": "Deep Learning JP",
+    "date": "2025-07-17",
+    "source": "docswell"
+   },
+   {
+    "title": "信頼できる生成AIをどう作るか",
+    "url": "https://speakerdeck.com/ttakino/xin-lai-tekirusheng-cheng-aiwotouzuo-ruka",
+    "author": "CosmoSketch Inc.",
+    "date": "2025-04-08",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "LLM活用システムの脆弱性診断内製化の取り組み",
+    "url": "https://speakerdeck.com/melonattacker/llmhuo-yong-sisutemunocui-ruo-xing-zhen-duan-nei-zhi-hua-noqu-rizu-mi",
+    "author": "yuasa",
+    "date": "2024-09-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "技術面から見るAIセーフティ(AI Safety Fundamentals Alignment Course)",
+    "url": "https://speakerdeck.com/yutarohori/ji-shu-mian-karajian-ruaisehutei-ai-safety-fundamentals-alignment-course",
+    "author": "yutaro_hori",
+    "date": "2023-12-23",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "プロンプトインジェクションで遊ぼう@浜松ITコミュニティ忘年会2023",
+    "url": "https://speakerdeck.com/yoiyoicho/puronputoinziekusiyondeyou-bou-at-bang-song-itkomiyuniteiwang-nian-hui-2023",
+    "author": "yoshino",
+    "date": "2023-12-15",
     "source": "speakerdeck"
    }
   ]
@@ -1968,6 +2448,13 @@
     "source": "speakerdeck"
    },
    {
+    "title": "銅_NLPコンペ_202212_nishika_ヘイトスピーチの検出",
+    "url": "https://speakerdeck.com/sugupoko/tong-aikonpe-202212-nishika-heitosupitinojian-chu",
+    "author": "suguuuuuすぐー",
+    "date": "2022-12-02",
+    "source": "speakerdeck"
+   },
+   {
     "title": "ソーシャルメディアにおけるフェイクニュース検出と対策",
     "url": "https://speakerdeck.com/hkefka385/sosiyarumedeianiokeruhueikuniyusujian-chu-todui-ce",
     "author": "taichi_murayama",
@@ -2029,6 +2516,208 @@
     "author": "Yahoo!デベロッパーネットワーク",
     "date": "2016-04-15",
     "source": "docswell"
+   }
+  ]
+ },
+ {
+  "section": "テキストマイニング・トピックモデル",
+  "blurb": "アンケートやレビューの自由記述を計量的に読む手法と、トピックモデルによる潜在構造の分析。",
+  "entries": [
+   {
+    "title": "データ指向モデリング「テキストマイニングの基礎」",
+    "url": "https://speakerdeck.com/yuri00/tetazhi-xiang-moterinku-tekisutomainingunoji-chu",
+    "author": "yuri",
+    "date": "2025-10-14",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "【論文読み会】Latent Dirichlet Allocation",
+    "url": "https://www.docswell.com/s/kyoto-kaira/KQ1N73-2025-06-28-120034",
+    "author": "京都大学人工知能研究会KaiRA",
+    "date": "2025-06-28",
+    "source": "docswell"
+   },
+   {
+    "title": "KH Coderチュートリアル（スライド版）",
+    "url": "https://speakerdeck.com/koichih/kh-codertiyutoriaru-suraidoban",
+    "author": "HIGUCHI Koichi",
+    "date": "2025-06-24",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "生成AIと分析AIのコラボ手法のご紹介_社会調査への新アプローチ",
+    "url": "https://www.docswell.com/s/KunihiroSugiyama/5MXRD2-2025-04-14-110256",
+    "author": "Kunihiro Sugiyama",
+    "date": "2025-04-14",
+    "source": "docswell"
+   },
+   {
+    "title": "授業評価アンケートのテキストマイニング",
+    "url": "https://speakerdeck.com/langstat/shou-ye-ping-jia-anketonotekisutomainingu",
+    "author": "Yuichiro Kobayashi",
+    "date": "2024-08-06",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "応用心理学Ⅰテキストマイニング講義資料講義編(2024年度)",
+    "url": "https://speakerdeck.com/satocos135/ying-yong-xin-li-xue-itekisutomainingujiang-yi-zi-liao-jiang-yi-bian-2024nian-du",
+    "author": "Kosuke Sato",
+    "date": "2024-07-14",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "応用心理学Ⅰテキストマイニング講義資料実習編(2024年度)",
+    "url": "https://speakerdeck.com/satocos135/ying-yong-xin-li-xue-itekisutomainingujiang-yi-zi-liao-shi-xi-bian-2024nian-du",
+    "author": "Kosuke Sato",
+    "date": "2024-07-14",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "テキストデータの可視化例",
+    "url": "https://www.docswell.com/s/ko-ichi-h/K4Q9XW-TokyoR",
+    "author": "HIGUCHI Koichi",
+    "date": "2023-10-03",
+    "source": "docswell"
+   },
+   {
+    "title": "テキストマイニングを使って 今年1年のレビュー内容をふりかえってみた話",
+    "url": "https://speakerdeck.com/cybozuinsideout/line_twm_221221_cybozu",
+    "author": "Cybozu",
+    "date": "2022-12-21",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トピックモデル分析を活用した問合せ業務の効率化",
+    "url": "https://speakerdeck.com/ikuyam/topitukumoderufen-xi-wohuo-yong-sitawen-he-seye-wu-falsexiao-lu-hua",
+    "author": "Ikuya Murasato",
+    "date": "2022-05-13",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "KH Coder 3 チュートリアル",
+    "url": "https://www.docswell.com/s/ko-ichi-h/5EL3QZ-2022-01-04-232312",
+    "author": "HIGUCHI Koichi",
+    "date": "2022-01-04",
+    "source": "docswell"
+   },
+   {
+    "title": "科学技術情報分析の面白さ",
+    "url": "https://speakerdeck.com/hayataka88/ke-xue-ji-shu-qing-bao-fen-xi-falsemian-bai-sa",
+    "author": "hayataka",
+    "date": "2021-12-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トピックモデルを活用したレコメンデーションの実装",
+    "url": "https://speakerdeck.com/takapy/topitukumoderuwohuo-yong-sitarekomendesiyonfalseshi-zhuang",
+    "author": "Takanobu Nozawa",
+    "date": "2021-02-25",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "CSSJ2021 「オルタナティブメディアに着目した日本のツイッターにおけるニュース拡散の分析」",
+    "url": "https://speakerdeck.com/hkefka385/cssj2021-orutanateibumedeianizhao-mu-sitari-ben-falsetuitutaniokeruniyusukuo-san-falsefen-xi",
+    "author": "taichi_murayama",
+    "date": "2021-02-25",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "テキストマイニングによるプロ野球の順位予想 / Baseball Play Study 2020 Winter",
+    "url": "https://speakerdeck.com/7pairs/baseball-play-study-2020-winter",
+    "author": "7pairs",
+    "date": "2020-12-17",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "ニュースにおける各種時系列\u000bトピックモデルの比較検討 / Comparison of Various Dynamic Topic Models for News",
+    "url": "https://speakerdeck.com/sansandsoc/comparison-of-various-dynamic-topic-models-for-news",
+    "author": "Sansan DSOC",
+    "date": "2020-11-26",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Pythonで挑む計算社会科学",
+    "url": "https://speakerdeck.com/ksnt/pythondetiao-muji-suan-she-hui-ke-xue",
+    "author": "ksnt",
+    "date": "2020-10-10",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "Sansan DSOCの計算社会科学的研究と、アフターコロナの展望 / Introduction of Computational Social Science Research by Sansan DSOC and the Future Prospect for the Post-COVID-19 Society",
+    "url": "https://speakerdeck.com/sansandsoc/introduction-of-computational-social-science-research-by-sansan-dsoc-and-the-future-prospect-for-the-post-covid-19-society",
+    "author": "Sansan DSOC",
+    "date": "2020-06-25",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "#経済学のための実践的データ分析 3.9 テキスト分析(前半; wordcloud, word2vec, LDA etc...))",
+    "url": "https://speakerdeck.com/yasushihara/number-jing-ji-xue-falsetamefalseshi-jian-de-detafen-xi-3-dot-9-tekisutofen-xi-qian-ban-wordcloud-word2vec-lda-etc-dot-dot-dot",
+    "author": "yasushihara",
+    "date": "2019-10-15",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トピックモデルで１週間の献立をレコメンドする",
+    "url": "https://speakerdeck.com/funain/topitukumoderude1zhou-jian-falsexian-li-worekomendosuru",
+    "author": "funain",
+    "date": "2019-03-02",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "テキストマイニングによるTwitter個人アカウントの性格推定 / Personal character estimation with Twitter - PyConJP 2018",
+    "url": "https://speakerdeck.com/saka2jp/personal-character-estimation-with-twitter-pyconjp-2018",
+    "author": "Jumpei Sakatsu",
+    "date": "2018-09-17",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "テキストマイニング",
+    "url": "https://speakerdeck.com/katsutan/tekisutomainingu",
+    "author": "katsutan",
+    "date": "2017-03-09",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "結合トピックモデル",
+    "url": "https://speakerdeck.com/nzw0301/jie-he-topitukumoderu",
+    "author": "Kento Nozawa",
+    "date": "2016-03-29",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トピックモデルによる統計的潜在意味解析 3.2.3 ~ 3.2.4 / topic-model-3-2-3",
+    "url": "https://speakerdeck.com/ysekky/topic-model-3-2-3",
+    "author": "ysekky",
+    "date": "2016-01-07",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トピックモデル第2章",
+    "url": "https://speakerdeck.com/moyomot/topitukumoderudi-2zhang",
+    "author": "moyomot",
+    "date": "2015-12-22",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "トピックモデル - AS^2 LT",
+    "url": "https://speakerdeck.com/sorami/topitukumoderu-as-2-lt",
+    "author": "Sorami Shiromizu",
+    "date": "2015-04-17",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "B3勉強会(2015年3月26日)テキストマイニング",
+    "url": "https://speakerdeck.com/mikamiy/b3mian-qiang-hui-2015nian-3yue-26ri-tekisutomainingu",
+    "author": "MIKAMI-YUKI",
+    "date": "2015-03-26",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "カテゴリ階層の拡張を目的とした階層的トピックモデル / A hierarchical topic model for expanding category hierarchies",
+    "url": "https://speakerdeck.com/kymmt90/a-hierarchical-topic-model-for-expanding-category-hierarchies",
+    "author": "Kōhei Yamamoto (山本浩平)",
+    "date": "2014-03-04",
+    "source": "speakerdeck"
    }
   ]
  },
@@ -2132,6 +2821,13 @@
     "url": "https://speakerdeck.com/gokiritani/zhu-shi-hui-she-abeja-afalsetesiyonniokeruyun-yong-shang-falsefalseuhaufalseshao-jie",
     "author": "Go",
     "date": "2020-04-30",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "辞書に基づく組織名抽出における辞書整備の影響 / An Effect of Dictionary Tailoring for Dictionary-based Organization Name Extraction",
+    "url": "https://speakerdeck.com/sansandsoc/an-effect-of-dictionary-tailoring-for-dictionary-based-organization-name-extraction",
+    "author": "Sansan DSOC",
+    "date": "2020-03-19",
     "source": "speakerdeck"
    },
    {
@@ -3106,6 +3802,27 @@
     "author": "Tomoyuki Kajiwara",
     "date": "2015-04-29",
     "source": "slideshare"
+   },
+   {
+    "title": "「やさしい日本語」変換システムの試作",
+    "url": "https://speakerdeck.com/jnlp/yasasiiri-ben-yu-bian-huan-sisutemufalseshi-zuo",
+    "author": "自然言語処理研究室",
+    "date": "2013-03-31",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "役所からの公的文書に対する「やさしい日本語」への変換システムの構築.",
+    "url": "https://speakerdeck.com/jnlp/yi-suo-karafalsegong-de-wen-shu-nidui-suru-yasasiiri-ben-yu-hefalsebian-huan-sisutemufalsegou-zhu",
+    "author": "自然言語処理研究室",
+    "date": "2013-03-31",
+    "source": "speakerdeck"
+   },
+   {
+    "title": "「やさしい日本語」のための語彙制限の検討",
+    "url": "https://speakerdeck.com/jnlp/yasasiiri-ben-yu-falsetamefalseyu-hui-zhi-xian-falsejian-tao",
+    "author": "自然言語処理研究室",
+    "date": "2012-03-31",
+    "source": "speakerdeck"
    }
   ]
  },
@@ -3327,13 +4044,6 @@
     "url": "https://speakerdeck.com/elyza/llm-yan-yu-sheng-cheng-ai-noxian-zhuang-ke-ti-zhan-wang-niguan-surumian-qiang-hui-20230713-7578523c-9de2-43d5-b0cd-36fda5baff68",
     "author": "株式会社ELYZA",
     "date": "2023-08-19",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "テキストマイニングを使って 今年1年のレビュー内容をふりかえってみた話",
-    "url": "https://speakerdeck.com/cybozuinsideout/line_twm_221221_cybozu",
-    "author": "Cybozu",
-    "date": "2022-12-21",
     "source": "speakerdeck"
    },
    {
