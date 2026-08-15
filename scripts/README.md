@@ -34,7 +34,9 @@ generated from it, so **the only file you edit when adding a slide deck is
 └── plugins/awesome-japanese-nlp-slides/
     ├── .claude-plugin/plugin.json
     ├── data/slides.json          # generated (shipped inside the plugin)
-    └── skills/search/SKILL.md
+    └── skills/
+        ├── search/SKILL.md           # search the list; falls back to the web when it misses
+        └── find-new-slides/SKILL.md  # find decks the list does not have yet
 ```
 
 The material itself — title, URL, presenter, date — is the same in every
@@ -89,6 +91,24 @@ plugin's search data.
 - `source` is one of `speakerdeck`, `docswell` or `slideshare`.
 - The order of `entries` is free: the README lists each section newest first.
   Keeping the file in that order too makes diffs easier to read.
+
+### Finding material to add
+
+The plugin's `find-new-slides` skill does the legwork: give it a topic and it
+searches Speaker Deck, Docswell and SlideShare, drops everything already in the
+list, confirms each deck's title, presenter and publication date against its own
+page, and prints entry objects in exactly the shape above, grouped by the
+section they belong in.
+
+```
+/awesome-japanese-nlp-slides:find-new-slides RAG
+/awesome-japanese-nlp-slides:find-new-slides 音声認識
+/awesome-japanese-nlp-slides:find-new-slides            # no topic: whatever is newest
+```
+
+Paste the blocks it emits into the matching sections of `curated.json`, then run
+the two commands above. Its output is a starting point, not a merge — read each
+deck before you commit it.
 
 Both scripts validate the file through `scripts/slides.py` before writing
 anything. A missing field, a malformed date, a duplicate URL or a duplicate

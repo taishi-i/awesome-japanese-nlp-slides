@@ -1,8 +1,8 @@
 ---
-description: Search curated Japanese NLP presentation slides and lecture materials (Speaker Deck / Docswell / SlideShare) from awesome-japanese-nlp-slides. Accepts keywords or natural language questions in any language.
+description: Search curated Japanese NLP presentation slides and lecture materials (Speaker Deck / Docswell / SlideShare) from awesome-japanese-nlp-slides. Accepts keywords or natural language questions in any language, and falls back to a web search of the three slide hosts when the list itself has nothing.
 when_to_use: "Use whenever the user is looking for Japanese NLP slides, lecture materials, or talks: conference tutorials, university lectures, LLM development / pretraining, fine-tuning, evaluation and benchmarks, RAG and search, morphological analysis, embeddings, or industry case studies. Trigger phrases include '日本語LLMのスライド', '形態素解析の発表資料', 'RAG の講演資料', '〜の勉強に使えるスライド', 'チュートリアル資料が見たい', 'Japanese NLP slides', 'lecture materials on Japanese LLM', '日語 LLM 的投影片', '形態素分析的發表資料', '日语 LLM 的幻灯片', '日语自然语言处理的演讲资料'."
 argument-hint: [query]
-allowed-tools: Bash
+allowed-tools: Bash, WebSearch, WebFetch
 ---
 
 Search the awesome-japanese-nlp-slides database for: "$ARGUMENTS"
@@ -188,7 +188,7 @@ for combined, score, item in results[:20]:
 EOF
 ```
 
-If `matched=0`, retry **once** with broader keywords (drop the most specific term, add the section name from Step 1). If it is still 0, go to Step 5 and report no results.
+If `matched=0`, retry **once** with broader keywords (drop the most specific term, add the section name from Step 1). If it is still 0, skip Step 4 and go to **Step 4b** — the list has nothing, so search the web instead.
 
 ### Step 4 — Re-rank with your judgment
 
@@ -202,6 +202,58 @@ Re-rank by:
 5. **Variety** — avoid returning five slides from the same presenter unless they form a coherent series.
 
 Do not mechanically follow the Step 3 score — use it as a starting point.
+
+### Step 4b — Fall back to the open web
+
+**Only reached when Step 3 returned `matched=0` twice.** The list covers a lot but not everything, and it is
+weakest at its recent edge — a query about something from the last few months can legitimately find nothing.
+Rather than reporting an empty result, look for the slides on the web.
+
+Run **3–5 WebSearch queries** against the three hosts the list indexes. The material is Japanese, so the
+queries must be **mostly Japanese** — an English-only query set finds almost nothing. Translate the query
+into its Japanese term first (the same translation Step 1 already did for the keyword list):
+
+- `<japanese-term> 資料 site:speakerdeck.com`
+- `<japanese-term> スライド site:docswell.com`
+- `<japanese-term> site:slideshare.net`
+- `<japanese-term> 勉強会 発表資料` (wrap-up blog posts often link decks that search engines have not indexed yet)
+- `<english-keyword> japanese site:speakerdeck.com` — one English query, worth it for research-flavoured topics
+
+Use **one `site:` per query**. Never OR the host names together (`... docswell OR speakerdeck OR slideshare`):
+without the operator the engine treats them as topic words and returns articles comparing slide-sharing
+services instead of slides.
+
+**For a narrow term, drop the padding.** Words like `資料` and `自然言語処理` let the engine satisfy the query
+on the padding alone and quietly ignore the term you came for: `手話 自然言語処理 資料 site:speakerdeck.com`
+returns ten general-NLP decks with no mention of 手話, while the bare `手話 site:speakerdeck.com` returns decks
+that actually cover it. Query the term by itself first. If no result title contains your term, that is the
+signal it was dropped — re-run bare before deciding there is nothing.
+
+Keep only URLs shaped like an actual deck — `https://speakerdeck.com/<user>/<slug>`,
+`https://www.docswell.com/s/<user>/<ID>-<slug>`, `https://www.slideshare.net/<user>/<slug>` — and discard
+profile pages, embeds, PDF mirrors, and Qiita / Zenn / note.com / YouTube links. Take **up to 5**.
+
+**Then check that each one is actually about the query**, because a query with nothing behind it is exactly
+the case that got you here. On a narrow term the engine drops it and returns popular general-NLP decks
+instead: `手話 自然言語処理 資料 site:speakerdeck.com` returns ten well-known NLP lecture decks, not one of
+them about sign language. Those decks are real and NLP-related, so only a judgment against the query itself
+rejects them. Drop anything that merely shares the general field.
+
+`WebFetch` the survivors (up to 5 calls in parallel) to confirm each page exists and to read its real title,
+presenter and publication date:
+
+```
+WebFetch url="<candidate url>" prompt="Extract as JSON: title, author (presenter display name), published_date in YYYY-MM-DD form, and one-sentence English summary. Set is_nlp_related to true only if the deck is about natural language processing, LLMs, speech/text processing or search. Null for anything unavailable."
+```
+
+Drop anything that 404s, comes back `is_nlp_related: false`, or whose summary shows it does not address the
+query after all — `is_nlp_related` is true of almost everything in this field, so it cannot carry the
+relevance judgment by itself. Then report in **Step 5's web-fallback format** — these results are unvetted and
+must never be presented as part of the curated list.
+
+If nothing survives, say the query found nothing anywhere. Some topics genuinely have no Japanese slide deck
+behind them, and "not found" is a useful, honest answer — better than five respectable decks that do not
+answer the question.
 
 ### Step 5 — Format the output
 
@@ -245,10 +297,43 @@ Found N slide(s).
 
 Report only the metadata returned in Step 3. Do **not** invent a description of a slide's contents — you have not seen the slide itself.
 
-If there are no results, suggest alternate keywords, list a few nearby section names, and link to:
-https://github.com/taishi-i/awesome-japanese-nlp-slides
+**Web-fallback format (only when you came from Step 4b).** Say up front that the list had nothing, and keep the
+web findings visibly separate from the curated list — the reader must be able to tell the two apart at a glance:
+
+```
+## Search results for "$ARGUMENTS"
+
+The list has no slides matching this query yet *(searched for: keyword1, keyword2, ...)*.
+
+## Found on the web (not in the list)
+
+These decks came from a web search of Speaker Deck / Docswell / SlideShare and are **not curated** — they have
+not been reviewed for this list.
+
+### 1. [slide title](url)
+**Presenter:** author ・ **Published:** YYYY-MM ・ **Source:** speakerdeck
+
+One sentence on what it covers, from the page itself.
+
+### 2. ...
+```
+
+Then close with the two next moves, in the detected language:
+
+- nearby section names in the list that are worth browsing, plus alternate keywords to retry with;
+- an offer to add the good ones: `/awesome-japanese-nlp-slides:find-new-slides $ARGUMENTS` produces entries
+  ready to paste into `data/curated.json`, and contributions go to
+  https://github.com/taishi-i/awesome-japanese-nlp-slides
+
+If Step 4b also found nothing, drop the "Found on the web" block and report just those two next moves.
+
+Whenever Step 4b ran, finish the reply with the `Sources:` section WebSearch requires, listing the result URLs
+you actually used.
 
 ### Step 6 — Output a short reading-order suggestion
+
+Skip this step entirely when you came from Step 4b — a reading order implies these decks were vetted and
+sequenced, which is exactly the claim the web fallback cannot make.
 
 After the list, add a brief section (**in the detected language**) suggesting where to start:
 
