@@ -77,6 +77,7 @@ Japanese spelling — translate rather than bet on the coincidence.
 |---|---|---|
 | 形態素解析・構文解析 | `形態素`, `係り受け`, `構文解析`, `解析器` | `morpholog`, `mecab`, `sudachi`, `juman`, `vibrato`, `kwja`, `ginza` |
 | NLP ライブラリ・ツール開発 | `ライブラリ`, `実装`, `自作`, `高速化`, `辞書`, `トライ` | `library`, `oss`, `rust`, `vibrato`, `vaporetto`, `kagome`, `trie` |
+| 辞書・かな漢字変換・日本語入力 | `かな漢字変換`, `日本語入力`, `辞書`, `換言` | `ime`, `mozc`, `skk`, `input method` |
 | 分散表現・埋め込み | `分散表現`, `埋め込み`, `単語ベクトル` | `embed`, `vector`, `word2vec`, `chive`, `sbert` |
 | 事前学習モデル・Transformer | `事前学習`, `言語モデル` | `bert`, `transformer`, `gpt`, `pretrain`, `huggingface` |
 | LLM 開発・事前学習 | `事前学習`, `コーパス`, `構築`, `開発` | `llm`, `swallow`, `llm-jp`, `sarashina`, `plamo` |
@@ -85,6 +86,8 @@ Japanese spelling — translate rather than bet on the coincidence.
 | 全文検索・検索基盤 | `検索`, `全文検索`, `検索基盤`, `ランキング` | `search`, `elasticsearch`, `solr`, `lucene`, `rerank` |
 | 検索・RAG | `検索拡張`, `情報検索`, `チャンキング` | `rag`, `retriev`, `embedding`, `ruri`, `graphrag` |
 | LLM アプリ開発・運用 | `アプリ`, `運用`, `プロダクト`, `エージェント` | `agent`, `llmops`, `prompt`, `production` |
+| AI エージェント・MCP | `エージェント`, `マルチエージェント`, `自律` | `agent`, `mcp`, `langchain`, `langgraph`, `react` |
+| LLM の安全性・セキュリティ | `安全性`, `セキュリティ`, `脆弱性`, `防御`, `プロンプトインジェクション` | `safety`, `security`, `injection`, `guardrail`, `alignment` |
 | 推論最適化・サービング | `推論`, `高速化`, `量子化`, `蒸留` | `infer`, `vllm`, `quantiz`, `distill`, `serving` |
 | 正規化・表記ゆれ | `正規化`, `表記ゆれ`, `誤字`, `住所` | `normaliz`, `variant`, `typo` |
 | 情報抽出・固有表現 | `固有表現`, `情報抽出`, `アノテーション` | `ner`, `entit`, `extract`, `annotat` |
@@ -93,6 +96,7 @@ Japanese spelling — translate rather than bet on the coincidence.
 | 機械翻訳 | `翻訳`, `同時通訳` | `translat`, `nmt`, `mt` |
 | テキスト分類・感情分析 | `分類`, `感情`, `評判`, `極性`, `検知` | `classif`, `sentiment`, `polarity`, `moderation`, `fasttext` |
 | スパム・有害コンテンツ対策 | `スパム`, `有害`, `不適切`, `違反`, `監視`, `フェイク` | `spam`, `abuse`, `moderation`, `toxic`, `fake` |
+| テキストマイニング・トピックモデル | `テキストマイニング`, `トピックモデル`, `可視化`, `計算社会科学` | `topic`, `lda`, `kh coder`, `wordcloud` |
 | マルチモーダル・V&L | `マルチモーダル`, `画像`, `視覚`, `文書画像` | `vlm`, `vision`, `multimodal`, `vqa`, `clip` |
 | 音声認識・音声処理 | `音声`, `音声認識`, `文字起こし`, `音声合成` | `speech`, `asr`, `tts`, `whisper`, `espnet` |
 | 対話システム・音声対話 | `対話`, `音声対話`, `ボイスボット`, `チャットボット` | `dialog`, `spoken`, `voicebot`, `chatbot` |
@@ -101,8 +105,8 @@ Japanese spelling — translate rather than bet on the coincidence.
 | 入門・チュートリアル | `入門`, `基礎`, `チュートリアル`, `講義` | `introduc`, `tutorial`, `lecture`, `basic` |
 | 産業応用・事例 | `事例`, `実務`, `活用`, `導入` | `case`, `industr`, `production` |
 
-**Section filter:** if the query clearly names a category, also note the matching section name so you can prefer it in Step 4. The 28 sections are:
-入門・全体像 / 学会チュートリアル / 大学講義・体系的な講義資料 / 日本語の基礎解析（形態素解析・構文解析） / NLP ライブラリ・ツール開発 / 日本語テキストの正規化・表記ゆれ / 単語・文の分散表現 / 事前学習モデル・Transformer / 大規模言語モデル（概論・動向） / 日本語LLMの開発（事前学習・コーパス構築） / ファインチューニング・事後学習 / LLM の推論最適化・サービング / 評価・ベンチマーク / 全文検索・検索基盤 / 検索・RAG / LLM アプリケーション開発・運用 / テキスト分類・感情分析 / スパム・有害コンテンツ対策 / 情報抽出・固有表現・アノテーション / 文書処理・OCR / 質問応答・知識 / 機械翻訳 / マルチモーダル・Vision-and-Language / 音声認識・音声処理 / 対話システム・音声対話 / 生成・要約・校正 / 解釈性・分析・言語学的視点 / 産業応用・実務事例
+**Section filter:** if the query clearly names a category, also note the matching section name so you can prefer it in Step 4. The 32 sections are:
+入門・全体像 / 学会チュートリアル / 大学講義・体系的な講義資料 / 日本語の基礎解析（形態素解析・構文解析） / NLP ライブラリ・ツール開発 / 日本語テキストの正規化・表記ゆれ / 辞書・かな漢字変換・日本語入力 / 単語・文の分散表現 / 事前学習モデル・Transformer / 大規模言語モデル（概論・動向） / 日本語LLMの開発（事前学習・コーパス構築） / ファインチューニング・事後学習 / LLM の推論最適化・サービング / 評価・ベンチマーク / 全文検索・検索基盤 / 検索・RAG / LLM アプリケーション開発・運用 / AI エージェント・MCP / LLM の安全性・セキュリティ / テキスト分類・感情分析 / スパム・有害コンテンツ対策 / テキストマイニング・トピックモデル / 情報抽出・固有表現・アノテーション / 文書処理・OCR / 質問応答・知識 / 機械翻訳 / マルチモーダル・Vision-and-Language / 音声認識・音声処理 / 対話システム・音声対話 / 生成・要約・校正 / 解釈性・分析・言語学的視点 / 産業応用・実務事例
 
 ### Step 2 — Locate the data file
 

@@ -15,14 +15,18 @@ generated from it, so **the only file you edit when adding a slide deck is
 ├── _config.yml                   # GitHub Pages: the Jekyll theme of the site
 ├── docs/
 │   ├── README.ja.md              # generated (same text as the root README.md)
-│   └── README.en.md              # generated, English
+│   ├── README.en.md              # generated, English
+│   ├── README.zh-hant.md         # generated, traditional Chinese
+│   └── README.zh-hans.md         # generated, simplified Chinese
 ├── images/
 │   └── awesome-japanese-nlp-slides.png
 ├── data/
 │   ├── curated.json              # ★ the single source of truth (the only file you edit)
 │   └── locales/                  # ★ per-language wording (add a file to add a language)
 │       ├── ja.json
-│       └── en.json
+│       ├── en.json
+│       ├── zh-hant.json
+│       └── zh-hans.json
 ├── scripts/
 │   ├── slides.py                 # loads and validates curated.json (shared module)
 │   ├── generate_readme.py        # curated.json + locales → the README of each language
@@ -50,7 +54,7 @@ python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json
 To validate without generating anything, run the shared module directly.
 
 ```bash
-python3 scripts/slides.py               # ok: 462 entries in 28 sections
+python3 scripts/slides.py               # ok: 560 entries in 32 sections
 ```
 
 There are no dependencies — the Python 3 standard library is enough (3.9 or
