@@ -17,12 +17,14 @@
   "url": "https://speakerdeck.com/example/slide",
   "author": "発表者名",
   "date": "2024-11-08",
-  "source": "speakerdeck"
+  "source": "speakerdeck",
+  "added": "2024-11-08"
 }
 ```
 
 - `date` は `YYYY-MM-DD`（README では `YYYY-MM` に丸めて表示されます）
 - `source` は `speakerdeck` / `docswell` / `slideshare` のいずれか
+- `added`（任意）はこのリストに追加した日（`YYYY-MM-DD`）。付けておくと、追加から7日間 README の「🎉 最近追加されたスライド」に掲載されます。省略した場合はそのまま通常の一覧にのみ載ります。
 
 追加したら、次の 2 つを実行して生成物を更新してください。
 

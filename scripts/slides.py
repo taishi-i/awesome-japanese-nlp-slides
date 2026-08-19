@@ -15,6 +15,7 @@ import json
 import re
 import sys
 import unicodedata
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -23,6 +24,14 @@ SRC = ROOT / "data" / "curated.json"
 
 #: Fields every entry must carry. All of them end up in the generated output.
 REQUIRED_FIELDS = ("title", "url", "author", "date", "source")
+
+#: Optional: the date (YYYY-MM-DD) the entry was added to this list. Entries
+#: added within the last 7 days show up in the README's "latest additions"
+#: section; omit it and the entry is simply never featured there.
+ADDED_FIELD = "added"
+
+#: How many days an entry stays in the "latest additions" section.
+LATEST_WINDOW_DAYS = 7
 
 #: Slide hosts the list covers. Used to keep ``source`` values consistent.
 KNOWN_SOURCES = ("speakerdeck", "docswell", "slideshare")
@@ -63,6 +72,10 @@ def _check_entry(entry: Entry, where: str, seen_urls: dict[str, str]) -> list[st
     date = entry.get("date")
     if date and not _DATE.fullmatch(date):
         problems.append(f"{where}: date must be YYYY-MM-DD (got: {date})")
+
+    added = entry.get(ADDED_FIELD)
+    if added and not _DATE.fullmatch(added):
+        problems.append(f"{where}: added must be YYYY-MM-DD (got: {added})")
 
     url = entry.get("url")
     if url in seen_urls:
@@ -129,6 +142,25 @@ def load(path: Path = SRC) -> list[Section]:
 def count(sections: list[Section]) -> int:
     """Return the total number of entries across ``sections``."""
     return sum(len(section["entries"]) for section in sections)
+
+
+def is_recent(entry: Entry, today: date, days: int = LATEST_WINDOW_DAYS) -> bool:
+    """Return whether ``entry`` was added within the last ``days`` days of ``today``.
+
+    An entry with no ``added`` field is never recent: that is how an entry
+    written before this feature existed, or one a contributor chose not to
+    date, opts out of the "latest additions" section. An ``added`` date in
+    the future (a malformed edit) is treated the same way.
+    """
+    added = entry.get(ADDED_FIELD)
+    if not added:
+        return False
+    try:
+        added_date = date.fromisoformat(added)
+    except ValueError:
+        return False
+    age = (today - added_date).days
+    return 0 <= age < days
 
 
 if __name__ == "__main__":

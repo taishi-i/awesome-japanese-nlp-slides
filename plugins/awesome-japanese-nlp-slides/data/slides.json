@@ -112,6 +112,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "自然言語処理の基礎と実践",
+  "u": "https://speakerdeck.com/isidaitc/zi-ran-yan-yu-chu-li-noji-chu-toshi-jian",
+  "a": "AITC - DENTSU SOKEN",
+  "d": "2022-09-28",
+  "s": "入門・全体像",
+  "src": "speakerdeck"
+ },
+ {
   "t": "言語モデルの内部機序：解析と解釈",
   "u": "https://speakerdeck.com/eumesy/analysis_and_interpretation_of_language_models",
   "a": "Sho Yokoi",
@@ -580,6 +588,14 @@
   "u": "https://speakerdeck.com/ikawaha/1binary-zi-ji-wan-jie-xing-false-xing-tai-su-jie-xi-qi-kagome-wo-zuo-tutemitahua",
   "a": "ikawaha",
   "d": "2015-06-21",
+  "s": "NLP ライブラリ・ツール開発",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "SoftMatcha 2: 1兆語規模コーパスの超高速かつ柔らかい検索",
+  "u": "https://speakerdeck.com/e869120_sub/softmatcha-2-1zhao-yu-gui-mo-kopasunochao-gao-su-katurou-rakaijian-suo",
+  "a": "Masataka YONEDA",
+  "d": "2026-05-05",
   "s": "NLP ライブラリ・ツール開発",
   "src": "speakerdeck"
  },
@@ -1128,6 +1144,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "【ChatGPTの基礎と応用】自然言語処理の最新動向",
+  "u": "https://speakerdeck.com/itandi/chatgptnoji-chu-toying-yong-zi-ran-yan-yu-chu-li-nozui-xin-dong-xiang",
+  "a": "ITANDI",
+  "d": "2023-04-27",
+  "s": "大規模言語モデル（概論・動向）",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "[NLP2026 参加報告会] AI for Science まとめ / NLP2026",
+  "u": "https://speakerdeck.com/lychee1223/nlp2026",
+  "a": "ライチ",
+  "d": "2026-04-20",
+  "s": "大規模言語モデル（概論・動向）",
+  "src": "speakerdeck"
+ },
+ {
   "t": "AIエージェント時代のLLM-jpモデルのあるべき姿",
   "u": "https://speakerdeck.com/k141303/aiezientoshi-dai-nollm-jpmoderunoarubekizi",
   "a": "Kouta Nakayama",
@@ -1336,6 +1368,14 @@
   "src": "slideshare"
  },
  {
+  "t": "Data Selection via Optimal Control for Language Models",
+  "u": "https://speakerdeck.com/sansantech/260709",
+  "a": "SansanTech",
+  "d": "2026-07-23",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）",
+  "src": "speakerdeck"
+ },
+ {
   "t": "PLaMo 3.0 Primeの事後学習",
   "u": "https://speakerdeck.com/pfn/20260730_pfn_llm_1_post_training",
   "a": "Preferred Networks",
@@ -1404,6 +1444,14 @@
   "u": "https://speakerdeck.com/hpprc/lun-jiang-zi-liao-lora-low-rank-adaptation-of-large-language-models",
   "a": "Hayato Tsukagoshi",
   "d": "2023-04-18",
+  "s": "ファインチューニング・事後学習",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "【NLPコロキウム】LLMに論理推論を教えられるか？- 人工コーパスを用いたアプローチ -",
+  "u": "https://speakerdeck.com/morishtr/nlpkorokiumu-llmnilun-li-tui-lun-wojiao-erareruka-ren-gong-kopasuwoyong-itaapuroti",
+  "a": "もりし",
+  "d": "2024-12-19",
   "s": "ファインチューニング・事後学習",
   "src": "speakerdeck"
  },
@@ -2040,6 +2088,30 @@
   "src": "docswell"
  },
  {
+  "t": "ベクトルサーチをやめる",
+  "u": "https://www.docswell.com/s/7707589/5QXGW3-2026-02-25-203826",
+  "a": "やぎ",
+  "d": "2026-02-20",
+  "s": "検索・RAG",
+  "src": "docswell"
+ },
+ {
+  "t": "【Paper&Hacks Vol.92】LangGraph による Agentic RAGハンズオン",
+  "u": "https://www.docswell.com/s/matsuo-lab_llm/ZQ2L6W-Paper&HacksVol.92",
+  "a": "井伊篤彦",
+  "d": "2026-08-04",
+  "s": "検索・RAG",
+  "src": "docswell"
+ },
+ {
+  "t": "RAG × LangChain × LangGraph 入門",
+  "u": "https://www.docswell.com/s/yukiko_it/ZGN62N-2026-08-12-063237",
+  "a": "Yukiko",
+  "d": "2026-08-12",
+  "s": "検索・RAG",
+  "src": "docswell"
+ },
+ {
   "t": "PLaMo 3.0 Primeの構造化出力サポート",
   "u": "https://speakerdeck.com/pfn/20260730_pfn_llm_2_structured_output",
   "a": "Preferred Networks",
@@ -2172,6 +2244,14 @@
   "u": "https://speakerdeck.com/os1ma/puronputoenziniaringukarashi-merulangchainru-men",
   "a": "os1ma",
   "d": "2023-04-20",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLM・AIエージェントシステムベストプラクティス",
+  "u": "https://speakerdeck.com/shibuiwilliam/llm-ai",
+  "a": "shibuiwilliam",
+  "d": "2026-08-10",
   "s": "LLM アプリケーション開発・運用",
   "src": "speakerdeck"
  },
@@ -2432,6 +2512,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+  "u": "https://speakerdeck.com/shunk031/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey",
+  "a": "Shunsuke KITADA",
+  "d": "2026-04-01",
+  "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "査読論文で読むプロンプト・エージェント・ハーネス・PoC",
+  "u": "https://www.docswell.com/s/smile_yukiko_it/58NWL9-2026-06-14-194313",
+  "a": "smile_yukiko_it",
+  "d": "2026-06-14",
+  "s": "AI エージェント・MCP",
+  "src": "docswell"
+ },
+ {
   "t": "セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3",
   "u": "https://www.docswell.com/s/melonattacker/ZDM6MV-seccamp-b3",
   "a": "JJ (yuasa)",
@@ -2564,6 +2660,14 @@
   "u": "https://speakerdeck.com/yoiyoicho/puronputoinziekusiyondeyou-bou-at-bang-song-itkomiyuniteiwang-nian-hui-2023",
   "a": "yoshino",
   "d": "2023-12-15",
+  "s": "LLM の安全性・セキュリティ",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "最先端NLP論文紹介：A Watermark for Large Language Models",
+  "u": "https://speakerdeck.com/kuribayashi4/zui-xian-duan-nlplun-wen-shao-jie-a-watermark-for-large-language-models",
+  "a": "tatsuki kuribayashi",
+  "d": "2023-08-27",
   "s": "LLM の安全性・セキュリティ",
   "src": "speakerdeck"
  },
@@ -4030,6 +4134,14 @@
   "d": "2015-07-16",
   "s": "音声認識・音声処理",
   "src": "slideshare"
+ },
+ {
+  "t": "人工知能学会インダストリアルセッション-朝日新聞の事例紹介-",
+  "u": "https://speakerdeck.com/asahimrdc/ren-gong-zhi-neng-xue-hui-indasutoriarusetusiyon-zhao-ri-xin-wen-noshi-li-shao-jie",
+  "a": "Media R&D Center, The Asahi Shimbun",
+  "d": "2023-06-09",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
  },
  {
   "t": "会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計",

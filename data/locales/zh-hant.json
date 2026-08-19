@@ -11,6 +11,9 @@
   ],
   "count": "共收錄 {total} 份資料，分為 {sections} 個分類。",
   "wip_note": "本清單仍在建置中，今後會持續新增資料並擴充內容。",
+  "latest_heading": "🎉 最近新增的投影片",
+  "latest_intro": "這是最近 7 天內加入本清單的投影片。自加入之日起，會在此顯示 7 天。",
+  "latest_updated": "_{date} 更新_",
   "plugin_heading": "🔍 從 Claude Code 搜尋",
   "plugin_intro": "我們提供了外掛，讓你可以從 Claude Code 搜尋本清單收錄的 {total} 份資料。",
   "plugin_usage": "安裝後，把關鍵字或自然語句交給 `search` 技能，就會依相關度回傳最多 10 筆結果，以及建議的閱讀順序。",
@@ -19,6 +22,7 @@
    "日語、英語、中文皆可搜尋。輸出的語言會配合查詢所使用的語言，以繁體中文查詢就會得到繁體中文的回覆。",
    "也可以用自然語句提問，例如「我想從入門開始依序閱讀」，這樣還會得到建議的閱讀順序。"
   ],
+  "plugin_article": "📝 這個搜尋技能背後的故事，寫在 {link}（日文）。",
   "toc_heading": "目錄",
   "entry": "- [{title}]({url}) - {author}（{ym}）",
   "unknown_date": "公開日期不明",

@@ -100,6 +100,14 @@
     "author": "KOMIYA Atsushi",
     "date": "2014-10-24",
     "source": "speakerdeck"
+   },
+   {
+    "title": "自然言語処理の基礎と実践",
+    "url": "https://speakerdeck.com/isidaitc/zi-ran-yan-yu-chu-li-noji-chu-toshi-jian",
+    "author": "AITC - DENTSU SOKEN",
+    "date": "2022-09-28",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -537,6 +545,14 @@
     "author": "ikawaha",
     "date": "2015-06-21",
     "source": "speakerdeck"
+   },
+   {
+    "title": "SoftMatcha 2: 1兆語規模コーパスの超高速かつ柔らかい検索",
+    "url": "https://speakerdeck.com/e869120_sub/softmatcha-2-1zhao-yu-gui-mo-kopasunochao-gao-su-katurou-rakaijian-suo",
+    "author": "Masataka YONEDA",
+    "date": "2026-05-05",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -1043,6 +1059,22 @@
     "author": "Naoaki Okazaki",
     "date": "2023-03-28",
     "source": "speakerdeck"
+   },
+   {
+    "title": "【ChatGPTの基礎と応用】自然言語処理の最新動向",
+    "url": "https://speakerdeck.com/itandi/chatgptnoji-chu-toying-yong-zi-ran-yan-yu-chu-li-nozui-xin-dong-xiang",
+    "author": "ITANDI",
+    "date": "2023-04-27",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
+   },
+   {
+    "title": "[NLP2026 参加報告会] AI for Science まとめ / NLP2026",
+    "url": "https://speakerdeck.com/lychee1223/nlp2026",
+    "author": "ライチ",
+    "date": "2026-04-20",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -1223,7 +1255,8 @@
     "url": "https://speakerdeck.com/line_developers/snlp-jp-14",
     "author": "Toshinori Sato",
     "date": "2022-09-26",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "大規模日本語ブログコーパスにおける言語モデルの構築と評価",
@@ -1231,6 +1264,14 @@
     "author": "Yahoo!デベロッパーネットワーク",
     "date": "2011-03-29",
     "source": "slideshare"
+   },
+   {
+    "title": "Data Selection via Optimal Control for Language Models",
+    "url": "https://speakerdeck.com/sansantech/260709",
+    "author": "SansanTech",
+    "date": "2026-07-23",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -1300,6 +1341,14 @@
     "author": "Hayato Tsukagoshi",
     "date": "2023-04-18",
     "source": "speakerdeck"
+   },
+   {
+    "title": "【NLPコロキウム】LLMに論理推論を教えられるか？- 人工コーパスを用いたアプローチ -",
+    "url": "https://speakerdeck.com/morishtr/nlpkorokiumu-llmnilun-li-tui-lun-wojiao-erareruka-ren-gong-kopasuwoyong-itaapuroti",
+    "author": "もりし",
+    "date": "2024-12-19",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -1312,7 +1361,8 @@
     "url": "https://speakerdeck.com/superhotdogcat/llmgao-su-hua-mian-qiang-hui-zi-liao",
     "author": "SuperHotDog",
     "date": "2026-07-05",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "国産生成AI PLaMoを支える事後学習と推論最適化",
@@ -1472,7 +1522,8 @@
     "url": "https://speakerdeck.com/rishigami/llmping-jia-noluo-tosixue-kai-fa-zhe-mu-xian-deqi-wotukerupointo",
     "author": "rishigami",
     "date": "2024-05-13",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "Japanese_MT-Bench_を使った_LLM_モデルの評価",
@@ -1653,7 +1704,8 @@
     "url": "https://speakerdeck.com/kamata_shingo/zi-ran-yan-yu-chu-li-toqing-bao-jian-suo-nituite-nlp-and-ir",
     "author": "KAMATA Shingo",
     "date": "2021-11-27",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "レガシーSolrの Elasticseach移行 Cybozu Tech Meetup #14",
@@ -1785,14 +1837,16 @@
     "url": "https://speakerdeck.com/optim/20260721-tanabata-ogasawara",
     "author": "小笠原",
     "date": "2026-07-21",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "20260321_エンベディングってなに？RAGってなに？エンベディングの説明とGemini Embedding 2 の紹介",
     "url": "https://speakerdeck.com/tsho/20260321-enbedeingututenani-ragtutenani-enbedeingunoshuo-ming-togemini-embedding-2-noshao-jie",
     "author": "tsho",
     "date": "2026-03-20",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "2026年はチャンキングを極める！",
@@ -1855,7 +1909,8 @@
     "url": "https://speakerdeck.com/shukob/lun-wen-shao-jie-long-context-llms-meet-rag-overcoming-challenges-for-long-inputs-in-rag-at-gdg-tokyo",
     "author": "Shu Kobuchi",
     "date": "2025-01-28",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "LLMによるRAG評価用合成テストデータの生成",
@@ -1877,6 +1932,30 @@
     "author": "株式会社ホクソエム",
     "date": "2024-07-22",
     "source": "docswell"
+   },
+   {
+    "title": "ベクトルサーチをやめる",
+    "url": "https://www.docswell.com/s/7707589/5QXGW3-2026-02-25-203826",
+    "author": "やぎ",
+    "date": "2026-02-20",
+    "source": "docswell",
+    "added": "2026-08-19"
+   },
+   {
+    "title": "【Paper&Hacks Vol.92】LangGraph による Agentic RAGハンズオン",
+    "url": "https://www.docswell.com/s/matsuo-lab_llm/ZQ2L6W-Paper&HacksVol.92",
+    "author": "井伊篤彦",
+    "date": "2026-08-04",
+    "source": "docswell",
+    "added": "2026-08-19"
+   },
+   {
+    "title": "RAG × LangChain × LangGraph 入門",
+    "url": "https://www.docswell.com/s/yukiko_it/ZGN62N-2026-08-12-063237",
+    "author": "Yukiko",
+    "date": "2026-08-12",
+    "source": "docswell",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -1903,7 +1982,8 @@
     "url": "https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-extended",
     "author": "Naoki Kishida",
     "date": "2026-06-19",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "SQL/ID抽出タスクから考える 実践的なハルシネーション対策",
@@ -1931,7 +2011,8 @@
     "url": "https://speakerdeck.com/keisuketakiguchi/llmdegou-zao-hua-chu-li-nocheng-gong-lu-woguntoshang-gerufang-fa",
     "author": "Keisuke Takiguchi",
     "date": "2025-08-05",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "LLMアプリケーションの品質担保に向けた プラクティスと LLMオブザーバビリティツール",
@@ -2002,6 +2083,14 @@
     "author": "os1ma",
     "date": "2023-04-20",
     "source": "speakerdeck"
+   },
+   {
+    "title": "LLM・AIエージェントシステムベストプラクティス",
+    "url": "https://speakerdeck.com/shibuiwilliam/llm-ai",
+    "author": "shibuiwilliam",
+    "date": "2026-08-10",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -2014,7 +2103,8 @@
     "url": "https://speakerdeck.com/mizutani/seccamp2026-b2",
     "author": "Masayoshi Mizutani",
     "date": "2026-08-11",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "LLMやAIエージェントをソフトウェアに組み込むプラクティス",
@@ -2042,7 +2132,8 @@
     "url": "https://speakerdeck.com/brainpadpr/is-it-true-that-the-more-you-divide-ai-agents-the-better",
     "author": "中西 映人 (Akito Nakanishi)",
     "date": "2026-06-18",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "作りっぱなしで終わらせない！ 価値を出し続ける  AI エージェントのための「信頼性」設計 / Designing Reliability for AI Agents that Deliver Continuous Value",
@@ -2084,7 +2175,8 @@
     "url": "https://speakerdeck.com/oracle4engineer/llm-extension-deep-dive",
     "author": "Takuya Niita",
     "date": "2025-07-16",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "生成AIからエージェントAIへの移行の課題と展望",
@@ -2232,6 +2324,22 @@
     "author": "ryok",
     "date": "2023-10-24",
     "source": "speakerdeck"
+   },
+   {
+    "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+    "url": "https://speakerdeck.com/shunk031/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey",
+    "author": "Shunsuke KITADA",
+    "date": "2026-04-01",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
+   },
+   {
+    "title": "査読論文で読むプロンプト・エージェント・ハーネス・PoC",
+    "url": "https://www.docswell.com/s/smile_yukiko_it/58NWL9-2026-06-14-194313",
+    "author": "smile_yukiko_it",
+    "date": "2026-06-14",
+    "source": "docswell",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -2357,6 +2465,14 @@
     "author": "yoshino",
     "date": "2023-12-15",
     "source": "speakerdeck"
+   },
+   {
+    "title": "最先端NLP論文紹介：A Watermark for Large Language Models",
+    "url": "https://speakerdeck.com/kuribayashi4/zui-xian-duan-nlplun-wen-shao-jie-a-watermark-for-large-language-models",
+    "author": "tatsuki kuribayashi",
+    "date": "2023-08-27",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -3692,6 +3808,14 @@
     "author": "Preferred Networks",
     "date": "2015-07-16",
     "source": "slideshare"
+   },
+   {
+    "title": "人工知能学会インダストリアルセッション-朝日新聞の事例紹介-",
+    "url": "https://speakerdeck.com/asahimrdc/ren-gong-zhi-neng-xue-hui-indasutoriarusetusiyon-zhao-ri-xin-wen-noshi-li-shao-jie",
+    "author": "Media R&D Center, The Asahi Shimbun",
+    "date": "2023-06-09",
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    }
   ]
  },
@@ -3836,7 +3960,8 @@
     "url": "https://speakerdeck.com/kuribayashi4/zi-ran-yan-yu-chu-li-niyorulun-wen-zhi-bi-zhi-yuan",
     "author": "tatsuki kuribayashi",
     "date": "2023-02-11",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "実践：日本語文章生成 Transformers ライブラリで学ぶ実装の守破離 / Introduction of Japanese Text Generation with Transformers",
@@ -3954,7 +4079,8 @@
     "url": "https://speakerdeck.com/koshiro_aoki/mechanistic-interpretability-jie-shi-ke-neng-xing-yan-jiu-noxin-tanachao-liu",
     "author": "Koshiro Aoki",
     "date": "2025-06-01",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "Semantic Shift Stability: 学習コーパス内の単語の意味変化を用いた事前学習済みモデルの時系列性能劣化の監査",
@@ -4037,7 +4163,8 @@
     "url": "https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou",
     "author": "髙橋 誠史",
     "date": "2026-08-17",
-    "source": "speakerdeck"
+    "source": "speakerdeck",
+    "added": "2026-08-19"
    },
    {
     "title": "つくって納得、つかって実感！ 大規模言語モデルことはじめ ver2.0",

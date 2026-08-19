@@ -79,16 +79,22 @@ plugin's search data.
         "url": "https://speakerdeck.com/example/slide",
         "author": "発表者名",
         "date": "2024-11-08",
-        "source": "speakerdeck"
+        "source": "speakerdeck",
+        "added": "2024-11-08"
       }
     ]
   }
 ]
 ```
 
-- All five fields are required.
+- All five fields (`title`, `url`, `author`, `date`, `source`) are required.
 - `date` is `YYYY-MM-DD`. The README rounds it to `YYYY-MM` for display.
 - `source` is one of `speakerdeck`, `docswell` or `slideshare`.
+- `added` is optional: the `YYYY-MM-DD` date the entry was added to this list
+  (not the deck's own `date`). Set it and the entry shows up in the README's
+  "🎉 The latest additions" section for 7 days from that date, then drops out
+  on its own — nothing to clean up later. Leave it out and the entry is never
+  featured there, which is also what a pre-existing entry does implicitly.
 - The order of `entries` is free: the README lists each section newest first.
   Keeping the file in that order too makes diffs easier to read.
 

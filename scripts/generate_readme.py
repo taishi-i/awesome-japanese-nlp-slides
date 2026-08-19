@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -32,6 +33,13 @@ LICENSE_BADGE = "https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg"
 LICENSE_URL = "http://creativecommons.org/publicdomain/zero/1.0/"
 
 LOGO = "images/awesome-japanese-nlp-slides.png"
+
+# The Zenn article introducing the search plugin/skill. The title is kept in
+# Japanese in every language's README, same as deck titles (see titles_note).
+ZENN_ARTICLE_URL = "https://zenn.dev/taishii/articles/523e4ffc13387d"
+ZENN_ARTICLE_TITLE = (
+    "日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル"
+)
 
 Locale = dict[str, Any]
 
@@ -98,6 +106,46 @@ def _intro(
     return [*lines, "> [!NOTE]", f"> {strings['wip_note']}", ""]
 
 
+def _latest_additions(
+    strings: dict[str, str], sections: list[Section], name_of: Any, today: date
+) -> list[str]:
+    """Return the section listing decks added in the last 7 days, grouped by section.
+
+    Empty when nothing qualifies, so a quiet week leaves no trace in the
+    README rather than an empty heading.
+    """
+    groups = [
+        (name_of(section), recent)
+        for section in sections
+        if (
+            recent := sorted(
+                (e for e in section["entries"] if slides.is_recent(e, today)),
+                key=lambda e: e["added"],
+                reverse=True,
+            )
+        )
+    ]
+    if not groups:
+        return []
+
+    lines = [f"## {strings['latest_heading']}", "", strings["latest_intro"], ""]
+    for name, entries in groups:
+        lines.append(f"**{name}**")
+        lines += [
+            strings["entry"].format(
+                title=escape(entry["title"]),
+                url=entry["url"],
+                author=entry["author"] or strings["unknown_author"],
+                ym=entry["date"][:7] if entry["date"] else strings["unknown_date"],
+            )
+            for entry in entries
+        ]
+        lines.append("")
+    lines.append(strings["latest_updated"].format(date=today.isoformat()))
+    lines.append("")
+    return lines
+
+
 def _plugin(strings: dict[str, str], total: int) -> list[str]:
     """Return the section describing the Claude Code plugin."""
     return [
@@ -122,7 +170,16 @@ def _plugin(strings: dict[str, str], total: int) -> list[str]:
         "> [!TIP]",
         *(f"> {line}" for line in strings["plugin_tip"]),
         "",
+        *_plugin_article(strings),
     ]
+
+
+def _plugin_article(strings: dict[str, str]) -> list[str]:
+    """Return the further-reading link to the Zenn article, if the locale has one."""
+    if not strings.get("plugin_article"):
+        return []
+    link = f"[{escape(ZENN_ARTICLE_TITLE)}]({ZENN_ARTICLE_URL})"
+    return [strings["plugin_article"].format(link=link), ""]
 
 
 def _body(
@@ -149,11 +206,14 @@ def _body(
     return lines
 
 
-def render(locale: Locale, sections: list[Section], nav: str, depth: int) -> str:
+def render(
+    locale: Locale, sections: list[Section], nav: str, depth: int, today: date
+) -> str:
     """Return the README text for one language.
 
     ``depth`` is how deep the output file sits, used to adjust the relative
-    link to the logo.
+    link to the logo. ``today`` decides which entries are recent enough for
+    the "latest additions" section.
     """
     strings = locale["strings"]
     translations = locale.get("sections", {})
@@ -168,6 +228,7 @@ def render(locale: Locale, sections: list[Section], nav: str, depth: int) -> str
 
     lines = [
         *_intro(strings, nav, total, len(sections), depth),
+        *_latest_additions(strings, sections, name_of, today),
         *_plugin(strings, total),
         *_body(strings, sections, name_of, blurb_of),
         f"## {strings['license_heading']}",
@@ -184,6 +245,7 @@ def main() -> None:
     sections = slides.load()
     locales = load_locales()
     nav = nav_line(locales)
+    today = date.today()
 
     for locale in locales:
         for relative in locale["outputs"]:
@@ -191,7 +253,7 @@ def main() -> None:
             out.parent.mkdir(parents=True, exist_ok=True)
             # How many directories deep the file sits, for the logo's relative link.
             depth = len(Path(relative).parts) - 1
-            body = render(locale, sections, nav, depth)
+            body = render(locale, sections, nav, depth, today)
             out.write_text(body, encoding="utf-8")
             print(f"wrote {relative}: {locale['lang']}, {len(body.splitlines())} lines")
 

@@ -213,7 +213,7 @@ If more than 20 candidates survive, prioritise those that appeared in several re
 
 ### Step 6 — Enrich the candidates via WebFetch
 
-`curated.json` requires five fields per entry and **rejects a missing or malformed one**, so every candidate has to be confirmed against its own page — never guess a date from a search snippet.
+`curated.json` requires five fields per entry (`title`, `url`, `author`, `date`, `source`) and **rejects a missing or malformed one**, so every candidate has to be confirmed against its own page — never guess a date from a search snippet. Set the sixth, optional field, `added`, to `$TODAY` (from the Preamble) on every candidate this skill outputs — that is what puts it in the README's "🎉 latest additions" section for the 7 days after it lands in `curated.json`.
 
 Cap at **10–15** candidates and issue up to **5 WebFetch calls in parallel** (one message, multiple tool calls):
 
@@ -267,7 +267,8 @@ Lead with the paste-ready JSON, grouped by section. These are **entry objects to
   "url": "https://speakerdeck.com/user/slug",
   "author": "発表者名",
   "date": "2025-06-14",
-  "source": "speakerdeck"
+  "source": "speakerdeck",
+  "added": "$TODAY"
 },
 ```
 
@@ -292,7 +293,7 @@ Lead with the paste-ready JSON, grouped by section. These are **entry objects to
 
 **Rules for the output:**
 
-- The JSON block is the deliverable — keep the five keys in the order `title`, `url`, `author`, `date`, `source` to match the file, and leave the trailing comma so the block splices into an existing array.
+- The JSON block is the deliverable — keep the six keys in the order `title`, `url`, `author`, `date`, `source`, `added` to match the file, and leave the trailing comma so the block splices into an existing array. `added` is always `$TODAY`, the day this skill ran, not the deck's own `date`.
 - The bullet under each JSON block is for the human reading the result: presenter, `YYYY-MM`, slide count when known, and one sentence on the content **drawn from the WebFetch summary**. Never invent a description you did not read.
 - Order the entries within a section newest first, matching how `curated.json` is kept.
 - Do not print the "要確認" block or the "反映手順" block when they are empty.
