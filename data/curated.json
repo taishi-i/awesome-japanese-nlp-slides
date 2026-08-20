@@ -4,6 +4,14 @@
   "blurb": "自然言語処理そのものを俯瞰したい人が最初に読む資料。",
   "entries": [
    {
+    "title": "RとLLMで自然言語処理",
+    "url": "https://speakerdeck.com/bob3bob3/rtollmdezi-ran-yan-yu-chu-li",
+    "author": "bob3bob3",
+    "date": "2025-07-09",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
     "title": "情報処理学会関西支部2024年度定期講演会「自然言語処理と大規模言語モデルの基礎」",
     "url": "https://speakerdeck.com/ksudoh/qing-bao-chu-li-xue-hui-guan-xi-zhi-bu-2024nian-du-ding-qi-jiang-yan-hui-zi-ran-yan-yu-chu-li-toda-gui-mo-yan-yu-moderunoji-chu",
     "author": "Katsuhito Sudoh",
@@ -998,6 +1006,46 @@
   "blurb": "LLM 全体を俯瞰する解説・招待講演。",
   "entries": [
    {
+    "title": "AI研修(Day2)【MIXI 26新卒技術研修】",
+    "url": "https://speakerdeck.com/mixi_engineers/2026_new_grad_training_ai_day2",
+    "author": "MIXI ENGINEERS",
+    "date": "2026-07-23",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "NLP2026参加報告",
+    "url": "https://www.docswell.com/s/Kakinoki47/K27281-2026-04-06-120408",
+    "author": "柿木幹太",
+    "date": "2026-04-06",
+    "source": "docswell",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "大規模言語モデル (LLM) 入門",
+    "url": "https://speakerdeck.com/rist/da-gui-mo-yan-yu-moderu-llm-ru-men",
+    "author": "Rist Inc.",
+    "date": "2025-10-16",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "【新卒研修資料】LLM・生成AI研修 / Large Language Model・Generative AI",
+    "url": "https://speakerdeck.com/brainpadpr/large-language-modelgenerative-ai",
+    "author": "BrainPad",
+    "date": "2025-09-29",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "つくって納得、つかって実感！ 大規模言語モデルことはじめ",
+    "url": "https://speakerdeck.com/recruitengineers/tukututena-de-tukatuteshi-gan-da-gui-mo-yan-yu-moderukotohazime",
+    "author": "Recruit",
+    "date": "2025-08-28",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
     "title": "AIはどのように考えて話すのか？ ― 言葉と知能の不思議",
     "url": "https://speakerdeck.com/chokkan/how-ai-thinks-and-responds",
     "author": "Naoaki Okazaki",
@@ -1819,6 +1867,54 @@
   "blurb": "検索拡張生成（RAG）の設計・改善・評価。",
   "entries": [
    {
+    "title": "【AI×DevOps Study #20】AI Agent のための RAG System１（全2回）",
+    "url": "https://speakerdeck.com/scalar/aixdevops-study-20-ai-agent-no-tame-no-rag-system-chon-2-kai",
+    "author": "深津航",
+    "date": "2026-08-19",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "10分で学ぶ、RAGの仕組みと実践",
+    "url": "https://speakerdeck.com/supermarimobros/10fen-dexue-bu-ragnoshi-zu-mitoshi-jian",
+    "author": "Marimo",
+    "date": "2025-04-30",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "生成AIをより賢く エンジニアのための RAG入門 - Oracle AI Jam Session #20",
+    "url": "https://speakerdeck.com/kutsushitaneko/sheng-cheng-aiwoyorixian-ku-enzinianotameno-ragru-men-oracle-ai-jam-session-number-20",
+    "author": "Yuji Arakawa",
+    "date": "2024-12-18",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "RAGの基本と最新技術動向",
+    "url": "https://speakerdeck.com/fumina/ragnoji-ben-tozui-xin-ji-shu-dong-xiang",
+    "author": "Fumina Chihama",
+    "date": "2024-06-06",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "検索拡張生成（RAG）をAWSで作る方法",
+    "url": "https://speakerdeck.com/sonoda_mj/jian-suo-kuo-zhang-sheng-cheng-rag-woawsdezuo-rufang-fa",
+    "author": "そのだ",
+    "date": "2024-04-24",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "AmazonBedrockを使用した自作RAGの作り方",
+    "url": "https://speakerdeck.com/sonoda_mj/amazonbedrockwoshi-yong-sitazi-zuo-ragnozuo-rifang",
+    "author": "そのだ",
+    "date": "2024-02-28",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
+   {
     "title": "【Paper&Hacks Vol.89】RAGアプリハンズオン～LLM/Embedding選択～",
     "url": "https://www.docswell.com/s/matsuo-lab_llm/Z8NRJE-Paper&HacksVol.89",
     "author": "松尾研LLMコミュニティ",
@@ -2098,6 +2194,22 @@
   "section": "AI エージェント・MCP",
   "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
   "entries": [
+   {
+    "title": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ .pptx",
+    "url": "https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636",
+    "author": "smile_yukiko_it",
+    "date": "2026-06-13",
+    "source": "docswell",
+    "added": "2026-08-20"
+   },
+   {
+    "title": "(論文読み)AI Scientist: 科学的発見の完全自動化に向けて",
+    "url": "https://speakerdeck.com/__ymgc__/lun-wen-du-mi-ai-scientist-ke-xue-de-fa-jian-nowan-quan-zi-dong-hua-nixiang-kete",
+    "author": "ymgc",
+    "date": "2024-08-18",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
    {
     "title": "セキュリティ・キャンプ2026B2 セキュリティ分析LLMエージェントの実装 /seccamp2026-b2",
     "url": "https://speakerdeck.com/mizutani/seccamp2026-b2",
@@ -4046,6 +4158,14 @@
   "section": "解釈性・分析・言語学的視点",
   "blurb": "モデルの中身を覗き、言語の観点から評価する。",
   "entries": [
+   {
+    "title": "最先端NLP論文紹介：Revisiting the Uniform Information Density Hypothesis (EMNLP2021). Linguistic Dependencies and Statistical Dependence (EMNLP2021).",
+    "url": "https://speakerdeck.com/kuribayashi4/zui-xian-duan-nlplun-wen-shao-jie-revisiting-the-uniform-information-density-hypothesis-emnlp2021-linguistic-dependencies-and-statistical-dependence-emnlp2021",
+    "author": "tatsuki kuribayashi",
+    "date": "2022-10-07",
+    "source": "speakerdeck",
+    "added": "2026-08-20"
+   },
    {
     "title": "大規模言語モデルは誰を覚えているか / Who Do Large Language Models Memorize?",
     "url": "https://speakerdeck.com/upura/who-do-large-language-models-memorize",
