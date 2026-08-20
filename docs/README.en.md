@@ -18,6 +18,30 @@ Deck titles are kept as published, so most of them are in Japanese.
 > [!NOTE]
 > This list is still a work in progress. More material will be added over time.
 
+## 🔍 Search from Claude Code
+
+A plugin is available to search all 589 decks in this list from Claude Code.
+
+```
+/plugin marketplace add taishi-i/awesome-japanese-nlp-slides
+/plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
+```
+
+Once installed, pass a keyword or a natural language question to the `search` skill and you get up to 10 results ranked by relevance, plus a suggested reading order.
+
+```
+/awesome-japanese-nlp-slides:search morphological analysis
+/awesome-japanese-nlp-slides:search Japanese LLM pretraining
+/awesome-japanese-nlp-slides:search RAG
+/awesome-japanese-nlp-slides:search evaluation benchmark
+```
+
+> [!TIP]
+> You can search in Japanese, English or Chinese. The output language follows the language of your query.
+> Ask in natural language, e.g. "I want to read these in order starting from the basics", and you also get a suggested reading order.
+
+📝 The story behind this search skill is written up in [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) (Japanese).
+
 ## 🎉 The Latest Additions
 
 Decks added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
@@ -83,31 +107,7 @@ Decks added to this list in the last 7 days. Each one stays here for 7 days from
 **Industry Applications & Case Studies**
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史 (2026-08)
 
-_Updated on 2026-08-19_
-
-## 🔍 Search from Claude Code
-
-A plugin is available to search all 589 decks in this list from Claude Code.
-
-```
-/plugin marketplace add taishi-i/awesome-japanese-nlp-slides
-/plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
-```
-
-Once installed, pass a keyword or a natural language question to the `search` skill and you get up to 10 results ranked by relevance, plus a suggested reading order.
-
-```
-/awesome-japanese-nlp-slides:search morphological analysis
-/awesome-japanese-nlp-slides:search Japanese LLM pretraining
-/awesome-japanese-nlp-slides:search RAG
-/awesome-japanese-nlp-slides:search evaluation benchmark
-```
-
-> [!TIP]
-> You can search in Japanese, English or Chinese. The output language follows the language of your query.
-> Ask in natural language, e.g. "I want to read these in order starting from the basics", and you also get a suggested reading order.
-
-📝 The story behind this search skill is written up in [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) (Japanese).
+_Updated on 2026-08-20_
 
 ## Contents
 

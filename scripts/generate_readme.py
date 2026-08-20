@@ -228,8 +228,8 @@ def render(
 
     lines = [
         *_intro(strings, nav, total, len(sections), depth),
-        *_latest_additions(strings, sections, name_of, today),
         *_plugin(strings, total),
+        *_latest_additions(strings, sections, name_of, today),
         *_body(strings, sections, name_of, blurb_of),
         f"## {strings['license_heading']}",
         "",

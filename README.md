@@ -16,6 +16,30 @@
 > [!NOTE]
 > このリストは現在構築途中です。今後も資料を追加し、内容を拡張していきます。
 
+## 🔍 Claude Code から検索する
+
+このリストの資料 589 件を Claude Code から検索できるプラグインを用意しています。
+
+```
+/plugin marketplace add taishi-i/awesome-japanese-nlp-slides
+/plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
+```
+
+インストール後、`search` スキルにキーワードや自然文を渡すと、関連度順に最大 10 件と読む順の提案が返ります。
+
+```
+/awesome-japanese-nlp-slides:search 形態素解析
+/awesome-japanese-nlp-slides:search 日本語LLMの事前学習
+/awesome-japanese-nlp-slides:search RAG
+/awesome-japanese-nlp-slides:search evaluation benchmark
+```
+
+> [!TIP]
+> 日本語・英語・中国語のいずれでも検索できます。出力の言語はクエリの言語に合わせます。
+> 「入門から順に読みたい」のように自然文で聞くと、読む順の提案も返ります。
+
+📝 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) で、この検索スキルを作った経緯を解説しています。
+
 ## 🎉 最近追加されたスライド
 
 このリストに直近7日以内に追加されたスライドです。追加された日から7日間、ここに表示されます。
@@ -81,31 +105,7 @@
 **産業応用・実務事例**
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史（2026-08）
 
-_2026-08-19 時点_
-
-## 🔍 Claude Code から検索する
-
-このリストの資料 589 件を Claude Code から検索できるプラグインを用意しています。
-
-```
-/plugin marketplace add taishi-i/awesome-japanese-nlp-slides
-/plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
-```
-
-インストール後、`search` スキルにキーワードや自然文を渡すと、関連度順に最大 10 件と読む順の提案が返ります。
-
-```
-/awesome-japanese-nlp-slides:search 形態素解析
-/awesome-japanese-nlp-slides:search 日本語LLMの事前学習
-/awesome-japanese-nlp-slides:search RAG
-/awesome-japanese-nlp-slides:search evaluation benchmark
-```
-
-> [!TIP]
-> 日本語・英語・中国語のいずれでも検索できます。出力の言語はクエリの言語に合わせます。
-> 「入門から順に読みたい」のように自然文で聞くと、読む順の提案も返ります。
-
-📝 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) で、この検索スキルを作った経緯を解説しています。
+_2026-08-20 時点_
 
 ## 目次
 

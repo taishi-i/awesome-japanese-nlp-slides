@@ -18,6 +18,30 @@
 > [!NOTE]
 > 本列表仍在建设中，今后会持续新增资料并扩充内容。
 
+## 🔍 从 Claude Code 搜索
+
+我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 589 份资料。
+
+```
+/plugin marketplace add taishi-i/awesome-japanese-nlp-slides
+/plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
+```
+
+安装后，把关键词或自然语句交给 `search` 技能，就会按相关度返回最多 10 条结果，以及建议的阅读顺序。
+
+```
+/awesome-japanese-nlp-slides:search 形态素解析
+/awesome-japanese-nlp-slides:search 日语 LLM 的预训练
+/awesome-japanese-nlp-slides:search RAG
+/awesome-japanese-nlp-slides:search evaluation benchmark
+```
+
+> [!TIP]
+> 日语、英语、中文均可搜索。输出的语言会跟随查询所使用的语言，用简体中文查询就会得到简体中文的回复。
+> 也可以用自然语句提问，例如「我想从入门开始依次阅读」，这样还会得到建议的阅读顺序。
+
+📝 这个搜索技能背后的故事，写在 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d)（日文）。
+
 ## 🎉 最近新增的幻灯片
 
 这是最近 7 天内加入本列表的幻灯片。自加入之日起，会在此显示 7 天。
@@ -83,31 +107,7 @@
 **产业应用・实务案例**
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史（2026-08）
 
-_2026-08-19 更新_
-
-## 🔍 从 Claude Code 搜索
-
-我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 589 份资料。
-
-```
-/plugin marketplace add taishi-i/awesome-japanese-nlp-slides
-/plugin install awesome-japanese-nlp-slides@awesome-japanese-nlp-slides
-```
-
-安装后，把关键词或自然语句交给 `search` 技能，就会按相关度返回最多 10 条结果，以及建议的阅读顺序。
-
-```
-/awesome-japanese-nlp-slides:search 形态素解析
-/awesome-japanese-nlp-slides:search 日语 LLM 的预训练
-/awesome-japanese-nlp-slides:search RAG
-/awesome-japanese-nlp-slides:search evaluation benchmark
-```
-
-> [!TIP]
-> 日语、英语、中文均可搜索。输出的语言会跟随查询所使用的语言，用简体中文查询就会得到简体中文的回复。
-> 也可以用自然语句提问，例如「我想从入门开始依次阅读」，这样还会得到建议的阅读顺序。
-
-📝 这个搜索技能背后的故事，写在 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d)（日文）。
+_2026-08-20 更新_
 
 ## 目录
 
