@@ -28,7 +28,30 @@
   "unknown_date": "公開日不明",
   "unknown_author": "発表者不明",
   "license_heading": "ライセンス",
-  "license_note": "CC0 が適用されるのはこのリスト自体です。リンク先の各スライドの著作権は、それぞれの発表者に帰属します。"
+  "license_note": "CC0 が適用されるのはこのリスト自体です。リンク先の各スライドの著作権は、それぞれの発表者に帰属します。",
+  "articles_pointer": "🌐 企業や個人開発者が公開しているブログ記事・技術記事は[こちらの記事一覧]({link})に別途まとめています（{total} 件）。"
  },
- "sections": {}
+ "sections": {},
+ "articles": {
+  "outputs": ["docs/ARTICLES.ja.md"],
+  "strings": {
+   "logo_alt": "Awesome Japanese NLP Slides",
+   "back_to_main": "← [スライド一覧]({link}) に戻る",
+   "intro": [
+    "日本語の自然言語処理（NLP）に関する、企業や個人開発者によるウェブページ・ブログ記事を集めた厳選リストです。",
+    "[スライド一覧]({link}) と同じ32のトピックで整理しています。"
+   ],
+   "count": "{total} 件の記事を {sections} カテゴリに分類しています。",
+   "wip_note": "このリストは現在構築途中です。今後も記事を追加し、内容を拡張していきます。",
+   "latest_heading": "🎉 最近追加された記事",
+   "latest_intro": "このリストに直近7日以内に追加された記事です。追加された日から7日間、ここに表示されます。",
+   "latest_updated": "_{date} 時点_",
+   "toc_heading": "目次",
+   "entry": "- [{title}]({url}) - {author}（{ym}）",
+   "unknown_date": "公開日不明",
+   "unknown_author": "著者不明",
+   "license_heading": "ライセンス",
+   "license_note": "CC0 が適用されるのはこのリスト自体です。リンク先の各記事の著作権は、それぞれの執筆者・企業に帰属します。"
+  }
+ }
 }

@@ -1,11 +1,14 @@
 # scripts
 
-The generation pipeline for the README files and the plugin's search data.
+The generation pipeline for the README files, the articles list, and the
+plugin's search data.
 
-`data/curated.json` is the single source of truth of this repository. Both the
-README in every language and the search data bundled with the plugin are
-generated from it, so **the only file you edit when adding a slide deck is
-`data/curated.json`**.
+`data/curated.json` is the single source of truth for the **slide decks**.
+Both the README in every language and the search data bundled with the plugin
+are generated from it, so **the only file you edit when adding a slide deck is
+`data/curated.json`**. `data/articles.json` is the same idea for the companion
+list of **web pages and blog posts** — see [Articles](#articles-blog-posts-and-web-pages)
+below.
 
 ## Repository layout
 
@@ -17,20 +20,27 @@ generated from it, so **the only file you edit when adding a slide deck is
 │   ├── README.ja.md              # generated (same text as the root README.md)
 │   ├── README.en.md              # generated, English
 │   ├── README.zh-hant.md         # generated, traditional Chinese
-│   └── README.zh-hans.md         # generated, simplified Chinese
+│   ├── README.zh-hans.md         # generated, simplified Chinese
+│   ├── ARTICLES.ja.md            # generated, the articles list (Japanese)
+│   ├── ARTICLES.en.md            # generated, English
+│   ├── ARTICLES.zh-hant.md       # generated, traditional Chinese
+│   └── ARTICLES.zh-hans.md       # generated, simplified Chinese
 ├── images/
 │   └── awesome-japanese-nlp-slides.png
 ├── data/
-│   ├── curated.json              # ★ the single source of truth (the only file you edit)
+│   ├── curated.json              # ★ slide decks: the source of truth (the only file you edit)
+│   ├── articles.json             # ★ web pages / blog posts: the source of truth
 │   └── locales/                  # ★ per-language wording (add a file to add a language)
 │       ├── ja.json
 │       ├── en.json
 │       ├── zh-hant.json
 │       └── zh-hans.json
 ├── scripts/
-│   ├── slides.py                 # loads and validates curated.json (shared module)
-│   ├── generate_readme.py        # curated.json + locales → the README of each language
-│   └── build_plugin_data.py      # curated.json → the plugin's slides.json
+│   ├── slides.py                    # loads and validates curated.json (shared module)
+│   ├── articles.py                  # loads and validates articles.json (shared module)
+│   ├── generate_readme.py           # curated.json + locales → the README of each language
+│   ├── generate_articles_readme.py  # articles.json + locales → the articles list
+│   └── build_plugin_data.py         # curated.json → the plugin's slides.json
 └── plugins/awesome-japanese-nlp-slides/
     ├── .claude-plugin/plugin.json
     ├── data/slides.json          # generated (shipped inside the plugin)
@@ -40,23 +50,36 @@ generated from it, so **the only file you edit when adding a slide deck is
 ```
 
 The material itself — title, URL, presenter, date — is the same in every
-language, and `curated.json` is its only source. Only section names, blurbs and
-the boilerplate around them need translating, which is why those live in
-`data/locales/`.
+language, and `curated.json` (or `articles.json`) is its only source. Only
+section names, blurbs and the boilerplate around them need translating, which
+is why those live in `data/locales/`. Both lists share the same 32 section
+names, so a section's translated name is written once and reused by both.
 
 ## Running
 
-Edit `data/curated.json`, then run these two commands to refresh everything.
+Edit `data/curated.json`, then run these to refresh the slide list and the
+plugin's search data.
 
 ```bash
 python3 scripts/generate_readme.py      # README.md, docs/README.*.md
 python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json
 ```
 
-To validate without generating anything, run the shared module directly.
+Edit `data/articles.json`, then run this to refresh the articles list.
 
 ```bash
-python3 scripts/slides.py               # ok: 560 entries in 32 sections
+python3 scripts/generate_articles_readme.py   # docs/ARTICLES.*.md
+```
+
+`generate_readme.py` also links to the articles list (the "🌐" line near the
+top of the README), so re-run it after changing `articles.json` too if you
+want that entry count to catch up.
+
+To validate without generating anything, run the shared modules directly.
+
+```bash
+python3 scripts/slides.py               # ok: 604 entries in 32 sections
+python3 scripts/articles.py             # ok: 64 entries in 32 sections
 ```
 
 There are no dependencies — the Python 3 standard library is enough (3.9 or
@@ -148,11 +171,57 @@ and of the sections in the README. After adding a section, add its translation
 to `sections` in each `data/locales/*.json` — an untranslated section is
 emitted in Japanese.
 
+## Articles (blog posts and web pages)
+
+`data/articles.json` is the same shape as `curated.json` — a list of the same
+32 sections, each with a `blurb` and `entries` — except an entry has no
+`source` field (articles aren't confined to three known platforms the way
+slides are):
+
+```json
+[
+  {
+    "section": "検索・RAG",
+    "blurb": "The single sentence that opens the section.",
+    "entries": [
+      {
+        "title": "RAGをゼロから実装して仕組みを学ぶ",
+        "url": "https://example.com/blog/rag-from-scratch",
+        "author": "著者名 or 企業名",
+        "date": "2025-11-18",
+        "added": "2025-11-20"
+      }
+    ]
+  }
+]
+```
+
+- `title`, `url`, `author` and `date` are required; `added` is optional and
+  works exactly like it does in `curated.json` (see above) — it puts the entry
+  in the "🎉 latest additions" section of the articles list for 7 days.
+- The section names must match `curated.json` **character for character**.
+  `generate_articles_readme.py` reuses the slide list's own translated section
+  names from `data/locales/*.json`'s `sections` key, so a section gets its
+  translated heading in the articles list for free — only the `blurb` in
+  `articles.json` is specific to this list, and it is only ever authored in
+  Japanese; other languages fall back to it, same as an untranslated slide
+  section would.
+- Because articles can come from anywhere, prefer a real company tech blog or
+  an individual developer's own blog (Zenn, Qiita, note, hatenablog, a company
+  `tech.*` subdomain, ...) over SEO/content-marketing pages — the bar is the
+  same "would a Japanese NLP engineer actually want to read this" judgment
+  used for slides.
+- Each language's `data/locales/*.json` needs its own `articles` block (with
+  `outputs` and its own `strings`) for `generate_articles_readme.py` to write
+  that language's file — see `ja.json` for a filled-in example. A locale
+  without one is simply skipped by the articles generator (the slide README
+  still gets generated normally).
+
 ## Adding a language
 
-Drop one more JSON file into `data/locales/` and run `generate_readme.py`. No
-change to the scripts is needed. For simplified Chinese, for example, you would
-add `data/locales/zh-hans.json`:
+Drop one more JSON file into `data/locales/` and run `generate_readme.py` and
+`generate_articles_readme.py`. No change to the scripts is needed. For
+simplified Chinese, for example, you would add `data/locales/zh-hans.json`:
 
 ```json
 {
@@ -163,6 +232,10 @@ add `data/locales/zh-hans.json`:
   "strings": { "...": "fill in every key found in en.json" },
   "sections": {
     "検索・RAG": { "section": "检索・RAG", "blurb": "..." }
+  },
+  "articles": {
+    "outputs": ["docs/ARTICLES.zh-hans.md"],
+    "strings": { "...": "fill in every key found in en.json's articles.strings" }
   }
 }
 ```
@@ -176,10 +249,15 @@ add `data/locales/zh-hans.json`:
   translate it. `{total}` and `{sections}` are replaced with the number of
   decks and of categories. `titles_note` — the remark that titles are kept in
   their original language — is optional; omit the key and the line is skipped.
+  `articles_pointer` is optional too: omit it and the README simply has no
+  link to the articles list in that language.
 - `sections` — **keyed by the Japanese section name**, with the translated
   `section` and `blurb`. The key must match the section name in `curated.json`
   exactly. Sections that do not match, or that are missing, are emitted in
-  Japanese.
+  Japanese. Reused as-is by the articles list for its section headings.
+- `articles` — optional; add it once the language should also get an articles
+  list. `outputs` and `strings` work exactly like the top-level keys above,
+  just for `docs/ARTICLES.<lang>.md` instead of the README.
 
 ## Linting
 

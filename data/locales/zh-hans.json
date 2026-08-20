@@ -29,7 +29,31 @@
   "unknown_author": "发表者不明",
   "license_heading": "许可协议",
   "license_note": "CC0 适用的对象是本列表本身。各份幻灯片的著作权，归属于各自的发表者。",
-  "titles_note": "幻灯片标题保留发表时的原文，因此绝大多数为日语。"
+  "titles_note": "幻灯片标题保留发表时的原文，因此绝大多数为日语。",
+  "articles_pointer": "🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表]({link})（{total} 篇）。"
+ },
+ "articles": {
+  "outputs": ["docs/ARTICLES.zh-hans.md"],
+  "strings": {
+   "logo_alt": "Awesome Japanese NLP Slides",
+   "back_to_main": "← 回到[幻灯片列表]({link})",
+   "intro": [
+    "这是一份精选列表，收录了日语自然语言处理（NLP）相关、由企业与个人开发者撰写的网页与博客文章。",
+    "采用与[幻灯片列表]({link})相同的 32 个主题分类。"
+   ],
+   "count": "共收录 {total} 篇文章，分为 {sections} 个分类。",
+   "wip_note": "本列表仍在建设中，今后会持续新增文章并扩充内容。",
+   "latest_heading": "🎉 最近新增的文章",
+   "latest_intro": "这是最近 7 天内加入本列表的文章。自加入之日起，会在此显示 7 天。",
+   "latest_updated": "_{date} 更新_",
+   "toc_heading": "目录",
+   "entry": "- [{title}]({url}) - {author}（{ym}）",
+   "unknown_date": "公开日期不明",
+   "unknown_author": "作者不明",
+   "license_heading": "许可协议",
+   "license_note": "CC0 适用的对象是本列表本身。各篇文章的著作权，归属于各自的作者或企业。",
+   "titles_note": "文章标题保留发表时的原文，因此绝大多数为日语。"
+  }
  },
  "sections": {
   "入門・全体像": {

@@ -29,7 +29,31 @@
   "unknown_author": "presenter unknown",
   "license_heading": "License",
   "license_note": "CC0 applies to this list itself. The copyright of each linked deck belongs to its respective presenter.",
-  "titles_note": "Deck titles are kept as published, so most of them are in Japanese."
+  "titles_note": "Deck titles are kept as published, so most of them are in Japanese.",
+  "articles_pointer": "🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list]({link}) ({total} entries)."
+ },
+ "articles": {
+  "outputs": ["docs/ARTICLES.en.md"],
+  "strings": {
+   "logo_alt": "Awesome Japanese NLP Slides",
+   "back_to_main": "← Back to the [slide list]({link})",
+   "intro": [
+    "A curated list of web pages and blog posts on Japanese natural language processing (NLP), written by companies and individual developers.",
+    "Organized under the same 32 topics as the [slide list]({link})."
+   ],
+   "count": "{total} articles across {sections} categories.",
+   "wip_note": "This list is still a work in progress. More material will be added over time.",
+   "latest_heading": "🎉 The Latest Additions",
+   "latest_intro": "Articles added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.",
+   "latest_updated": "_Updated on {date}_",
+   "toc_heading": "Contents",
+   "entry": "- [{title}]({url}) - {author} ({ym})",
+   "unknown_date": "date unknown",
+   "unknown_author": "author unknown",
+   "license_heading": "License",
+   "license_note": "CC0 applies to this list itself. The copyright of each linked article belongs to its respective author or company.",
+   "titles_note": "Article titles are kept as published, so most of them are in Japanese."
+  }
  },
  "sections": {
   "入門・全体像": {

@@ -42,6 +42,8 @@
 
 📝 這個搜尋技能背後的故事，寫在 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d)（日文）。
 
+🌐 企業與個人開發者發布的部落格文章，另外整理於[這份文章清單](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hant.md)（115 篇）。
+
 ## 🎉 最近新增的投影片
 
 這是最近 7 天內加入本清單的投影片。自加入之日起，會在此顯示 7 天。
@@ -122,7 +124,7 @@
 **產業應用・實務案例**
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史（2026-08）
 
-_2026-08-20 更新_
+_2026-08-21 更新_
 
 ## 目錄
 

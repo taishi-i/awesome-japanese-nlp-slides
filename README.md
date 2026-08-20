@@ -40,6 +40,8 @@
 
 📝 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) で、この検索スキルを作った経緯を解説しています。
 
+🌐 企業や個人開発者が公開しているブログ記事・技術記事は[こちらの記事一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.ja.md)に別途まとめています（115 件）。
+
 ## 🎉 最近追加されたスライド
 
 このリストに直近7日以内に追加されたスライドです。追加された日から7日間、ここに表示されます。
@@ -120,7 +122,7 @@
 **産業応用・実務事例**
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史（2026-08）
 
-_2026-08-20 時点_
+_2026-08-21 時点_
 
 ## 目次
 

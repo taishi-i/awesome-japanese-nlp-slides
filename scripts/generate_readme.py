@@ -13,8 +13,9 @@ import json
 import re
 from datetime import date
 from pathlib import Path
-from typing import Any
+from typing import Any, NamedTuple
 
+import articles
 import slides
 from slides import ROOT, Section
 
@@ -42,6 +43,15 @@ ZENN_ARTICLE_TITLE = (
 )
 
 Locale = dict[str, Any]
+
+
+class RunInfo(NamedTuple):
+    """The values that stay the same across every output file of a run."""
+
+    nav: str
+    today: date
+    total_articles: int
+
 
 _NON_ANCHOR = re.compile(r"[^\w\- ]", re.UNICODE)
 _MARKDOWN = re.compile(r"([\[\]*_`])")
@@ -182,6 +192,22 @@ def _plugin_article(strings: dict[str, str]) -> list[str]:
     return [strings["plugin_article"].format(link=link), ""]
 
 
+def _articles_pointer(
+    strings: dict[str, str], locale: Locale, total_articles: int
+) -> list[str]:
+    """Return the one-line pointer to this locale's companion articles doc.
+
+    Skipped for a locale with no ``articles`` block (or when there is
+    nothing to point to yet), and skipped when the locale's strings have no
+    ``articles_pointer`` key, so both are opt-in per language.
+    """
+    has_pointer = "articles" in locale and "articles_pointer" in strings
+    if not total_articles or not has_pointer:
+        return []
+    link = f"{BLOB_URL}/{locale['articles']['outputs'][-1]}"
+    return [strings["articles_pointer"].format(link=link, total=total_articles), ""]
+
+
 def _body(
     strings: dict[str, str], sections: list[Section], name_of: Any, blurb_of: Any
 ) -> list[str]:
@@ -206,14 +232,14 @@ def _body(
     return lines
 
 
-def render(
-    locale: Locale, sections: list[Section], nav: str, depth: int, today: date
-) -> str:
+def render(locale: Locale, sections: list[Section], depth: int, run: RunInfo) -> str:
     """Return the README text for one language.
 
     ``depth`` is how deep the output file sits, used to adjust the relative
-    link to the logo. ``today`` decides which entries are recent enough for
-    the "latest additions" section.
+    link to the logo. ``run`` carries the values shared by every output file
+    of this run: the language switcher, today's date (which decides which
+    entries are recent enough for the "latest additions" section), and the
+    size of the companion articles list (0 skips the pointer to it).
     """
     strings = locale["strings"]
     translations = locale.get("sections", {})
@@ -227,9 +253,10 @@ def render(
         return translations.get(section["section"], {}).get("blurb", section["blurb"])
 
     lines = [
-        *_intro(strings, nav, total, len(sections), depth),
+        *_intro(strings, run.nav, total, len(sections), depth),
         *_plugin(strings, total),
-        *_latest_additions(strings, sections, name_of, today),
+        *_articles_pointer(strings, locale, run.total_articles),
+        *_latest_additions(strings, sections, name_of, run.today),
         *_body(strings, sections, name_of, blurb_of),
         f"## {strings['license_heading']}",
         "",
@@ -243,9 +270,11 @@ def render(
 
 def main() -> None:
     sections = slides.load()
+    total_articles = articles.count(articles.load()) if articles.SRC.exists() else 0
     locales = load_locales()
-    nav = nav_line(locales)
-    today = date.today()
+    run = RunInfo(
+        nav=nav_line(locales), today=date.today(), total_articles=total_articles
+    )
 
     for locale in locales:
         for relative in locale["outputs"]:
@@ -253,7 +282,7 @@ def main() -> None:
             out.parent.mkdir(parents=True, exist_ok=True)
             # How many directories deep the file sits, for the logo's relative link.
             depth = len(Path(relative).parts) - 1
-            body = render(locale, sections, nav, depth, today)
+            body = render(locale, sections, depth, run)
             out.write_text(body, encoding="utf-8")
             print(f"wrote {relative}: {locale['lang']}, {len(body.splitlines())} lines")
 
