@@ -40,12 +40,14 @@ below.
 │   ├── articles.py                  # loads and validates articles.json (shared module)
 │   ├── generate_readme.py           # curated.json + locales → the README of each language
 │   ├── generate_articles_readme.py  # articles.json + locales → the articles list
-│   └── build_plugin_data.py         # curated.json → the plugin's slides.json
+│   └── build_plugin_data.py         # curated.json + articles.json → the plugin's slides.json / articles.json
 └── plugins/awesome-japanese-nlp-slides/
     ├── .claude-plugin/plugin.json
-    ├── data/slides.json          # generated (shipped inside the plugin)
+    ├── data/
+    │   ├── slides.json           # generated (shipped inside the plugin)
+    │   └── articles.json         # generated (shipped inside the plugin)
     └── skills/
-        ├── search/SKILL.md           # search the list; falls back to the web when it misses
+        ├── search/SKILL.md           # search slides + articles; falls back to the web when it misses
         └── find-new-slides/SKILL.md  # find decks the list does not have yet
 ```
 
@@ -62,18 +64,27 @@ plugin's search data.
 
 ```bash
 python3 scripts/generate_readme.py      # README.md, docs/README.*.md
-python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json
+python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json + articles.json
 ```
 
-Edit `data/articles.json`, then run this to refresh the articles list.
+Edit `data/articles.json`, then run these to refresh the articles list and the
+plugin's search data.
 
 ```bash
 python3 scripts/generate_articles_readme.py   # docs/ARTICLES.*.md
+python3 scripts/build_plugin_data.py          # plugins/.../data/slides.json + articles.json
 ```
 
 `generate_readme.py` also links to the articles list (the "🌐" line near the
 top of the README), so re-run it after changing `articles.json` too if you
 want that entry count to catch up.
+
+`build_plugin_data.py` writes both `plugins/.../data/slides.json` and
+`plugins/.../data/articles.json` in one run regardless of which of the two
+source files changed — it is cheap to run after either edit, and the
+plugin's `search` skill reads both files together (see below), so it is
+easiest to just always run it after touching either `curated.json` or
+`articles.json`.
 
 To validate without generating anything, run the shared modules directly.
 

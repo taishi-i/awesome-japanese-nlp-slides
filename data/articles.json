@@ -4,6 +4,13 @@
   "blurb": "自然言語処理そのものを俯瞰したい人が最初に読む記事。",
   "entries": [
    {
+    "title": "日本語で読める自然言語処理の参考書まとめ",
+    "url": "https://komachi.hatenablog.com/entry/20131228/p1",
+    "author": "小町守（武蔵野日記）",
+    "date": "2013-12-28",
+    "added": "2026-08-22"
+   },
+   {
     "title": "自然言語処理入門: 機械学習を用いた自然言語処理モデルの構築",
     "url": "https://qiita.com/iitachi_tdse/items/5b5e2edea040cd2a1575",
     "author": "いいたっち（@iitachi_tdse）",
@@ -15,6 +22,13 @@
   "section": "学会チュートリアル",
   "blurb": "言語処理学会などの参加報告記事。チュートリアルの雰囲気が伝わる。",
   "entries": [
+   {
+    "title": "言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！",
+    "url": "https://hacosato.hatenablog.com/entry/201904020/nlp2019",
+    "author": "hacosato",
+    "date": "2019-04-20",
+    "added": "2026-08-22"
+   },
    {
     "title": "言語処理学会 (NLP2026) 参加報告",
     "url": "https://future-architect.github.io/articles/20260420a/",
@@ -70,6 +84,13 @@
   "blurb": "形態素解析・係り受け解析の仕組みを手を動かして理解する記事。",
   "entries": [
    {
+    "title": "日本語形態素解析の裏側を覗く！MeCab はどのように形態素解析しているか",
+    "url": "https://techlife.cookpad.com/entry/2016/05/11/170000",
+    "author": "荒引（クックパッド）",
+    "date": "2016-05-11",
+    "added": "2026-08-22"
+   },
+   {
     "title": "テキスト分析の大通り#04: 形態素解析(Sudachi編)",
     "url": "https://note.com/yssymmt/n/n1da058b57cab",
     "author": "yssymmt",
@@ -112,6 +133,20 @@
   "blurb": "形態素解析器や検索ツールなど、NLPライブラリ本体の実装記事。",
   "entries": [
    {
+    "title": "SuikaというPure Rubyな形態素解析器を作成した",
+    "url": "https://yoshoku.hatenablog.com/entry/2020/07/05/090000",
+    "author": "yoshoku（洋食の日記）",
+    "date": "2020-07-05",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "形態素解析を行うだけのバッチをつくる",
+    "url": "https://techlife.cookpad.com/entry/2021/03/08/093000",
+    "author": "jharashima（クックパッド）",
+    "date": "2021-03-08",
+    "added": "2026-08-22"
+   },
+   {
     "title": "速度の高みを目指す：高速な単語分割器 Vaporetto の技術解説",
     "url": "https://tech.legalforce.co.jp/entry/2021/09/28/180844",
     "author": "赤部（LegalOn Technologies）",
@@ -129,6 +164,13 @@
   "section": "日本語テキストの正規化・表記ゆれ",
   "blurb": "neologdnや独自の正規化処理など、表記ゆれ対策の実装記事。",
   "entries": [
+   {
+    "title": "なぜ私たちは住所正規化エンジンをRustで“再発明”したのか？ - FFIによる多言語高速化と開発者体験の裏側",
+    "url": "https://buildersbox.corp-sansan.com/entry/2025/06/20/120000",
+    "author": "kiyonori-matsumoto（Sansan）",
+    "date": "2025-06-20",
+    "added": "2026-08-22"
+   },
    {
     "title": "住所正規化のデモ機能を作ったので、日本のヤバい住所を入力してみた",
     "url": "https://zenn.dev/sikkim/articles/bc86fbcac3a9fd",
@@ -159,6 +201,20 @@
   "section": "辞書・かな漢字変換・日本語入力",
   "blurb": "IMEやかな漢字変換エンジンの自作記録。",
   "entries": [
+   {
+    "title": "情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用",
+    "url": "https://techblog.lycorp.co.jp/ja/20231217a",
+    "author": "伊奈拓郎（LINEヤフー）",
+    "date": "2023-12-17",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "日本語形態素解析 Web API のユーザ辞書機能で解析結果をカスタマイズ",
+    "url": "https://techblog.lycorp.co.jp/ja/20231107a",
+    "author": "牧野恵（LINEヤフー）",
+    "date": "2023-11-07",
+    "added": "2026-08-22"
+   },
    {
     "title": "自作 macOS IME「RomKana」開発記",
     "url": "https://zenn.dev/toshinao/articles/1cffb713b1c670",
@@ -286,6 +342,13 @@
   "blurb": "日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。",
   "entries": [
    {
+    "title": "LLMによる大規模な事前学習データセット生成システムの構築と運用",
+    "url": "https://tech.preferred.jp/ja/blog/data-generation-by-llm/",
+    "author": "Preferred Networks",
+    "date": "2025-04-25",
+    "added": "2026-08-22"
+   },
+   {
     "title": "Llama-3-Swallow: 日本語に強い継続事前学習モデル",
     "url": "https://zenn.dev/tokyotech_lm/articles/f65989d76baf2c",
     "author": "Kazuki Fujii（東京科学大学 岡崎研究室）",
@@ -316,6 +379,20 @@
   "blurb": "LoRAなどを使ったファインチューニングの入門・実践記事。",
   "entries": [
    {
+    "title": "【初心者】LoRAを使って日本語GPTモデルをファインチューニングする",
+    "url": "https://zenn.dev/takumi0616/articles/b79f6fa04562e5",
+    "author": "takumi0616",
+    "date": "2024-11-12",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "日本語LLMの指示学習における回答が長い訓練サンプルの影響",
+    "url": "https://tech.preferred.jp/ja/blog/japanease-it-length/",
+    "author": "Preferred Networks",
+    "date": "2025-01-16",
+    "added": "2026-08-22"
+   },
+   {
     "title": "LLM 事後学習 (SFT / RLHF / DPO / RLVR / GRPO / 自己蒸留) を教師信号から眺める",
     "url": "https://zenn.dev/shunk031/articles/llm-post-training-overview",
     "author": "しゅんけー, Ph.D.",
@@ -339,6 +416,13 @@
   "section": "LLM の推論最適化・サービング",
   "blurb": "vLLMや量子化を使った推論高速化の実践記事。",
   "entries": [
+   {
+    "title": "gpt-ossを4bit量子化したら流暢に壊れた話。量子化方式で忠実度が2倍変わった実測記録",
+    "url": "https://zenn.dev/tokimoa/articles/222fa96dcf1b20",
+    "author": "tokimoa",
+    "date": "2026-07-24",
+    "added": "2026-08-22"
+   },
    {
     "title": "LLMの量子化手法と実装方法について",
     "url": "https://www.skygroup.jp/tech-blog/article/2117/",
@@ -370,6 +454,27 @@
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
    {
+    "title": "日本語言語理解ベンチマークJGLUEの構築 〜 自然言語処理モデルの評価用データセットを公開しました",
+    "url": "https://techblog.yahoo.co.jp/entry/2022122030379907/",
+    "author": "柴田知秀（Yahoo! JAPAN研究所）",
+    "date": "2022-12-20",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "日本語の自然さを測る評価手法の検証",
+    "url": "https://tech.preferred.jp/ja/blog/llm-as-a-judge-for-japanese/",
+    "author": "Preferred Networks",
+    "date": "2026-02-20",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "JFBench: 実務レベルの日本語指示追従性能を備えた生成AIを目指して",
+    "url": "https://tech.preferred.jp/ja/blog/jfbench-japanese-instruction-following-benchmark/",
+    "author": "Preferred Networks",
+    "date": "2026-01-27",
+    "added": "2026-08-22"
+   },
+   {
     "title": "事前学習LLMの評価における既存LLMの活用",
     "url": "https://tech.preferred.jp/ja/blog/llm-eval-by-answer-matching/",
     "author": "Hiroaki Mikami（Preferred Networks）",
@@ -399,6 +504,13 @@
   "section": "全文検索・検索基盤",
   "blurb": "Elasticsearchなど検索基盤を日本語向けにチューニングする記事。",
   "entries": [
+   {
+    "title": "マルチモーダルLLMを活用したZOZOTOWN検索の関連性評価手法",
+    "url": "https://techblog.zozo.com/entry/search-quantitative-evaluation-llm",
+    "author": "橘（ZOZO）",
+    "date": "2026-02-03",
+    "added": "2026-08-22"
+   },
    {
     "title": "全文検索を日本語向けにチューニングする",
     "url": "https://linkers.hatenablog.com/entry/2024/02/02/073000",
@@ -430,6 +542,20 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション",
+    "url": "https://techlife.cookpad.com/entry/bedrock",
+    "author": "深澤（クックパッド）",
+    "date": "2023-10-19",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "RAGの理想と現実 ~実装現場が直面する7つの課題と、その先のアプローチ~",
+    "url": "https://zenn.dev/nd_komosyu/articles/6540bbb4873fe5",
+    "author": "komosyu",
+    "date": "2026-02-08",
+    "added": "2026-08-22"
+   },
+   {
     "title": "「手作り RAG システム」で RAG の仕組みを学び直す",
     "url": "https://zenn.dev/google_cloud_jp/articles/e699bda0a298d6",
     "author": "Etsuji Nakai（Google Cloud Japan）",
@@ -453,6 +579,13 @@
   "section": "LLM アプリケーション開発・運用",
   "blurb": "プロンプトの設計・管理など、LLMプロダクト開発の実務記事。",
   "entries": [
+   {
+    "title": "社内で汎用的に使えるAIチャットボットをDifyで作りました",
+    "url": "https://tech.smarthr.jp/entry/2024/12/19/174950",
+    "author": "yoyogi（SmartHR）",
+    "date": "2024-12-19",
+    "added": "2026-08-22"
+   },
    {
     "title": "LLMアプリケーション開発におけるプロンプトの取得と管理",
     "url": "https://tech-blog.rakus.co.jp/entry/20260129/llm",
@@ -484,6 +617,20 @@
   "blurb": "LangGraphやMCPを使ったAIエージェント実装の記事。",
   "entries": [
    {
+    "title": "AIエージェント自作のための基礎知識",
+    "url": "https://ymmt.hatenablog.com/entry/2026/03/24/221754",
+    "author": "ymmt2005",
+    "date": "2026-03-24",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "AIエージェント開発への探求 - パート3：サブエージェントとMCPの深掘り",
+    "url": "https://techblog.lycorp.co.jp/ja/20250611a",
+    "author": "Nguyễn Trọng Phúc（フック）",
+    "date": "2025-06-11",
+    "added": "2026-08-22"
+   },
+   {
     "title": "LangGraphでシンプルな「AIエージェント」を作ってみた",
     "url": "https://www.skygroup.jp/tech-blog/article/2320/",
     "author": "Sky株式会社",
@@ -507,6 +654,20 @@
   "section": "LLM の安全性・セキュリティ",
   "blurb": "プロンプトインジェクションなどLLM特有の脅威と対策の記事。",
   "entries": [
+   {
+    "title": "Claude Code / CursorのHooksで実装した AIエージェントの3層プロンプトインジェクション対策",
+    "url": "https://creators.bengo4.com/entry/2026/03/24/080000",
+    "author": "cloudsign_fujitani（弁護士ドットコム）",
+    "date": "2026-03-24",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "LLM / 生成AIを活用するアプリケーション開発におけるセキュリティリスクと対策",
+    "url": "https://blog.flatt.tech/entry/llm_application_security",
+    "author": "佐藤（GMOフラットセキュリティ）",
+    "date": "2025-04-25",
+    "added": "2026-08-22"
+   },
    {
     "title": "【LLMセキュリティ】間接的プロンプトインジェクションの脅威と対策",
     "url": "https://tech.akariinc.co.jp/entry/2026/01/29/190549",
@@ -562,6 +723,13 @@
   "blurb": "不適切な投稿・コメントを検知する仕組みの開発記事。",
   "entries": [
    {
+    "title": "マルチモーダルモデルによる不正出品の検知",
+    "url": "https://engineering.mercari.com/blog/entry/2018-04-24-164919/",
+    "author": "mercari-shido（メルカリ）",
+    "date": "2018-04-24",
+    "added": "2026-08-22"
+   },
+   {
     "title": "小学生向けチャットシステムで必要なNGワード検出方法のメモ",
     "url": "https://zenn.dev/appleworld/articles/b4f3e96bf90948",
     "author": "T.H is ぺんぐぃん",
@@ -585,6 +753,13 @@
   "section": "テキストマイニング・トピックモデル",
   "blurb": "トピックモデルなどテキストマイニング手法の実践記事。",
   "entries": [
+   {
+    "title": "Agentic Analytics — AI に分析を任せる時代の基盤とコンテキストレイヤー",
+    "url": "https://creators.bengo4.com/entry/2026/06/25/090000",
+    "author": "kkawabata（弁護士ドットコム）",
+    "date": "2026-06-25",
+    "added": "2026-08-22"
+   },
    {
     "title": "テキストマイニングへの道03――トピックモデルとの格闘1",
     "url": "https://hunihunisaito.hatenablog.com/entry/2023/02/21/000000",
@@ -652,6 +827,13 @@
   "blurb": "帳票・請求書などをAI-OCRやLLMでデータ化する記事。",
   "entries": [
    {
+    "title": "手書き文字起こしの比較",
+    "url": "https://hunny-hachimitsu.hatenablog.com/entry/2025/11/26/215702",
+    "author": "hunny-hachimitsu",
+    "date": "2025-11-26",
+    "added": "2026-08-22"
+   },
+   {
     "title": "請求書読み取りにおけるOCRとLLMの最適な役割分担 - LLMに何をさせるべきか",
     "url": "https://zenn.dev/edash_tech_blog/articles/346c03c39c80a9",
     "author": "ikeda（株式会社e-dash）",
@@ -682,6 +864,13 @@
   "blurb": "知識グラフを使った質問応答・推論の実装記事。",
   "entries": [
    {
+    "title": "散らばった情報をAIでつなぐ ： Dify × Amazon Bedrockで構築した社内知識検索の導入と効果",
+    "url": "https://creators.bengo4.com/entry/2025/03/18/090000",
+    "author": "kunihiko_t（弁護士ドットコム）",
+    "date": "2025-03-18",
+    "added": "2026-08-22"
+   },
+   {
     "title": "オントロジー駆動でGraphRAGを構築してみた",
     "url": "https://techblog.insightedge.jp/entry/ontology-graph-rag",
     "author": "齊藤（Insight Edge株式会社）",
@@ -706,6 +895,20 @@
   "blurb": "機械翻訳モデルの開発・自作の記事。",
   "entries": [
    {
+    "title": "再帰型ニューラルネットで英語から日本語の機械翻訳を実装する方法",
+    "url": "https://zenn.dev/derbuihan/articles/c964a0b1c75d28",
+    "author": "derbuihan",
+    "date": "2023-06-04",
+    "added": "2026-08-22"
+   },
+   {
+    "title": "分野特定のニューラル機械翻訳エンジンを作ってみた 〜 データ収集とパフォーマンス検証を中心に（その１）",
+    "url": "https://www.kodensha.jp/index/blog/2019/02/20/4016/",
+    "author": "株式会社光電社",
+    "date": "2019-02-20",
+    "added": "2026-08-22"
+   },
+   {
     "title": "特化型大規模言語モデル『PLaMo翻訳』を公開しました",
     "url": "https://tech.preferred.jp/ja/blog/plamo-translate/",
     "author": "Kentaro Imajo（Preferred Networks）",
@@ -723,6 +926,13 @@
   "section": "マルチモーダル・Vision-and-Language",
   "blurb": "画像と言語を組み合わせるVLM（視覚言語モデル）の解説記事。",
   "entries": [
+   {
+    "title": "【マルチモーダル】Vision-Language #まとめ編",
+    "url": "https://yhayato1320.hatenablog.com/entry/2022/09/11/100549",
+    "author": "yhayato1320（オムライスの備忘録）",
+    "date": "2022-09-11",
+    "added": "2026-08-22"
+   },
    {
     "title": "高性能な日本語マルチモーダル基盤モデル「clip-japanese-base-v2」の公開",
     "url": "https://techblog.lycorp.co.jp/ja/20251218a",
@@ -754,6 +964,13 @@
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
    {
+    "title": "Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか",
+    "url": "https://zenn.dev/hidetzu/articles/whisper-recognition-quality",
+    "author": "hidetzu",
+    "date": "2026-04-06",
+    "added": "2026-08-22"
+   },
+   {
     "title": "SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結",
     "url": "https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization",
     "author": "okamyuji",
@@ -784,6 +1001,13 @@
   "blurb": "音声対話AIの開発・評価に関する実務記事。",
   "entries": [
    {
+    "title": "当たり前のことが当たり前にできる音声対話受付ロボットの開発",
+    "url": "https://developers.cyberagent.co.jp/blog/archives/49874/",
+    "author": "CyberAgent AI Lab",
+    "date": "2024-10-15",
+    "added": "2026-08-22"
+   },
+   {
     "title": "音声対話システムの自動評価フレームワーク「VociMetrics」",
     "url": "https://developers.cyberagent.co.jp/blog/archives/61458/",
     "author": "ohira_yoshiki（株式会社サイバーエージェント）",
@@ -808,6 +1032,13 @@
   "blurb": "文章生成・要約・校正を自動化する実装記事。",
   "entries": [
    {
+    "title": "1つの HTML ファイルだけで完結する校正支援ツールの作り方",
+    "url": "https://techblog.lycorp.co.jp/ja/20231106a",
+    "author": "山下達雄（LINEヤフー）",
+    "date": "2023-11-06",
+    "added": "2026-08-22"
+   },
+   {
     "title": "AIによる文章要約と重複チェックの開発",
     "url": "https://tech.makeshop.co.jp/entry/2024/10/07/180251",
     "author": "tech-makeshop-mori（GMOメイクショップ株式会社）",
@@ -831,6 +1062,13 @@
   "section": "解釈性・分析・言語学的視点",
   "blurb": "LLMの内部表現を解析・解釈する記事。",
   "entries": [
+   {
+    "title": "大規模言語モデルの「思考」を追跡する – Anthropic最新研究ー原文英語だから翻訳と解説",
+    "url": "https://note.com/ogawa_ramo/n/nc1b04e4b92b8",
+    "author": "Ogawa",
+    "date": "2025-04-01",
+    "added": "2026-08-22"
+   },
    {
     "title": "ＬＬＭの内部表現を理解する解析と解釈",
     "url": "https://note.com/makokon/n/n4f795b8dafec",
@@ -861,6 +1099,13 @@
   "section": "産業応用・実務事例",
   "blurb": "企業の現場でLLM・NLPを活用した実務事例の記事。",
   "entries": [
+   {
+    "title": "【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術",
+    "url": "https://buildersbox.corp-sansan.com/entry/2022/12/22/110000",
+    "author": "shu223（Sansan）",
+    "date": "2022-12-22",
+    "added": "2026-08-22"
+   },
    {
     "title": "AI駆動開発の効果、どう測る？データで見えた生産性向上と、その先の課題",
     "url": "https://techblog.spiderplus.co.jp/entry/2026/07/24/120000",

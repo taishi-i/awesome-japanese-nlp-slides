@@ -42,7 +42,7 @@ Once installed, pass a keyword or a natural language question to the `search` sk
 
 📝 The story behind this search skill is written up in [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) (Japanese).
 
-🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (115 entries).
+🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (150 entries).
 
 ## 🎉 The Latest Additions
 
@@ -124,7 +124,7 @@ Decks added to this list in the last 7 days. Each one stays here for 7 days from
 **Industry Applications & Case Studies**
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史 (2026-08)
 
-_Updated on 2026-08-21_
+_Updated on 2026-08-22_
 
 ## Contents
 

@@ -30,8 +30,13 @@
 
 ```bash
 python3 scripts/generate_readme.py      # README.md, docs/README.*.md
-python3 scripts/build_plugin_data.py    # プラグインの slides.json
+python3 scripts/build_plugin_data.py    # プラグインの slides.json / articles.json
 ```
+
+`data/articles.json`（ブログ記事・Web ページの一覧）を編集した場合も同様に、
+`generate_articles_readme.py` と `build_plugin_data.py` を実行してください。
+`build_plugin_data.py` はプラグインの `search` スキルが使う検索データを
+スライド・記事の両方について書き出します。
 
 生成の仕組みや、セクション・言語の追加方法は [`scripts/README.md`](scripts/README.md) に詳しく書いてあります。
 
