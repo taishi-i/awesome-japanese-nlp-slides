@@ -916,6 +916,14 @@
   "blurb": "BERT 以降の事前学習モデルと Transformer の解説資料。",
   "entries": [
    {
+    "title": "Linformer: paper reading",
+    "url": "https://speakerdeck.com/himkt/linformer-paper-reading",
+    "author": "himkt",
+    "date": "2020-09-05",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
     "title": "PyTorchによるGPT-2モデルのフルスクラッチ実装と内部構造の解説",
     "url": "https://speakerdeck.com/sennsann99/pytorchniyorugpt-2moderunohurusukuratutishi-zhuang-tonei-bu-gou-zao-nojie-shuo",
     "author": "Chigen SEN",
@@ -1328,6 +1336,22 @@
   "blurb": "既存モデルを目的に合わせて調整する手法。",
   "entries": [
    {
+    "title": "OpenAI gpt-oss ファインチューニング入門",
+    "url": "https://speakerdeck.com/kmotohas/openai-gpt-oss-huaintiyuninguru-men",
+    "author": "kmotohas",
+    "date": "2025-10-03",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "LoRAによるメモリ使用量削減の検証",
+    "url": "https://speakerdeck.com/revcomm_inc/loraniyorumemorishi-yong-liang-xue-jian-nojian-zheng",
+    "author": "Masaki Ono",
+    "date": "2023-06-02",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
     "title": "PLaMo 3.0 Primeの事後学習",
     "url": "https://speakerdeck.com/pfn/20260730_pfn_llm_1_post_training",
     "author": "Preferred Networks",
@@ -1495,6 +1519,14 @@
   "section": "評価・ベンチマーク",
   "blurb": "日本語 LLM・NLP システムをどう測るか。",
   "entries": [
+   {
+    "title": "最適化向けLLMベンチマークの潮流",
+    "url": "https://speakerdeck.com/mickey_kubo/zui-shi-hua-xiang-kellmbentimakunochao-liu",
+    "author": "MIKIO KUBO",
+    "date": "2025-08-04",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
    {
     "title": "HAKARI-Bench - 実運用視点での情報検索モデル評価ベンチマーク",
     "url": "https://speakerdeck.com/hotchpotch/hakari-bench-shi-yun-yong-shi-dian-denoqing-bao-jian-suo-moderuping-jia-bentimaku",
@@ -1867,6 +1899,30 @@
   "blurb": "検索拡張生成（RAG）の設計・改善・評価。",
   "entries": [
    {
+    "title": "【書籍出版記念】 10周回って、エージェント開発は RAGがすべてだった。〜RAGの歴史と開発現場で見えた実践知〜",
+    "url": "https://speakerdeck.com/akiratameto/shoseki-shuppan-kinen-10-shuukai-tte-ejento-kaihatsu-ha-rag-ga-subetedata-rag-no-rekishi-to-kaihatsu-genba-de-mieta-jissen-chi",
+    "author": "為藤アキラ",
+    "date": "2026-08-21",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "実例で紹介するRAG導入時の知見と精度向上の勘所",
+    "url": "https://speakerdeck.com/yamahiro/shi-li-deshao-jie-sururagdao-ru-shi-nozhi-jian-tojing-du-xiang-shang-nokan-suo",
+    "author": "Hiroki YAMAMOTO",
+    "date": "2024-04-30",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "RAGの精度向上とエージェント活用",
+    "url": "https://speakerdeck.com/kintotechdev/ragnojing-du-xiang-shang-toezientohuo-yong",
+    "author": "KintoTech_Dev",
+    "date": "2026-07-01",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
     "title": "【AI×DevOps Study #20】AI Agent のための RAG System１（全2回）",
     "url": "https://speakerdeck.com/scalar/aixdevops-study-20-ai-agent-no-tame-no-rag-system-chon-2-kai",
     "author": "深津航",
@@ -2060,6 +2116,14 @@
   "blurb": "プロダクトとして LLM を組み込み、運用するための知見。",
   "entries": [
    {
+    "title": "【CEDEC2026】コードレビュー支援ツール開発から学ぶ：LLMを用いた業務システムの実践的な運用設計と誤出力対策",
+    "url": "https://speakerdeck.com/cygames/cygames_202607_cedec2026_04",
+    "author": "Cygames, Inc.",
+    "date": "2026-08-03",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
     "title": "PLaMo 3.0 Primeの構造化出力サポート",
     "url": "https://speakerdeck.com/pfn/20260730_pfn_llm_2_structured_output",
     "author": "Preferred Networks",
@@ -2194,6 +2258,30 @@
   "section": "AI エージェント・MCP",
   "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
   "entries": [
+   {
+    "title": "エージェント化するAI：現在地とその先に起きる変化 / AI as Agents: The Current State and the Changes Ahead",
+    "url": "https://speakerdeck.com/ks91/ai-as-agents-the-current-state-and-the-changes-ahead",
+    "author": "Kenji Saito",
+    "date": "2026-06-04",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "MCPをつなげて作る組織横断のAIエージェント基盤",
+    "url": "https://speakerdeck.com/tsubakimoto_s/mcpwotunagetezuo-ruzu-zhi-heng-duan-noaiezientoji-pan",
+    "author": "Yuta Matsumura",
+    "date": "2026-07-24",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "2026年のAIエージェント構築はどうなる？",
+    "url": "https://speakerdeck.com/minorun365/2026nian-noaiezientogou-zhu-hadounaru",
+    "author": "みのるん",
+    "date": "2026-02-20",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
    {
     "title": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ .pptx",
     "url": "https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636",
@@ -3503,6 +3591,14 @@
   "blurb": "画像と言語をつなぐモデルの研究開発と、VLM をプロダクトに組み込んだ事例。",
   "entries": [
    {
+    "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining (ICML 2026 Spotlight)",
+    "url": "https://www.docswell.com/s/sei_shinagawa/K1Q7N4-Beyond_Language_Modeling_An_Exploration_of_Multimodal_Pretraining",
+    "author": "品川政太朗 (Seitaro Shinagawa)",
+    "date": "2026-08-20",
+    "source": "docswell",
+    "added": "2026-08-23"
+   },
+   {
     "title": "FAXが現役の業界でマルチモーダルAIプロダクトを作る",
     "url": "https://speakerdeck.com/kakehashi/building-multimodal-ai-products",
     "author": "KAKEHASHI",
@@ -3697,6 +3793,14 @@
   "section": "音声認識・音声処理",
   "blurb": "音声をテキストに変換する音声認識と、その土台となる音声処理・音声基盤モデル。",
   "entries": [
+   {
+    "title": "End-to-End音声認識の概要とプロダクト化への課題 / Overview of End-to-End Speech Recognition and Issues for Product Realization",
+    "url": "https://speakerdeck.com/line_developers/overview-of-end-to-end-speech-recognition-and-issues-for-product-realization",
+    "author": "LINE Developers",
+    "date": "2020-10-14",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
    {
     "title": "会議AIエージェントに話者認識AIを乗せる難しさと重要性",
     "url": "https://speakerdeck.com/nishikainc/hui-yi-aiezientonihua-zhe-ren-shi-aiwocheng-serunan-sisatozhong-yao-xing",
@@ -4278,6 +4382,14 @@
   "section": "産業応用・実務事例",
   "blurb": "実サービス・実業務に NLP / LLM を組み込んだ事例。",
   "entries": [
+   {
+    "title": "「気づいたら仕事が終わっている」バクラクAIエージェント本番運用の裏側 / layerx-bakuraku-aie2026",
+    "url": "https://speakerdeck.com/yuya4/layerx-bakuraku-aie2026",
+    "author": "Yuya Matsumura",
+    "date": "2026-06-08",
+    "source": "speakerdeck",
+    "added": "2026-08-23"
+   },
    {
     "title": "【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用",
     "url": "https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou",

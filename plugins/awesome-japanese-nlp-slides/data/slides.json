@@ -984,6 +984,14 @@
   "src": "slideshare"
  },
  {
+  "t": "Linformer: paper reading",
+  "u": "https://speakerdeck.com/himkt/linformer-paper-reading",
+  "a": "himkt",
+  "d": "2020-09-05",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
   "t": "PyTorchによるGPT-2モデルのフルスクラッチ実装と内部構造の解説",
   "u": "https://speakerdeck.com/sennsann99/pytorchniyorugpt-2moderunohurusukuratutishi-zhuang-tonei-bu-gou-zao-nojie-shuo",
   "a": "Chigen SEN",
@@ -1424,6 +1432,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "OpenAI gpt-oss ファインチューニング入門",
+  "u": "https://speakerdeck.com/kmotohas/openai-gpt-oss-huaintiyuninguru-men",
+  "a": "kmotohas",
+  "d": "2025-10-03",
+  "s": "ファインチューニング・事後学習",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LoRAによるメモリ使用量削減の検証",
+  "u": "https://speakerdeck.com/revcomm_inc/loraniyorumemorishi-yong-liang-xue-jian-nojian-zheng",
+  "a": "Masaki Ono",
+  "d": "2023-06-02",
+  "s": "ファインチューニング・事後学習",
+  "src": "speakerdeck"
+ },
+ {
   "t": "PLaMo 3.0 Primeの事後学習",
   "u": "https://speakerdeck.com/pfn/20260730_pfn_llm_1_post_training",
   "a": "Preferred Networks",
@@ -1597,6 +1621,14 @@
   "a": "Preferred Networks",
   "d": "2024-05-13",
   "s": "LLM の推論最適化・サービング",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "最適化向けLLMベンチマークの潮流",
+  "u": "https://speakerdeck.com/mickey_kubo/zui-shi-hua-xiang-kellmbentimakunochao-liu",
+  "a": "MIKIO KUBO",
+  "d": "2025-08-04",
+  "s": "評価・ベンチマーク",
   "src": "speakerdeck"
  },
  {
@@ -2008,6 +2040,30 @@
   "src": "slideshare"
  },
  {
+  "t": "【書籍出版記念】 10周回って、エージェント開発は RAGがすべてだった。〜RAGの歴史と開発現場で見えた実践知〜",
+  "u": "https://speakerdeck.com/akiratameto/shoseki-shuppan-kinen-10-shuukai-tte-ejento-kaihatsu-ha-rag-ga-subetedata-rag-no-rekishi-to-kaihatsu-genba-de-mieta-jissen-chi",
+  "a": "為藤アキラ",
+  "d": "2026-08-21",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "実例で紹介するRAG導入時の知見と精度向上の勘所",
+  "u": "https://speakerdeck.com/yamahiro/shi-li-deshao-jie-sururagdao-ru-shi-nozhi-jian-tojing-du-xiang-shang-nokan-suo",
+  "a": "Hiroki YAMAMOTO",
+  "d": "2024-04-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "RAGの精度向上とエージェント活用",
+  "u": "https://speakerdeck.com/kintotechdev/ragnojing-du-xiang-shang-toezientohuo-yong",
+  "a": "KintoTech_Dev",
+  "d": "2026-07-01",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【AI×DevOps Study #20】AI Agent のための RAG System１（全2回）",
   "u": "https://speakerdeck.com/scalar/aixdevops-study-20-ai-agent-no-tame-no-rag-system-chon-2-kai",
   "a": "深津航",
@@ -2208,6 +2264,14 @@
   "src": "docswell"
  },
  {
+  "t": "【CEDEC2026】コードレビュー支援ツール開発から学ぶ：LLMを用いた業務システムの実践的な運用設計と誤出力対策",
+  "u": "https://speakerdeck.com/cygames/cygames_202607_cedec2026_04",
+  "a": "Cygames, Inc.",
+  "d": "2026-08-03",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
   "t": "PLaMo 3.0 Primeの構造化出力サポート",
   "u": "https://speakerdeck.com/pfn/20260730_pfn_llm_2_structured_output",
   "a": "Preferred Networks",
@@ -2349,6 +2413,30 @@
   "a": "shibuiwilliam",
   "d": "2026-08-10",
   "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "エージェント化するAI：現在地とその先に起きる変化 / AI as Agents: The Current State and the Changes Ahead",
+  "u": "https://speakerdeck.com/ks91/ai-as-agents-the-current-state-and-the-changes-ahead",
+  "a": "Kenji Saito",
+  "d": "2026-06-04",
+  "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "MCPをつなげて作る組織横断のAIエージェント基盤",
+  "u": "https://speakerdeck.com/tsubakimoto_s/mcpwotunagetezuo-ruzu-zhi-heng-duan-noaiezientoji-pan",
+  "a": "Yuta Matsumura",
+  "d": "2026-07-24",
+  "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "2026年のAIエージェント構築はどうなる？",
+  "u": "https://speakerdeck.com/minorun365/2026nian-noaiezientogou-zhu-hadounaru",
+  "a": "みのるん",
+  "d": "2026-02-20",
+  "s": "AI エージェント・MCP",
   "src": "speakerdeck"
  },
  {
@@ -3776,6 +3864,14 @@
   "src": "slideshare"
  },
  {
+  "t": "Beyond Language Modeling: An Exploration of Multimodal Pretraining (ICML 2026 Spotlight)",
+  "u": "https://www.docswell.com/s/sei_shinagawa/K1Q7N4-Beyond_Language_Modeling_An_Exploration_of_Multimodal_Pretraining",
+  "a": "品川政太朗 (Seitaro Shinagawa)",
+  "d": "2026-08-20",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "docswell"
+ },
+ {
   "t": "FAXが現役の業界でマルチモーダルAIプロダクトを作る",
   "u": "https://speakerdeck.com/kakehashi/building-multimodal-ai-products",
   "a": "KAKEHASHI",
@@ -3989,6 +4085,14 @@
   "a": "Yoshitaka Ushiku",
   "d": "2017-03-22",
   "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "End-to-End音声認識の概要とプロダクト化への課題 / Overview of End-to-End Speech Recognition and Issues for Product Realization",
+  "u": "https://speakerdeck.com/line_developers/overview-of-end-to-end-speech-recognition-and-issues-for-product-realization",
+  "a": "LINE Developers",
+  "d": "2020-10-14",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
@@ -4621,6 +4725,14 @@
   "a": "Naoaki Okazaki",
   "d": "2019-09-25",
   "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "「気づいたら仕事が終わっている」バクラクAIエージェント本番運用の裏側 / layerx-bakuraku-aie2026",
+  "u": "https://speakerdeck.com/yuya4/layerx-bakuraku-aie2026",
+  "a": "Yuya Matsumura",
+  "d": "2026-06-08",
+  "s": "産業応用・実務事例",
   "src": "speakerdeck"
  },
  {

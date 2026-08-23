@@ -270,6 +270,13 @@
   "blurb": "BERTとTransformerの仕組みを図解・実装で理解する記事。",
   "entries": [
    {
+    "title": "【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する",
+    "url": "https://zenn.dev/epicai_techblog/articles/cbb8774f43783b",
+    "author": "bishopfunc",
+    "date": "2025-12-23",
+    "added": "2026-08-23"
+   },
+   {
     "title": "TransformerのSelf AttentionのQKVを直感的に解説する",
     "url": "https://qiita.com/kenmatsu4/items/1b3853a3314ab66eb2a3",
     "author": "kenmatsu4（まつけん）",
@@ -312,6 +319,13 @@
   "blurb": "LLMの全体像や最新動向を追った記事・まとめ。",
   "entries": [
    {
+    "title": "NLP2026に初参加したAIエンジニアが気になった論文3選",
+    "url": "https://tech.legalscape.co.jp/entry/2026/03/19/125513",
+    "author": "Akihiro Tomita",
+    "date": "2026-03-19",
+    "added": "2026-08-23"
+   },
+   {
     "title": "2026年4月のLLMアップデートラッシュを振り返る",
     "url": "https://qiita.com/camcam/items/af76ca0b9ffe5eae1bf1",
     "author": "camcam",
@@ -341,6 +355,20 @@
   "section": "日本語LLMの開発（事前学習・コーパス構築）",
   "blurb": "日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。",
   "entries": [
+   {
+    "title": "大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー",
+    "url": "https://zenn.dev/matsuolab/articles/34036f017fae9e",
+    "author": "Kan Hatakeyama",
+    "date": "2024-08-30",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "HuggingFaceとDeepSpeedで実践継続事前学習",
+    "url": "https://zenn.dev/elith/articles/30c25fa0c6a0c1",
+    "author": "もっさん",
+    "date": "2024-03-25",
+    "added": "2026-08-23"
+   },
    {
     "title": "LLMによる大規模な事前学習データセット生成システムの構築と運用",
     "url": "https://tech.preferred.jp/ja/blog/data-generation-by-llm/",
@@ -378,6 +406,20 @@
   "section": "ファインチューニング・事後学習",
   "blurb": "LoRAなどを使ったファインチューニングの入門・実践記事。",
   "entries": [
+   {
+    "title": "コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -",
+    "url": "https://nowokay.hatenablog.com/entry/2026/01/10/125059",
+    "author": "きしだ (kishida)",
+    "date": "2026-01-10",
+    "added": "2026-08-23"
+   },
+   {
+    "title": "日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編",
+    "url": "https://zenn.dev/matsuolab/articles/a6a941571138e3",
+    "author": "santhosh",
+    "date": "2024-08-19",
+    "added": "2026-08-23"
+   },
    {
     "title": "【初心者】LoRAを使って日本語GPTモデルをファインチューニングする",
     "url": "https://zenn.dev/takumi0616/articles/b79f6fa04562e5",
@@ -542,6 +584,13 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化",
+    "url": "https://zenn.dev/0h_n0/articles/5137ee7d4dd05d",
+    "author": "ohno",
+    "date": "2026-03-04",
+    "added": "2026-08-23"
+   },
+   {
     "title": "AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション",
     "url": "https://techlife.cookpad.com/entry/bedrock",
     "author": "深澤（クックパッド）",
@@ -580,6 +629,13 @@
   "blurb": "プロンプトの設計・管理など、LLMプロダクト開発の実務記事。",
   "entries": [
    {
+    "title": "持たざる者のLLM学習理論",
+    "url": "https://zenn.dev/strixai/articles/1d36ed2aed59e4",
+    "author": "Kosuke Suzuki｜STRIX",
+    "date": "2026-05-16",
+    "added": "2026-08-23"
+   },
+   {
     "title": "社内で汎用的に使えるAIチャットボットをDifyで作りました",
     "url": "https://tech.smarthr.jp/entry/2024/12/19/174950",
     "author": "yoyogi（SmartHR）",
@@ -616,6 +672,13 @@
   "section": "AI エージェント・MCP",
   "blurb": "LangGraphやMCPを使ったAIエージェント実装の記事。",
   "entries": [
+   {
+    "title": "MCPサーバーが多すぎてAIエージェントが迷子になるので、ナビゲーションシステムを作った",
+    "url": "https://zenn.dev/kanseilink/articles/1971dab6c08b10",
+    "author": "Michie Yamaguchi",
+    "date": "2026-04-07",
+    "added": "2026-08-23"
+   },
    {
     "title": "AIエージェント自作のための基礎知識",
     "url": "https://ymmt.hatenablog.com/entry/2026/03/24/221754",
@@ -1099,6 +1162,13 @@
   "section": "産業応用・実務事例",
   "blurb": "企業の現場でLLM・NLPを活用した実務事例の記事。",
   "entries": [
+   {
+    "title": "シーズニーズマッチングを支える自然言語処理 ー ストックマークの NLP2026 論文のご紹介",
+    "url": "https://stockmark-tech.hatenablog.com/entry/2026/03/02/085617",
+    "author": "広田航",
+    "date": "2026-03-02",
+    "added": "2026-08-23"
+   },
    {
     "title": "【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術",
     "url": "https://buildersbox.corp-sansan.com/entry/2022/12/22/110000",

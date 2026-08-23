@@ -9,7 +9,7 @@
 日本語の自然言語処理（NLP）に関する、企業や個人開発者によるウェブページ・ブログ記事を集めた厳選リストです。
 [スライド一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/README.md) と同じ32のトピックで整理しています。
 
-150 件の記事を 32 カテゴリに分類しています。
+160 件の記事を 32 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは現在構築途中です。今後も記事を追加し、内容を拡張していきます。
@@ -38,10 +38,20 @@
 - [情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用](https://techblog.lycorp.co.jp/ja/20231217a) - 伊奈拓郎（LINEヤフー）（2023-12）
 - [日本語形態素解析 Web API のユーザ辞書機能で解析結果をカスタマイズ](https://techblog.lycorp.co.jp/ja/20231107a) - 牧野恵（LINEヤフー）（2023-11）
 
+**事前学習モデル・Transformer**
+- [【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する](https://zenn.dev/epicai_techblog/articles/cbb8774f43783b) - bishopfunc（2025-12）
+
+**大規模言語モデル（概論・動向）**
+- [NLP2026に初参加したAIエンジニアが気になった論文3選](https://tech.legalscape.co.jp/entry/2026/03/19/125513) - Akihiro Tomita（2026-03）
+
 **日本語LLMの開発（事前学習・コーパス構築）**
+- [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e) - Kan Hatakeyama（2024-08）
+- [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
 
 **ファインチューニング・事後学習**
+- [コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -](https://nowokay.hatenablog.com/entry/2026/01/10/125059) - きしだ (kishida)（2026-01）
+- [日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編](https://zenn.dev/matsuolab/articles/a6a941571138e3) - santhosh（2024-08）
 - [【初心者】LoRAを使って日本語GPTモデルをファインチューニングする](https://zenn.dev/takumi0616/articles/b79f6fa04562e5) - takumi0616（2024-11）
 - [日本語LLMの指示学習における回答が長い訓練サンプルの影響](https://tech.preferred.jp/ja/blog/japanease-it-length/) - Preferred Networks（2025-01）
 
@@ -57,13 +67,16 @@
 - [マルチモーダルLLMを活用したZOZOTOWN検索の関連性評価手法](https://techblog.zozo.com/entry/search-quantitative-evaluation-llm) - 橘（ZOZO）（2026-02）
 
 **検索・RAG**
+- [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）
 - [AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション](https://techlife.cookpad.com/entry/bedrock) - 深澤（クックパッド）（2023-10）
 - [RAGの理想と現実 ~実装現場が直面する7つの課題と、その先のアプローチ~](https://zenn.dev/nd_komosyu/articles/6540bbb4873fe5) - komosyu（2026-02）
 
 **LLM アプリケーション開発・運用**
+- [持たざる者のLLM学習理論](https://zenn.dev/strixai/articles/1d36ed2aed59e4) - Kosuke Suzuki｜STRIX（2026-05）
 - [社内で汎用的に使えるAIチャットボットをDifyで作りました](https://tech.smarthr.jp/entry/2024/12/19/174950) - yoyogi（SmartHR）（2024-12）
 
 **AI エージェント・MCP**
+- [MCPサーバーが多すぎてAIエージェントが迷子になるので、ナビゲーションシステムを作った](https://zenn.dev/kanseilink/articles/1971dab6c08b10) - Michie Yamaguchi（2026-04）
 - [AIエージェント自作のための基礎知識](https://ymmt.hatenablog.com/entry/2026/03/24/221754) - ymmt2005（2026-03）
 - [AIエージェント開発への探求 - パート3：サブエージェントとMCPの深掘り](https://techblog.lycorp.co.jp/ja/20250611a) - Nguyễn Trọng Phúc（フック）（2025-06）
 
@@ -103,9 +116,10 @@
 - [大規模言語モデルの「思考」を追跡する – Anthropic最新研究ー原文英語だから翻訳と解説](https://note.com/ogawa_ramo/n/nc1b04e4b92b8) - Ogawa（2025-04）
 
 **産業応用・実務事例**
+- [シーズニーズマッチングを支える自然言語処理 ー ストックマークの NLP2026 論文のご紹介](https://stockmark-tech.hatenablog.com/entry/2026/03/02/085617) - 広田航（2026-03）
 - [【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術](https://buildersbox.corp-sansan.com/entry/2022/12/22/110000) - shu223（Sansan）（2022-12）
 
-_2026-08-22 時点_
+_2026-08-23 時点_
 
 ## 目次
 
@@ -222,6 +236,7 @@ IMEやかな漢字変換エンジンの自作記録。
 BERTとTransformerの仕組みを図解・実装で理解する記事。
 
 - [TransformerのSelf AttentionのQKVを直感的に解説する](https://qiita.com/kenmatsu4/items/1b3853a3314ab66eb2a3) - kenmatsu4（まつけん）（2026-05）
+- [【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する](https://zenn.dev/epicai_techblog/articles/cbb8774f43783b) - bishopfunc（2025-12）
 - [【図解】BERTの仕組みと進化の流れ：Attention・Transformerから理解する](https://zenn.dev/stockdatalab/articles/20250614_tech_nlpbert) - 情報収集ラボ（2025-06）
 - [第1回：Transformerとは何か？ Attention Is All You Needについて調べてみた。](https://zenn.dev/tech_taka/articles/4c0e632897b2e8) - tech_taka（2025-04）
 - [Transformerの文章生成の仕組みを理解する](https://future-architect.github.io/articles/20250226a/) - 森友雅（フューチャー株式会社）（2025-02）
@@ -233,6 +248,7 @@ BERTとTransformerの仕組みを図解・実装で理解する記事。
 LLMの全体像や最新動向を追った記事・まとめ。
 
 - [2026年4月のLLMアップデートラッシュを振り返る](https://qiita.com/camcam/items/af76ca0b9ffe5eae1bf1) - camcam（2026-05）
+- [NLP2026に初参加したAIエンジニアが気になった論文3選](https://tech.legalscape.co.jp/entry/2026/03/19/125513) - Akihiro Tomita（2026-03）
 - [日本特有の知識に特化した大規模言語モデルの学習および評価](https://zenn.dev/elyza/articles/9e46b79371fc0e) - Daisuke Oba（ELYZA株式会社）（2024-11）
 - [ChatGPT（とその周辺）の技術](https://zenn.dev/zenkigen_tech/articles/2023-05-kurihara) - masakuri（株式会社ZENKIGEN）（2023-06）
 - [話題爆発中のAI「ChatGPT」の仕組みにせまる！](https://qiita.com/omiita/items/c355bc4c26eca2817324) - @omiita（オミータ）（2022-12）
@@ -242,8 +258,10 @@ LLMの全体像や最新動向を追った記事・まとめ。
 日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。
 
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
+- [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e) - Kan Hatakeyama（2024-08）
 - [Llama-3-Swallow: 日本語に強い継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/f65989d76baf2c) - Kazuki Fujii（東京科学大学 岡崎研究室）（2024-07）
 - [継続事前学習による金融ドメイン特化LLMの構築の検証](https://tech.preferred.jp/ja/blog/qfin-llm-continual-pretraining/) - Masanori Hirano（Preferred Networks）（2024-04）
+- [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
 - [日本語LLM の学習に関する技術記事まとめ](https://note.com/npaka/n/n23e2a05cb650) - npaka（2024-02）
 - [Swallow: LLaMA-2 日本語継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907) - Kazuki Fujii（東京科学大学 岡崎研究室）（2023-12）
 
@@ -253,9 +271,11 @@ LoRAなどを使ったファインチューニングの入門・実践記事。
 
 - [LLM 事後学習 (SFT / RLHF / DPO / RLVR / GRPO / 自己蒸留) を教師信号から眺める](https://zenn.dev/shunk031/articles/llm-post-training-overview) - しゅんけー, Ph.D.（2026-06）
 - [LLMファインチューニング入門──RAGと使い分けるための基礎からLoRA実装まで【2026】](https://zenn.dev/karaagedesu/articles/edf46190f70b1d) - karaagedesu（2026-05）
+- [コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -](https://nowokay.hatenablog.com/entry/2026/01/10/125059) - きしだ (kishida)（2026-01）
 - [大規模言語モデルのファインチューニングを理解するための丁寧な入門ガイド](https://zenn.dev/nakano_teppei/articles/fe4ae4748ecb5d) - 中野哲平（2025-11）
 - [日本語LLMの指示学習における回答が長い訓練サンプルの影響](https://tech.preferred.jp/ja/blog/japanease-it-length/) - Preferred Networks（2025-01）
 - [【初心者】LoRAを使って日本語GPTモデルをファインチューニングする](https://zenn.dev/takumi0616/articles/b79f6fa04562e5) - takumi0616（2024-11）
+- [日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編](https://zenn.dev/matsuolab/articles/a6a941571138e3) - santhosh（2024-08）
 
 ## LLM の推論最適化・サービング
 
@@ -293,6 +313,7 @@ Elasticsearchなど検索基盤を日本語向けにチューニングする記�
 
 RAGの仕組みをゼロから実装して学ぶ記事。
 
+- [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）
 - [RAGの理想と現実 ~実装現場が直面する7つの課題と、その先のアプローチ~](https://zenn.dev/nd_komosyu/articles/6540bbb4873fe5) - komosyu（2026-02）
 - [「手作り RAG システム」で RAG の仕組みを学び直す](https://zenn.dev/google_cloud_jp/articles/e699bda0a298d6) - Etsuji Nakai（Google Cloud Japan）（2025-12）
 - [RAGをゼロから実装して仕組みを学ぶ【2025年版】](https://zenn.dev/knowledgesense/articles/2619c6e5918d08) - Atsushi Kadowaki（株式会社KnowledgeSense）（2025-11）
@@ -303,6 +324,7 @@ RAGの仕組みをゼロから実装して学ぶ記事。
 
 プロンプトの設計・管理など、LLMプロダクト開発の実務記事。
 
+- [持たざる者のLLM学習理論](https://zenn.dev/strixai/articles/1d36ed2aed59e4) - Kosuke Suzuki｜STRIX（2026-05）
 - [LLMアプリケーション開発におけるプロンプトの取得と管理](https://tech-blog.rakus.co.jp/entry/20260129/llm) - TKDS（株式会社ラクス）（2026-01）
 - [社内で汎用的に使えるAIチャットボットをDifyで作りました](https://tech.smarthr.jp/entry/2024/12/19/174950) - yoyogi（SmartHR）（2024-12）
 - [LLMOpsを実運用する――プロンプト管理・評価・ツール選定の実際](https://zenn.dev/shintaroamaike/articles/ba975609780e3a) - ShintaroAmaike（2024-12）
@@ -314,6 +336,7 @@ RAGの仕組みをゼロから実装して学ぶ記事。
 LangGraphやMCPを使ったAIエージェント実装の記事。
 
 - [LangGraphでシンプルな「AIエージェント」を作ってみた](https://www.skygroup.jp/tech-blog/article/2320/) - Sky株式会社（2026-04）
+- [MCPサーバーが多すぎてAIエージェントが迷子になるので、ナビゲーションシステムを作った](https://zenn.dev/kanseilink/articles/1971dab6c08b10) - Michie Yamaguchi（2026-04）
 - [AIエージェント自作のための基礎知識](https://ymmt.hatenablog.com/entry/2026/03/24/221754) - ymmt2005（2026-03）
 - [MCP と LangGraph で構築：Human-in-the-Loop 対応の AI エージェントを作る](https://qiita.com/raid50/items/69ff348e57cbb764b015) - raid50（2025-12）
 - [AIエージェント開発への探求 - パート3：サブエージェントとMCPの深掘り](https://techblog.lycorp.co.jp/ja/20250611a) - Nguyễn Trọng Phúc（フック）（2025-06）
@@ -448,6 +471,7 @@ LLMの内部表現を解析・解釈する記事。
 企業の現場でLLM・NLPを活用した実務事例の記事。
 
 - [AI駆動開発の効果、どう測る？データで見えた生産性向上と、その先の課題](https://techblog.spiderplus.co.jp/entry/2026/07/24/120000) - spiderplus（株式会社スパイダープラス）（2026-07）
+- [シーズニーズマッチングを支える自然言語処理 ー ストックマークの NLP2026 論文のご紹介](https://stockmark-tech.hatenablog.com/entry/2026/03/02/085617) - 広田航（2026-03）
 - [AI/機械学習によるカスタマーサポートの回答予測 ── 試行錯誤の歴史](https://tech.smarthr.jp/entry/2025/03/05/145917) - kano（株式会社SmartHR）（2025-03）
 - [with 生成AIで営業生産性を倍増させる、LayerXの内製プロダクト Sales Portalの現在地](https://note.com/numashi_biz/n/n0161bb02f485) - numashi（株式会社LayerX）（2025-02）
 - [【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術](https://buildersbox.corp-sansan.com/entry/2022/12/22/110000) - shu223（Sansan）（2022-12）

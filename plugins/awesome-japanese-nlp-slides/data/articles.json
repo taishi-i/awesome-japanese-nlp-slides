@@ -245,6 +245,13 @@
   "s": "単語・文の分散表現"
  },
  {
+  "t": "【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する",
+  "u": "https://zenn.dev/epicai_techblog/articles/cbb8774f43783b",
+  "a": "bishopfunc",
+  "d": "2025-12-23",
+  "s": "事前学習モデル・Transformer"
+ },
+ {
   "t": "TransformerのSelf AttentionのQKVを直感的に解説する",
   "u": "https://qiita.com/kenmatsu4/items/1b3853a3314ab66eb2a3",
   "a": "kenmatsu4（まつけん）",
@@ -287,6 +294,13 @@
   "s": "事前学習モデル・Transformer"
  },
  {
+  "t": "NLP2026に初参加したAIエンジニアが気になった論文3選",
+  "u": "https://tech.legalscape.co.jp/entry/2026/03/19/125513",
+  "a": "Akihiro Tomita",
+  "d": "2026-03-19",
+  "s": "大規模言語モデル（概論・動向）"
+ },
+ {
   "t": "2026年4月のLLMアップデートラッシュを振り返る",
   "u": "https://qiita.com/camcam/items/af76ca0b9ffe5eae1bf1",
   "a": "camcam",
@@ -313,6 +327,20 @@
   "a": "@omiita（オミータ）",
   "d": "2022-12-11",
   "s": "大規模言語モデル（概論・動向）"
+ },
+ {
+  "t": "大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー",
+  "u": "https://zenn.dev/matsuolab/articles/34036f017fae9e",
+  "a": "Kan Hatakeyama",
+  "d": "2024-08-30",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "HuggingFaceとDeepSpeedで実践継続事前学習",
+  "u": "https://zenn.dev/elith/articles/30c25fa0c6a0c1",
+  "a": "もっさん",
+  "d": "2024-03-25",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
   "t": "LLMによる大規模な事前学習データセット生成システムの構築と運用",
@@ -348,6 +376,20 @@
   "a": "Kazuki Fujii（東京科学大学 岡崎研究室）",
   "d": "2023-12-19",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -",
+  "u": "https://nowokay.hatenablog.com/entry/2026/01/10/125059",
+  "a": "きしだ (kishida)",
+  "d": "2026-01-10",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
+  "t": "日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編",
+  "u": "https://zenn.dev/matsuolab/articles/a6a941571138e3",
+  "a": "santhosh",
+  "d": "2024-08-19",
+  "s": "ファインチューニング・事後学習"
  },
  {
   "t": "【初心者】LoRAを使って日本語GPTモデルをファインチューニングする",
@@ -504,6 +546,13 @@
   "s": "全文検索・検索基盤"
  },
  {
+  "t": "RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化",
+  "u": "https://zenn.dev/0h_n0/articles/5137ee7d4dd05d",
+  "a": "ohno",
+  "d": "2026-03-04",
+  "s": "検索・RAG"
+ },
+ {
   "t": "AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション",
   "u": "https://techlife.cookpad.com/entry/bedrock",
   "a": "深澤（クックパッド）",
@@ -539,6 +588,13 @@
   "s": "検索・RAG"
  },
  {
+  "t": "持たざる者のLLM学習理論",
+  "u": "https://zenn.dev/strixai/articles/1d36ed2aed59e4",
+  "a": "Kosuke Suzuki｜STRIX",
+  "d": "2026-05-16",
+  "s": "LLM アプリケーション開発・運用"
+ },
+ {
   "t": "社内で汎用的に使えるAIチャットボットをDifyで作りました",
   "u": "https://tech.smarthr.jp/entry/2024/12/19/174950",
   "a": "yoyogi（SmartHR）",
@@ -572,6 +628,13 @@
   "a": "Atsushi Kadowaki（株式会社KnowledgeSense）",
   "d": "2024-03-19",
   "s": "LLM アプリケーション開発・運用"
+ },
+ {
+  "t": "MCPサーバーが多すぎてAIエージェントが迷子になるので、ナビゲーションシステムを作った",
+  "u": "https://zenn.dev/kanseilink/articles/1971dab6c08b10",
+  "a": "Michie Yamaguchi",
+  "d": "2026-04-07",
+  "s": "AI エージェント・MCP"
  },
  {
   "t": "AIエージェント自作のための基礎知識",
@@ -1020,6 +1083,13 @@
   "a": "itok_msi（k ito）",
   "d": "2018-02-08",
   "s": "解釈性・分析・言語学的視点"
+ },
+ {
+  "t": "シーズニーズマッチングを支える自然言語処理 ー ストックマークの NLP2026 論文のご紹介",
+  "u": "https://stockmark-tech.hatenablog.com/entry/2026/03/02/085617",
+  "a": "広田航",
+  "d": "2026-03-02",
+  "s": "産業応用・実務事例"
  },
  {
   "t": "【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術",
