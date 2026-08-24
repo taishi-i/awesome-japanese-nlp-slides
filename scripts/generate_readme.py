@@ -24,6 +24,7 @@ LOCALE_DIR = ROOT / "data" / "locales"
 REPO_SLUG = "taishi-i/awesome-japanese-nlp-slides"
 REPO_URL = f"https://github.com/{REPO_SLUG}"
 BLOB_URL = f"{REPO_URL}/blob/main"
+CONTRIBUTING_URL = f"{BLOB_URL}/contributing.md"
 
 AWESOME_BADGE = (
     "https://cdn.rawgit.com/sindresorhus/awesome/"
@@ -122,7 +123,9 @@ def _latest_additions(
     """Return the section listing decks added in the last 7 days, grouped by section.
 
     Empty when nothing qualifies, so a quiet week leaves no trace in the
-    README rather than an empty heading.
+    README rather than an empty heading. Wrapped in <details> so this list
+    (which can run to 100+ lines) never stands between a first-time visitor
+    and the table of contents, which comes right after the intro instead.
     """
     groups = [
         (name_of(section), recent)
@@ -138,7 +141,16 @@ def _latest_additions(
     if not groups:
         return []
 
-    lines = [f"## {strings['latest_heading']}", "", strings["latest_intro"], ""]
+    summary = strings["latest_heading"]
+    if strings.get("latest_summary_hint"):
+        summary = f"{summary} {strings['latest_summary_hint']}"
+    lines = [
+        "<details>",
+        f"<summary>{summary}</summary>",
+        "",
+        strings["latest_intro"],
+        "",
+    ]
     for name, entries in groups:
         lines.append(f"**{name}**")
         lines += [
@@ -152,6 +164,8 @@ def _latest_additions(
         ]
         lines.append("")
     lines.append(strings["latest_updated"].format(date=today.isoformat()))
+    lines.append("")
+    lines.append("</details>")
     lines.append("")
     return lines
 
@@ -192,6 +206,13 @@ def _plugin_article(strings: dict[str, str]) -> list[str]:
     return [strings["plugin_article"].format(link=link), ""]
 
 
+def _contribute(strings: dict[str, str]) -> list[str]:
+    """Return the one-line pointer to contributing.md, if the locale has one."""
+    if not strings.get("contribute_note"):
+        return []
+    return [strings["contribute_note"].format(link=CONTRIBUTING_URL), ""]
+
+
 def _articles_pointer(
     strings: dict[str, str], locale: Locale, total_articles: int
 ) -> list[str]:
@@ -208,14 +229,24 @@ def _articles_pointer(
     return [strings["articles_pointer"].format(link=link, total=total_articles), ""]
 
 
-def _body(
-    strings: dict[str, str], sections: list[Section], name_of: Any, blurb_of: Any
-) -> list[str]:
-    """Return the table of contents followed by one block per section."""
+def _toc(strings: dict[str, str], sections: list[Section], name_of: Any) -> list[str]:
+    """Return the table of contents, one link per section.
+
+    Placed right after the intro (see ``render``) so a visitor can jump
+    straight to a category without first scrolling past the plugin pitch
+    and the "latest additions" list.
+    """
     lines = [f"## {strings['toc_heading']}", ""]
     lines += [f"- [{name_of(s)}](#{anchor(name_of(s))})" for s in sections]
     lines.append("")
+    return lines
 
+
+def _sections_only(
+    strings: dict[str, str], sections: list[Section], name_of: Any, blurb_of: Any
+) -> list[str]:
+    """Return one block per section: heading, blurb, then its entries."""
+    lines: list[str] = []
     for section in sections:
         lines += [f"## {name_of(section)}", "", blurb_of(section), ""]
         newest_first = sorted(section["entries"], key=lambda e: e["date"], reverse=True)
@@ -254,10 +285,12 @@ def render(locale: Locale, sections: list[Section], depth: int, run: RunInfo) ->
 
     lines = [
         *_intro(strings, run.nav, total, len(sections), depth),
+        *_toc(strings, sections, name_of),
+        *_contribute(strings),
         *_plugin(strings, total),
         *_articles_pointer(strings, locale, run.total_articles),
         *_latest_additions(strings, sections, name_of, run.today),
-        *_body(strings, sections, name_of, blurb_of),
+        *_sections_only(strings, sections, name_of, blurb_of),
         f"## {strings['license_heading']}",
         "",
         f"[CC0 1.0 Universal]({LICENSE_URL})",

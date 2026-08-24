@@ -16,7 +16,44 @@ Conference tutorials, university lectures, technical deep dives by OSS developer
 Deck titles are kept as published, so most of them are in Japanese.
 
 > [!NOTE]
-> This list is still a work in progress. More material will be added over time.
+> This list is updated regularly, with new decks added all the time.
+
+## Contents
+
+- [Getting Started / Big Picture](#getting-started--big-picture)
+- [Conference Tutorials](#conference-tutorials)
+- [University Lectures & Course Materials](#university-lectures--course-materials)
+- [Japanese Text Analysis (Morphological & Syntactic)](#japanese-text-analysis-morphological--syntactic)
+- [NLP Library & Tool Development](#nlp-library--tool-development)
+- [Japanese Text Normalization & Spelling Variants](#japanese-text-normalization--spelling-variants)
+- [Dictionaries, Kana-Kanji Conversion & Japanese Input (IME)](#dictionaries-kana-kanji-conversion--japanese-input-ime)
+- [Word & Sentence Embeddings](#word--sentence-embeddings)
+- [Pretrained Models & Transformers](#pretrained-models--transformers)
+- [Large Language Models (Overview & Trends)](#large-language-models-overview--trends)
+- [Building Japanese LLMs (Pretraining & Corpus Construction)](#building-japanese-llms-pretraining--corpus-construction)
+- [Fine-tuning & Post-training](#fine-tuning--post-training)
+- [LLM Inference Optimization & Serving](#llm-inference-optimization--serving)
+- [Evaluation & Benchmarks](#evaluation--benchmarks)
+- [Full-text Search & Search Infrastructure](#full-text-search--search-infrastructure)
+- [Search & RAG](#search--rag)
+- [LLM Application Development & Operations](#llm-application-development--operations)
+- [AI Agents & MCP](#ai-agents--mcp)
+- [LLM Safety & Security](#llm-safety--security)
+- [Text Classification & Sentiment Analysis](#text-classification--sentiment-analysis)
+- [Spam & Harmful Content Countermeasures](#spam--harmful-content-countermeasures)
+- [Text Mining & Topic Models](#text-mining--topic-models)
+- [Information Extraction, NER & Annotation](#information-extraction-ner--annotation)
+- [Document AI & OCR](#document-ai--ocr)
+- [Question Answering & Knowledge](#question-answering--knowledge)
+- [Machine Translation](#machine-translation)
+- [Multimodal & Vision-and-Language](#multimodal--vision-and-language)
+- [Speech Recognition & Speech Processing](#speech-recognition--speech-processing)
+- [Dialogue Systems & Spoken Dialogue](#dialogue-systems--spoken-dialogue)
+- [Generation, Summarization & Proofreading](#generation-summarization--proofreading)
+- [Interpretability, Analysis & Linguistic Perspectives](#interpretability-analysis--linguistic-perspectives)
+- [Industry Applications & Case Studies](#industry-applications--case-studies)
+
+🙋 Have a deck you'd like listed? Send a pull request following the [contributing guide](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/contributing.md).
 
 ## 🔍 Search from Claude Code
 
@@ -44,7 +81,8 @@ Once installed, pass a keyword or a natural language question to the `search` sk
 
 🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (160 entries).
 
-## 🎉 The Latest Additions
+<details>
+<summary>🎉 The Latest Additions (click to expand)</summary>
 
 Decks added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
 
@@ -142,42 +180,9 @@ Decks added to this list in the last 7 days. Each one stays here for 7 days from
 - [「気づいたら仕事が終わっている」バクラクAIエージェント本番運用の裏側 / layerx-bakuraku-aie2026](https://speakerdeck.com/yuya4/layerx-bakuraku-aie2026) - Yuya Matsumura (2026-06)
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史 (2026-08)
 
-_Updated on 2026-08-23_
+_Updated on 2026-08-24_
 
-## Contents
-
-- [Getting Started / Big Picture](#getting-started--big-picture)
-- [Conference Tutorials](#conference-tutorials)
-- [University Lectures & Course Materials](#university-lectures--course-materials)
-- [Japanese Text Analysis (Morphological & Syntactic)](#japanese-text-analysis-morphological--syntactic)
-- [NLP Library & Tool Development](#nlp-library--tool-development)
-- [Japanese Text Normalization & Spelling Variants](#japanese-text-normalization--spelling-variants)
-- [Dictionaries, Kana-Kanji Conversion & Japanese Input (IME)](#dictionaries-kana-kanji-conversion--japanese-input-ime)
-- [Word & Sentence Embeddings](#word--sentence-embeddings)
-- [Pretrained Models & Transformers](#pretrained-models--transformers)
-- [Large Language Models (Overview & Trends)](#large-language-models-overview--trends)
-- [Building Japanese LLMs (Pretraining & Corpus Construction)](#building-japanese-llms-pretraining--corpus-construction)
-- [Fine-tuning & Post-training](#fine-tuning--post-training)
-- [LLM Inference Optimization & Serving](#llm-inference-optimization--serving)
-- [Evaluation & Benchmarks](#evaluation--benchmarks)
-- [Full-text Search & Search Infrastructure](#full-text-search--search-infrastructure)
-- [Search & RAG](#search--rag)
-- [LLM Application Development & Operations](#llm-application-development--operations)
-- [AI Agents & MCP](#ai-agents--mcp)
-- [LLM Safety & Security](#llm-safety--security)
-- [Text Classification & Sentiment Analysis](#text-classification--sentiment-analysis)
-- [Spam & Harmful Content Countermeasures](#spam--harmful-content-countermeasures)
-- [Text Mining & Topic Models](#text-mining--topic-models)
-- [Information Extraction, NER & Annotation](#information-extraction-ner--annotation)
-- [Document AI & OCR](#document-ai--ocr)
-- [Question Answering & Knowledge](#question-answering--knowledge)
-- [Machine Translation](#machine-translation)
-- [Multimodal & Vision-and-Language](#multimodal--vision-and-language)
-- [Speech Recognition & Speech Processing](#speech-recognition--speech-processing)
-- [Dialogue Systems & Spoken Dialogue](#dialogue-systems--spoken-dialogue)
-- [Generation, Summarization & Proofreading](#generation-summarization--proofreading)
-- [Interpretability, Analysis & Linguistic Perspectives](#interpretability-analysis--linguistic-perspectives)
-- [Industry Applications & Case Studies](#industry-applications--case-studies)
+</details>
 
 ## Getting Started / Big Picture
 
