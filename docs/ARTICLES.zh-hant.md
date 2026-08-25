@@ -9,12 +9,12 @@
 這是一份精選清單，收錄了日語自然語言處理（NLP）相關、由企業與個人開發者撰寫的網頁與部落格文章。
 採用與[投影片清單](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/README.md)相同的 32 個主題分類。
 
-共收錄 160 篇文章，分為 32 個分類。
+共收錄 172 篇文章，分為 32 個分類。
 
 文章標題保留發表時的原文，因此絕大多數為日語。
 
 > [!NOTE]
-> 本清單仍在建置中，今後會持續新增文章並擴充內容。
+> 本清單持續更新中，會不斷新增文章、充實內容。
 
 ## 🎉 最近新增的文章
 
@@ -27,6 +27,7 @@
 - [言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！](https://hacosato.hatenablog.com/entry/201904020/nlp2019) - hacosato（2019-04）
 
 **日語的基礎分析（形態素分析・句法分析）**
+- [形態素解析をして単語を取り出せているつもり・・・か？](https://qiita.com/icoxfog417/items/e83383263badec7a4805) - icoxfog417（2017-12）
 - [日本語形態素解析の裏側を覗く！MeCab はどのように形態素解析しているか](https://techlife.cookpad.com/entry/2016/05/11/170000) - 荒引（クックパッド）（2016-05）
 
 **NLP 函式庫與工具開發**
@@ -37,8 +38,14 @@
 - [なぜ私たちは住所正規化エンジンをRustで“再発明”したのか？ - FFIによる多言語高速化と開発者体験の裏側](https://buildersbox.corp-sansan.com/entry/2025/06/20/120000) - kiyonori-matsumoto（Sansan）（2025-06）
 
 **詞典・假名漢字轉換・日語輸入（IME）**
+- [2026年2月のIMEに関するできごと](https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02) - Hiroyuki Komatsu（2026-03）
+- [最近またLinux用の日本語IMEを作っている](https://blog.64p.org/entry/2023/01/16/032912) - tokuhirom（2023-01）
+- [IMEと確定結果の扱い](https://mhkoji.hatenablog.com/entry/2021/11/16/000000) - mhkoji（2021-11）
 - [情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用](https://techblog.lycorp.co.jp/ja/20231217a) - 伊奈拓郎（LINEヤフー）（2023-12）
 - [日本語形態素解析 Web API のユーザ辞書機能で解析結果をカスタマイズ](https://techblog.lycorp.co.jp/ja/20231107a) - 牧野恵（LINEヤフー）（2023-11）
+
+**詞與句的分散式表示**
+- [日本語に対応した埋め込みモデルの検索性能を比較する](https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja) - Hironsan（2026-04）
 
 **預訓練模型・Transformer**
 - [【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する](https://zenn.dev/epicai_techblog/articles/cbb8774f43783b) - bishopfunc（2025-12）
@@ -47,6 +54,7 @@
 - [NLP2026に初参加したAIエンジニアが気になった論文3選](https://tech.legalscape.co.jp/entry/2026/03/19/125513) - Akihiro Tomita（2026-03）
 
 **日語 LLM 的開發（預訓練・語料庫建置）**
+- [四畳半のオフィスで70億パラメータのLLMを事前学習した話](https://note.com/lightblue_tech/n/n043948e212ac) - Lightblue（2023-07）
 - [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e) - Kan Hatakeyama（2024-08）
 - [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
@@ -69,6 +77,9 @@
 - [マルチモーダルLLMを活用したZOZOTOWN検索の関連性評価手法](https://techblog.zozo.com/entry/search-quantitative-evaluation-llm) - 橘（ZOZO）（2026-02）
 
 **檢索・RAG**
+- [【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した](https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2) - 川上晴也（2026-04）
+- [【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした](https://zenn.dev/fp16/articles/aa48dcae23974e) - 二宮 貫(Kan Ninomiya)（2026-02）
+- [大企業向けRAGの最先端技術と今後のトレンド【2025年版】](https://zenn.dev/knowledgesense/articles/148dfe2ca1d146) - Atsushi Kadowaki（株式会社KnowledgeSense）（2025-10）
 - [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）
 - [AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション](https://techlife.cookpad.com/entry/bedrock) - 深澤（クックパッド）（2023-10）
 - [RAGの理想と現実 ~実装現場が直面する7つの課題と、その先のアプローチ~](https://zenn.dev/nd_komosyu/articles/6540bbb4873fe5) - komosyu（2026-02）
@@ -103,15 +114,18 @@
 - [分野特定のニューラル機械翻訳エンジンを作ってみた 〜 データ収集とパフォーマンス検証を中心に（その１）](https://www.kodensha.jp/index/blog/2019/02/20/4016/) - 株式会社光電社（2019-02）
 
 **多模態・視覺與語言**
+- [日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）](https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5) - yumaha(橋口)（2026-05）
 - [【マルチモーダル】Vision-Language #まとめ編](https://yhayato1320.hatenablog.com/entry/2022/09/11/100549) - yhayato1320（オムライスの備忘録）（2022-09）
 
 **語音辨識・語音處理**
+- [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ）（2026-08）
 - [Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか](https://zenn.dev/hidetzu/articles/whisper-recognition-quality) - hidetzu（2026-04）
 
 **對話系統・語音對話**
 - [当たり前のことが当たり前にできる音声対話受付ロボットの開発](https://developers.cyberagent.co.jp/blog/archives/49874/) - CyberAgent AI Lab（2024-10）
 
 **生成・摘要・校對**
+- [LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する](https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github) - Futa Hirakoba（サイボウズ）（2024-08）
 - [1つの HTML ファイルだけで完結する校正支援ツールの作り方](https://techblog.lycorp.co.jp/ja/20231106a) - 山下達雄（LINEヤフー）（2023-11）
 
 **可解釋性・分析・語言學觀點**
@@ -121,7 +135,7 @@
 - [シーズニーズマッチングを支える自然言語処理 ー ストックマークの NLP2026 論文のご紹介](https://stockmark-tech.hatenablog.com/entry/2026/03/02/085617) - 広田航（2026-03）
 - [【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術](https://buildersbox.corp-sansan.com/entry/2022/12/22/110000) - shu223（Sansan）（2022-12）
 
-_2026-08-23 更新_
+_2026-08-26 更新_
 
 ## 目錄
 
@@ -193,6 +207,7 @@ _2026-08-23 更新_
 - [自然言語処理の形態素解析について調べたまとめ](https://zenn.dev/megane_otoko/articles/008_morphological_analysis) - koji（2020-11）
 - [形態素解析器比較 Sudachi vs Mecab+Neologd](https://tdual.hatenablog.com/entry/2020/07/13/162151) - tdualdir（2020-07）
 - [係り受けに基づく日本語単語埋め込みを用いた係り受け解析](https://tech-blog.lapras.com/techBlogs/dependency-parsing-using-japanese-word-embedding-based-on-dependency) - R&Dチーム（LAPRAS株式会社）（2019-11）
+- [形態素解析をして単語を取り出せているつもり・・・か？](https://qiita.com/icoxfog417/items/e83383263badec7a4805) - icoxfog417（2017-12）
 - [日本語形態素解析の裏側を覗く！MeCab はどのように形態素解析しているか](https://techlife.cookpad.com/entry/2016/05/11/170000) - 荒引（クックパッド）（2016-05）
 
 ## NLP 函式庫與工具開發
@@ -220,14 +235,18 @@ IMEやかな漢字変換エンジンの自作記録。
 
 - [自作 macOS IME「RomKana」開発記](https://zenn.dev/toshinao/articles/1cffb713b1c670) - toshinao（2026-06）
 - [IMEなしの日本語サジェスト実装メモ：実務で使える4つのTips（+番外編1つ）](https://qiita.com/Rapls/items/868df2f859df470d86e9) - Rapls（2026-05）
+- [2026年2月のIMEに関するできごと](https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02) - Hiroyuki Komatsu（2026-03）
 - [情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用](https://techblog.lycorp.co.jp/ja/20231217a) - 伊奈拓郎（LINEヤフー）（2023-12）
 - [日本語形態素解析 Web API のユーザ辞書機能で解析結果をカスタマイズ](https://techblog.lycorp.co.jp/ja/20231107a) - 牧野恵（LINEヤフー）（2023-11）
+- [最近またLinux用の日本語IMEを作っている](https://blog.64p.org/entry/2023/01/16/032912) - tokuhirom（2023-01）
+- [IMEと確定結果の扱い](https://mhkoji.hatenablog.com/entry/2021/11/16/000000) - mhkoji（2021-11）
 - [Swift：【IME自作プロジェクト】かな漢字変換ライブラリ作成中](https://qiita.com/Kyome/items/5ae009a2e8e15c5ff6bf) - Kyome（2018-10）
 
 ## 詞與句的分散式表示
 
 単語埋め込み・分散表現の仕組みと活用の解説記事。
 
+- [日本語に対応した埋め込みモデルの検索性能を比較する](https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja) - Hironsan（2026-04）
 - [Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで](https://zenn.dev/dxc_ai_driven/articles/22069126393a7d) - Adrian Tam（DXC AI-Driven）（2025-09）
 - [テキスト埋め込みモデルPLaMo-Embedding-1Bの開発](https://tech.preferred.jp/ja/blog/plamo-embedding-1b/) - Kaito Suzuki（Preferred Networks）（2025-04）
 - [単語埋め込みを単語埋め込みに埋め込む -前編-](https://buildersbox.corp-sansan.com/entry/2019/03/30/110000) - 荒居（Sansan株式会社）（2019-03）
@@ -266,6 +285,7 @@ LLMの全体像や最新動向を追った記事・まとめ。
 - [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
 - [日本語LLM の学習に関する技術記事まとめ](https://note.com/npaka/n/n23e2a05cb650) - npaka（2024-02）
 - [Swallow: LLaMA-2 日本語継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907) - Kazuki Fujii（東京科学大学 岡崎研究室）（2023-12）
+- [四畳半のオフィスで70億パラメータのLLMを事前学習した話](https://note.com/lightblue_tech/n/n043948e212ac) - Lightblue（2023-07）
 
 ## 微調・後訓練
 
@@ -315,10 +335,13 @@ Elasticsearchなど検索基盤を日本語向けにチューニングする記�
 
 RAGの仕組みをゼロから実装して学ぶ記事。
 
+- [【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した](https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2) - 川上晴也（2026-04）
 - [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）
+- [【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした](https://zenn.dev/fp16/articles/aa48dcae23974e) - 二宮 貫(Kan Ninomiya)（2026-02）
 - [RAGの理想と現実 ~実装現場が直面する7つの課題と、その先のアプローチ~](https://zenn.dev/nd_komosyu/articles/6540bbb4873fe5) - komosyu（2026-02）
 - [「手作り RAG システム」で RAG の仕組みを学び直す](https://zenn.dev/google_cloud_jp/articles/e699bda0a298d6) - Etsuji Nakai（Google Cloud Japan）（2025-12）
 - [RAGをゼロから実装して仕組みを学ぶ【2025年版】](https://zenn.dev/knowledgesense/articles/2619c6e5918d08) - Atsushi Kadowaki（株式会社KnowledgeSense）（2025-11）
+- [大企業向けRAGの最先端技術と今後のトレンド【2025年版】](https://zenn.dev/knowledgesense/articles/148dfe2ca1d146) - Atsushi Kadowaki（株式会社KnowledgeSense）（2025-10）
 - [Elasticsearchのハイブリッド検索を用いて高精度なRAGを簡単に実現する](https://acro-engineer.hatenablog.com/entry/2024/12/17/120000) - shin0higuchi（株式会社アクロクエストテクノロジー）（2024-12）
 - [AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション](https://techlife.cookpad.com/entry/bedrock) - 深澤（クックパッド）（2023-10）
 
@@ -424,6 +447,7 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 
 画像と言語を組み合わせるVLM（視覚言語モデル）の解説記事。
 
+- [日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）](https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5) - yumaha(橋口)（2026-05）
 - [高性能な日本語マルチモーダル基盤モデル「clip-japanese-base-v2」の公開](https://techblog.lycorp.co.jp/ja/20251218a) - 岡田俊太郎ほか（LINEヤフー株式会社）（2025-12）
 - [CLIPで画像とテキストを理解する：ゼロショット分類を実装してみた](https://zenn.dev/madaozaku/articles/5dd0d828ea151b) - madaozaku（2025-10）
 - [【ローカルVLM】マルチモーダル・モデルは便利すぎる件【OpenWebUI】](https://note.com/catap_art3d/n/nba533680f191) - Catapp-Art3D（2025-05）
@@ -434,6 +458,7 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 
 Whisperなど音声認識モデルの検証・活用記事。
 
+- [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ）（2026-08）
 - [Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか](https://zenn.dev/hidetzu/articles/whisper-recognition-quality) - hidetzu（2026-04）
 - [SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結](https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization) - okamyuji（2025-12）
 - [Whisper による音声認識の最先端〜8年越しのASR](https://zenn.dev/simpleform/articles/20231206-02-automatic-speech-recognition-whisper) - 小間（株式会社SimpleForm）（2023-12）
@@ -454,6 +479,7 @@ Whisperなど音声認識モデルの検証・活用記事。
 文章生成・要約・校正を自動化する実装記事。
 
 - [AIによる文章要約と重複チェックの開発](https://tech.makeshop.co.jp/entry/2024/10/07/180251) - tech-makeshop-mori（GMOメイクショップ株式会社）（2024-10）
+- [LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する](https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github) - Futa Hirakoba（サイボウズ）（2024-08）
 - [1つの HTML ファイルだけで完結する校正支援ツールの作り方](https://techblog.lycorp.co.jp/ja/20231106a) - 山下達雄（LINEヤフー）（2023-11）
 - [大自然言語時代のための、文章要約](https://qiita.com/icoxfog417/items/d06651db10e27220c819) - icoxfog417（2017-10）
 - [Qiita:Team + Hubot + textlintで文章校正を自動で実行する](https://techblog.zozo.com/entry/auto_sentence_proofreading_of_posts) - vasilyjp（株式会社ZOZO）（2017-05）

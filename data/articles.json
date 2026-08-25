@@ -84,6 +84,13 @@
   "blurb": "形態素解析・係り受け解析の仕組みを手を動かして理解する記事。",
   "entries": [
    {
+    "title": "形態素解析をして単語を取り出せているつもり・・・か？",
+    "url": "https://qiita.com/icoxfog417/items/e83383263badec7a4805",
+    "author": "icoxfog417",
+    "date": "2017-12-04",
+    "added": "2026-08-26"
+   },
+   {
     "title": "日本語形態素解析の裏側を覗く！MeCab はどのように形態素解析しているか",
     "url": "https://techlife.cookpad.com/entry/2016/05/11/170000",
     "author": "荒引（クックパッド）",
@@ -202,6 +209,13 @@
   "blurb": "IMEやかな漢字変換エンジンの自作記録。",
   "entries": [
    {
+    "title": "2026年2月のIMEに関するできごと",
+    "url": "https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02",
+    "author": "Hiroyuki Komatsu",
+    "date": "2026-03-14",
+    "added": "2026-08-26"
+   },
+   {
     "title": "情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用",
     "url": "https://techblog.lycorp.co.jp/ja/20231217a",
     "author": "伊奈拓郎（LINEヤフー）",
@@ -228,6 +242,20 @@
     "date": "2026-05-17"
    },
    {
+    "title": "最近またLinux用の日本語IMEを作っている",
+    "url": "https://blog.64p.org/entry/2023/01/16/032912",
+    "author": "tokuhirom",
+    "date": "2023-01-16",
+    "added": "2026-08-26"
+   },
+   {
+    "title": "IMEと確定結果の扱い",
+    "url": "https://mhkoji.hatenablog.com/entry/2021/11/16/000000",
+    "author": "mhkoji",
+    "date": "2021-11-16",
+    "added": "2026-08-26"
+   },
+   {
     "title": "Swift：【IME自作プロジェクト】かな漢字変換ライブラリ作成中",
     "url": "https://qiita.com/Kyome/items/5ae009a2e8e15c5ff6bf",
     "author": "Kyome",
@@ -239,6 +267,13 @@
   "section": "単語・文の分散表現",
   "blurb": "単語埋め込み・分散表現の仕組みと活用の解説記事。",
   "entries": [
+   {
+    "title": "日本語に対応した埋め込みモデルの検索性能を比較する",
+    "url": "https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja",
+    "author": "Hironsan",
+    "date": "2026-04-10",
+    "added": "2026-08-26"
+   },
    {
     "title": "Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで",
     "url": "https://zenn.dev/dxc_ai_driven/articles/22069126393a7d",
@@ -399,6 +434,13 @@
     "url": "https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907",
     "author": "Kazuki Fujii（東京科学大学 岡崎研究室）",
     "date": "2023-12-19"
+   },
+   {
+    "title": "四畳半のオフィスで70億パラメータのLLMを事前学習した話",
+    "url": "https://note.com/lightblue_tech/n/n043948e212ac",
+    "author": "Lightblue",
+    "date": "2023-07-19",
+    "added": "2026-08-26"
    }
   ]
  },
@@ -584,11 +626,32 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した",
+    "url": "https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2",
+    "author": "川上晴也",
+    "date": "2026-04-10",
+    "added": "2026-08-26"
+   },
+   {
     "title": "RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化",
     "url": "https://zenn.dev/0h_n0/articles/5137ee7d4dd05d",
     "author": "ohno",
     "date": "2026-03-04",
     "added": "2026-08-23"
+   },
+   {
+    "title": "【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした",
+    "url": "https://zenn.dev/fp16/articles/aa48dcae23974e",
+    "author": "二宮 貫(Kan Ninomiya)",
+    "date": "2026-02-12",
+    "added": "2026-08-26"
+   },
+   {
+    "title": "大企業向けRAGの最先端技術と今後のトレンド【2025年版】",
+    "url": "https://zenn.dev/knowledgesense/articles/148dfe2ca1d146",
+    "author": "Atsushi Kadowaki（株式会社KnowledgeSense）",
+    "date": "2025-10-07",
+    "added": "2026-08-26"
    },
    {
     "title": "AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション",
@@ -990,6 +1053,13 @@
   "blurb": "画像と言語を組み合わせるVLM（視覚言語モデル）の解説記事。",
   "entries": [
    {
+    "title": "日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）",
+    "url": "https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5",
+    "author": "yumaha(橋口)",
+    "date": "2026-05-16",
+    "added": "2026-08-26"
+   },
+   {
     "title": "【マルチモーダル】Vision-Language #まとめ編",
     "url": "https://yhayato1320.hatenablog.com/entry/2022/09/11/100549",
     "author": "yhayato1320（オムライスの備忘録）",
@@ -1026,6 +1096,13 @@
   "section": "音声認識・音声処理",
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
+   {
+    "title": "Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた",
+    "url": "https://techblog.heroz.jp/entry/2026/08/18/120000",
+    "author": "heroz-tkubo（HEROZ）",
+    "date": "2026-08-18",
+    "added": "2026-08-26"
+   },
    {
     "title": "Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか",
     "url": "https://zenn.dev/hidetzu/articles/whisper-recognition-quality",
@@ -1094,6 +1171,13 @@
   "section": "生成・要約・校正",
   "blurb": "文章生成・要約・校正を自動化する実装記事。",
   "entries": [
+   {
+    "title": "LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する",
+    "url": "https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github",
+    "author": "Futa Hirakoba（サイボウズ）",
+    "date": "2024-08-13",
+    "added": "2026-08-26"
+   },
    {
     "title": "1つの HTML ファイルだけで完結する校正支援ツールの作り方",
     "url": "https://techblog.lycorp.co.jp/ja/20231106a",

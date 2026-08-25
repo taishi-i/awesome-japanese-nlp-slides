@@ -70,6 +70,13 @@
   "s": "大学講義・体系的な講義資料"
  },
  {
+  "t": "形態素解析をして単語を取り出せているつもり・・・か？",
+  "u": "https://qiita.com/icoxfog417/items/e83383263badec7a4805",
+  "a": "icoxfog417",
+  "d": "2017-12-04",
+  "s": "日本語の基礎解析（形態素解析・構文解析）"
+ },
+ {
   "t": "日本語形態素解析の裏側を覗く！MeCab はどのように形態素解析しているか",
   "u": "https://techlife.cookpad.com/entry/2016/05/11/170000",
   "a": "荒引（クックパッド）",
@@ -182,6 +189,13 @@
   "s": "日本語テキストの正規化・表記ゆれ"
  },
  {
+  "t": "2026年2月のIMEに関するできごと",
+  "u": "https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02",
+  "a": "Hiroyuki Komatsu",
+  "d": "2026-03-14",
+  "s": "辞書・かな漢字変換・日本語入力"
+ },
+ {
   "t": "情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用",
   "u": "https://techblog.lycorp.co.jp/ja/20231217a",
   "a": "伊奈拓郎（LINEヤフー）",
@@ -210,11 +224,32 @@
   "s": "辞書・かな漢字変換・日本語入力"
  },
  {
+  "t": "最近またLinux用の日本語IMEを作っている",
+  "u": "https://blog.64p.org/entry/2023/01/16/032912",
+  "a": "tokuhirom",
+  "d": "2023-01-16",
+  "s": "辞書・かな漢字変換・日本語入力"
+ },
+ {
+  "t": "IMEと確定結果の扱い",
+  "u": "https://mhkoji.hatenablog.com/entry/2021/11/16/000000",
+  "a": "mhkoji",
+  "d": "2021-11-16",
+  "s": "辞書・かな漢字変換・日本語入力"
+ },
+ {
   "t": "Swift：【IME自作プロジェクト】かな漢字変換ライブラリ作成中",
   "u": "https://qiita.com/Kyome/items/5ae009a2e8e15c5ff6bf",
   "a": "Kyome",
   "d": "2018-10-07",
   "s": "辞書・かな漢字変換・日本語入力"
+ },
+ {
+  "t": "日本語に対応した埋め込みモデルの検索性能を比較する",
+  "u": "https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja",
+  "a": "Hironsan",
+  "d": "2026-04-10",
+  "s": "単語・文の分散表現"
  },
  {
   "t": "Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで",
@@ -375,6 +410,13 @@
   "u": "https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907",
   "a": "Kazuki Fujii（東京科学大学 岡崎研究室）",
   "d": "2023-12-19",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "四畳半のオフィスで70億パラメータのLLMを事前学習した話",
+  "u": "https://note.com/lightblue_tech/n/n043948e212ac",
+  "a": "Lightblue",
+  "d": "2023-07-19",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
@@ -546,10 +588,31 @@
   "s": "全文検索・検索基盤"
  },
  {
+  "t": "【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した",
+  "u": "https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2",
+  "a": "川上晴也",
+  "d": "2026-04-10",
+  "s": "検索・RAG"
+ },
+ {
   "t": "RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化",
   "u": "https://zenn.dev/0h_n0/articles/5137ee7d4dd05d",
   "a": "ohno",
   "d": "2026-03-04",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした",
+  "u": "https://zenn.dev/fp16/articles/aa48dcae23974e",
+  "a": "二宮 貫(Kan Ninomiya)",
+  "d": "2026-02-12",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "大企業向けRAGの最先端技術と今後のトレンド【2025年版】",
+  "u": "https://zenn.dev/knowledgesense/articles/148dfe2ca1d146",
+  "a": "Atsushi Kadowaki（株式会社KnowledgeSense）",
+  "d": "2025-10-07",
   "s": "検索・RAG"
  },
  {
@@ -924,6 +987,13 @@
   "s": "機械翻訳"
  },
  {
+  "t": "日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）",
+  "u": "https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5",
+  "a": "yumaha(橋口)",
+  "d": "2026-05-16",
+  "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
   "t": "【マルチモーダル】Vision-Language #まとめ編",
   "u": "https://yhayato1320.hatenablog.com/entry/2022/09/11/100549",
   "a": "yhayato1320（オムライスの備忘録）",
@@ -957,6 +1027,13 @@
   "a": "taku_sid",
   "d": "2025-04-23",
   "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
+  "t": "Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた",
+  "u": "https://techblog.heroz.jp/entry/2026/08/18/120000",
+  "a": "heroz-tkubo（HEROZ）",
+  "d": "2026-08-18",
+  "s": "音声認識・音声処理"
  },
  {
   "t": "Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか",
@@ -1020,6 +1097,13 @@
   "a": "Hironsan",
   "d": "2016-08-24",
   "s": "対話システム・音声対話"
+ },
+ {
+  "t": "LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する",
+  "u": "https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github",
+  "a": "Futa Hirakoba（サイボウズ）",
+  "d": "2024-08-13",
+  "s": "生成・要約・校正"
  },
  {
   "t": "1つの HTML ファイルだけで完結する校正支援ツールの作り方",
