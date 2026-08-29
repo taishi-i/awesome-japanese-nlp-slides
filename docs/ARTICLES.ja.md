@@ -9,7 +9,7 @@
 日本語の自然言語処理（NLP）に関する、企業や個人開発者によるウェブページ・ブログ記事を集めた厳選リストです。
 [スライド一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/README.md) と同じ32のトピックで整理しています。
 
-172 件の記事を 32 カテゴリに分類しています。
+180 件の記事を 32 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは日々更新中です。新しい記事を随時追加しています。
@@ -18,122 +18,47 @@
 
 このリストに直近7日以内に追加された記事です。追加された日から7日間、ここに表示されます。
 
-**入門・全体像**
-- [日本語で読める自然言語処理の参考書まとめ](https://komachi.hatenablog.com/entry/20131228/p1) - 小町守（武蔵野日記）（2013-12）
-
-**学会チュートリアル**
-- [言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！](https://hacosato.hatenablog.com/entry/201904020/nlp2019) - hacosato（2019-04）
-
 **日本語の基礎解析（形態素解析・構文解析）**
 - [形態素解析をして単語を取り出せているつもり・・・か？](https://qiita.com/icoxfog417/items/e83383263badec7a4805) - icoxfog417（2017-12）
-- [日本語形態素解析の裏側を覗く！MeCab はどのように形態素解析しているか](https://techlife.cookpad.com/entry/2016/05/11/170000) - 荒引（クックパッド）（2016-05）
-
-**NLP ライブラリ・ツール開発**
-- [SuikaというPure Rubyな形態素解析器を作成した](https://yoshoku.hatenablog.com/entry/2020/07/05/090000) - yoshoku（洋食の日記）（2020-07）
-- [形態素解析を行うだけのバッチをつくる](https://techlife.cookpad.com/entry/2021/03/08/093000) - jharashima（クックパッド）（2021-03）
-
-**日本語テキストの正規化・表記ゆれ**
-- [なぜ私たちは住所正規化エンジンをRustで“再発明”したのか？ - FFIによる多言語高速化と開発者体験の裏側](https://buildersbox.corp-sansan.com/entry/2025/06/20/120000) - kiyonori-matsumoto（Sansan）（2025-06）
 
 **辞書・かな漢字変換・日本語入力**
 - [2026年2月のIMEに関するできごと](https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02) - Hiroyuki Komatsu（2026-03）
 - [最近またLinux用の日本語IMEを作っている](https://blog.64p.org/entry/2023/01/16/032912) - tokuhirom（2023-01）
 - [IMEと確定結果の扱い](https://mhkoji.hatenablog.com/entry/2021/11/16/000000) - mhkoji（2021-11）
-- [情報検索にも使える？テキスト解析 Web API ルビ振り・かな漢字変換 の活用](https://techblog.lycorp.co.jp/ja/20231217a) - 伊奈拓郎（LINEヤフー）（2023-12）
-- [日本語形態素解析 Web API のユーザ辞書機能で解析結果をカスタマイズ](https://techblog.lycorp.co.jp/ja/20231107a) - 牧野恵（LINEヤフー）（2023-11）
 
 **単語・文の分散表現**
+- [【2026年版】ローカルLLMにおける埋め込みモデルの最前線](https://zenn.dev/cahal_inc/articles/21211c78841847) - 中野哲平（2026-02）
+- [最近の埋め込みモデルのクロスリンガル検索能力をチェックする](https://note.com/oshizo/n/nf289df40859a) - oshizo（2025-04）
+- [Ruri: 日本語に特化した汎用テキスト埋め込みモデル](https://zenn.dev/hpp/articles/b5132c64c40d24) - hpp（2024-12）
 - [日本語に対応した埋め込みモデルの検索性能を比較する](https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja) - Hironsan（2026-04）
 
-**事前学習モデル・Transformer**
-- [【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する](https://zenn.dev/epicai_techblog/articles/cbb8774f43783b) - bishopfunc（2025-12）
-
-**大規模言語モデル（概論・動向）**
-- [NLP2026に初参加したAIエンジニアが気になった論文3選](https://tech.legalscape.co.jp/entry/2026/03/19/125513) - Akihiro Tomita（2026-03）
-
 **日本語LLMの開発（事前学習・コーパス構築）**
+- [事前学習の方法（10/27日勉強会公開用）](https://zenn.dev/matsuolab/articles/9f05f2be70cff8) - Masaki Okamura（2024-10）
+- [日本語トークナイザーの作り方（トークナイザー後編）](https://zenn.dev/matsuolab/articles/bbd855bf933030) - Holy_KTQ（うっかりじゅうべえ）（2024-10）
+- [日本語tokenizerを学習する](https://zenn.dev/if001/articles/87bbe893411fa1) - if001（2023-09）
 - [四畳半のオフィスで70億パラメータのLLMを事前学習した話](https://note.com/lightblue_tech/n/n043948e212ac) - Lightblue（2023-07）
-- [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e) - Kan Hatakeyama（2024-08）
-- [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
-- [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
-
-**ファインチューニング・事後学習**
-- [コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -](https://nowokay.hatenablog.com/entry/2026/01/10/125059) - きしだ (kishida)（2026-01）
-- [日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編](https://zenn.dev/matsuolab/articles/a6a941571138e3) - santhosh（2024-08）
-- [【初心者】LoRAを使って日本語GPTモデルをファインチューニングする](https://zenn.dev/takumi0616/articles/b79f6fa04562e5) - takumi0616（2024-11）
-- [日本語LLMの指示学習における回答が長い訓練サンプルの影響](https://tech.preferred.jp/ja/blog/japanease-it-length/) - Preferred Networks（2025-01）
-
-**LLM の推論最適化・サービング**
-- [gpt-ossを4bit量子化したら流暢に壊れた話。量子化方式で忠実度が2倍変わった実測記録](https://zenn.dev/tokimoa/articles/222fa96dcf1b20) - tokimoa（2026-07）
 
 **評価・ベンチマーク**
-- [日本語言語理解ベンチマークJGLUEの構築 〜 自然言語処理モデルの評価用データセットを公開しました](https://techblog.yahoo.co.jp/entry/2022122030379907/) - 柴田知秀（Yahoo! JAPAN研究所）（2022-12）
-- [日本語の自然さを測る評価手法の検証](https://tech.preferred.jp/ja/blog/llm-as-a-judge-for-japanese/) - Preferred Networks（2026-02）
-- [JFBench: 実務レベルの日本語指示追従性能を備えた生成AIを目指して](https://tech.preferred.jp/ja/blog/jfbench-japanese-instruction-following-benchmark/) - Preferred Networks（2026-01）
-
-**全文検索・検索基盤**
-- [マルチモーダルLLMを活用したZOZOTOWN検索の関連性評価手法](https://techblog.zozo.com/entry/search-quantitative-evaluation-llm) - 橘（ZOZO）（2026-02）
+- [日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）](https://blog.qualiteg.com/llm-ranking-2026/) - Qualiteg プロダクト開発部（2026-07）
 
 **検索・RAG**
 - [【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した](https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2) - 川上晴也（2026-04）
 - [【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした](https://zenn.dev/fp16/articles/aa48dcae23974e) - 二宮 貫(Kan Ninomiya)（2026-02）
 - [大企業向けRAGの最先端技術と今後のトレンド【2025年版】](https://zenn.dev/knowledgesense/articles/148dfe2ca1d146) - Atsushi Kadowaki（株式会社KnowledgeSense）（2025-10）
-- [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）
-- [AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション](https://techlife.cookpad.com/entry/bedrock) - 深澤（クックパッド）（2023-10）
-- [RAGの理想と現実 ~実装現場が直面する7つの課題と、その先のアプローチ~](https://zenn.dev/nd_komosyu/articles/6540bbb4873fe5) - komosyu（2026-02）
 
 **LLM アプリケーション開発・運用**
-- [持たざる者のLLM学習理論](https://zenn.dev/strixai/articles/1d36ed2aed59e4) - Kosuke Suzuki｜STRIX（2026-05）
-- [社内で汎用的に使えるAIチャットボットをDifyで作りました](https://tech.smarthr.jp/entry/2024/12/19/174950) - yoyogi（SmartHR）（2024-12）
-
-**AI エージェント・MCP**
-- [MCPサーバーが多すぎてAIエージェントが迷子になるので、ナビゲーションシステムを作った](https://zenn.dev/kanseilink/articles/1971dab6c08b10) - Michie Yamaguchi（2026-04）
-- [AIエージェント自作のための基礎知識](https://ymmt.hatenablog.com/entry/2026/03/24/221754) - ymmt2005（2026-03）
-- [AIエージェント開発への探求 - パート3：サブエージェントとMCPの深掘り](https://techblog.lycorp.co.jp/ja/20250611a) - Nguyễn Trọng Phúc（フック）（2025-06）
-
-**LLM の安全性・セキュリティ**
-- [Claude Code / CursorのHooksで実装した AIエージェントの3層プロンプトインジェクション対策](https://creators.bengo4.com/entry/2026/03/24/080000) - cloudsign_fujitani（弁護士ドットコム）（2026-03）
-- [LLM / 生成AIを活用するアプリケーション開発におけるセキュリティリスクと対策](https://blog.flatt.tech/entry/llm_application_security) - 佐藤（GMOフラットセキュリティ）（2025-04）
-
-**スパム・有害コンテンツ対策**
-- [マルチモーダルモデルによる不正出品の検知](https://engineering.mercari.com/blog/entry/2018-04-24-164919/) - mercari-shido（メルカリ）（2018-04）
-
-**テキストマイニング・トピックモデル**
-- [Agentic Analytics — AI に分析を任せる時代の基盤とコンテキストレイヤー](https://creators.bengo4.com/entry/2026/06/25/090000) - kkawabata（弁護士ドットコム）（2026-06）
-
-**文書処理・OCR**
-- [手書き文字起こしの比較](https://hunny-hachimitsu.hatenablog.com/entry/2025/11/26/215702) - hunny-hachimitsu（2025-11）
-
-**質問応答・知識**
-- [散らばった情報をAIでつなぐ ： Dify × Amazon Bedrockで構築した社内知識検索の導入と効果](https://creators.bengo4.com/entry/2025/03/18/090000) - kunihiko_t（弁護士ドットコム）（2025-03）
-
-**機械翻訳**
-- [再帰型ニューラルネットで英語から日本語の機械翻訳を実装する方法](https://zenn.dev/derbuihan/articles/c964a0b1c75d28) - derbuihan（2023-06）
-- [分野特定のニューラル機械翻訳エンジンを作ってみた 〜 データ収集とパフォーマンス検証を中心に（その１）](https://www.kodensha.jp/index/blog/2019/02/20/4016/) - 株式会社光電社（2019-02）
+- [LLM の API 料金のしくみを整理してみた](https://zenn.dev/peintangos/articles/3cd4fe5367a9ae) - 松尾淳平（2026-03）
 
 **マルチモーダル・Vision-and-Language**
 - [日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）](https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5) - yumaha(橋口)（2026-05）
-- [【マルチモーダル】Vision-Language #まとめ編](https://yhayato1320.hatenablog.com/entry/2022/09/11/100549) - yhayato1320（オムライスの備忘録）（2022-09）
 
 **音声認識・音声処理**
 - [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ）（2026-08）
-- [Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか](https://zenn.dev/hidetzu/articles/whisper-recognition-quality) - hidetzu（2026-04）
-
-**対話システム・音声対話**
-- [当たり前のことが当たり前にできる音声対話受付ロボットの開発](https://developers.cyberagent.co.jp/blog/archives/49874/) - CyberAgent AI Lab（2024-10）
 
 **生成・要約・校正**
 - [LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する](https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github) - Futa Hirakoba（サイボウズ）（2024-08）
-- [1つの HTML ファイルだけで完結する校正支援ツールの作り方](https://techblog.lycorp.co.jp/ja/20231106a) - 山下達雄（LINEヤフー）（2023-11）
 
-**解釈性・分析・言語学的視点**
-- [大規模言語モデルの「思考」を追跡する – Anthropic最新研究ー原文英語だから翻訳と解説](https://note.com/ogawa_ramo/n/nc1b04e4b92b8) - Ogawa（2025-04）
-
-**産業応用・実務事例**
-- [シーズニーズマッチングを支える自然言語処理 ー ストックマークの NLP2026 論文のご紹介](https://stockmark-tech.hatenablog.com/entry/2026/03/02/085617) - 広田航（2026-03）
-- [【研究開発部の技術】第5回 ニュース配信を支える自然言語処理技術](https://buildersbox.corp-sansan.com/entry/2022/12/22/110000) - shu223（Sansan）（2022-12）
-
-_2026-08-26 時点_
+_2026-08-30 時点_
 
 ## 目次
 
@@ -245,8 +170,11 @@ IMEやかな漢字変換エンジンの自作記録。
 単語埋め込み・分散表現の仕組みと活用の解説記事。
 
 - [日本語に対応した埋め込みモデルの検索性能を比較する](https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja) - Hironsan（2026-04）
+- [【2026年版】ローカルLLMにおける埋め込みモデルの最前線](https://zenn.dev/cahal_inc/articles/21211c78841847) - 中野哲平（2026-02）
 - [Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで](https://zenn.dev/dxc_ai_driven/articles/22069126393a7d) - Adrian Tam（DXC AI-Driven）（2025-09）
+- [最近の埋め込みモデルのクロスリンガル検索能力をチェックする](https://note.com/oshizo/n/nf289df40859a) - oshizo（2025-04）
 - [テキスト埋め込みモデルPLaMo-Embedding-1Bの開発](https://tech.preferred.jp/ja/blog/plamo-embedding-1b/) - Kaito Suzuki（Preferred Networks）（2025-04）
+- [Ruri: 日本語に特化した汎用テキスト埋め込みモデル](https://zenn.dev/hpp/articles/b5132c64c40d24) - hpp（2024-12）
 - [単語埋め込みを単語埋め込みに埋め込む -前編-](https://buildersbox.corp-sansan.com/entry/2019/03/30/110000) - 荒居（Sansan株式会社）（2019-03）
 - [なぜ自然言語処理にとって単語の分散表現は重要なのか？](https://qiita.com/Hironsan/items/a58636f946dd51f670b0) - Hironsan（2017-03）
 
@@ -277,12 +205,15 @@ LLMの全体像や最新動向を追った記事・まとめ。
 日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。
 
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
+- [事前学習の方法（10/27日勉強会公開用）](https://zenn.dev/matsuolab/articles/9f05f2be70cff8) - Masaki Okamura（2024-10）
+- [日本語トークナイザーの作り方（トークナイザー後編）](https://zenn.dev/matsuolab/articles/bbd855bf933030) - Holy_KTQ（うっかりじゅうべえ）（2024-10）
 - [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e) - Kan Hatakeyama（2024-08）
 - [Llama-3-Swallow: 日本語に強い継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/f65989d76baf2c) - Kazuki Fujii（東京科学大学 岡崎研究室）（2024-07）
 - [継続事前学習による金融ドメイン特化LLMの構築の検証](https://tech.preferred.jp/ja/blog/qfin-llm-continual-pretraining/) - Masanori Hirano（Preferred Networks）（2024-04）
 - [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
 - [日本語LLM の学習に関する技術記事まとめ](https://note.com/npaka/n/n23e2a05cb650) - npaka（2024-02）
 - [Swallow: LLaMA-2 日本語継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907) - Kazuki Fujii（東京科学大学 岡崎研究室）（2023-12）
+- [日本語tokenizerを学習する](https://zenn.dev/if001/articles/87bbe893411fa1) - if001（2023-09）
 - [四畳半のオフィスで70億パラメータのLLMを事前学習した話](https://note.com/lightblue_tech/n/n043948e212ac) - Lightblue（2023-07）
 
 ## ファインチューニング・事後学習
@@ -311,6 +242,7 @@ vLLMや量子化を使った推論高速化の実践記事。
 
 JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。
 
+- [日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）](https://blog.qualiteg.com/llm-ranking-2026/) - Qualiteg プロダクト開発部（2026-07）
 - [日本語の自然さを測る評価手法の検証](https://tech.preferred.jp/ja/blog/llm-as-a-judge-for-japanese/) - Preferred Networks（2026-02）
 - [JFBench: 実務レベルの日本語指示追従性能を備えた生成AIを目指して](https://tech.preferred.jp/ja/blog/jfbench-japanese-instruction-following-benchmark/) - Preferred Networks（2026-01）
 - [事前学習LLMの評価における既存LLMの活用](https://tech.preferred.jp/ja/blog/llm-eval-by-answer-matching/) - Hiroaki Mikami（Preferred Networks）（2025-09）
@@ -348,6 +280,7 @@ RAGの仕組みをゼロから実装して学ぶ記事。
 プロンプトの設計・管理など、LLMプロダクト開発の実務記事。
 
 - [持たざる者のLLM学習理論](https://zenn.dev/strixai/articles/1d36ed2aed59e4) - Kosuke Suzuki｜STRIX（2026-05）
+- [LLM の API 料金のしくみを整理してみた](https://zenn.dev/peintangos/articles/3cd4fe5367a9ae) - 松尾淳平（2026-03）
 - [LLMアプリケーション開発におけるプロンプトの取得と管理](https://tech-blog.rakus.co.jp/entry/20260129/llm) - TKDS（株式会社ラクス）（2026-01）
 - [社内で汎用的に使えるAIチャットボットをDifyで作りました](https://tech.smarthr.jp/entry/2024/12/19/174950) - yoyogi（SmartHR）（2024-12）
 - [LLMOpsを実運用する――プロンプト管理・評価・ツール選定の実際](https://zenn.dev/shintaroamaike/articles/ba975609780e3a) - ShintaroAmaike（2024-12）

@@ -275,16 +275,37 @@
     "added": "2026-08-26"
    },
    {
+    "title": "【2026年版】ローカルLLMにおける埋め込みモデルの最前線",
+    "url": "https://zenn.dev/cahal_inc/articles/21211c78841847",
+    "author": "中野哲平",
+    "date": "2026-02-05",
+    "added": "2026-08-30"
+   },
+   {
     "title": "Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで",
     "url": "https://zenn.dev/dxc_ai_driven/articles/22069126393a7d",
     "author": "Adrian Tam（DXC AI-Driven）",
     "date": "2025-09-09"
    },
    {
+    "title": "最近の埋め込みモデルのクロスリンガル検索能力をチェックする",
+    "url": "https://note.com/oshizo/n/nf289df40859a",
+    "author": "oshizo",
+    "date": "2025-04-22",
+    "added": "2026-08-30"
+   },
+   {
     "title": "テキスト埋め込みモデルPLaMo-Embedding-1Bの開発",
     "url": "https://tech.preferred.jp/ja/blog/plamo-embedding-1b/",
     "author": "Kaito Suzuki（Preferred Networks）",
     "date": "2025-04-16"
+   },
+   {
+    "title": "Ruri: 日本語に特化した汎用テキスト埋め込みモデル",
+    "url": "https://zenn.dev/hpp/articles/b5132c64c40d24",
+    "author": "hpp",
+    "date": "2024-12-06",
+    "added": "2026-08-30"
    },
    {
     "title": "単語埋め込みを単語埋め込みに埋め込む -前編-",
@@ -391,6 +412,20 @@
   "blurb": "日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。",
   "entries": [
    {
+    "title": "事前学習の方法（10/27日勉強会公開用）",
+    "url": "https://zenn.dev/matsuolab/articles/9f05f2be70cff8",
+    "author": "Masaki Okamura",
+    "date": "2024-10-27",
+    "added": "2026-08-30"
+   },
+   {
+    "title": "日本語トークナイザーの作り方（トークナイザー後編）",
+    "url": "https://zenn.dev/matsuolab/articles/bbd855bf933030",
+    "author": "Holy_KTQ（うっかりじゅうべえ）",
+    "date": "2024-10-19",
+    "added": "2026-08-30"
+   },
+   {
     "title": "大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー",
     "url": "https://zenn.dev/matsuolab/articles/34036f017fae9e",
     "author": "Kan Hatakeyama",
@@ -434,6 +469,13 @@
     "url": "https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907",
     "author": "Kazuki Fujii（東京科学大学 岡崎研究室）",
     "date": "2023-12-19"
+   },
+   {
+    "title": "日本語tokenizerを学習する",
+    "url": "https://zenn.dev/if001/articles/87bbe893411fa1",
+    "author": "if001",
+    "date": "2023-09-30",
+    "added": "2026-08-30"
    },
    {
     "title": "四畳半のオフィスで70億パラメータのLLMを事前学習した話",
@@ -537,6 +579,13 @@
   "section": "評価・ベンチマーク",
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
+   {
+    "title": "日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）",
+    "url": "https://blog.qualiteg.com/llm-ranking-2026/",
+    "author": "Qualiteg プロダクト開発部",
+    "date": "2026-07-13",
+    "added": "2026-08-30"
+   },
    {
     "title": "日本語言語理解ベンチマークJGLUEの構築 〜 自然言語処理モデルの評価用データセットを公開しました",
     "url": "https://techblog.yahoo.co.jp/entry/2022122030379907/",
@@ -697,6 +746,13 @@
     "author": "Kosuke Suzuki｜STRIX",
     "date": "2026-05-16",
     "added": "2026-08-23"
+   },
+   {
+    "title": "LLM の API 料金のしくみを整理してみた",
+    "url": "https://zenn.dev/peintangos/articles/3cd4fe5367a9ae",
+    "author": "松尾淳平",
+    "date": "2026-03-25",
+    "added": "2026-08-30"
    },
    {
     "title": "社内で汎用的に使えるAIチャットボットをDifyで作りました",

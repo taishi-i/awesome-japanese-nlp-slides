@@ -1784,6 +1784,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "LLM を現場で評価する",
+  "u": "https://speakerdeck.com/asei/llm-woxian-chang-deping-jia-suru",
+  "a": "Asei Sugiyama",
+  "d": "2024-08-30",
+  "s": "評価・ベンチマーク",
+  "src": "speakerdeck"
+ },
+ {
   "t": "(論文読み)MMAU: 「LLMエージェントの評価」に特化したベンチマーク",
   "u": "https://speakerdeck.com/__ymgc__/lun-wen-du-mi-mmau-a-holistic-benchmark-of-agent-capabilities-across-diverse-domains",
   "a": "ymgc",
@@ -2168,10 +2176,26 @@
   "src": "slideshare"
  },
  {
+  "t": "【AI×DevOps Study #22】AI Agent のための RAG System２（全2回）",
+  "u": "https://speakerdeck.com/scalar/aixdevops-study-22-ai-agent-no-tame-no-rag-system-chon-2-kai",
+  "a": "深津航",
+  "d": "2026-08-27",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【書籍出版記念】 10周回って、エージェント開発は RAGがすべてだった。〜RAGの歴史と開発現場で見えた実践知〜",
   "u": "https://speakerdeck.com/akiratameto/shoseki-shuppan-kinen-10-shuukai-tte-ejento-kaihatsu-ha-rag-ga-subetedata-rag-no-rekishi-to-kaihatsu-genba-de-mieta-jissen-chi",
   "a": "為藤アキラ",
   "d": "2026-08-21",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AIエージェントによるエンタープライズ向けスライド検索！",
+  "u": "https://speakerdeck.com/shibuiwilliam/aiezientoniyoruentapuraizuxiang-kesuraidojian-suo",
+  "a": "shibuiwilliam",
+  "d": "2025-11-16",
   "s": "検索・RAG",
   "src": "speakerdeck"
  },
@@ -3984,6 +4008,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "自分の解らない言語の動画を翻訳して視聴",
+  "u": "https://speakerdeck.com/matoken/zi-fen-nojie-ranaiyan-yu-nodong-hua-wofan-yi-siteshi-ting",
+  "a": "Kenichiro MATOHARA",
+  "d": "2023-11-11",
+  "s": "機械翻訳",
+  "src": "speakerdeck"
+ },
+ {
   "t": "機械翻訳をローカルマシンで( ArgosTranslate/LibreTranslate )",
   "u": "https://speakerdeck.com/matoken/libretranslate",
   "a": "Kenichiro MATOHARA",
@@ -4064,6 +4096,14 @@
   "src": "slideshare"
  },
  {
+  "t": "When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs",
+  "u": "https://speakerdeck.com/sansantech/260829",
+  "a": "SansanTech",
+  "d": "2026-08-28",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
   "t": "VLMで2.3万枚のPyCon JP写真を検索！",
   "u": "https://speakerdeck.com/terapyon/vlm-de-2-3-manmai-no-pycon-jp-shashin-o-kensaku",
   "a": "Manabu TERADA",
@@ -4078,6 +4118,14 @@
   "d": "2026-08-20",
   "s": "マルチモーダル・Vision-and-Language",
   "src": "docswell"
+ },
+ {
+  "t": "SSII2026 [OS2-2] 製造業ドメインにおける VLMの現在地",
+  "u": "https://speakerdeck.com/ssii/ssii2026-os2-2-inaba",
+  "a": "画像センシングシンポジウム",
+  "d": "2026-06-09",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
  },
  {
   "t": "FAXが現役の業界でマルチモーダルAIプロダクトを作る",
@@ -4301,6 +4349,14 @@
   "a": "Yoshitaka Ushiku",
   "d": "2017-03-22",
   "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "音声感情認識技術の最前線",
+  "u": "https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian",
+  "a": "A. Ando",
+  "d": "2023-09-26",
+  "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
  {
@@ -4957,6 +5013,14 @@
   "a": "Naoaki Okazaki",
   "d": "2019-09-25",
   "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "記録をかんたんに、提案をパーソナルに ── AIであすけんが目指すもの",
+  "u": "https://speakerdeck.com/oprstchn/ji-lu-wokantanni-ti-an-wopasonaruni-aideasukengamu-zhi-sumono",
+  "a": "oprst",
+  "d": "2026-07-02",
+  "s": "産業応用・実務事例",
   "src": "speakerdeck"
  },
  {

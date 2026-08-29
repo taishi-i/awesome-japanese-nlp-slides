@@ -252,6 +252,13 @@
   "s": "単語・文の分散表現"
  },
  {
+  "t": "【2026年版】ローカルLLMにおける埋め込みモデルの最前線",
+  "u": "https://zenn.dev/cahal_inc/articles/21211c78841847",
+  "a": "中野哲平",
+  "d": "2026-02-05",
+  "s": "単語・文の分散表現"
+ },
+ {
   "t": "Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで",
   "u": "https://zenn.dev/dxc_ai_driven/articles/22069126393a7d",
   "a": "Adrian Tam（DXC AI-Driven）",
@@ -259,10 +266,24 @@
   "s": "単語・文の分散表現"
  },
  {
+  "t": "最近の埋め込みモデルのクロスリンガル検索能力をチェックする",
+  "u": "https://note.com/oshizo/n/nf289df40859a",
+  "a": "oshizo",
+  "d": "2025-04-22",
+  "s": "単語・文の分散表現"
+ },
+ {
   "t": "テキスト埋め込みモデルPLaMo-Embedding-1Bの開発",
   "u": "https://tech.preferred.jp/ja/blog/plamo-embedding-1b/",
   "a": "Kaito Suzuki（Preferred Networks）",
   "d": "2025-04-16",
+  "s": "単語・文の分散表現"
+ },
+ {
+  "t": "Ruri: 日本語に特化した汎用テキスト埋め込みモデル",
+  "u": "https://zenn.dev/hpp/articles/b5132c64c40d24",
+  "a": "hpp",
+  "d": "2024-12-06",
   "s": "単語・文の分散表現"
  },
  {
@@ -364,6 +385,20 @@
   "s": "大規模言語モデル（概論・動向）"
  },
  {
+  "t": "事前学習の方法（10/27日勉強会公開用）",
+  "u": "https://zenn.dev/matsuolab/articles/9f05f2be70cff8",
+  "a": "Masaki Okamura",
+  "d": "2024-10-27",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "日本語トークナイザーの作り方（トークナイザー後編）",
+  "u": "https://zenn.dev/matsuolab/articles/bbd855bf933030",
+  "a": "Holy_KTQ（うっかりじゅうべえ）",
+  "d": "2024-10-19",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
   "t": "大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー",
   "u": "https://zenn.dev/matsuolab/articles/34036f017fae9e",
   "a": "Kan Hatakeyama",
@@ -410,6 +445,13 @@
   "u": "https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907",
   "a": "Kazuki Fujii（東京科学大学 岡崎研究室）",
   "d": "2023-12-19",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "日本語tokenizerを学習する",
+  "u": "https://zenn.dev/if001/articles/87bbe893411fa1",
+  "a": "if001",
+  "d": "2023-09-30",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
@@ -502,6 +544,13 @@
   "a": "Aratako（松尾研究室）",
   "d": "2024-09-09",
   "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）",
+  "u": "https://blog.qualiteg.com/llm-ranking-2026/",
+  "a": "Qualiteg プロダクト開発部",
+  "d": "2026-07-13",
+  "s": "評価・ベンチマーク"
  },
  {
   "t": "日本語言語理解ベンチマークJGLUEの構築 〜 自然言語処理モデルの評価用データセットを公開しました",
@@ -655,6 +704,13 @@
   "u": "https://zenn.dev/strixai/articles/1d36ed2aed59e4",
   "a": "Kosuke Suzuki｜STRIX",
   "d": "2026-05-16",
+  "s": "LLM アプリケーション開発・運用"
+ },
+ {
+  "t": "LLM の API 料金のしくみを整理してみた",
+  "u": "https://zenn.dev/peintangos/articles/3cd4fe5367a9ae",
+  "a": "松尾淳平",
+  "d": "2026-03-25",
   "s": "LLM アプリケーション開発・運用"
  },
  {

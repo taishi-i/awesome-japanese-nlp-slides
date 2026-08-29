@@ -1673,6 +1673,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "LLM を現場で評価する",
+    "url": "https://speakerdeck.com/asei/llm-woxian-chang-deping-jia-suru",
+    "author": "Asei Sugiyama",
+    "date": "2024-08-30",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
+   },
+   {
     "title": "(論文読み)MMAU: 「LLMエージェントの評価」に特化したベンチマーク",
     "url": "https://speakerdeck.com/__ymgc__/lun-wen-du-mi-mmau-a-holistic-benchmark-of-agent-capabilities-across-diverse-domains",
     "author": "ymgc",
@@ -2027,12 +2035,28 @@
   "blurb": "検索拡張生成（RAG）の設計・改善・評価。",
   "entries": [
    {
+    "title": "【AI×DevOps Study #22】AI Agent のための RAG System２（全2回）",
+    "url": "https://speakerdeck.com/scalar/aixdevops-study-22-ai-agent-no-tame-no-rag-system-chon-2-kai",
+    "author": "深津航",
+    "date": "2026-08-27",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
+   },
+   {
     "title": "【書籍出版記念】 10周回って、エージェント開発は RAGがすべてだった。〜RAGの歴史と開発現場で見えた実践知〜",
     "url": "https://speakerdeck.com/akiratameto/shoseki-shuppan-kinen-10-shuukai-tte-ejento-kaihatsu-ha-rag-ga-subetedata-rag-no-rekishi-to-kaihatsu-genba-de-mieta-jissen-chi",
     "author": "為藤アキラ",
     "date": "2026-08-21",
     "source": "speakerdeck",
     "added": "2026-08-23"
+   },
+   {
+    "title": "AIエージェントによるエンタープライズ向けスライド検索！",
+    "url": "https://speakerdeck.com/shibuiwilliam/aiezientoniyoruentapuraizuxiang-kesuraidojian-suo",
+    "author": "shibuiwilliam",
+    "date": "2025-11-16",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
    },
    {
     "title": "実例で紹介するRAG導入時の知見と精度向上の勘所",
@@ -3715,6 +3739,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "自分の解らない言語の動画を翻訳して視聴",
+    "url": "https://speakerdeck.com/matoken/zi-fen-nojie-ranaiyan-yu-nodong-hua-wofan-yi-siteshi-ting",
+    "author": "Kenichiro MATOHARA",
+    "date": "2023-11-11",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
+   },
+   {
     "title": "機械翻訳をローカルマシンで( ArgosTranslate/LibreTranslate )",
     "url": "https://speakerdeck.com/matoken/libretranslate",
     "author": "Kenichiro MATOHARA",
@@ -3791,6 +3823,14 @@
   "blurb": "画像と言語をつなぐモデルの研究開発と、VLM をプロダクトに組み込んだ事例。",
   "entries": [
    {
+    "title": "When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs",
+    "url": "https://speakerdeck.com/sansantech/260829",
+    "author": "SansanTech",
+    "date": "2026-08-28",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
+   },
+   {
     "title": "VLMで2.3万枚のPyCon JP写真を検索！",
     "url": "https://speakerdeck.com/terapyon/vlm-de-2-3-manmai-no-pycon-jp-shashin-o-kensaku",
     "author": "Manabu TERADA",
@@ -3805,6 +3845,14 @@
     "date": "2026-08-20",
     "source": "docswell",
     "added": "2026-08-23"
+   },
+   {
+    "title": "SSII2026 [OS2-2] 製造業ドメインにおける VLMの現在地",
+    "url": "https://speakerdeck.com/ssii/ssii2026-os2-2-inaba",
+    "author": "画像センシングシンポジウム",
+    "date": "2026-06-09",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
    },
    {
     "title": "FAXが現役の業界でマルチモーダルAIプロダクトを作る",
@@ -4009,6 +4057,14 @@
   "section": "音声認識・音声処理",
   "blurb": "音声をテキストに変換する音声認識と、その土台となる音声処理・音声基盤モデル。",
   "entries": [
+   {
+    "title": "音声感情認識技術の最前線",
+    "url": "https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian",
+    "author": "A. Ando",
+    "date": "2023-09-26",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
+   },
    {
     "title": "End-to-End音声認識の概要とプロダクト化への課題 / Overview of End-to-End Speech Recognition and Issues for Product Realization",
     "url": "https://speakerdeck.com/line_developers/overview-of-end-to-end-speech-recognition-and-issues-for-product-realization",
@@ -4614,6 +4670,14 @@
   "section": "産業応用・実務事例",
   "blurb": "実サービス・実業務に NLP / LLM を組み込んだ事例。",
   "entries": [
+   {
+    "title": "記録をかんたんに、提案をパーソナルに ── AIであすけんが目指すもの",
+    "url": "https://speakerdeck.com/oprstchn/ji-lu-wokantanni-ti-an-wopasonaruni-aideasukengamu-zhi-sumono",
+    "author": "oprst",
+    "date": "2026-07-02",
+    "source": "speakerdeck",
+    "added": "2026-08-30"
+   },
    {
     "title": "「気づいたら仕事が終わっている」バクラクAIエージェント本番運用の裏側 / layerx-bakuraku-aie2026",
     "url": "https://speakerdeck.com/yuya4/layerx-bakuraku-aie2026",
