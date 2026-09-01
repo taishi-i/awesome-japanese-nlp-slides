@@ -637,6 +637,13 @@
   "s": "全文検索・検索基盤"
  },
  {
+  "t": "埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする",
+  "u": "https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka",
+  "a": "リベルクラフト",
+  "d": "2026-07-09",
+  "s": "検索・RAG"
+ },
+ {
   "t": "【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した",
   "u": "https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2",
   "a": "川上晴也",
@@ -1099,10 +1106,24 @@
   "s": "音声認識・音声処理"
  },
  {
+  "t": "音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング",
+  "u": "https://www.canon-its.co.jp/column/tech-report/19",
+  "a": "キヤノンITソリューションズ",
+  "d": "2026-02-12",
+  "s": "音声認識・音声処理"
+ },
+ {
   "t": "SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結",
   "u": "https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization",
   "a": "okamyuji",
   "d": "2025-12-14",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2",
+  "u": "https://zenn.dev/hongbod/articles/def04f586cf168",
+  "a": "Hongbo.Ding",
+  "d": "2025-06-01",
   "s": "音声認識・音声処理"
  },
  {

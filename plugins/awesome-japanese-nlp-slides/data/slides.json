@@ -880,6 +880,14 @@
   "src": "slideshare"
  },
  {
+  "t": "LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―",
+  "u": "https://speakerdeck.com/nikkei_engineer_recruiting/yans2026",
+  "a": "日本経済新聞社 エンジニア採用事務局",
+  "d": "2026-08-31",
+  "s": "単語・文の分散表現",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Zipf 白色化：タイプとトークンの区別がもたらす良質な埋め込み空間と損失関数",
   "u": "https://speakerdeck.com/eumesy/zipfian-whitening",
   "a": "Sho Yokoi",
@@ -1308,6 +1316,14 @@
   "u": "https://speakerdeck.com/fujiikazuki2000/aws-summit-japan-2025-amazon-sagemaker-hyperpodwoli-yong-sitari-ben-yu-llm-swallow-nogou-zhu-cus-02",
   "a": "Kazuki Fujii",
   "d": "2025-12-14",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "NIIにおける大規模言語モデル構築事業の現在地",
+  "u": "https://speakerdeck.com/odashi/niiniokeruda-gui-mo-yan-yu-moderugou-zhu-shi-ye-noxian-zai-di",
+  "a": "Yusuke Oda",
+  "d": "2025-12-07",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
  },
@@ -1776,6 +1792,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "LLM生成文章の精度評価自動化とプロンプトチューニングの効率化について",
+  "u": "https://speakerdeck.com/layerx/ai-engineering-decoded-4",
+  "a": "LayerX",
+  "d": "2024-10-28",
+  "s": "評価・ベンチマーク",
+  "src": "speakerdeck"
+ },
+ {
   "t": "日本語医療LLM評価ベンチマークの構築と性能分析",
   "u": "https://speakerdeck.com/fta98/ri-ben-yu-yi-liao-llmping-jia-bentimakunogou-zhu-toxing-neng-fen-xi",
   "a": "Takuya Fukushima",
@@ -2192,6 +2216,30 @@
   "src": "speakerdeck"
  },
  {
+  "t": "【Paper&Hacks Vol.94】AIコード生成の裏側で動くRAG：リポジトリレベルコード生成",
+  "u": "https://www.docswell.com/s/matsuo-lab_llm/51QWP2-Paper&HacksVol.94",
+  "a": "松尾研LLMコミュニティ",
+  "d": "2026-08-04",
+  "s": "検索・RAG",
+  "src": "docswell"
+ },
+ {
+  "t": "LLM wikiの現在地 2026",
+  "u": "https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026",
+  "a": "長津孝輔",
+  "d": "2026-07-04",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "社内規程RAGの精度を73.3% → 100%に改善した話",
+  "u": "https://speakerdeck.com/oharu121/she-nei-gui-cheng-ragnojing-du-wo73-dot-3-percent-100-percent-nigai-shan-sitahua",
+  "a": "oharu121",
+  "d": "2026-02-26",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "AIエージェントによるエンタープライズ向けスライド検索！",
   "u": "https://speakerdeck.com/shibuiwilliam/aiezientoniyoruentapuraizuxiang-kesuraidojian-suo",
   "a": "shibuiwilliam",
@@ -2600,6 +2648,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "データエージェントのためのナレッジカタログ",
+  "u": "https://speakerdeck.com/na0/detaezientonotamenonaretuzikatarogu",
+  "a": "na0",
+  "d": "2026-05-25",
+  "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
+ },
+ {
   "t": "2026年のAIエージェント構築はどうなる？",
   "u": "https://speakerdeck.com/minorun365/2026nian-noaiezientogou-zhu-hadounaru",
   "a": "みのるん",
@@ -2614,6 +2670,14 @@
   "d": "2026-06-13",
   "s": "AI エージェント・MCP",
   "src": "docswell"
+ },
+ {
+  "t": "マルチエージェントシステム勉強会資料",
+  "u": "https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms",
+  "a": "中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎",
+  "d": "2026-01-30",
+  "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
  },
  {
   "t": "(論文読み)AI Scientist: 科学的発見の完全自動化に向けて",
@@ -4640,6 +4704,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Realtime APIを使って 全自動コールセンターを作ってみた@2026",
+  "u": "https://speakerdeck.com/terisuke/realtime-apiwoshi-tute-quan-zi-dong-korusentawozuo-tutemita-at-2026",
+  "a": "Terisuke",
+  "d": "2026-05-14",
+  "s": "対話システム・音声対話",
+  "src": "speakerdeck"
+ },
+ {
   "t": "会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計",
   "u": "https://speakerdeck.com/mixi_engineers/architecture-design-for-natural-conversations-in-the-conversational-ai-robot-romi",
   "a": "MIXI ENGINEERS",
@@ -4772,6 +4844,14 @@
   "u": "https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderuwoyong-itayi-wei-fen-xi-niyoruci-shu-ji-shu-henoying-yong",
   "a": "Yasuhiro Kondo",
   "d": "2023-11-19",
+  "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMを活用した文章校正の取り組み / Text Proofreading Initiatives Using LLM",
+  "u": "https://speakerdeck.com/mercari/text-proofreading-initiatives-using-llm",
+  "a": "mercari",
+  "d": "2023-10-14",
   "s": "生成・要約・校正",
   "src": "speakerdeck"
  },

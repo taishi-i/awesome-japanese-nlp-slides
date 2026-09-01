@@ -11,7 +11,7 @@
 A curated list of presentation slides on Japanese natural language processing (NLP).
 Conference tutorials, university lectures, technical deep dives by OSS developers, and industry case studies, organized by topic.
 
-655 decks across 32 categories.
+665 decks across 32 categories.
 
 Deck titles are kept as published, so most of them are in Japanese.
 
@@ -57,7 +57,7 @@ Deck titles are kept as published, so most of them are in Japanese.
 
 ## 🔍 Search from Claude Code
 
-A plugin is available to search all 655 decks in this list from Claude Code.
+A plugin is available to search all 665 decks in this list from Claude Code.
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -79,74 +79,33 @@ Once installed, pass a keyword or a natural language question to the `search` sk
 
 📝 The story behind this search skill is written up in [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) (Japanese).
 
-🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (180 entries).
+🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (183 entries).
 
 <details>
 <summary>🎉 The Latest Additions (click to expand)</summary>
 
 Decks added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
 
-**Getting Started / Big Picture**
-- [深層学習による自然言語処理](https://speakerdeck.com/faisalron/shen-ceng-xue-xi-niyoruzi-ran-yan-yu-chu-li) - Faisal Ibrahim Hadiputra (2021-09)
-
-**University Lectures & Course Materials**
-- [特殊演習(データ・AI活用) 第2回 生成AIの概要と利用方法](https://www.docswell.com/s/3349800/KDWP1W-2026-01-25-222913) - 鶴見教育工学研究所 (タナカケンタ) (2026-01)
-- [【IT Text 自然言語処理の基礎】第1章：自然言語処理の概要](https://www.docswell.com/s/kyoto-kaira/Z4QMG6-2023-10-14-110819) - 京都大学人工知能研究会KaiRA (2023-10)
-
-**Japanese Text Analysis (Morphological & Syntactic)**
-- [RMeCabで近代語の形態素解析をやってみる](https://www.docswell.com/s/m_tokuoka/ZV1XXJ-2025-02-08-143604) - 徳岡 大 (2025-02)
-
-**Pretrained Models & Transformers**
-- [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models) - Hayato Tsukagoshi (2023-08)
-- [Transformer](https://speakerdeck.com/yushiku/20220608_ssii_transformer) - Yoshitaka Ushiku (2022-06)
-
-**Large Language Models (Overview & Trends)**
-- [Databricks Academic Series 〜 大規模言語モデル / エージェント編 〜 / academic-series-llm](https://speakerdeck.com/databricksjapan/academic-series-llm) - Databricks Japan (2026-04)
+**Word & Sentence Embeddings**
+- [LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―](https://speakerdeck.com/nikkei_engineer_recruiting/yans2026) - 日本経済新聞社 エンジニア採用事務局 (2026-08)
 
 **Building Japanese LLMs (Pretraining & Corpus Construction)**
-- [第16回最先端NLP勉強会\_スポンサー公開資料](https://speakerdeck.com/elyza/di-16hui-zui-xian-duan-nlpmian-qiang-hui-suponsagong-kai-zi-liao) - 株式会社ELYZA (2024-08)
-
-**Fine-tuning & Post-training**
-- [LLM Supervised Fine-tuningの理論と実践](https://speakerdeck.com/datanalyticslabo/llm-supervised-fine-tuningnoli-lun-toshi-jian) - データアナリティクスラボ / DATA ANALYTICS LABO (2024-12)
-
-**LLM Inference Optimization & Serving**
-- [【Paper&Hacks vol.95】LLMの量子化〜LLMを民主化する技術〜](https://www.docswell.com/s/matsuo-lab_llm/5Y87P4-Paper&HacksVol.96) - 松尾研LLMコミュニティ (2026-08)
-- [超効率化への挑戦：1bit LLMの現状と展望](https://speakerdeck.com/yumaichikawa/chao-xiao-lu-hua-henotiao-zhan-1bit-llmnoxian-zhuang-tozhan-wang) - Yuma Ichikawa (2026-08)
-- [SSII2025 \[OS1-02\] 量子化手法の概要とエッジ開発における課題](https://speakerdeck.com/ssii/ssii2025-os1-02-kamesawa) - 画像センシングシンポジウム (2025-05)
+- [NIIにおける大規模言語モデル構築事業の現在地](https://speakerdeck.com/odashi/niiniokeruda-gui-mo-yan-yu-moderugou-zhu-shi-ye-noxian-zai-di) - Yusuke Oda (2025-12)
 
 **Evaluation & Benchmarks**
+- [LLM生成文章の精度評価自動化とプロンプトチューニングの効率化について](https://speakerdeck.com/layerx/ai-engineering-decoded-4) - LayerX (2024-10)
 - [LLM を現場で評価する](https://speakerdeck.com/asei/llm-woxian-chang-deping-jia-suru) - Asei Sugiyama (2024-08)
-- [(論文読み)MMAU: 「LLMエージェントの評価」に特化したベンチマーク](https://speakerdeck.com/__ymgc__/lun-wen-du-mi-mmau-a-holistic-benchmark-of-agent-capabilities-across-diverse-domains) - ymgc (2024-08)
-
-**Full-text Search & Search Infrastructure**
-- [LanceDB入門](https://speakerdeck.com/mocobeta/lancedb-nyuumon) - Tomoko Uchida (2026-08)
-- [ベクトル検索システムの気持ち](https://speakerdeck.com/monochromegane/inside-vector-search) - monochromegane (2025-03)
-- [RAGだけじゃない! 古くて新しいベクトル検索の世界 | DevelopersIO 2024 福岡](https://speakerdeck.com/quiver/ragdakeziyanai-gu-kutexin-siibekutorujian-suo-noshi-jie-developersio-2024-fu-gang) - quiver (2024-06)
 
 **Search & RAG**
+- [【Paper&Hacks Vol.94】AIコード生成の裏側で動くRAG：リポジトリレベルコード生成](https://www.docswell.com/s/matsuo-lab_llm/51QWP2-Paper&HacksVol.94) - 松尾研LLMコミュニティ (2026-08)
+- [LLM wikiの現在地 2026](https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026) - 長津孝輔 (2026-07)
+- [社内規程RAGの精度を73.3% → 100%に改善した話](https://speakerdeck.com/oharu121/she-nei-gui-cheng-ragnojing-du-wo73-dot-3-percent-100-percent-nigai-shan-sitahua) - oharu121 (2026-02)
 - [【AI×DevOps Study #22】AI Agent のための RAG System２（全2回）](https://speakerdeck.com/scalar/aixdevops-study-22-ai-agent-no-tame-no-rag-system-chon-2-kai) - 深津航 (2026-08)
 - [AIエージェントによるエンタープライズ向けスライド検索！](https://speakerdeck.com/shibuiwilliam/aiezientoniyoruentapuraizuxiang-kesuraidojian-suo) - shibuiwilliam (2025-11)
 
-**LLM Application Development & Operations**
-- [LLMアプリ、 雰囲気で運用してませんか？ 〜LLMOpsの現在地〜](https://speakerdeck.com/taka_aki/llm-funiki-de-unyou-shi-temasen-ka-llmops-no-genzaichi) - Takaaki Yayoi (2026-08)
-
 **AI Agents & MCP**
-- [『モデル + ハーネス』で読み解く AIエージェント入門](https://speakerdeck.com/oracle4engineer/moderu-plus-hanesu-dedu-mijie-ku-aiezientoru-men) - oracle4engineer (2026-07)
-
-**LLM Safety & Security**
-- [LLMを用いた遺伝的アルゴリズムによる、進化的プロンプト探索](https://www.docswell.com/s/tokoroten/KLV4L8-2026-01-12-140522) - tokoroten (2026-01)
-
-**Text Mining & Topic Models**
-- [ブロードリスニングの技術 （デジタル民主主義サミット2026登壇資料）](https://www.docswell.com/s/tokoroten/5Q2LVW-tech-of-broadlistening-dd-summit2026) - tokoroten (2026-08)
-
-**Document AI & OCR**
-- [バクラクにおける Document Understanding の挑戦：書類の「読取」から「意思決定」へ / document-understanding-in-bakuraku-2026](https://speakerdeck.com/yuya4/document-understanding-in-bakuraku-2026) - Yuya Matsumura (2026-02)
-- [ローカルVLM OCRモデル + Gemini 3.0 Proで日本語性能を試す](https://speakerdeck.com/gotalab555/rokaruvlm-ocrmoderu-plus-gemini-3-dot-0-proderi-ben-yu-xing-neng-woshi-su) - Gota (2025-11)
-- [最近試したLinuxのOCRツール(NDL古典籍OCR-Lite/YomiToku)](https://speakerdeck.com/matoken/recently-tried-linux-ocr-tools) - Kenichiro MATOHARA (2024-12)
-- [バクラクのOCRで注目する指標について 〜精度の定義は一つじゃない〜 / Bakuraku OCR Metrics](https://speakerdeck.com/shuntak/bakuraku-ocr-metrics) - Shun Takagiwa (2022-09)
-
-**Question Answering & Knowledge**
-- [第6回ナレッジグラフ勉強会 発表資料](https://www.docswell.com/s/amateau/53716L-2025-12-03-190136) - amateau (2025-12)
+- [データエージェントのためのナレッジカタログ](https://speakerdeck.com/na0/detaezientonotamenonaretuzikatarogu) - na0 (2026-05)
+- [マルチエージェントシステム勉強会資料](https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms) - 中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎 (2026-01)
 
 **Machine Translation**
 - [自分の解らない言語の動画を翻訳して視聴](https://speakerdeck.com/matoken/zi-fen-nojie-ranaiyan-yu-nodong-hua-wofan-yi-siteshi-ting) - Kenichiro MATOHARA (2023-11)
@@ -154,22 +113,20 @@ Decks added to this list in the last 7 days. Each one stays here for 7 days from
 **Multimodal & Vision-and-Language**
 - [When Token Pruning is Worse than Random: Understanding Visual Token Information in VLLMs](https://speakerdeck.com/sansantech/260829) - SansanTech (2026-08)
 - [SSII2026 \[OS2-2\] 製造業ドメインにおける VLMの現在地](https://speakerdeck.com/ssii/ssii2026-os2-2-inaba) - 画像センシングシンポジウム (2026-06)
-- [VLMで2.3万枚のPyCon JP写真を検索！](https://speakerdeck.com/terapyon/vlm-de-2-3-manmai-no-pycon-jp-shashin-o-kensaku) - Manabu TERADA (2026-08)
-- [AWSで実現した大規模日本語VLM学習用データセット "MOMIJI" 構築パイプライン](https://speakerdeck.com/studio_graph/buiding-momiji) - 開発室Graph (2025-09)
 
 **Speech Recognition & Speech Processing**
 - [音声感情認識技術の最前線](https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian) - A. Ando (2023-09)
 
 **Dialogue Systems & Spoken Dialogue**
-- [小型ローカルAIで日本語の音声会話botを作った話](https://speakerdeck.com/route250/xiao-xing-rokaruaideri-ben-yu-noyin-sheng-hui-hua-botwozuo-tutahua) - wancoimo (2026-07)
+- [Realtime APIを使って 全自動コールセンターを作ってみた@2026](https://speakerdeck.com/terisuke/realtime-apiwoshi-tute-quan-zi-dong-korusentawozuo-tutemita-at-2026) - Terisuke (2026-05)
 
-**Interpretability, Analysis & Linguistic Perspectives**
-- [最先端NLP勉強会2025: Quantifying Semantic Emergence in Language Models](https://speakerdeck.com/ttsujimura/snlp2025-quantifying-semantic-emergence-in-language-models) - Tomoki Tsujimura (2025-08)
+**Generation, Summarization & Proofreading**
+- [LLMを活用した文章校正の取り組み / Text Proofreading Initiatives Using LLM](https://speakerdeck.com/mercari/text-proofreading-initiatives-using-llm) - mercari (2023-10)
 
 **Industry Applications & Case Studies**
 - [記録をかんたんに、提案をパーソナルに ── AIであすけんが目指すもの](https://speakerdeck.com/oprstchn/ji-lu-wokantanni-ti-an-wopasonaruni-aideasukengamu-zhi-sumono) - oprst (2026-07)
 
-_Updated on 2026-08-30_
+_Updated on 2026-09-02_
 
 </details>
 
@@ -322,6 +279,7 @@ Building kana-kanji conversion engines and IMEs, and the dictionaries and lexica
 
 Word vectors, sentence embeddings, and the properties of embedding spaces.
 
+- [LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―](https://speakerdeck.com/nikkei_engineer_recruiting/yans2026) - 日本経済新聞社 エンジニア採用事務局 (2026-08)
 - [Zipf 白色化：タイプとトークンの区別がもたらす良質な埋め込み空間と損失関数](https://speakerdeck.com/eumesy/zipfian-whitening) - Sho Yokoi (2024-11)
 - [NLP2024 招待論文セッション: 定義文を用いた文埋め込み構成法](https://speakerdeck.com/hpprc/nlp2024-zhao-dai-lun-wen-setusiyon-ding-yi-wen-woyong-itawen-mai-meip-migou-cheng-fa) - Hayato Tsukagoshi (2024-09)
 - [\[輪講資料\] Matryoshka Representation Learning](https://speakerdeck.com/hpprc/lun-jiang-zi-liao-matryoshka-representation-learning) - Hayato Tsukagoshi (2024-08)
@@ -392,6 +350,7 @@ Lessons from the teams that actually built Japanese LLMs.
 - [言語処理学会2024-継続事前学習による日本語に強い大規模言語モデルの構築](https://speakerdeck.com/fujiikazuki2000/yan-yu-chu-li-xue-hui-2024-ji-sok-shi-qian-xue-xi-niyoruri-ben-yu-niqiang-ida-gui-mo-yan-yu-moderunogou-zhu) - Kazuki Fujii (2025-12)
 - [情報処理学会-全国大会2024-大規模言語モデルの分散並列学習](https://speakerdeck.com/fujiikazuki2000/qing-bao-chu-li-xue-hui-quan-guo-da-hui-2024-da-gui-mo-yan-yu-moderunofen-san-bing-lie-xue-xi) - Kazuki Fujii (2025-12)
 - [AWS Summit Japan 2025 Amazon SageMaker HyperPodを利用した日本語LLM(Swallow)の構築 (CUS-02)](https://speakerdeck.com/fujiikazuki2000/aws-summit-japan-2025-amazon-sagemaker-hyperpodwoli-yong-sitari-ben-yu-llm-swallow-nogou-zhu-cus-02) - Kazuki Fujii (2025-12)
+- [NIIにおける大規模言語モデル構築事業の現在地](https://speakerdeck.com/odashi/niiniokeruda-gui-mo-yan-yu-moderugou-zhu-shi-ye-noxian-zai-di) - Yusuke Oda (2025-12)
 - [LLM-jp-3 and beyond: Training Large Language Models](https://speakerdeck.com/odashi/llm-jp-3-and-beyond-training-large-language-models) - Yusuke Oda (2025-10)
 - [合成データパイプラインを利用したSwallowProjectに おけるLLM性能向上](https://speakerdeck.com/fujiikazuki2000/he-cheng-detapaipurainwoli-yong-sitaswallowprojectni-okerullmxing-neng-xiang-shang) - Kazuki Fujii (2025-08)
 - [論文では語られないLLM開発において重要なこと Swallow Projectを通して](https://speakerdeck.com/fujiikazuki2000/lun-wen-dehayu-rarenaillmkai-fa-nioitezhong-yao-nakoto-swallow-projectwotong-site) - Kazuki Fujii (2025-07)
@@ -464,6 +423,7 @@ How to measure Japanese LLM and NLP systems.
 - [J-RAGBench: 日本語RAGにおける Generator評価ベンチマークの構築](https://speakerdeck.com/koki_itai/j-ragbench-ri-ben-yu-ragniokeru-generatorping-jia-bentimakunogou-zhu) - Koki Itai (2025-09)
 - [最適化向けLLMベンチマークの潮流](https://speakerdeck.com/mickey_kubo/zui-shi-hua-xiang-kellmbentimakunochao-liu) - MIKIO KUBO (2025-08)
 - [日本語が話せるオープンアクセス大規模言語モデルの評価](https://speakerdeck.com/nssv/ri-ben-yu-gahua-seruopunakusesuda-gui-mo-yan-yu-moderunoping-jia) - ノーザンシステムサービス | Northern System Services (2024-11)
+- [LLM生成文章の精度評価自動化とプロンプトチューニングの効率化について](https://speakerdeck.com/layerx/ai-engineering-decoded-4) - LayerX (2024-10)
 - [日本語医療LLM評価ベンチマークの構築と性能分析](https://speakerdeck.com/fta98/ri-ben-yu-yi-liao-llmping-jia-bentimakunogou-zhu-toxing-neng-fen-xi) - Takuya Fukushima (2024-09)
 - [LLM を現場で評価する](https://speakerdeck.com/asei/llm-woxian-chang-deping-jia-suru) - Asei Sugiyama (2024-08)
 - [(論文読み)MMAU: 「LLMエージェントの評価」に特化したベンチマーク](https://speakerdeck.com/__ymgc__/lun-wen-du-mi-mmau-a-holistic-benchmark-of-agent-capabilities-across-diverse-domains) - ymgc (2024-08)
@@ -528,12 +488,15 @@ Designing, improving, and evaluating retrieval-augmented generation.
 - [【書籍出版記念】 10周回って、エージェント開発は RAGがすべてだった。〜RAGの歴史と開発現場で見えた実践知〜](https://speakerdeck.com/akiratameto/shoseki-shuppan-kinen-10-shuukai-tte-ejento-kaihatsu-ha-rag-ga-subetedata-rag-no-rekishi-to-kaihatsu-genba-de-mieta-jissen-chi) - 為藤アキラ (2026-08)
 - [【AI×DevOps Study #20】AI Agent のための RAG System１（全2回）](https://speakerdeck.com/scalar/aixdevops-study-20-ai-agent-no-tame-no-rag-system-chon-2-kai) - 深津航 (2026-08)
 - [RAG × LangChain × LangGraph 入門](https://www.docswell.com/s/yukiko_it/ZGN62N-2026-08-12-063237) - Yukiko (2026-08)
+- [【Paper&Hacks Vol.94】AIコード生成の裏側で動くRAG：リポジトリレベルコード生成](https://www.docswell.com/s/matsuo-lab_llm/51QWP2-Paper&HacksVol.94) - 松尾研LLMコミュニティ (2026-08)
 - [【Paper&Hacks Vol.89】RAGアプリハンズオン～LLM/Embedding選択～](https://www.docswell.com/s/matsuo-lab_llm/Z8NRJE-Paper&HacksVol.89) - 松尾研LLMコミュニティ (2026-08)
 - [【Paper&Hacks Vol.80】RAGを測るモノサシを作ろう 〜 Ragas × LangSmithでRAG評価アプリ開発 〜](https://www.docswell.com/s/matsuo-lab_llm/KWRGP8-Paper&HacksVol.80) - 松尾研LLMコミュニティ (2026-08)
 - [【Paper&Hacks Vol.92】LangGraph による Agentic RAGハンズオン](https://www.docswell.com/s/matsuo-lab_llm/ZQ2L6W-Paper&HacksVol.92) - 井伊篤彦 (2026-08)
 - [製品の問い合わせ負荷をLLMで解消したい 〜RAGで作る「自社を知っている」チャットボット〜](https://speakerdeck.com/optim/20260721-tanabata-ogasawara) - 小笠原 (2026-07)
+- [LLM wikiの現在地 2026](https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026) - 長津孝輔 (2026-07)
 - [RAGの精度向上とエージェント活用](https://speakerdeck.com/kintotechdev/ragnojing-du-xiang-shang-toezientohuo-yong) - KintoTech_Dev (2026-07)
 - [20260321\_エンベディングってなに？RAGってなに？エンベディングの説明とGemini Embedding 2 の紹介](https://speakerdeck.com/tsho/20260321-enbedeingututenani-ragtutenani-enbedeingunoshuo-ming-togemini-embedding-2-noshao-jie) - tsho (2026-03)
+- [社内規程RAGの精度を73.3% → 100%に改善した話](https://speakerdeck.com/oharu121/she-nei-gui-cheng-ragnojing-du-wo73-dot-3-percent-100-percent-nigai-shan-sitahua) - oharu121 (2026-02)
 - [ベクトルサーチをやめる](https://www.docswell.com/s/7707589/5QXGW3-2026-02-25-203826) - やぎ (2026-02)
 - [2026年はチャンキングを極める！](https://speakerdeck.com/shibuiwilliam/2026nian-hatiyankinguwoji-meru) - shibuiwilliam (2026-01)
 - [LegalドメインにおけるRAG精度改善フロー](https://speakerdeck.com/legalontechnologies/legaldomain-rag-accuracyimprovement-flow) - LegalOn Technologies, Inc (2025-12)
@@ -594,9 +557,11 @@ Designing, evaluating and operating LLM agents that use tools, and wiring those 
 - [査読論文で読むプロンプト・エージェント・ハーネス・PoC](https://www.docswell.com/s/smile_yukiko_it/58NWL9-2026-06-14-194313) - smile_yukiko_it (2026-06)
 - [論文図解\_プロンプト工学\_AIエージェント\_ハーネス\_1論文1ページ ](https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636) - smile_yukiko_it (2026-06)
 - [エージェント化するAI：現在地とその先に起きる変化 / AI as Agents: The Current State and the Changes Ahead](https://speakerdeck.com/ks91/ai-as-agents-the-current-state-and-the-changes-ahead) - Kenji Saito (2026-06)
+- [データエージェントのためのナレッジカタログ](https://speakerdeck.com/na0/detaezientonotamenonaretuzikatarogu) - na0 (2026-05)
 - [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://speakerdeck.com/shunk031/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey) - Shunsuke KITADA (2026-04)
 - [作りっぱなしで終わらせない！ 価値を出し続ける AI エージェントのための「信頼性」設計 / Designing Reliability for AI Agents that Deliver Continuous Value](https://speakerdeck.com/aoto/designing-reliability-for-ai-agents-that-deliver-continuous-value) - Kento Kimura (2026-03)
 - [2026年のAIエージェント構築はどうなる？](https://speakerdeck.com/minorun365/2026nian-noaiezientogou-zhu-hadounaru) - みのるん (2026-02)
+- [マルチエージェントシステム勉強会資料](https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms) - 中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎 (2026-01)
 - [エージェントAIシステムの開発は何が難しいのか？](https://www.docswell.com/s/5451263343/K446XD-2025-09-10-161721) - 高橋浩 (2025-09)
 - [AIエージェントの活用に重要な「MCP （Model Context Protocol）」とは何か](https://speakerdeck.com/masayamoriofficial/aiezientonohuo-yong-nizhong-yao-na-mcp-model-context-protocol-tohahe-ka) - Masaya Mori (森正弥) (2025-09)
 - [GUI操作LLMの最新動向: UI-TARSと関連論文紹介](https://speakerdeck.com/kfujikawa/guicao-zuo-llmnozui-xin-dong-xiang-ui-tarstoguan-lian-lun-wen-shao-jie) - Kazuki Fujikawa (2025-08)
@@ -897,6 +862,7 @@ Turning speech into text, and the speech processing and speech foundation models
 Spoken and text dialogue systems, and voice bots in production.
 
 - [小型ローカルAIで日本語の音声会話botを作った話](https://speakerdeck.com/route250/xiao-xing-rokaruaideri-ben-yu-noyin-sheng-hui-hua-botwozuo-tutahua) - wancoimo (2026-07)
+- [Realtime APIを使って 全自動コールセンターを作ってみた@2026](https://speakerdeck.com/terisuke/realtime-apiwoshi-tute-quan-zi-dong-korusentawozuo-tutemita-at-2026) - Terisuke (2026-05)
 - [会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計](https://speakerdeck.com/mixi_engineers/architecture-design-for-natural-conversations-in-the-conversational-ai-robot-romi) - MIXI ENGINEERS (2026-04)
 - [音声対話モデル2025-26](https://www.docswell.com/s/yuAbe/Z8W7GY-2026-01-29-120501) - 阿部雄斗 (2026-01)
 - [実運用で学んだ 音声対話システムの評価とテスト](https://speakerdeck.com/ymachida/shi-yun-yong-dexue-nda-yin-sheng-dui-hua-sisutemunoping-jia-totesuto) - Yuichiro Machida (2025-11)
@@ -919,6 +885,7 @@ Text generation and its downstream tasks.
 - [ABEMA NEWSにおける映像データを活用した記事生成AI 〜記事制作者に寄り添ったソリューションにするまで〜](https://speakerdeck.com/cyberagentdevelopers/abema-newsniokeruying-xiang-detawohuo-yong-sitaji-shi-sheng-cheng-ai-ji-shi-zhi-zuo-zhe-niji-ritian-tutasoriyusiyonnisurumade) - CyberAgent (2024-11)
 - [textlintで日本語をまともに(Neovim/VS Code)](https://speakerdeck.com/matoken/vs-code) - Kenichiro MATOHARA (2024-09)
 - [大規模言語モデルを用いた意味分析による辞書記述への応用](https://speakerdeck.com/yhkondo/da-gui-mo-yan-yu-moderuwoyong-itayi-wei-fen-xi-niyoruci-shu-ji-shu-henoying-yong) - Yasuhiro Kondo (2023-11)
+- [LLMを活用した文章校正の取り組み / Text Proofreading Initiatives Using LLM](https://speakerdeck.com/mercari/text-proofreading-initiatives-using-llm) - mercari (2023-10)
 - [LLMによる日本語ニュース記事の平易化 / Japanese News Articles Simplification via Large Language Models](https://speakerdeck.com/asahimrdc/japanese-news-articles-simplification-via-large-language-models) - Media R&D Center, The Asahi Shimbun (2023-04)
 - [自然言語処理による論文執筆支援](https://speakerdeck.com/kuribayashi4/zi-ran-yan-yu-chu-li-niyorulun-wen-zhi-bi-zhi-yuan) - tatsuki kuribayashi (2023-02)
 - [実践：日本語文章生成 Transformers ライブラリで学ぶ実装の守破離 / Introduction of Japanese Text Generation with Transformers](https://speakerdeck.com/upura/introduction-of-japanese-text-generation-with-transformers) - Shotaro Ishihara (2022-10)

@@ -675,6 +675,13 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする",
+    "url": "https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka",
+    "author": "リベルクラフト",
+    "date": "2026-07-09",
+    "added": "2026-09-02"
+   },
+   {
     "title": "【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した",
     "url": "https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2",
     "author": "川上晴也",
@@ -1167,10 +1174,24 @@
     "added": "2026-08-22"
    },
    {
+    "title": "音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング",
+    "url": "https://www.canon-its.co.jp/column/tech-report/19",
+    "author": "キヤノンITソリューションズ",
+    "date": "2026-02-12",
+    "added": "2026-09-02"
+   },
+   {
     "title": "SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結",
     "url": "https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization",
     "author": "okamyuji",
     "date": "2025-12-14"
+   },
+   {
+    "title": "2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2",
+    "url": "https://zenn.dev/hongbod/articles/def04f586cf168",
+    "author": "Hongbo.Ding",
+    "date": "2025-06-01",
+    "added": "2026-09-02"
    },
    {
     "title": "Whisper による音声認識の最先端〜8年越しのASR",

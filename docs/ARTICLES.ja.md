@@ -9,7 +9,7 @@
 日本語の自然言語処理（NLP）に関する、企業や個人開発者によるウェブページ・ブログ記事を集めた厳選リストです。
 [スライド一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/README.md) と同じ32のトピックで整理しています。
 
-180 件の記事を 32 カテゴリに分類しています。
+183 件の記事を 32 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは日々更新中です。新しい記事を随時追加しています。
@@ -18,47 +18,30 @@
 
 このリストに直近7日以内に追加された記事です。追加された日から7日間、ここに表示されます。
 
-**日本語の基礎解析（形態素解析・構文解析）**
-- [形態素解析をして単語を取り出せているつもり・・・か？](https://qiita.com/icoxfog417/items/e83383263badec7a4805) - icoxfog417（2017-12）
-
-**辞書・かな漢字変換・日本語入力**
-- [2026年2月のIMEに関するできごと](https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02) - Hiroyuki Komatsu（2026-03）
-- [最近またLinux用の日本語IMEを作っている](https://blog.64p.org/entry/2023/01/16/032912) - tokuhirom（2023-01）
-- [IMEと確定結果の扱い](https://mhkoji.hatenablog.com/entry/2021/11/16/000000) - mhkoji（2021-11）
-
 **単語・文の分散表現**
 - [【2026年版】ローカルLLMにおける埋め込みモデルの最前線](https://zenn.dev/cahal_inc/articles/21211c78841847) - 中野哲平（2026-02）
 - [最近の埋め込みモデルのクロスリンガル検索能力をチェックする](https://note.com/oshizo/n/nf289df40859a) - oshizo（2025-04）
 - [Ruri: 日本語に特化した汎用テキスト埋め込みモデル](https://zenn.dev/hpp/articles/b5132c64c40d24) - hpp（2024-12）
-- [日本語に対応した埋め込みモデルの検索性能を比較する](https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja) - Hironsan（2026-04）
 
 **日本語LLMの開発（事前学習・コーパス構築）**
 - [事前学習の方法（10/27日勉強会公開用）](https://zenn.dev/matsuolab/articles/9f05f2be70cff8) - Masaki Okamura（2024-10）
 - [日本語トークナイザーの作り方（トークナイザー後編）](https://zenn.dev/matsuolab/articles/bbd855bf933030) - Holy_KTQ（うっかりじゅうべえ）（2024-10）
 - [日本語tokenizerを学習する](https://zenn.dev/if001/articles/87bbe893411fa1) - if001（2023-09）
-- [四畳半のオフィスで70億パラメータのLLMを事前学習した話](https://note.com/lightblue_tech/n/n043948e212ac) - Lightblue（2023-07）
 
 **評価・ベンチマーク**
 - [日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）](https://blog.qualiteg.com/llm-ranking-2026/) - Qualiteg プロダクト開発部（2026-07）
 
 **検索・RAG**
-- [【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した](https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2) - 川上晴也（2026-04）
-- [【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした](https://zenn.dev/fp16/articles/aa48dcae23974e) - 二宮 貫(Kan Ninomiya)（2026-02）
-- [大企業向けRAGの最先端技術と今後のトレンド【2025年版】](https://zenn.dev/knowledgesense/articles/148dfe2ca1d146) - Atsushi Kadowaki（株式会社KnowledgeSense）（2025-10）
+- [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト（2026-07）
 
 **LLM アプリケーション開発・運用**
 - [LLM の API 料金のしくみを整理してみた](https://zenn.dev/peintangos/articles/3cd4fe5367a9ae) - 松尾淳平（2026-03）
 
-**マルチモーダル・Vision-and-Language**
-- [日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）](https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5) - yumaha(橋口)（2026-05）
-
 **音声認識・音声処理**
-- [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ）（2026-08）
+- [音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング](https://www.canon-its.co.jp/column/tech-report/19) - キヤノンITソリューションズ（2026-02）
+- [2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2](https://zenn.dev/hongbod/articles/def04f586cf168) - Hongbo.Ding（2025-06）
 
-**生成・要約・校正**
-- [LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する](https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github) - Futa Hirakoba（サイボウズ）（2024-08）
-
-_2026-08-30 時点_
+_2026-09-02 時点_
 
 ## 目次
 
@@ -265,6 +248,7 @@ Elasticsearchなど検索基盤を日本語向けにチューニングする記�
 
 RAGの仕組みをゼロから実装して学ぶ記事。
 
+- [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト（2026-07）
 - [【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した](https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2) - 川上晴也（2026-04）
 - [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）
 - [【2026年版】日本語RAGのEmbeddingモデル、結局どれが最強なのか？6構成で2000問ベンチマークした](https://zenn.dev/fp16/articles/aa48dcae23974e) - 二宮 貫(Kan Ninomiya)（2026-02）
@@ -391,7 +375,9 @@ Whisperなど音声認識モデルの検証・活用記事。
 
 - [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ）（2026-08）
 - [Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか](https://zenn.dev/hidetzu/articles/whisper-recognition-quality) - hidetzu（2026-04）
+- [音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング](https://www.canon-its.co.jp/column/tech-report/19) - キヤノンITソリューションズ（2026-02）
 - [SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結](https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization) - okamyuji（2025-12）
+- [2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2](https://zenn.dev/hongbod/articles/def04f586cf168) - Hongbo.Ding（2025-06）
 - [Whisper による音声認識の最先端〜8年越しのASR](https://zenn.dev/simpleform/articles/20231206-02-automatic-speech-recognition-whisper) - 小間（株式会社SimpleForm）（2023-12）
 - [Whisperの音声認識精度および認識速度の検証](https://tech.revcomm.co.jp/investigate-whisper-asr) - wataru-nakata（株式会社RevComm）（2022-11）
 - [話者の顔ランドマークを用いた音声分離](https://tech.preferred.jp/ja/blog/speech_separation_with_face_landmark/) - Motoki Sato（Preferred Networks）（2019-10）

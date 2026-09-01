@@ -823,6 +823,14 @@
   "blurb": "単語ベクトル、文埋め込み、埋め込み空間の性質に関する資料。",
   "entries": [
    {
+    "title": "LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―",
+    "url": "https://speakerdeck.com/nikkei_engineer_recruiting/yans2026",
+    "author": "日本経済新聞社 エンジニア採用事務局",
+    "date": "2026-08-31",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
+   },
+   {
     "title": "Zipf 白色化：タイプとトークンの区別がもたらす良質な埋め込み空間と損失関数",
     "url": "https://speakerdeck.com/eumesy/zipfian-whitening",
     "author": "Sho Yokoi",
@@ -1228,6 +1236,14 @@
     "author": "Kazuki Fujii",
     "date": "2025-12-14",
     "source": "speakerdeck"
+   },
+   {
+    "title": "NIIにおける大規模言語モデル構築事業の現在地",
+    "url": "https://speakerdeck.com/odashi/niiniokeruda-gui-mo-yan-yu-moderugou-zhu-shi-ye-noxian-zai-di",
+    "author": "Yusuke Oda",
+    "date": "2025-12-07",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
    },
    {
     "title": "LLM-jp-3 and beyond: Training Large Language Models",
@@ -1666,6 +1682,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "LLM生成文章の精度評価自動化とプロンプトチューニングの効率化について",
+    "url": "https://speakerdeck.com/layerx/ai-engineering-decoded-4",
+    "author": "LayerX",
+    "date": "2024-10-28",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
+   },
+   {
     "title": "日本語医療LLM評価ベンチマークの構築と性能分析",
     "url": "https://speakerdeck.com/fta98/ri-ben-yu-yi-liao-llmping-jia-bentimakunogou-zhu-toxing-neng-fen-xi",
     "author": "Takuya Fukushima",
@@ -2049,6 +2073,30 @@
     "date": "2026-08-21",
     "source": "speakerdeck",
     "added": "2026-08-23"
+   },
+   {
+    "title": "【Paper&Hacks Vol.94】AIコード生成の裏側で動くRAG：リポジトリレベルコード生成",
+    "url": "https://www.docswell.com/s/matsuo-lab_llm/51QWP2-Paper&HacksVol.94",
+    "author": "松尾研LLMコミュニティ",
+    "date": "2026-08-04",
+    "source": "docswell",
+    "added": "2026-09-02"
+   },
+   {
+    "title": "LLM wikiの現在地 2026",
+    "url": "https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026",
+    "author": "長津孝輔",
+    "date": "2026-07-04",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
+   },
+   {
+    "title": "社内規程RAGの精度を73.3% → 100%に改善した話",
+    "url": "https://speakerdeck.com/oharu121/she-nei-gui-cheng-ragnojing-du-wo73-dot-3-percent-100-percent-nigai-shan-sitahua",
+    "author": "oharu121",
+    "date": "2026-02-26",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
    },
    {
     "title": "AIエージェントによるエンタープライズ向けスライド検索！",
@@ -2443,6 +2491,14 @@
     "added": "2026-08-23"
    },
    {
+    "title": "データエージェントのためのナレッジカタログ",
+    "url": "https://speakerdeck.com/na0/detaezientonotamenonaretuzikatarogu",
+    "author": "na0",
+    "date": "2026-05-25",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
+   },
+   {
     "title": "2026年のAIエージェント構築はどうなる？",
     "url": "https://speakerdeck.com/minorun365/2026nian-noaiezientogou-zhu-hadounaru",
     "author": "みのるん",
@@ -2457,6 +2513,14 @@
     "date": "2026-06-13",
     "source": "docswell",
     "added": "2026-08-20"
+   },
+   {
+    "title": "マルチエージェントシステム勉強会資料",
+    "url": "https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms",
+    "author": "中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎",
+    "date": "2026-01-30",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
    },
    {
     "title": "(論文読み)AI Scientist: 科学的発見の完全自動化に向けて",
@@ -4320,6 +4384,14 @@
     "added": "2026-08-26"
    },
    {
+    "title": "Realtime APIを使って 全自動コールセンターを作ってみた@2026",
+    "url": "https://speakerdeck.com/terisuke/realtime-apiwoshi-tute-quan-zi-dong-korusentawozuo-tutemita-at-2026",
+    "author": "Terisuke",
+    "date": "2026-05-14",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
+   },
+   {
     "title": "会話AIロボットRomiにおける自然な会話のためのアーキテクチャ設計",
     "url": "https://speakerdeck.com/mixi_engineers/architecture-design-for-natural-conversations-in-the-conversational-ai-robot-romi",
     "author": "MIXI ENGINEERS",
@@ -4443,6 +4515,14 @@
     "author": "Yasuhiro Kondo",
     "date": "2023-11-19",
     "source": "speakerdeck"
+   },
+   {
+    "title": "LLMを活用した文章校正の取り組み / Text Proofreading Initiatives Using LLM",
+    "url": "https://speakerdeck.com/mercari/text-proofreading-initiatives-using-llm",
+    "author": "mercari",
+    "date": "2023-10-14",
+    "source": "speakerdeck",
+    "added": "2026-09-02"
    },
    {
     "title": "LLMによる日本語ニュース記事の平易化 / Japanese News Articles Simplification via Large Language Models",
