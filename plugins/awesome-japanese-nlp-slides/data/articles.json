@@ -14,6 +14,13 @@
   "s": "入門・全体像"
  },
  {
+  "t": "NLP2026 参加報告",
+  "u": "https://zenn.dev/elyza/articles/d8e5958bdb86e9",
+  "a": "Shoetsu Sato（ELYZA株式会社）",
+  "d": "2026-03-25",
+  "s": "学会チュートリアル"
+ },
+ {
   "t": "言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！",
   "u": "https://hacosato.hatenablog.com/entry/201904020/nlp2019",
   "a": "hacosato",
@@ -441,10 +448,24 @@
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
+  "t": "大規模言語モデルの構築の事前学習に使えそうなデータセット(主に日本語系)の整理メモ",
+  "u": "https://note.com/kan_hatakeyama/n/nae8ef911029e",
+  "a": "Kan Hatakeyama",
+  "d": "2024-02-12",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
   "t": "Swallow: LLaMA-2 日本語継続事前学習モデル",
   "u": "https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907",
   "a": "Kazuki Fujii（東京科学大学 岡崎研究室）",
   "d": "2023-12-19",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "大規模言語モデルの事前学習知見を振り返る",
+  "u": "https://zenn.dev/turing_motors/articles/0f5ac6840f66fe",
+  "a": "Kazuki Fujii（Turing株式会社）",
+  "d": "2023-12-03",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
@@ -718,6 +739,13 @@
   "u": "https://zenn.dev/peintangos/articles/3cd4fe5367a9ae",
   "a": "松尾淳平",
   "d": "2026-03-25",
+  "s": "LLM アプリケーション開発・運用"
+ },
+ {
+  "t": "LLMプロダクト開発の勘所",
+  "u": "https://zenn.dev/coconala/articles/81f54fdd959149",
+  "a": "大瀧（株式会社ココナラ）",
+  "d": "2024-12-24",
   "s": "LLM アプリケーション開発・運用"
  },
  {

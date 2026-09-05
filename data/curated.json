@@ -1070,6 +1070,14 @@
   "blurb": "LLM 全体を俯瞰する解説・招待講演。",
   "entries": [
    {
+    "title": "ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge",
+    "url": "https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge",
+    "author": "Naoki Kishida",
+    "date": "2026-09-02",
+    "source": "speakerdeck",
+    "added": "2026-09-05"
+   },
+   {
     "title": "AI研修(Day2)【MIXI 26新卒技術研修】",
     "url": "https://speakerdeck.com/mixi_engineers/2026_new_grad_training_ai_day2",
     "author": "MIXI ENGINEERS",
@@ -2083,6 +2091,14 @@
     "added": "2026-09-02"
    },
    {
+    "title": "1,000件のデータ依頼を、検索できる経験知に変える",
+    "url": "https://speakerdeck.com/sansantech/260729",
+    "author": "SansanTech",
+    "date": "2026-07-29",
+    "source": "speakerdeck",
+    "added": "2026-09-05"
+   },
+   {
     "title": "LLM wikiの現在地 2026",
     "url": "https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026",
     "author": "長津孝輔",
@@ -2466,6 +2482,22 @@
   "section": "AI エージェント・MCP",
   "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
   "entries": [
+   {
+    "title": "Bet AI Day 2026丨Production-Ready AI Agents — エンタープライズの実務を任せるための設計と運用",
+    "url": "https://speakerdeck.com/layerx/bet-ai-day-2026-session04",
+    "author": "須藤 欧佑",
+    "date": "2026-09-03",
+    "source": "speakerdeck",
+    "added": "2026-09-05"
+   },
+   {
+    "title": "AI エージェントの「思考」を可視化する！ Agent Observability 最前線",
+    "url": "https://speakerdeck.com/k6s4i53rx/getting-started-agent-observability-with-agent-platform",
+    "author": "逆井（さかさい）",
+    "date": "2026-08-02",
+    "source": "speakerdeck",
+    "added": "2026-09-05"
+   },
    {
     "title": "『モデル + ハーネス』で読み解く AIエージェント入門",
     "url": "https://speakerdeck.com/oracle4engineer/moderu-plus-hanesu-dedu-mijie-ku-aiezientoru-men",
@@ -3635,6 +3667,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "大規模言語モデルによる文書画像理解の最新動向/Recent Trends in LLM-based Visual Document Understanding",
+    "url": "https://speakerdeck.com/ryotatanaka/recent-trends-in-llm-based-visual-document-understanding",
+    "author": "Ryota Tanaka",
+    "date": "2024-06-27",
+    "source": "speakerdeck",
+    "added": "2026-09-05"
+   },
+   {
     "title": "【DeNATechCon2024】未来医療の革新 AIを活用した医療情報の効率的構造化",
     "url": "https://www.docswell.com/s/DeNA_Tech/KYW4GP-2024-02-29-090538",
     "author": "DeNA_Tech",
@@ -4122,6 +4162,14 @@
   "blurb": "音声をテキストに変換する音声認識と、その土台となる音声処理・音声基盤モデル。",
   "entries": [
    {
+    "title": "SpeechTranscriber + AIによる文字起こし機能",
+    "url": "https://speakerdeck.com/kazuki1220/speechtranscriber-plus-ainiyoruwen-zi-qi-kosiji-neng",
+    "author": "Kazuki Shirai",
+    "date": "2026-05-15",
+    "source": "speakerdeck",
+    "added": "2026-09-05"
+   },
+   {
     "title": "音声感情認識技術の最前線",
     "url": "https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian",
     "author": "A. Ando",
@@ -4397,6 +4445,14 @@
     "author": "MIXI ENGINEERS",
     "date": "2026-04-06",
     "source": "speakerdeck"
+   },
+   {
+    "title": "対話型AIの記憶管理 〜ライブラリ調査を通して〜",
+    "url": "https://www.docswell.com/s/DeNA_Tech/KY8WQR-2026-03-25-195455",
+    "author": "Tomoki Yoshida",
+    "date": "2026-03-24",
+    "source": "docswell",
+    "added": "2026-09-05"
    },
    {
     "title": "音声対話モデル2025-26",

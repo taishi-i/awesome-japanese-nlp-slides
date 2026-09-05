@@ -23,6 +23,13 @@
   "blurb": "言語処理学会などの参加報告記事。チュートリアルの雰囲気が伝わる。",
   "entries": [
    {
+    "title": "NLP2026 参加報告",
+    "url": "https://zenn.dev/elyza/articles/d8e5958bdb86e9",
+    "author": "Shoetsu Sato（ELYZA株式会社）",
+    "date": "2026-03-25",
+    "added": "2026-09-05"
+   },
+   {
     "title": "言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！",
     "url": "https://hacosato.hatenablog.com/entry/201904020/nlp2019",
     "author": "hacosato",
@@ -465,10 +472,24 @@
     "date": "2024-02-23"
    },
    {
+    "title": "大規模言語モデルの構築の事前学習に使えそうなデータセット(主に日本語系)の整理メモ",
+    "url": "https://note.com/kan_hatakeyama/n/nae8ef911029e",
+    "author": "Kan Hatakeyama",
+    "date": "2024-02-12",
+    "added": "2026-09-05"
+   },
+   {
     "title": "Swallow: LLaMA-2 日本語継続事前学習モデル",
     "url": "https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907",
     "author": "Kazuki Fujii（東京科学大学 岡崎研究室）",
     "date": "2023-12-19"
+   },
+   {
+    "title": "大規模言語モデルの事前学習知見を振り返る",
+    "url": "https://zenn.dev/turing_motors/articles/0f5ac6840f66fe",
+    "author": "Kazuki Fujii（Turing株式会社）",
+    "date": "2023-12-03",
+    "added": "2026-09-05"
    },
    {
     "title": "日本語tokenizerを学習する",
@@ -760,6 +781,13 @@
     "author": "松尾淳平",
     "date": "2026-03-25",
     "added": "2026-08-30"
+   },
+   {
+    "title": "LLMプロダクト開発の勘所",
+    "url": "https://zenn.dev/coconala/articles/81f54fdd959149",
+    "author": "大瀧（株式会社ココナラ）",
+    "date": "2024-12-24",
+    "added": "2026-09-05"
    },
    {
     "title": "社内で汎用的に使えるAIチャットボットをDifyで作りました",

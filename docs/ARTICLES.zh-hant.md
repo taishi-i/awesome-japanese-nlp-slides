@@ -9,7 +9,7 @@
 這是一份精選清單，收錄了日語自然語言處理（NLP）相關、由企業與個人開發者撰寫的網頁與部落格文章。
 採用與[投影片清單](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/README.md)相同的 32 個主題分類。
 
-共收錄 183 篇文章，分為 32 個分類。
+共收錄 187 篇文章，分為 32 個分類。
 
 文章標題保留發表時的原文，因此絕大多數為日語。
 
@@ -20,12 +20,17 @@
 
 這是最近 7 天內加入本清單的文章。自加入之日起，會在此顯示 7 天。
 
+**學會教學演講**
+- [NLP2026 参加報告](https://zenn.dev/elyza/articles/d8e5958bdb86e9) - Shoetsu Sato（ELYZA株式会社）（2026-03）
+
 **詞與句的分散式表示**
 - [【2026年版】ローカルLLMにおける埋め込みモデルの最前線](https://zenn.dev/cahal_inc/articles/21211c78841847) - 中野哲平（2026-02）
 - [最近の埋め込みモデルのクロスリンガル検索能力をチェックする](https://note.com/oshizo/n/nf289df40859a) - oshizo（2025-04）
 - [Ruri: 日本語に特化した汎用テキスト埋め込みモデル](https://zenn.dev/hpp/articles/b5132c64c40d24) - hpp（2024-12）
 
 **日語 LLM 的開發（預訓練・語料庫建置）**
+- [大規模言語モデルの構築の事前学習に使えそうなデータセット(主に日本語系)の整理メモ](https://note.com/kan_hatakeyama/n/nae8ef911029e) - Kan Hatakeyama（2024-02）
+- [大規模言語モデルの事前学習知見を振り返る](https://zenn.dev/turing_motors/articles/0f5ac6840f66fe) - Kazuki Fujii（Turing株式会社）（2023-12）
 - [事前学習の方法（10/27日勉強会公開用）](https://zenn.dev/matsuolab/articles/9f05f2be70cff8) - Masaki Okamura（2024-10）
 - [日本語トークナイザーの作り方（トークナイザー後編）](https://zenn.dev/matsuolab/articles/bbd855bf933030) - Holy_KTQ（うっかりじゅうべえ）（2024-10）
 - [日本語tokenizerを学習する](https://zenn.dev/if001/articles/87bbe893411fa1) - if001（2023-09）
@@ -37,13 +42,14 @@
 - [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト（2026-07）
 
 **LLM 應用開發・維運**
+- [LLMプロダクト開発の勘所](https://zenn.dev/coconala/articles/81f54fdd959149) - 大瀧（株式会社ココナラ）（2024-12）
 - [LLM の API 料金のしくみを整理してみた](https://zenn.dev/peintangos/articles/3cd4fe5367a9ae) - 松尾淳平（2026-03）
 
 **語音辨識・語音處理**
 - [音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング](https://www.canon-its.co.jp/column/tech-report/19) - キヤノンITソリューションズ（2026-02）
 - [2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2](https://zenn.dev/hongbod/articles/def04f586cf168) - Hongbo.Ding（2025-06）
 
-_2026-09-02 更新_
+_2026-09-05 更新_
 
 ## 目錄
 
@@ -92,6 +98,7 @@ _2026-09-02 更新_
 言語処理学会などの参加報告記事。チュートリアルの雰囲気が伝わる。
 
 - [言語処理学会 (NLP2026) 参加報告](https://future-architect.github.io/articles/20260420a/) - 田中裕真（フューチャー株式会社）（2026-04）
+- [NLP2026 参加報告](https://zenn.dev/elyza/articles/d8e5958bdb86e9) - Shoetsu Sato（ELYZA株式会社）（2026-03）
 - [言語処理学会第 32 回年次大会（NLP2026）参加報告](https://hack.nikkei.com/blog/nlp2026/) - 白井穂乃, 中村礼音, 大村和正（日本経済新聞社）（2026-03）
 - [NLP2025 参加報告](https://tech.gunosy.io/entry/NLP2025) - 森田, 大城, 井口（株式会社Gunosy）（2025-04）
 - [NLP2025に参加してきました](https://moneyforward-dev.jp/entry/2025/03/21/160205) - 山岸（株式会社マネーフォワード）（2025-03）
@@ -197,7 +204,9 @@ LLMの全体像や最新動向を追った記事・まとめ。
 - [継続事前学習による金融ドメイン特化LLMの構築の検証](https://tech.preferred.jp/ja/blog/qfin-llm-continual-pretraining/) - Masanori Hirano（Preferred Networks）（2024-04）
 - [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん（2024-03）
 - [日本語LLM の学習に関する技術記事まとめ](https://note.com/npaka/n/n23e2a05cb650) - npaka（2024-02）
+- [大規模言語モデルの構築の事前学習に使えそうなデータセット(主に日本語系)の整理メモ](https://note.com/kan_hatakeyama/n/nae8ef911029e) - Kan Hatakeyama（2024-02）
 - [Swallow: LLaMA-2 日本語継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907) - Kazuki Fujii（東京科学大学 岡崎研究室）（2023-12）
+- [大規模言語モデルの事前学習知見を振り返る](https://zenn.dev/turing_motors/articles/0f5ac6840f66fe) - Kazuki Fujii（Turing株式会社）（2023-12）
 - [日本語tokenizerを学習する](https://zenn.dev/if001/articles/87bbe893411fa1) - if001（2023-09）
 - [四畳半のオフィスで70億パラメータのLLMを事前学習した話](https://note.com/lightblue_tech/n/n043948e212ac) - Lightblue（2023-07）
 
@@ -268,6 +277,7 @@ RAGの仕組みをゼロから実装して学ぶ記事。
 - [持たざる者のLLM学習理論](https://zenn.dev/strixai/articles/1d36ed2aed59e4) - Kosuke Suzuki｜STRIX（2026-05）
 - [LLM の API 料金のしくみを整理してみた](https://zenn.dev/peintangos/articles/3cd4fe5367a9ae) - 松尾淳平（2026-03）
 - [LLMアプリケーション開発におけるプロンプトの取得と管理](https://tech-blog.rakus.co.jp/entry/20260129/llm) - TKDS（株式会社ラクス）（2026-01）
+- [LLMプロダクト開発の勘所](https://zenn.dev/coconala/articles/81f54fdd959149) - 大瀧（株式会社ココナラ）（2024-12）
 - [社内で汎用的に使えるAIチャットボットをDifyで作りました](https://tech.smarthr.jp/entry/2024/12/19/174950) - yoyogi（SmartHR）（2024-12）
 - [LLMOpsを実運用する――プロンプト管理・評価・ツール選定の実際](https://zenn.dev/shintaroamaike/articles/ba975609780e3a) - ShintaroAmaike（2024-12）
 - [LLMプロダクト開発のことはじめ #02 ~ よい応答を得るためのプロンプト制約](https://tech.algomatic.jp/entry/column/llm-product/02) - 宮脇（Algomatic）（2024-08）

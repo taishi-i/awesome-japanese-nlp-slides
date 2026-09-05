@@ -1144,6 +1144,14 @@
   "src": "docswell"
  },
  {
+  "t": "ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge",
+  "u": "https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge",
+  "a": "Naoki Kishida",
+  "d": "2026-09-02",
+  "s": "大規模言語モデル（概論・動向）",
+  "src": "speakerdeck"
+ },
+ {
   "t": "AI研修(Day2)【MIXI 26新卒技術研修】",
   "u": "https://speakerdeck.com/mixi_engineers/2026_new_grad_training_ai_day2",
   "a": "MIXI ENGINEERS",
@@ -2224,6 +2232,14 @@
   "src": "docswell"
  },
  {
+  "t": "1,000件のデータ依頼を、検索できる経験知に変える",
+  "u": "https://speakerdeck.com/sansantech/260729",
+  "a": "SansanTech",
+  "d": "2026-07-29",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "LLM wikiの現在地 2026",
   "u": "https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026",
   "a": "長津孝輔",
@@ -2621,6 +2637,22 @@
   "a": "shibuiwilliam",
   "d": "2026-08-10",
   "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Bet AI Day 2026丨Production-Ready AI Agents — エンタープライズの実務を任せるための設計と運用",
+  "u": "https://speakerdeck.com/layerx/bet-ai-day-2026-session04",
+  "a": "須藤 欧佑",
+  "d": "2026-09-03",
+  "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AI エージェントの「思考」を可視化する！ Agent Observability 最前線",
+  "u": "https://speakerdeck.com/k6s4i53rx/getting-started-agent-observability-with-agent-platform",
+  "a": "逆井（さかさい）",
+  "d": "2026-08-02",
+  "s": "AI エージェント・MCP",
   "src": "speakerdeck"
  },
  {
@@ -3896,6 +3928,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "大規模言語モデルによる文書画像理解の最新動向/Recent Trends in LLM-based Visual Document Understanding",
+  "u": "https://speakerdeck.com/ryotatanaka/recent-trends-in-llm-based-visual-document-understanding",
+  "a": "Ryota Tanaka",
+  "d": "2024-06-27",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【DeNATechCon2024】未来医療の革新 AIを活用した医療情報の効率的構造化",
   "u": "https://www.docswell.com/s/DeNA_Tech/KYW4GP-2024-02-29-090538",
   "a": "DeNA_Tech",
@@ -4416,6 +4456,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "SpeechTranscriber + AIによる文字起こし機能",
+  "u": "https://speakerdeck.com/kazuki1220/speechtranscriber-plus-ainiyoruwen-zi-qi-kosiji-neng",
+  "a": "Kazuki Shirai",
+  "d": "2026-05-15",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
   "t": "音声感情認識技術の最前線",
   "u": "https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian",
   "a": "A. Ando",
@@ -4718,6 +4766,14 @@
   "d": "2026-04-06",
   "s": "対話システム・音声対話",
   "src": "speakerdeck"
+ },
+ {
+  "t": "対話型AIの記憶管理 〜ライブラリ調査を通して〜",
+  "u": "https://www.docswell.com/s/DeNA_Tech/KY8WQR-2026-03-25-195455",
+  "a": "Tomoki Yoshida",
+  "d": "2026-03-24",
+  "s": "対話システム・音声対話",
+  "src": "docswell"
  },
  {
   "t": "音声対話モデル2025-26",
