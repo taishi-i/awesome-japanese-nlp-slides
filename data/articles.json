@@ -389,12 +389,6 @@
     "added": "2026-08-23"
    },
    {
-    "title": "2026年4月のLLMアップデートラッシュを振り返る",
-    "url": "https://qiita.com/camcam/items/af76ca0b9ffe5eae1bf1",
-    "author": "camcam",
-    "date": "2026-05-09"
-   },
-   {
     "title": "日本特有の知識に特化した大規模言語モデルの学習および評価",
     "url": "https://zenn.dev/elyza/articles/9e46b79371fc0e",
     "author": "Daisuke Oba（ELYZA株式会社）",
@@ -947,12 +941,6 @@
     "added": "2026-08-22"
    },
    {
-    "title": "小学生向けチャットシステムで必要なNGワード検出方法のメモ",
-    "url": "https://zenn.dev/appleworld/articles/b4f3e96bf90948",
-    "author": "T.H is ぺんぐぃん",
-    "date": "2025-09-30"
-   },
-   {
     "title": "ChatGPTを支える技術　コンテンツモデレーションの紹介",
     "url": "https://blog.brainpad.co.jp/entry/2023/05/26/153230",
     "author": "米川（株式会社ブレインパッド）",
@@ -976,12 +964,6 @@
     "author": "kkawabata（弁護士ドットコム）",
     "date": "2026-06-25",
     "added": "2026-08-22"
-   },
-   {
-    "title": "テキストマイニングへの道03――トピックモデルとの格闘1",
-    "url": "https://hunihunisaito.hatenablog.com/entry/2023/02/21/000000",
-    "author": "hunihunisaito",
-    "date": "2023-02-21"
    },
    {
     "title": "近年の本格ミステリを可視化する【テキストマイニング】",
@@ -1168,12 +1150,6 @@
     "url": "https://zenn.dev/madaozaku/articles/5dd0d828ea151b",
     "author": "madaozaku",
     "date": "2025-10-11"
-   },
-   {
-    "title": "【ローカルVLM】マルチモーダル・モデルは便利すぎる件【OpenWebUI】",
-    "url": "https://note.com/catap_art3d/n/nba533680f191",
-    "author": "Catapp-Art3D",
-    "date": "2025-05-28"
    },
    {
     "title": "うさぎでもわかる日本発の大規模視覚言語モデル「NABLA-VL」",
@@ -1364,12 +1340,6 @@
     "author": "shu223（Sansan）",
     "date": "2022-12-22",
     "added": "2026-08-22"
-   },
-   {
-    "title": "AI駆動開発の効果、どう測る？データで見えた生産性向上と、その先の課題",
-    "url": "https://techblog.spiderplus.co.jp/entry/2026/07/24/120000",
-    "author": "spiderplus（株式会社スパイダープラス）",
-    "date": "2026-07-24"
    },
    {
     "title": "AI/機械学習によるカスタマーサポートの回答予測 ── 試行錯誤の歴史",

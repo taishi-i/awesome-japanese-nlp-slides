@@ -1,5 +1,5 @@
 ---
-description: Find Japanese NLP presentation slides on Speaker Deck / Docswell / SlideShare that are NOT yet in awesome-japanese-nlp-slides. Give it a topic and it searches the web, filters out everything already listed, and emits entries ready to paste into data/curated.json.
+description: Find Japanese NLP presentation slides on Speaker Deck / Docswell / SlideShare that are NOT yet in awesome-japanese-nlp-slides. Give it a topic and it searches the web, filters out everything already listed, drops what does not clear the list's quality bar, and emits entries ready to paste into data/curated.json.
 when_to_use: "Use only when the user explicitly wants to discover Japanese NLP slides that are NOT yet in awesome-japanese-nlp-slides, or to prepare a contribution to the list. Trigger phrases include 'リストに無い新しいスライド', 'awesome-japanese-nlp-slides に追加できそうな資料', '最近公開された日本語NLPのスライド', '〜の新しい発表資料を探して', 'curated.json に追加する候補', 'find unlisted Japanese NLP slides', 'new slides to contribute'. For searching what is already in the list, use the search skill instead."
 argument-hint: [topic]
 allowed-tools: Bash, WebSearch, WebFetch
@@ -218,7 +218,7 @@ If more than 20 candidates survive, prioritise those that appeared in several re
 Cap at **10–15** candidates and issue up to **5 WebFetch calls in parallel** (one message, multiple tool calls):
 
 ```
-WebFetch url="<candidate url>" prompt="Extract as JSON: title (the deck's title exactly as displayed, in its original language), author (the presenter's display name exactly as shown on the page), published_date in YYYY-MM-DD form, slide_count, and topic_summary (one sentence, English). Also return is_nlp_related: true only if the deck is about natural language processing, LLMs, speech/text processing or search. If any field is unavailable, set it to null."
+WebFetch url="<candidate url>" prompt="Extract as JSON: title (the deck's title exactly as displayed, in its original language), author (the presenter's display name exactly as shown on the page), published_date in YYYY-MM-DD form, slide_count, and topic_summary (one sentence, English). Also return is_nlp_related: true only if the deck is about natural language processing, LLMs, speech/text processing or search; deck_kind, one of technical_talk / lecture_or_reading / research_poster / company_or_event / personal_notes / unknown, judged from the title and the page's own description; and self_disclaimer: true if that description says the deck is a memo with no findings, an unverified AI-generated summary, or that the attempt did not work out. If any field is unavailable, set it to null."
 ```
 
 Then drop a candidate when:
@@ -230,6 +230,32 @@ Then drop a candidate when:
   list, so it is nearly useless as a relevance test on its own;
 - the deck is **not in Japanese and not from the Japanese-speaking community**. The list's scope is NLP/LLM material presented to a Japanese audience: a general LLM survey given in Japanese belongs, an English-only deck by an unrelated author does not;
 - `published_date` is null. Put these in the "要確認" bucket in Step 8 instead of discarding them silently — the date usually just needs a human to look at the page.
+
+### Step 6b — Apply the quality bar
+
+This list is curated: a deck earns a place by having something to say, not by existing. `contributing.md`
+holds the full bar; these are the parts a page's own metadata can decide.
+
+Drop a candidate when:
+
+- **`deck_kind` is `company_or_event`** — a sponsor-slot company introduction, a recruiting pitch, an event's
+  opening deck. The tell is a title like `<社名> Tech Meetup #8` or `…勉強会_スポンサー公開資料`, or a
+  description that promotes the company rather than the talk.
+- **`deck_kind` is `personal_notes`** — a 備忘録 of links and impressions, a competition write-up that only
+  reports a placing.
+- **`self_disclaimer` is true** — the deck says of itself that it has no useful findings, that it was
+  generated without checking primary sources, or that the attempt simply failed. A write-up of something that
+  did not work is welcome when it says *why*; the ones to drop stop at "試したがだめでした".
+- **the title is a bare fragment of a book or a seminar series** — `トピックモデル 3.2.3 ~ 3.2.4`,
+  `B3勉強会 テキストマイニング`. A self-contained chapter (`【大規模言語モデル入門】1章`) is fine; two
+  subsections of equations with no surrounding argument are not.
+- **the subject is not language processing itself** — AI-assisted coding productivity, a tool's setup steps.
+
+**Never use `slide_count` as the quality test.** It is reported for the human reading the output, not for this
+filter. A `research_poster` is often a single page carrying an entire study, and a seven-slide lightning talk
+that derives an equation or reports a measurement is worth more than sixty slides of restated background. Judge
+`deck_kind`, `topic_summary` and the description; when they are not enough to tell, say so in Step 8's "要確認"
+bucket rather than guessing in either direction.
 
 Normalise the two fields that `scripts/slides.py` cleans up on load, so the output can be pasted verbatim:
 
@@ -255,7 +281,7 @@ Lead with the paste-ready JSON, grouped by section. These are **entry objects to
 ````
 ## "$ARGUMENTS" の追加候補
 
-未収録のスライド **N 件** を見つけました（検索した候補 M 件のうち、収録済み K 件を除外）。
+未収録のスライド **N 件** を見つけました（検索した候補 M 件のうち、収録済み K 件・基準を満たさないもの Q 件を除外）。
 
 *(検索クエリ: query1, query2, ...)*
 
@@ -280,15 +306,17 @@ Lead with the paste-ready JSON, grouped by section. These are **entry objects to
 
 ---
 
-### 要確認（公開日が取得できなかったもの）
+### 要確認
 
 - [タイトル](url) — 発表者名 / ページを開いて公開日を確認してください
+- [タイトル](url) — 発表者名（2025-06） / 中身が薄い可能性があります。掲載の基準を満たすか確認してください
 
 ### 反映手順
 
-1. 上の JSON を `data/curated.json` の該当セクションの `entries` に貼り付ける
-2. `python3 scripts/slides.py` で検証する
-3. `python3 scripts/generate_readme.py` と `python3 scripts/build_plugin_data.py` を実行する
+1. スライド本体に目を通し、`contributing.md` の「掲載の基準」を満たしているか確認する
+2. 上の JSON を `data/curated.json` の該当セクションの `entries` に貼り付ける
+3. `python3 scripts/slides.py` で検証する
+4. `python3 scripts/generate_readme.py` と `python3 scripts/build_plugin_data.py` を実行する
 ````
 
 **Rules for the output:**
@@ -296,13 +324,17 @@ Lead with the paste-ready JSON, grouped by section. These are **entry objects to
 - The JSON block is the deliverable — keep the six keys in the order `title`, `url`, `author`, `date`, `source`, `added` to match the file, and leave the trailing comma so the block splices into an existing array. `added` is always `$TODAY`, the day this skill ran, not the deck's own `date`.
 - The bullet under each JSON block is for the human reading the result: presenter, `YYYY-MM`, slide count when known, and one sentence on the content **drawn from the WebFetch summary**. Never invent a description you did not read.
 - Order the entries within a section newest first, matching how `curated.json` is kept.
+- The "要確認" block takes both kinds of unresolved candidate: the ones missing a `published_date`, and the ones
+  Step 6b could not clear or reject on the metadata alone. Say which of the two each one is, and never quietly
+  promote a candidate you are unsure about into the JSON block — the JSON is what gets pasted into the file.
+- Report the count Step 6b removed alongside the "already listed" count, e.g. 「収録済み K 件・基準を満たさないもの Q 件を除外」, so the reader can see the filter ran.
 - Do not print the "要確認" block or the "反映手順" block when they are empty.
 - If nothing survived, say so and offer next moves:
 
   ```
   ## "$ARGUMENTS" の追加候補
 
-  未収録のスライドは見つかりませんでした（収録済み K 件を検索結果から除外）。
+  未収録のスライドは見つかりませんでした（収録済み K 件・基準を満たさないもの Q 件を検索結果から除外）。
 
   - 別のキーワードで再試行: `<提案するクエリ>`
   - 収録済みの資料は `/awesome-japanese-nlp-slides:search $ARGUMENTS` で確認できます

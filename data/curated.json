@@ -420,13 +420,6 @@
     "source": "slideshare"
    },
    {
-    "title": "JUMAN++で分かち書きをしたかった...",
-    "url": "https://speakerdeck.com/nagomiso/juman-plus-plus-defen-katishu-kiwositakatuta-dot-dot-dot",
-    "author": "なごみそ",
-    "date": "2017-05-24",
-    "source": "speakerdeck"
-   },
-   {
     "title": "日本語の形態素解析",
     "url": "https://speakerdeck.com/yumeto/ri-ben-yu-falsexing-tai-su-jie-xi",
     "author": "Yumeto Inaoka",
@@ -730,13 +723,6 @@
     "url": "https://speakerdeck.com/t0kyh/skkfalsesusume",
     "author": "t0kyh",
     "date": "2019-11-19",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "▽SKKで日本語入力▼ / SKK Input Method",
-    "url": "https://speakerdeck.com/kmc_jp/skk-input-method",
-    "author": "KMC_JP",
-    "date": "2019-06-06",
     "source": "speakerdeck"
    },
    {
@@ -1322,14 +1308,6 @@
     "author": "Koshiro Saito",
     "date": "2024-08-31",
     "source": "speakerdeck"
-   },
-   {
-    "title": "第16回最先端NLP勉強会_スポンサー公開資料",
-    "url": "https://speakerdeck.com/elyza/di-16hui-zui-xian-duan-nlpmian-qiang-hui-suponsagong-kai-zi-liao",
-    "author": "株式会社ELYZA",
-    "date": "2024-08-28",
-    "source": "speakerdeck",
-    "added": "2026-08-26"
    },
    {
     "title": "Building an Effective Pre-training Corpus for Japanese LLM (TAI AAI #3)",
@@ -2539,14 +2517,6 @@
     "added": "2026-08-23"
    },
    {
-    "title": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ .pptx",
-    "url": "https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636",
-    "author": "smile_yukiko_it",
-    "date": "2026-06-13",
-    "source": "docswell",
-    "added": "2026-08-20"
-   },
-   {
     "title": "マルチエージェントシステム勉強会資料",
     "url": "https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms",
     "author": "中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎",
@@ -2795,14 +2765,6 @@
     "author": "Shunsuke KITADA",
     "date": "2026-04-01",
     "source": "speakerdeck",
-    "added": "2026-08-19"
-   },
-   {
-    "title": "査読論文で読むプロンプト・エージェント・ハーネス・PoC",
-    "url": "https://www.docswell.com/s/smile_yukiko_it/58NWL9-2026-06-14-194313",
-    "author": "smile_yukiko_it",
-    "date": "2026-06-14",
-    "source": "docswell",
     "added": "2026-08-19"
    }
   ]
@@ -3120,13 +3082,6 @@
     "source": "speakerdeck"
    },
    {
-    "title": "銅_NLPコンペ_202212_nishika_ヘイトスピーチの検出",
-    "url": "https://speakerdeck.com/sugupoko/tong-aikonpe-202212-nishika-heitosupitinojian-chu",
-    "author": "suguuuuuすぐー",
-    "date": "2022-12-02",
-    "source": "speakerdeck"
-   },
-   {
     "title": "ソーシャルメディアにおけるフェイクニュース検出と対策",
     "url": "https://speakerdeck.com/hkefka385/sosiyarumedeianiokeruhueikuniyusujian-chu-todui-ce",
     "author": "taichi_murayama",
@@ -3351,24 +3306,10 @@
     "source": "speakerdeck"
    },
    {
-    "title": "テキストマイニング",
-    "url": "https://speakerdeck.com/katsutan/tekisutomainingu",
-    "author": "katsutan",
-    "date": "2017-03-09",
-    "source": "speakerdeck"
-   },
-   {
     "title": "結合トピックモデル",
     "url": "https://speakerdeck.com/nzw0301/jie-he-topitukumoderu",
     "author": "Kento Nozawa",
     "date": "2016-03-29",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "トピックモデルによる統計的潜在意味解析 3.2.3 ~ 3.2.4 / topic-model-3-2-3",
-    "url": "https://speakerdeck.com/ysekky/topic-model-3-2-3",
-    "author": "ysekky",
-    "date": "2016-01-07",
     "source": "speakerdeck"
    },
    {
@@ -3383,13 +3324,6 @@
     "url": "https://speakerdeck.com/sorami/topitukumoderu-as-2-lt",
     "author": "Sorami Shiromizu",
     "date": "2015-04-17",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "B3勉強会(2015年3月26日)テキストマイニング",
-    "url": "https://speakerdeck.com/mikamiy/b3mian-qiang-hui-2015nian-3yue-26ri-tekisutomainingu",
-    "author": "MIKAMI-YUKI",
-    "date": "2015-03-26",
     "source": "speakerdeck"
    },
    {
@@ -3452,13 +3386,6 @@
     "url": "https://speakerdeck.com/shigashiyama/cadel-at-ipsj-nl-260",
     "author": "shigashiyama",
     "date": "2024-06-29",
-    "source": "speakerdeck"
-   },
-   {
-    "title": "ストックマークテックミートアップ#8 / Stockmark Tech MeetUp#8",
-    "url": "https://speakerdeck.com/stockmark/stockmark-tech-meetup-number-8",
-    "author": "Stockmark",
-    "date": "2024-02-26",
     "source": "speakerdeck"
    },
    {

@@ -364,13 +364,6 @@
   "s": "大規模言語モデル（概論・動向）"
  },
  {
-  "t": "2026年4月のLLMアップデートラッシュを振り返る",
-  "u": "https://qiita.com/camcam/items/af76ca0b9ffe5eae1bf1",
-  "a": "camcam",
-  "d": "2026-05-09",
-  "s": "大規模言語モデル（概論・動向）"
- },
- {
   "t": "日本特有の知識に特化した大規模言語モデルの学習および評価",
   "u": "https://zenn.dev/elyza/articles/9e46b79371fc0e",
   "a": "Daisuke Oba（ELYZA株式会社）",
@@ -896,13 +889,6 @@
   "s": "スパム・有害コンテンツ対策"
  },
  {
-  "t": "小学生向けチャットシステムで必要なNGワード検出方法のメモ",
-  "u": "https://zenn.dev/appleworld/articles/b4f3e96bf90948",
-  "a": "T.H is ぺんぐぃん",
-  "d": "2025-09-30",
-  "s": "スパム・有害コンテンツ対策"
- },
- {
   "t": "ChatGPTを支える技術 コンテンツモデレーションの紹介",
   "u": "https://blog.brainpad.co.jp/entry/2023/05/26/153230",
   "a": "米川（株式会社ブレインパッド）",
@@ -921,13 +907,6 @@
   "u": "https://creators.bengo4.com/entry/2026/06/25/090000",
   "a": "kkawabata（弁護士ドットコム）",
   "d": "2026-06-25",
-  "s": "テキストマイニング・トピックモデル"
- },
- {
-  "t": "テキストマイニングへの道03――トピックモデルとの格闘1",
-  "u": "https://hunihunisaito.hatenablog.com/entry/2023/02/21/000000",
-  "a": "hunihunisaito",
-  "d": "2023-02-21",
   "s": "テキストマイニング・トピックモデル"
  },
  {
@@ -1106,13 +1085,6 @@
   "s": "マルチモーダル・Vision-and-Language"
  },
  {
-  "t": "【ローカルVLM】マルチモーダル・モデルは便利すぎる件【OpenWebUI】",
-  "u": "https://note.com/catap_art3d/n/nba533680f191",
-  "a": "Catapp-Art3D",
-  "d": "2025-05-28",
-  "s": "マルチモーダル・Vision-and-Language"
- },
- {
   "t": "うさぎでもわかる日本発の大規模視覚言語モデル「NABLA-VL」",
   "u": "https://zenn.dev/taku_sid/articles/20250423_nabla_vlm",
   "a": "taku_sid",
@@ -1285,13 +1257,6 @@
   "u": "https://buildersbox.corp-sansan.com/entry/2022/12/22/110000",
   "a": "shu223（Sansan）",
   "d": "2022-12-22",
-  "s": "産業応用・実務事例"
- },
- {
-  "t": "AI駆動開発の効果、どう測る？データで見えた生産性向上と、その先の課題",
-  "u": "https://techblog.spiderplus.co.jp/entry/2026/07/24/120000",
-  "a": "spiderplus（株式会社スパイダープラス）",
-  "d": "2026-07-24",
   "s": "産業応用・実務事例"
  },
  {

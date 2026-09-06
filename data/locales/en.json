@@ -2,7 +2,7 @@
  "lang": "en",
  "order": 2,
  "nav_label": "English",
- "outputs": ["docs/README.en.md"],
+ "outputs": ["README.md", "docs/README.en.md"],
  "strings": {
   "logo_alt": "Awesome Japanese NLP Slides",
   "intro": [

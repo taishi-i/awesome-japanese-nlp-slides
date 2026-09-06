@@ -7,10 +7,16 @@ plugins:
   - jekyll-sitemap
 
 # サイトに出す必要のないファイルは公開対象から外す。
-# docs/README.ja.md はルートの README.md と同内容なので、重複ページを作らない。
+#
+# このサイトは日本語で、その本文は index.md（generate_readme.py が ja ロケールから
+# 生成する）。ルートの README.md は GitHub のリポジトリを開いた人向けの英語版なので、
+# サイトには出さない。除外しないと jekyll-readme-index が README.md をトップページに
+# 昇格させてしまい、サイトが英語になる。
+# docs/README.ja.md は index.md と同内容なので、これも重複ページを作らない。
 exclude:
   - scripts/
   - data/
   - plugins/
   - contributing.md
+  - README.md
   - docs/README.ja.md

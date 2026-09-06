@@ -33,9 +33,16 @@ def nav_line(locales: list[Locale]) -> str:
     )
 
 
-def _intro(strings: dict[str, str], nav: str, total: int, sections: int) -> list[str]:
-    """Return the logo, badges, language switcher, backlink and opening notes."""
-    main_readme = f"{BLOB_URL}/README.md"
+def _intro(
+    locale: Locale, strings: dict[str, str], nav: str, total: int, sections: int
+) -> list[str]:
+    """Return the logo, badges, language switcher, backlink and opening notes.
+
+    The backlink points at this locale's own slide list — the copy under docs/,
+    the same one ``nav_line`` links to. Linking the root README.md instead would
+    send every language to whichever one happens to live there (English).
+    """
+    main_readme = f"{BLOB_URL}/{locale['outputs'][-1]}"
     lines = [
         "# awesome-japanese-nlp-slides — Articles",
         "",
@@ -134,7 +141,7 @@ def render(locale: Locale, sections: list[Section], nav: str, today: date) -> st
         return section["blurb"]
 
     lines = [
-        *_intro(strings, nav, total, len(sections)),
+        *_intro(locale, strings, nav, total, len(sections)),
         *_latest_additions(strings, sections, name_of, today),
         *_body(strings, sections, name_of, blurb_of),
         f"## {strings['license_heading']}",

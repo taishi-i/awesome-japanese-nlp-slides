@@ -14,11 +14,12 @@ below.
 
 ```
 .
-├── README.md                     # generated, Japanese (never edit by hand)
-├── _config.yml                   # GitHub Pages: the Jekyll theme of the site
+├── README.md                     # generated, English (never edit by hand)
+├── index.md                      # generated, Japanese — the GitHub Pages home page
+├── _config.yml                   # GitHub Pages: the theme, and what to keep out
 ├── docs/
-│   ├── README.ja.md              # generated (same text as the root README.md)
-│   ├── README.en.md              # generated, English
+│   ├── README.ja.md              # generated (same text as index.md)
+│   ├── README.en.md              # generated (same text as the root README.md)
 │   ├── README.zh-hant.md         # generated, traditional Chinese
 │   ├── README.zh-hans.md         # generated, simplified Chinese
 │   ├── ARTICLES.ja.md            # generated, the articles list (Japanese)
@@ -63,7 +64,7 @@ Edit `data/curated.json`, then run these to refresh the slide list and the
 plugin's search data.
 
 ```bash
-python3 scripts/generate_readme.py      # README.md, docs/README.*.md
+python3 scripts/generate_readme.py      # README.md, index.md, docs/README.*.md
 python3 scripts/build_plugin_data.py    # plugins/.../data/slides.json + articles.json
 ```
 
@@ -95,6 +96,43 @@ python3 scripts/articles.py             # ok: 64 entries in 32 sections
 
 There are no dependencies — the Python 3 standard library is enough (3.9 or
 later).
+
+## The quality bar
+
+This is a *curated* list, so the scripts validate the shape of an entry but
+nobody validates its worth — that judgment happens before the entry is written,
+and it is the one thing a generator cannot do for you. `contributing.md` states
+the bar for contributors; this section is the same rule written for whoever
+maintains the file.
+
+**Judge the content, not the size.** Slide count, recency and the presenter's
+name are not the criteria. A one-page research poster carries a whole study and
+belongs; a seven-slide lightning talk that derives an equation or reports a
+measurement belongs. A polished 60-slide deck that says nothing does not.
+
+Leave out:
+
+- **Decks with no content of their own** — company introductions, recruiting
+  pitches, event announcements, decks that are an agenda repeated three times.
+  The sponsor slot at a study group is where these come from.
+- **Personal scratch notes** — a list of links and impressions, or a deck that
+  says outright it has no findings to offer.
+- **Fragments that cannot be read alone** — the equations copied out of two
+  subsections of a book, a reading-group excerpt that needs the pages around it.
+  A self-contained chapter from a lecture or reading series is fine.
+- **Textbook summaries** where the list already carries something deeper on the
+  same topic.
+- **Material only loosely connected to Japanese NLP** — AI-assisted coding
+  productivity, tool setup walkthroughs, anything whose subject is not language
+  processing itself. Paywalled articles are out too.
+- **Bulk AI-generated summaries** that show no sign of a primary source having
+  been checked, or that disclaim their own accuracy.
+
+A write-up of something that did not work is worth keeping. What gets dropped is
+the one that stops at "I tried it and it failed" without saying why.
+
+The same bar applies to `data/articles.json`, plus the source preference
+described under [Articles](#articles-blog-posts-and-web-pages) below.
 
 ## Adding and removing material
 
@@ -148,7 +186,9 @@ section they belong in.
 
 Paste the blocks it emits into the matching sections of `curated.json`, then run
 the two commands above. Its output is a starting point, not a merge — read each
-deck before you commit it.
+deck before you commit it. The skill applies [the quality bar](#the-quality-bar)
+as far as a page's own metadata allows and flags what it could not judge, but
+whether a deck actually says anything is a call only a reader can make.
 
 Both scripts validate the file through `scripts/slides.py` before writing
 anything. A missing field, a malformed date, a duplicate URL or a duplicate
@@ -165,11 +205,32 @@ data/curated.json has 2 problem(s):
 ## GitHub Pages
 
 The site is served from the **root of `main`**, and `_config.yml` sets
-`jekyll-theme-cayman` as its theme. There is no landing page to maintain:
-`jekyll-readme-index` — one of the plugins GitHub Pages enables by default and
-cannot disable — publishes `README.md` as the index of a site that has no index
-file of its own. The site is therefore whatever `generate_readme.py` last
-wrote, with no extra output and no extra step.
+`jekyll-theme-cayman` as its theme.
+
+**The site is Japanese; the root `README.md` is English.** Those are two
+different audiences — someone landing on the published site, and someone opening
+the repository on GitHub — so they get two different files, both written by
+`generate_readme.py` from the same `curated.json`:
+
+| File | Language | Read by |
+|---|---|---|
+| `index.md` | Japanese | the GitHub Pages site (its home page) |
+| `README.md` | English | anyone opening the repository on GitHub |
+
+`index.md` is the only output that carries YAML front matter (`layout: default`),
+because Jekyll renders a Markdown file only when it opens with one; the generator
+adds the block for that one path (`SITE_INDEX` in `generate_readme.py`) and for no
+other. Which language goes where is decided entirely by the `outputs` of
+`data/locales/*.json` — `ja.json` writes `index.md`, `en.json` writes `README.md`.
+
+`_config.yml` then has to keep `README.md` **excluded**. `jekyll-readme-index` is
+one of the plugins GitHub Pages enables by default and cannot be turned off, and
+it promotes a README to the site index; left in the build it would publish the
+English README as the home page and undo the split above. `docs/README.ja.md` is
+excluded for the plainer reason that it duplicates `index.md`.
+
+So: if you ever swap which language sits at the root, change the `outputs` in the
+two locale files **and** the `exclude` list in `_config.yml` together.
 
 Serving from the root also keeps `images/` inside the site, so the relative
 link to the logo resolves from the repository, from `docs/`, and from the
@@ -219,9 +280,8 @@ slides are):
   section would.
 - Because articles can come from anywhere, prefer a real company tech blog or
   an individual developer's own blog (Zenn, Qiita, note, hatenablog, a company
-  `tech.*` subdomain, ...) over SEO/content-marketing pages — the bar is the
-  same "would a Japanese NLP engineer actually want to read this" judgment
-  used for slides.
+  `tech.*` subdomain, ...) over SEO/content-marketing pages — on top of
+  [the quality bar](#the-quality-bar) that slides are held to.
 - Each language's `data/locales/*.json` needs its own `articles` block (with
   `outputs` and its own `strings`) for `generate_articles_readme.py` to write
   that language's file — see `ja.json` for a filled-in example. A locale
@@ -253,7 +313,11 @@ simplified Chinese, for example, you would add `data/locales/zh-hans.json`:
 
 - `order` — the position in the language switcher line.
 - `outputs` — where to write. List several paths to emit the same text to each
-  of them (Japanese goes to both the root `README.md` and `docs/README.ja.md`).
+  of them (Japanese goes to both `index.md` and `docs/README.ja.md`, English to
+  both the root `README.md` and `docs/README.en.md`). The **last** path is the
+  one the language switcher and the articles list link to, so keep the `docs/`
+  copy last: the root files change language when the site does, the `docs/` ones
+  never move.
   The relative link to the logo gets its `../` prefixes from the depth of the
   output path.
 - `strings` — the boilerplate of the README. Copy every key from `en.json` and

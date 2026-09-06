@@ -448,14 +448,6 @@
   "src": "slideshare"
  },
  {
-  "t": "JUMAN++で分かち書きをしたかった...",
-  "u": "https://speakerdeck.com/nagomiso/juman-plus-plus-defen-katishu-kiwositakatuta-dot-dot-dot",
-  "a": "なごみそ",
-  "d": "2017-05-24",
-  "s": "日本語の基礎解析（形態素解析・構文解析）",
-  "src": "speakerdeck"
- },
- {
   "t": "日本語の形態素解析",
   "u": "https://speakerdeck.com/yumeto/ri-ben-yu-falsexing-tai-su-jie-xi",
   "a": "Yumeto Inaoka",
@@ -780,14 +772,6 @@
   "u": "https://speakerdeck.com/t0kyh/skkfalsesusume",
   "a": "t0kyh",
   "d": "2019-11-19",
-  "s": "辞書・かな漢字変換・日本語入力",
-  "src": "speakerdeck"
- },
- {
-  "t": "▽SKKで日本語入力▼ / SKK Input Method",
-  "u": "https://speakerdeck.com/kmc_jp/skk-input-method",
-  "a": "KMC_JP",
-  "d": "2019-06-06",
   "s": "辞書・かな漢字変換・日本語入力",
   "src": "speakerdeck"
  },
@@ -1412,14 +1396,6 @@
   "u": "https://speakerdeck.com/ksaito/llmniri-ben-yu-tekisutowoxue-xi-saseruyi-yi",
   "a": "Koshiro Saito",
   "d": "2024-08-31",
-  "s": "日本語LLMの開発（事前学習・コーパス構築）",
-  "src": "speakerdeck"
- },
- {
-  "t": "第16回最先端NLP勉強会_スポンサー公開資料",
-  "u": "https://speakerdeck.com/elyza/di-16hui-zui-xian-duan-nlpmian-qiang-hui-suponsagong-kai-zi-liao",
-  "a": "株式会社ELYZA",
-  "d": "2024-08-28",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
  },
@@ -2696,14 +2672,6 @@
   "src": "speakerdeck"
  },
  {
-  "t": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ ",
-  "u": "https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636",
-  "a": "smile_yukiko_it",
-  "d": "2026-06-13",
-  "s": "AI エージェント・MCP",
-  "src": "docswell"
- },
- {
   "t": "マルチエージェントシステム勉強会資料",
   "u": "https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms",
   "a": "中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎",
@@ -2982,14 +2950,6 @@
   "d": "2026-04-01",
   "s": "AI エージェント・MCP",
   "src": "speakerdeck"
- },
- {
-  "t": "査読論文で読むプロンプト・エージェント・ハーネス・PoC",
-  "u": "https://www.docswell.com/s/smile_yukiko_it/58NWL9-2026-06-14-194313",
-  "a": "smile_yukiko_it",
-  "d": "2026-06-14",
-  "s": "AI エージェント・MCP",
-  "src": "docswell"
  },
  {
   "t": "セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3",
@@ -3328,14 +3288,6 @@
   "src": "speakerdeck"
  },
  {
-  "t": "銅_NLPコンペ_202212_nishika_ヘイトスピーチの検出",
-  "u": "https://speakerdeck.com/sugupoko/tong-aikonpe-202212-nishika-heitosupitinojian-chu",
-  "a": "suguuuuuすぐー",
-  "d": "2022-12-02",
-  "s": "スパム・有害コンテンツ対策",
-  "src": "speakerdeck"
- },
- {
   "t": "ソーシャルメディアにおけるフェイクニュース検出と対策",
   "u": "https://speakerdeck.com/hkefka385/sosiyarumedeianiokeruhueikuniyusujian-chu-todui-ce",
   "a": "taichi_murayama",
@@ -3584,26 +3536,10 @@
   "src": "speakerdeck"
  },
  {
-  "t": "テキストマイニング",
-  "u": "https://speakerdeck.com/katsutan/tekisutomainingu",
-  "a": "katsutan",
-  "d": "2017-03-09",
-  "s": "テキストマイニング・トピックモデル",
-  "src": "speakerdeck"
- },
- {
   "t": "結合トピックモデル",
   "u": "https://speakerdeck.com/nzw0301/jie-he-topitukumoderu",
   "a": "Kento Nozawa",
   "d": "2016-03-29",
-  "s": "テキストマイニング・トピックモデル",
-  "src": "speakerdeck"
- },
- {
-  "t": "トピックモデルによる統計的潜在意味解析 3.2.3 ~ 3.2.4 / topic-model-3-2-3",
-  "u": "https://speakerdeck.com/ysekky/topic-model-3-2-3",
-  "a": "ysekky",
-  "d": "2016-01-07",
   "s": "テキストマイニング・トピックモデル",
   "src": "speakerdeck"
  },
@@ -3620,14 +3556,6 @@
   "u": "https://speakerdeck.com/sorami/topitukumoderu-as-2-lt",
   "a": "Sorami Shiromizu",
   "d": "2015-04-17",
-  "s": "テキストマイニング・トピックモデル",
-  "src": "speakerdeck"
- },
- {
-  "t": "B3勉強会(2015年3月26日)テキストマイニング",
-  "u": "https://speakerdeck.com/mikamiy/b3mian-qiang-hui-2015nian-3yue-26ri-tekisutomainingu",
-  "a": "MIKAMI-YUKI",
-  "d": "2015-03-26",
   "s": "テキストマイニング・トピックモデル",
   "src": "speakerdeck"
  },
@@ -3692,14 +3620,6 @@
   "u": "https://speakerdeck.com/shigashiyama/cadel-at-ipsj-nl-260",
   "a": "shigashiyama",
   "d": "2024-06-29",
-  "s": "情報抽出・固有表現・アノテーション",
-  "src": "speakerdeck"
- },
- {
-  "t": "ストックマークテックミートアップ#8 / Stockmark Tech MeetUp#8",
-  "u": "https://speakerdeck.com/stockmark/stockmark-tech-meetup-number-8",
-  "a": "Stockmark",
-  "d": "2024-02-26",
   "s": "情報抽出・固有表現・アノテーション",
   "src": "speakerdeck"
  },

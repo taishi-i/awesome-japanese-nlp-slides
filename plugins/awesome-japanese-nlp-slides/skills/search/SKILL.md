@@ -282,6 +282,13 @@ query after all — `is_nlp_related` is true of almost everything in this field,
 relevance judgment by itself. Then report in **Step 5's web-fallback format** — these results are unvetted and
 must never be presented as part of the curated list.
 
+Drop, too, what the list itself would not carry: a company introduction or event-announcement deck, a 備忘録
+of links and impressions, a page whose own description says it has no findings, and anything behind a
+paywall. These results are already labelled unvetted, which makes it tempting to pass everything through —
+but the reader asked the same question they would have asked the curated list, and five pages of nothing
+answer it worse than two that say something. Judge the content, never the page or slide count: a one-page
+poster or a short lightning talk can be exactly the right answer.
+
 If nothing survives on either side, say the query found nothing anywhere. Some topics genuinely have no
 Japanese slide deck or article behind them, and "not found" is a useful, honest answer — better than five
 respectable results that do not answer the question.

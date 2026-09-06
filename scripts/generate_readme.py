@@ -2,7 +2,7 @@
 
 Input:  data/curated.json, data/locales/*.json
 Output: the files listed under ``outputs`` in each locale
-        (README.md, docs/README.ja.md, docs/README.en.md, ...)
+        (README.md, index.md, docs/README.ja.md, docs/README.en.md, ...)
 
 Adding a language only takes one more JSON file in data/locales/.
 """
@@ -35,6 +35,16 @@ LICENSE_BADGE = "https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg"
 LICENSE_URL = "http://creativecommons.org/publicdomain/zero/1.0/"
 
 LOGO = "images/awesome-japanese-nlp-slides.png"
+
+#: The output that GitHub Pages publishes as the home page of the site. The
+#: site is Japanese, so ja.json writes here while the root README.md — what a
+#: visitor to the repository reads first — is English. Jekyll only renders a
+#: Markdown file that opens with YAML front matter, so this one output gets a
+#: block the copies under docs/ do not need. Keep ``_config.yml``'s ``exclude``
+#: in step: whichever language is *not* the site must stay out of the build, or
+#: Jekyll publishes both.
+SITE_INDEX = "index.md"
+SITE_INDEX_FRONT_MATTER = "---\nlayout: default\n---\n\n"
 
 # The Zenn article introducing the search plugin/skill. The title is kept in
 # Japanese in every language's README, same as deck titles (see titles_note).
@@ -80,9 +90,10 @@ def load_locales() -> list[Locale]:
 def nav_line(locales: list[Locale]) -> str:
     """Return the language switcher, using absolute URLs so docs/ can use it too.
 
-    Each link points at the last of the locale's ``outputs`` (the copy under
-    docs/). The root README.md and docs/README.ja.md hold the same text, so
-    every language stays reachable from docs/.
+    Each link points at the last of the locale's ``outputs`` — always the copy
+    under docs/, never the root README.md or index.md, both of which duplicate
+    a docs/ copy. That keeps every language reachable from every other, from
+    docs/ and from the repository root alike.
     """
     return " | ".join(
         f"[{locale['nav_label']}]({BLOB_URL}/{locale['outputs'][-1]})"
@@ -316,6 +327,8 @@ def main() -> None:
             # How many directories deep the file sits, for the logo's relative link.
             depth = len(Path(relative).parts) - 1
             body = render(locale, sections, depth, run)
+            if relative == SITE_INDEX:
+                body = SITE_INDEX_FRONT_MATTER + body
             out.write_text(body, encoding="utf-8")
             print(f"wrote {relative}: {locale['lang']}, {len(body.splitlines())} lines")
 
