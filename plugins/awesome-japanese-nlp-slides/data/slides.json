@@ -2952,6 +2952,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン",
+  "u": "https://speakerdeck.com/lycorptech_jp/20260908a",
+  "a": "LINEヤフーTech (LY Corporation Tech)",
+  "d": "2026-09-08",
+  "s": "LLM の安全性・セキュリティ",
+  "src": "speakerdeck"
+ },
+ {
   "t": "セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3",
   "u": "https://www.docswell.com/s/melonattacker/ZDM6MV-seccamp-b3",
   "a": "JJ (yuasa)",
@@ -3880,6 +3888,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "バクラクのAI-OCR機能を支えるアノテーションの仕組み",
+  "u": "https://speakerdeck.com/tomoaki25/bakurakunoai-ocrji-neng-wozhi-eruanotesiyonnoshi-zu-mi",
+  "a": "Tomoaki",
+  "d": "2023-09-20",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
+ },
+ {
   "t": "バクラクのAI-OCR機能の体験を支える良質なデータセット作成の仕組み / data-centric-ai-bakuraku-dataset",
   "u": "https://speakerdeck.com/yuya4/data-centric-ai-bakuraku-dataset",
   "a": "Yuya Matsumura",
@@ -3900,6 +3916,14 @@
   "u": "https://speakerdeck.com/shuntak/bakuraku-ocr-metrics",
   "a": "Shun Takagiwa",
   "d": "2022-09-28",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AI-OCRはどうやって精度を計測しているか",
+  "u": "https://speakerdeck.com/hikiaki/ai-ocrhadouyatutejing-du-woji-ce-siteiruka",
+  "a": "hikiaki",
+  "d": "2019-10-29",
   "s": "文書処理・OCR",
   "src": "speakerdeck"
  },
@@ -4288,6 +4312,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "マルチモーダル学習ライブラリ Heronと⾃動運転への応⽤",
+  "u": "https://speakerdeck.com/yuyamaguchi/marutimodaruxue-xi-raiburari-heronto-dong-yun-zhuan-henoying",
+  "a": "Yu Yamaguchi",
+  "d": "2024-05-22",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
   "t": "マルチモーダルLLMがもたらすビジネス革新と技術解説",
   "u": "https://speakerdeck.com/elith/marutimodarullmgamotarasubizinesuge-xin-toji-shu-jie-shuo",
   "a": "Elith",
@@ -4380,6 +4412,14 @@
   "u": "https://speakerdeck.com/kazuki1220/speechtranscriber-plus-ainiyoruwen-zi-qi-kosiji-neng",
   "a": "Kazuki Shirai",
   "d": "2026-05-15",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Interspeech2023 参加報告",
+  "u": "https://speakerdeck.com/kentaro321/interspeech2023-can-jia-bao-gao",
+  "a": "Kentaro Mitsui",
+  "d": "2023-12-25",
   "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },

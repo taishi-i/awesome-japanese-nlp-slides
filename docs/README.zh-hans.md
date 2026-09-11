@@ -11,7 +11,7 @@
 这是一份精选列表，收录了日语自然语言处理（NLP）相关的演示幻灯片。
 按主题整理了学会的教程演讲、大学课程、OSS 开发者的技术讲解，以及企业的实践案例。
 
-共收录 662 份资料，分为 32 个分类。
+共收录 667 份资料，分为 32 个分类。
 
 幻灯片标题保留发表时的原文，因此绝大多数为日语。
 
@@ -57,7 +57,7 @@
 
 ## 🔍 从 Claude Code 搜索
 
-我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 662 份资料。
+我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 667 份资料。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -79,51 +79,27 @@
 
 📝 这个搜索技能背后的故事，写在 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d)（日文）。
 
-🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hans.md)（182 篇）。
+🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hans.md)（190 篇）。
 
 <details>
 <summary>🎉 最近新增的幻灯片 （点击展开）</summary>
 
 这是最近 7 天内加入本列表的幻灯片。自加入之日起，会在此显示 7 天。
 
-**词与句的分布式表示**
-- [LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―](https://speakerdeck.com/nikkei_engineer_recruiting/yans2026) - 日本経済新聞社 エンジニア採用事務局（2026-08）
-
-**大语言模型（概论・趋势）**
-- [ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge](https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge) - Naoki Kishida（2026-09）
-
-**日语 LLM 的开发（预训练・语料库构建）**
-- [NIIにおける大規模言語モデル構築事業の現在地](https://speakerdeck.com/odashi/niiniokeruda-gui-mo-yan-yu-moderugou-zhu-shi-ye-noxian-zai-di) - Yusuke Oda（2025-12）
-
-**评测・基准测试**
-- [LLM生成文章の精度評価自動化とプロンプトチューニングの効率化について](https://speakerdeck.com/layerx/ai-engineering-decoded-4) - LayerX（2024-10）
-
-**检索・RAG**
-- [1,000件のデータ依頼を、検索できる経験知に変える](https://speakerdeck.com/sansantech/260729) - SansanTech（2026-07）
-- [【Paper&Hacks Vol.94】AIコード生成の裏側で動くRAG：リポジトリレベルコード生成](https://www.docswell.com/s/matsuo-lab_llm/51QWP2-Paper&HacksVol.94) - 松尾研LLMコミュニティ（2026-08）
-- [LLM wikiの現在地 2026](https://speakerdeck.com/nagatsu/llm-wikinoxian-zai-di-2026) - 長津孝輔（2026-07）
-- [社内規程RAGの精度を73.3% → 100%に改善した話](https://speakerdeck.com/oharu121/she-nei-gui-cheng-ragnojing-du-wo73-dot-3-percent-100-percent-nigai-shan-sitahua) - oharu121（2026-02）
-
-**AI 智能体・MCP**
-- [Bet AI Day 2026丨Production-Ready AI Agents — エンタープライズの実務を任せるための設計と運用](https://speakerdeck.com/layerx/bet-ai-day-2026-session04) - 須藤 欧佑（2026-09）
-- [AI エージェントの「思考」を可視化する！ Agent Observability 最前線](https://speakerdeck.com/k6s4i53rx/getting-started-agent-observability-with-agent-platform) - 逆井（さかさい）（2026-08）
-- [データエージェントのためのナレッジカタログ](https://speakerdeck.com/na0/detaezientonotamenonaretuzikatarogu) - na0（2026-05）
-- [マルチエージェントシステム勉強会資料](https://speakerdeck.com/satai/multi-agent-collaboration-mechanisms-a-survey-of-llms) - 中村凌・篠原崇之・青木亮祐・平出尚義・嶌田将貴・藤野倫太郎（2026-01）
+**LLM 的安全性・安全防护**
+- [多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン](https://speakerdeck.com/lycorptech_jp/20260908a) - LINEヤフーTech (LY Corporation Tech)（2026-09）
 
 **文档处理・OCR**
-- [大規模言語モデルによる文書画像理解の最新動向/Recent Trends in LLM-based Visual Document Understanding](https://speakerdeck.com/ryotatanaka/recent-trends-in-llm-based-visual-document-understanding) - Ryota Tanaka（2024-06）
+- [バクラクのAI-OCR機能を支えるアノテーションの仕組み](https://speakerdeck.com/tomoaki25/bakurakunoai-ocrji-neng-wozhi-eruanotesiyonnoshi-zu-mi) - Tomoaki（2023-09）
+- [AI-OCRはどうやって精度を計測しているか](https://speakerdeck.com/hikiaki/ai-ocrhadouyatutejing-du-woji-ce-siteiruka) - hikiaki（2019-10）
+
+**多模态・视觉与语言**
+- [マルチモーダル学習ライブラリ Heronと⾃動運転への応⽤](https://speakerdeck.com/yuyamaguchi/marutimodaruxue-xi-raiburari-heronto-dong-yun-zhuan-henoying) - Yu Yamaguchi（2024-05）
 
 **语音识别・语音处理**
-- [SpeechTranscriber + AIによる文字起こし機能](https://speakerdeck.com/kazuki1220/speechtranscriber-plus-ainiyoruwen-zi-qi-kosiji-neng) - Kazuki Shirai（2026-05）
+- [Interspeech2023 参加報告](https://speakerdeck.com/kentaro321/interspeech2023-can-jia-bao-gao) - Kentaro Mitsui（2023-12）
 
-**对话系统・语音对话**
-- [対話型AIの記憶管理 〜ライブラリ調査を通して〜](https://www.docswell.com/s/DeNA_Tech/KY8WQR-2026-03-25-195455) - Tomoki Yoshida（2026-03）
-- [Realtime APIを使って 全自動コールセンターを作ってみた@2026](https://speakerdeck.com/terisuke/realtime-apiwoshi-tute-quan-zi-dong-korusentawozuo-tutemita-at-2026) - Terisuke（2026-05）
-
-**生成・摘要・校对**
-- [LLMを活用した文章校正の取り組み / Text Proofreading Initiatives Using LLM](https://speakerdeck.com/mercari/text-proofreading-initiatives-using-llm) - mercari（2023-10）
-
-_2026-09-06 更新_
+_2026-09-12 更新_
 
 </details>
 
@@ -590,6 +566,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 提示词注入等攻击手法与防御、护栏机制，以及 AI 安全的技术论点。
 
+- [多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン](https://speakerdeck.com/lycorptech_jp/20260908a) - LINEヤフーTech (LY Corporation Tech)（2026-09）
 - [セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3](https://www.docswell.com/s/melonattacker/ZDM6MV-seccamp-b3) - JJ (yuasa)（2026-08）
 - [Beyond Intelligence to Safety: The Ultimate Guide to 'External AI Guardrails' in the AI Era](https://speakerdeck.com/lycorptech_jp/beyond-intelligence-to-safety-the-ultimate-guide-to-external-ai-guardrails-in-the-ai-era) - LINEヤフーTech (LY Corporation Tech)（2026-06）
 - [プロンプトインジェクション3層防御 — AIエージェント時代のセキュリティ実践](https://www.docswell.com/s/kenimo49/5DMWW4-prompt-injection-3layer-defense) - 井本 賢（2026-06）
@@ -731,9 +708,11 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 - [【DeNATechCon2024】未来医療の革新 AIを活用した医療情報の効率的構造化](https://www.docswell.com/s/DeNA_Tech/KYW4GP-2024-02-29-090538) - DeNA_Tech（2024-02）
 - [LLM時代におけるAI-OCR機能の開発戦略 / layerx-bakuraku-ocr-llm-lt-2024](https://speakerdeck.com/yuya4/layerx-bakuraku-ocr-llm-lt-2024) - Yuya Matsumura（2024-01）
 - [Contract One における契約書解析技術の開発 / Development of Contract Analysis Technology in Contract One](https://speakerdeck.com/sansan_randd/development-of-contract-analysis-technology-in-contract-one) - Sansan R&D（2023-12）
+- [バクラクのAI-OCR機能を支えるアノテーションの仕組み](https://speakerdeck.com/tomoaki25/bakurakunoai-ocrji-neng-wozhi-eruanotesiyonnoshi-zu-mi) - Tomoaki（2023-09）
 - [バクラクのAI-OCR機能の体験を支える良質なデータセット作成の仕組み / data-centric-ai-bakuraku-dataset](https://speakerdeck.com/yuya4/data-centric-ai-bakuraku-dataset) - Yuya Matsumura（2023-06）
 - [LayerXにおける機械学習を活用した請求書OCR機能に関する取り組み / deim2023-layerx-ai-ocr](https://speakerdeck.com/yuya4/deim2023-layerx-ai-ocr) - Yuya Matsumura（2023-03）
 - [バクラクのOCRで注目する指標について 〜精度の定義は一つじゃない〜 / Bakuraku OCR Metrics](https://speakerdeck.com/shuntak/bakuraku-ocr-metrics) - Shun Takagiwa（2022-09）
+- [AI-OCRはどうやって精度を計測しているか](https://speakerdeck.com/hikiaki/ai-ocrhadouyatutejing-du-woji-ce-siteiruka) - hikiaki（2019-10）
 
 ## 问答・知识
 
@@ -797,6 +776,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 - [大規模言語モデルによる視覚・言語の融合/Large Vision Language Models](https://speakerdeck.com/ryotatanaka/large-vision-language-models) - Ryota Tanaka（2024-07）
 - [【Gemini本発売記念】npaka による マルチモーダルとローカルLLMの現在と未来](https://speakerdeck.com/npaka/geminiben-fa-mai-ji-nian-npaka-niyoru-marutimodarutorokarullmnoxian-zai-towei-lai) - npaka（2024-06）
 - [日本語Vision-Languageモデルの学習と評価ベンチマークの構築](https://speakerdeck.com/yuyamaguchi/ri-ben-yu-vision-languagemoderunoxue-xi-toping-jia-bentimakunogou-zhu) - Yu Yamaguchi（2024-06）
+- [マルチモーダル学習ライブラリ Heronと⾃動運転への応⽤](https://speakerdeck.com/yuyamaguchi/marutimodaruxue-xi-raiburari-heronto-dong-yun-zhuan-henoying) - Yu Yamaguchi（2024-05）
 - [マルチモーダルLLMがもたらすビジネス革新と技術解説](https://speakerdeck.com/elith/marutimodarullmgamotarasubizinesuge-xin-toji-shu-jie-shuo) - Elith（2024-03）
 - [マルチモーダル生成AIの最前線～アプリケーションと考えるべきリスク～](https://speakerdeck.com/yusukejustinnakajima/marutimodarusheng-cheng-ainozui-qian-xian-apurikesiyontokao-erubekirisuku) - YusukeJustinNakajima（2024-02）
 - [テキストからの実世界理解に向けて](https://speakerdeck.com/shuheikurita/tekisutokaranoshi-shi-jie-li-jie-nixiang-kete) - Shuhei Kurita（2023-10）
@@ -834,6 +814,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 - [音声処理ツールキットESPnetの現在と未来](https://speakerdeck.com/kanbayashi1125/yin-sheng-chu-li-turukitutoespnetnoxian-zai-towei-lai) - Tomoki Hayashi（2024-03）
 - [【Pythonで学ぶ音声認識】第7章：End-to-Endモデルによる連続音声認識（7.4節）](https://www.docswell.com/s/kyoto-kaira/5M18X6-2023-12-28-143451) - 京都大学人工知能研究会KaiRA（2023-12）
 - [【Pythonで学ぶ音声認識】第7章：End-to-Endモデルによる連続音声認識（7.1～7.3節）](https://www.docswell.com/s/kyoto-kaira/Z4Q7VJ-2023-12-28-143239) - 京都大学人工知能研究会KaiRA（2023-12）
+- [Interspeech2023 参加報告](https://speakerdeck.com/kentaro321/interspeech2023-can-jia-bao-gao) - Kentaro Mitsui（2023-12）
 - [音声感情認識技術の最前線](https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian) - A. Ando（2023-09）
 - [LINE CLOVAの音声認識技術](https://speakerdeck.com/line_developers/speech-recognition-technology-of-line-clova) - LINE Developers（2023-06）
 - [音声認識と音声合成の超入門](https://speakerdeck.com/tam17aki/yin-sheng-ren-shi-toyin-sheng-he-cheng-nochao-ru-men) - Akira Tamamori（2023-06）

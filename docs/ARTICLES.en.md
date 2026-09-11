@@ -9,7 +9,7 @@
 A curated list of web pages and blog posts on Japanese natural language processing (NLP), written by companies and individual developers.
 Organized under the same 32 topics as the [slide list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md).
 
-182 articles across 32 categories.
+190 articles across 32 categories.
 
 Article titles are kept as published, so most of them are in Japanese.
 
@@ -20,24 +20,25 @@ Article titles are kept as published, so most of them are in Japanese.
 
 Articles added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
 
-**Conference Tutorials**
-- [NLP2026 参加報告](https://zenn.dev/elyza/articles/d8e5958bdb86e9) - Shoetsu Sato（ELYZA株式会社） (2026-03)
+**Japanese Text Analysis (Morphological & Syntactic)**
+- [世界最速の日本語形態素解析器Jaggerを使ってみる](https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7) - soyamash7 (2024-12)
 
 **Building Japanese LLMs (Pretraining & Corpus Construction)**
-- [大規模言語モデルの構築の事前学習に使えそうなデータセット(主に日本語系)の整理メモ](https://note.com/kan_hatakeyama/n/nae8ef911029e) - Kan Hatakeyama (2024-02)
-- [大規模言語モデルの事前学習知見を振り返る](https://zenn.dev/turing_motors/articles/0f5ac6840f66fe) - Kazuki Fujii（Turing株式会社） (2023-12)
+- [日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開](https://zenn.dev/elyza/articles/f9dd010e895a34) - tt（株式会社ELYZA） (2026-01)
+- [【論文紹介】D-CPT Law](https://zenn.dev/eques/articles/956df2978885de) - EQUES Lab (2025-02)
+- [松尾研LLM開発 チームZoo(三内チーム)におけるコーパス構築](https://zenn.dev/matsuolab/articles/96922493795189) - So（東大松尾・岩澤研究室） (2024-07)
+- [日本語LLMの学習に向けたデータ前処理](https://zenn.dev/elith/articles/5321e321956ac2) - Sloth（株式会社Elith） (2024-01)
 
 **Search & RAG**
-- [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト (2026-07)
-
-**LLM Application Development & Operations**
-- [LLMプロダクト開発の勘所](https://zenn.dev/coconala/articles/81f54fdd959149) - 大瀧（株式会社ココナラ） (2024-12)
+- [Azure AI Searchの裏側【RAGの精度改善手法】](https://zenn.dev/galirage/articles/azure_ai_search_rag_improvement) - ますみ（Galirage Inc.） (2024-12)
 
 **Speech Recognition & Speech Processing**
-- [音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング](https://www.canon-its.co.jp/column/tech-report/19) - キヤノンITソリューションズ (2026-02)
-- [2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2](https://zenn.dev/hongbod/articles/def04f586cf168) - Hongbo.Ding (2025-06)
+- [音声合成の日本語化手法が一般化した話](https://zenn.dev/mkj/articles/0576d194771c08) - Kiyoshi Kurihara（松尾研究所） (2025-12)
 
-_Updated on 2026-09-06_
+**Dialogue Systems & Spoken Dialogue**
+- [音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと](https://zenn.dev/isaka_aipdm/articles/9a522441733382) - Isaka (2026-01)
+
+_Updated on 2026-09-12_
 
 ## Contents
 
@@ -104,6 +105,7 @@ _Updated on 2026-09-06_
 
 形態素解析・係り受け解析の仕組みを手を動かして理解する記事。
 
+- [世界最速の日本語形態素解析器Jaggerを使ってみる](https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7) - soyamash7 (2024-12)
 - [テキスト分析の大通り#04: 形態素解析(Sudachi編)](https://note.com/yssymmt/n/n1da058b57cab) - yssymmt (2022-10)
 - [形態素解析に触れる ～ 日本語処理の入口を理解する ～](https://note.com/1in9mu/n/n28df7e4879bb) - lingmu (2022-05)
 - [自然言語処理入門 Vol.2 係り受け解析/構文解析](https://leadinge.co.jp/rd/2021/05/10/696/) - M.H（株式会社リーディング・エッジ社） (2021-05)
@@ -183,15 +185,19 @@ LLMの全体像や最新動向を追った記事・まとめ。
 
 日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。
 
+- [日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開](https://zenn.dev/elyza/articles/f9dd010e895a34) - tt（株式会社ELYZA） (2026-01)
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks (2025-04)
+- [【論文紹介】D-CPT Law](https://zenn.dev/eques/articles/956df2978885de) - EQUES Lab (2025-02)
 - [事前学習の方法（10/27日勉強会公開用）](https://zenn.dev/matsuolab/articles/9f05f2be70cff8) - Masaki Okamura (2024-10)
 - [日本語トークナイザーの作り方（トークナイザー後編）](https://zenn.dev/matsuolab/articles/bbd855bf933030) - Holy_KTQ（うっかりじゅうべえ） (2024-10)
 - [大規模言語モデルを開発するにあたっての事前・事後学習の戦略メモー特に合成データについてー](https://zenn.dev/matsuolab/articles/34036f017fae9e) - Kan Hatakeyama (2024-08)
+- [松尾研LLM開発 チームZoo(三内チーム)におけるコーパス構築](https://zenn.dev/matsuolab/articles/96922493795189) - So（東大松尾・岩澤研究室） (2024-07)
 - [Llama-3-Swallow: 日本語に強い継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/f65989d76baf2c) - Kazuki Fujii（東京科学大学 岡崎研究室） (2024-07)
 - [継続事前学習による金融ドメイン特化LLMの構築の検証](https://tech.preferred.jp/ja/blog/qfin-llm-continual-pretraining/) - Masanori Hirano（Preferred Networks） (2024-04)
 - [HuggingFaceとDeepSpeedで実践継続事前学習](https://zenn.dev/elith/articles/30c25fa0c6a0c1) - もっさん (2024-03)
 - [日本語LLM の学習に関する技術記事まとめ](https://note.com/npaka/n/n23e2a05cb650) - npaka (2024-02)
 - [大規模言語モデルの構築の事前学習に使えそうなデータセット(主に日本語系)の整理メモ](https://note.com/kan_hatakeyama/n/nae8ef911029e) - Kan Hatakeyama (2024-02)
+- [日本語LLMの学習に向けたデータ前処理](https://zenn.dev/elith/articles/5321e321956ac2) - Sloth（株式会社Elith） (2024-01)
 - [Swallow: LLaMA-2 日本語継続事前学習モデル](https://zenn.dev/tokyotech_lm/articles/d6cb3a8fdfc907) - Kazuki Fujii（東京科学大学 岡崎研究室） (2023-12)
 - [大規模言語モデルの事前学習知見を振り返る](https://zenn.dev/turing_motors/articles/0f5ac6840f66fe) - Kazuki Fujii（Turing株式会社） (2023-12)
 - [日本語tokenizerを学習する](https://zenn.dev/if001/articles/87bbe893411fa1) - if001 (2023-09)
@@ -254,6 +260,7 @@ RAGの仕組みをゼロから実装して学ぶ記事。
 - [「手作り RAG システム」で RAG の仕組みを学び直す](https://zenn.dev/google_cloud_jp/articles/e699bda0a298d6) - Etsuji Nakai（Google Cloud Japan） (2025-12)
 - [RAGをゼロから実装して仕組みを学ぶ【2025年版】](https://zenn.dev/knowledgesense/articles/2619c6e5918d08) - Atsushi Kadowaki（株式会社KnowledgeSense） (2025-11)
 - [大企業向けRAGの最先端技術と今後のトレンド【2025年版】](https://zenn.dev/knowledgesense/articles/148dfe2ca1d146) - Atsushi Kadowaki（株式会社KnowledgeSense） (2025-10)
+- [Azure AI Searchの裏側【RAGの精度改善手法】](https://zenn.dev/galirage/articles/azure_ai_search_rag_improvement) - ますみ（Galirage Inc.） (2024-12)
 - [Elasticsearchのハイブリッド検索を用いて高精度なRAGを簡単に実現する](https://acro-engineer.hatenablog.com/entry/2024/12/17/120000) - shin0higuchi（株式会社アクロクエストテクノロジー） (2024-12)
 - [AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション](https://techlife.cookpad.com/entry/bedrock) - 深澤（クックパッド） (2023-10)
 
@@ -373,6 +380,7 @@ Whisperなど音声認識モデルの検証・活用記事。
 - [Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか](https://zenn.dev/hidetzu/articles/whisper-recognition-quality) - hidetzu (2026-04)
 - [音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング](https://www.canon-its.co.jp/column/tech-report/19) - キヤノンITソリューションズ (2026-02)
 - [SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結](https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization) - okamyuji (2025-12)
+- [音声合成の日本語化手法が一般化した話](https://zenn.dev/mkj/articles/0576d194771c08) - Kiyoshi Kurihara（松尾研究所） (2025-12)
 - [2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2](https://zenn.dev/hongbod/articles/def04f586cf168) - Hongbo.Ding (2025-06)
 - [Whisper による音声認識の最先端〜8年越しのASR](https://zenn.dev/simpleform/articles/20231206-02-automatic-speech-recognition-whisper) - 小間（株式会社SimpleForm） (2023-12)
 - [Whisperの音声認識精度および認識速度の検証](https://tech.revcomm.co.jp/investigate-whisper-asr) - wataru-nakata（株式会社RevComm） (2022-11)
@@ -382,6 +390,7 @@ Whisperなど音声認識モデルの検証・活用記事。
 
 音声対話AIの開発・評価に関する実務記事。
 
+- [音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと](https://zenn.dev/isaka_aipdm/articles/9a522441733382) - Isaka (2026-01)
 - [音声対話システムの自動評価フレームワーク「VociMetrics」](https://developers.cyberagent.co.jp/blog/archives/61458/) - ohira_yoshiki（株式会社サイバーエージェント） (2025-12)
 - [リアルタイム音声対話AI開発の取り組み紹介（Tech-Verse 2025）](https://techblog.lycorp.co.jp/ja/20250903a) - 三宅純平, 木下泰輝（LINEヤフー株式会社） (2025-09)
 - [当たり前のことが当たり前にできる音声対話受付ロボットの開発](https://developers.cyberagent.co.jp/blog/archives/49874/) - CyberAgent AI Lab (2024-10)

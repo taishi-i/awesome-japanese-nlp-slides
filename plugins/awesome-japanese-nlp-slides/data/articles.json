@@ -77,6 +77,13 @@
   "s": "大学講義・体系的な講義資料"
  },
  {
+  "t": "世界最速の日本語形態素解析器Jaggerを使ってみる",
+  "u": "https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7",
+  "a": "soyamash7",
+  "d": "2024-12-03",
+  "s": "日本語の基礎解析（形態素解析・構文解析）"
+ },
+ {
   "t": "形態素解析をして単語を取り出せているつもり・・・か？",
   "u": "https://qiita.com/icoxfog417/items/e83383263badec7a4805",
   "a": "icoxfog417",
@@ -385,6 +392,20 @@
   "s": "大規模言語モデル（概論・動向）"
  },
  {
+  "t": "日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開",
+  "u": "https://zenn.dev/elyza/articles/f9dd010e895a34",
+  "a": "tt（株式会社ELYZA）",
+  "d": "2026-01-16",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "【論文紹介】D-CPT Law",
+  "u": "https://zenn.dev/eques/articles/956df2978885de",
+  "a": "EQUES Lab",
+  "d": "2025-02-24",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
   "t": "事前学習の方法（10/27日勉強会公開用）",
   "u": "https://zenn.dev/matsuolab/articles/9f05f2be70cff8",
   "a": "Masaki Okamura",
@@ -403,6 +424,13 @@
   "u": "https://zenn.dev/matsuolab/articles/34036f017fae9e",
   "a": "Kan Hatakeyama",
   "d": "2024-08-30",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "松尾研LLM開発 チームZoo(三内チーム)におけるコーパス構築",
+  "u": "https://zenn.dev/matsuolab/articles/96922493795189",
+  "a": "So（東大松尾・岩澤研究室）",
+  "d": "2024-07-06",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
@@ -445,6 +473,13 @@
   "u": "https://note.com/kan_hatakeyama/n/nae8ef911029e",
   "a": "Kan Hatakeyama",
   "d": "2024-02-12",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "日本語LLMの学習に向けたデータ前処理",
+  "u": "https://zenn.dev/elith/articles/5321e321956ac2",
+  "a": "Sloth（株式会社Elith）",
+  "d": "2024-01-22",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
@@ -683,6 +718,13 @@
   "u": "https://zenn.dev/knowledgesense/articles/148dfe2ca1d146",
   "a": "Atsushi Kadowaki（株式会社KnowledgeSense）",
   "d": "2025-10-07",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "Azure AI Searchの裏側【RAGの精度改善手法】",
+  "u": "https://zenn.dev/galirage/articles/azure_ai_search_rag_improvement",
+  "a": "ますみ（Galirage Inc.）",
+  "d": "2024-12-31",
   "s": "検索・RAG"
  },
  {
@@ -1120,6 +1162,13 @@
   "s": "音声認識・音声処理"
  },
  {
+  "t": "音声合成の日本語化手法が一般化した話",
+  "u": "https://zenn.dev/mkj/articles/0576d194771c08",
+  "a": "Kiyoshi Kurihara（松尾研究所）",
+  "d": "2025-12-09",
+  "s": "音声認識・音声処理"
+ },
+ {
   "t": "2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2",
   "u": "https://zenn.dev/hongbod/articles/def04f586cf168",
   "a": "Hongbo.Ding",
@@ -1146,6 +1195,13 @@
   "a": "Motoki Sato（Preferred Networks）",
   "d": "2019-10-29",
   "s": "音声認識・音声処理"
+ },
+ {
+  "t": "音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと",
+  "u": "https://zenn.dev/isaka_aipdm/articles/9a522441733382",
+  "a": "Isaka",
+  "d": "2026-01-31",
+  "s": "対話システム・音声対話"
  },
  {
   "t": "当たり前のことが当たり前にできる音声対話受付ロボットの開発",

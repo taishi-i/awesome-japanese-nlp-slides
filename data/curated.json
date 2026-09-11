@@ -2774,6 +2774,14 @@
   "blurb": "プロンプトインジェクションなどの攻撃と防御、ガードレール、AI セーフティの技術的論点。",
   "entries": [
    {
+    "title": "多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン",
+    "url": "https://speakerdeck.com/lycorptech_jp/20260908a",
+    "author": "LINEヤフーTech (LY Corporation Tech)",
+    "date": "2026-09-08",
+    "source": "speakerdeck",
+    "added": "2026-09-12"
+   },
+   {
     "title": "セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3",
     "url": "https://www.docswell.com/s/melonattacker/ZDM6MV-seccamp-b3",
     "author": "JJ (yuasa)",
@@ -3623,6 +3631,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "バクラクのAI-OCR機能を支えるアノテーションの仕組み",
+    "url": "https://speakerdeck.com/tomoaki25/bakurakunoai-ocrji-neng-wozhi-eruanotesiyonnoshi-zu-mi",
+    "author": "Tomoaki",
+    "date": "2023-09-20",
+    "source": "speakerdeck",
+    "added": "2026-09-12"
+   },
+   {
     "title": "バクラクのAI-OCR機能の体験を支える良質なデータセット作成の仕組み / data-centric-ai-bakuraku-dataset",
     "url": "https://speakerdeck.com/yuya4/data-centric-ai-bakuraku-dataset",
     "author": "Yuya Matsumura",
@@ -3643,6 +3659,14 @@
     "date": "2022-09-28",
     "source": "speakerdeck",
     "added": "2026-08-26"
+   },
+   {
+    "title": "AI-OCRはどうやって精度を計測しているか",
+    "url": "https://speakerdeck.com/hikiaki/ai-ocrhadouyatutejing-du-woji-ce-siteiruka",
+    "author": "hikiaki",
+    "date": "2019-10-29",
+    "source": "speakerdeck",
+    "added": "2026-09-12"
    }
   ]
  },
@@ -4006,6 +4030,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "マルチモーダル学習ライブラリ Heronと⾃動運転への応⽤",
+    "url": "https://speakerdeck.com/yuyamaguchi/marutimodaruxue-xi-raiburari-heronto-dong-yun-zhuan-henoying",
+    "author": "Yu Yamaguchi",
+    "date": "2024-05-22",
+    "source": "speakerdeck",
+    "added": "2026-09-12"
+   },
+   {
     "title": "マルチモーダルLLMがもたらすビジネス革新と技術解説",
     "url": "https://speakerdeck.com/elith/marutimodarullmgamotarasubizinesuge-xin-toji-shu-jie-shuo",
     "author": "Elith",
@@ -4095,6 +4127,14 @@
     "date": "2026-05-15",
     "source": "speakerdeck",
     "added": "2026-09-05"
+   },
+   {
+    "title": "Interspeech2023 参加報告",
+    "url": "https://speakerdeck.com/kentaro321/interspeech2023-can-jia-bao-gao",
+    "author": "Kentaro Mitsui",
+    "date": "2023-12-25",
+    "source": "speakerdeck",
+    "added": "2026-09-12"
    },
    {
     "title": "音声感情認識技術の最前線",

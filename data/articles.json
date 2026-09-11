@@ -91,6 +91,13 @@
   "blurb": "形態素解析・係り受け解析の仕組みを手を動かして理解する記事。",
   "entries": [
    {
+    "title": "世界最速の日本語形態素解析器Jaggerを使ってみる",
+    "url": "https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7",
+    "author": "soyamash7",
+    "date": "2024-12-03",
+    "added": "2026-09-12"
+   },
+   {
     "title": "形態素解析をして単語を取り出せているつもり・・・か？",
     "url": "https://qiita.com/icoxfog417/items/e83383263badec7a4805",
     "author": "icoxfog417",
@@ -413,6 +420,20 @@
   "blurb": "日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。",
   "entries": [
    {
+    "title": "日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開",
+    "url": "https://zenn.dev/elyza/articles/f9dd010e895a34",
+    "author": "tt（株式会社ELYZA）",
+    "date": "2026-01-16",
+    "added": "2026-09-12"
+   },
+   {
+    "title": "【論文紹介】D-CPT Law",
+    "url": "https://zenn.dev/eques/articles/956df2978885de",
+    "author": "EQUES Lab",
+    "date": "2025-02-24",
+    "added": "2026-09-12"
+   },
+   {
     "title": "事前学習の方法（10/27日勉強会公開用）",
     "url": "https://zenn.dev/matsuolab/articles/9f05f2be70cff8",
     "author": "Masaki Okamura",
@@ -432,6 +453,13 @@
     "author": "Kan Hatakeyama",
     "date": "2024-08-30",
     "added": "2026-08-23"
+   },
+   {
+    "title": "松尾研LLM開発 チームZoo(三内チーム)におけるコーパス構築",
+    "url": "https://zenn.dev/matsuolab/articles/96922493795189",
+    "author": "So（東大松尾・岩澤研究室）",
+    "date": "2024-07-06",
+    "added": "2026-09-12"
    },
    {
     "title": "HuggingFaceとDeepSpeedで実践継続事前学習",
@@ -471,6 +499,13 @@
     "author": "Kan Hatakeyama",
     "date": "2024-02-12",
     "added": "2026-09-05"
+   },
+   {
+    "title": "日本語LLMの学習に向けたデータ前処理",
+    "url": "https://zenn.dev/elith/articles/5321e321956ac2",
+    "author": "Sloth（株式会社Elith）",
+    "date": "2024-01-22",
+    "added": "2026-09-12"
    },
    {
     "title": "Swallow: LLaMA-2 日本語継続事前学習モデル",
@@ -723,6 +758,13 @@
     "author": "Atsushi Kadowaki（株式会社KnowledgeSense）",
     "date": "2025-10-07",
     "added": "2026-08-26"
+   },
+   {
+    "title": "Azure AI Searchの裏側【RAGの精度改善手法】",
+    "url": "https://zenn.dev/galirage/articles/azure_ai_search_rag_improvement",
+    "author": "ますみ（Galirage Inc.）",
+    "date": "2024-12-31",
+    "added": "2026-09-12"
    },
    {
     "title": "AWS 内で大規模言語モデルを利用できる Amazon Bedrock を使って作る RAG アプリケーション",
@@ -1191,6 +1233,13 @@
     "date": "2025-12-14"
    },
    {
+    "title": "音声合成の日本語化手法が一般化した話",
+    "url": "https://zenn.dev/mkj/articles/0576d194771c08",
+    "author": "Kiyoshi Kurihara（松尾研究所）",
+    "date": "2025-12-09",
+    "added": "2026-09-12"
+   },
+   {
     "title": "2025年、依然Whisper一強？日本語文字起こしモデル徹底比較 ─ Whisperv3・WhisperX・kotoba2.2",
     "url": "https://zenn.dev/hongbod/articles/def04f586cf168",
     "author": "Hongbo.Ding",
@@ -1221,6 +1270,13 @@
   "section": "対話システム・音声対話",
   "blurb": "音声対話AIの開発・評価に関する実務記事。",
   "entries": [
+   {
+    "title": "音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと",
+    "url": "https://zenn.dev/isaka_aipdm/articles/9a522441733382",
+    "author": "Isaka",
+    "date": "2026-01-31",
+    "added": "2026-09-12"
+   },
    {
     "title": "当たり前のことが当たり前にできる音声対話受付ロボットの開発",
     "url": "https://developers.cyberagent.co.jp/blog/archives/49874/",
