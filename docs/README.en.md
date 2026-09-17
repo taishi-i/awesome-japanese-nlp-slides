@@ -11,7 +11,7 @@
 A curated list of presentation slides on Japanese natural language processing (NLP).
 Conference tutorials, university lectures, technical deep dives by OSS developers, and industry case studies, organized by topic.
 
-667 decks across 32 categories.
+671 decks across 32 categories.
 
 Deck titles are kept as published, so most of them are in Japanese.
 
@@ -57,7 +57,7 @@ Deck titles are kept as published, so most of them are in Japanese.
 
 ## 🔍 Search from Claude Code
 
-A plugin is available to search all 667 decks in this list from Claude Code.
+A plugin is available to search all 671 decks in this list from Claude Code.
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -79,15 +79,27 @@ Once installed, pass a keyword or a natural language question to the `search` sk
 
 📝 The story behind this search skill is written up in [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) (Japanese).
 
-🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (190 entries).
+🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (201 entries).
 
 <details>
 <summary>🎉 The Latest Additions (click to expand)</summary>
 
 Decks added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
 
+**Pretrained Models & Transformers**
+- [論文読み会 SNLP2024 Instruction-tuned Language Models are Better Knowledge Learners. In: ACL 2024](https://speakerdeck.com/s_mizuki_nlp/instruction-tuned-language-models-are-better-knowledge-learners-in-acl-2024) - S (2024-08)
+
+**Search & RAG**
+- [話題のGraphRAG、その可能性と課題を理解する](https://speakerdeck.com/hide212131/the-trending-graphrag-understanding-its-potential-and-challenges) - 鏡味秀行 (2024-10)
+
+**AI Agents & MCP**
+- [論文図解\_プロンプト工学\_AIエージェント\_ハーネス\_1論文1ページ](https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636) - smile_yukiko_it (2026-06)
+
 **LLM Safety & Security**
 - [多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン](https://speakerdeck.com/lycorptech_jp/20260908a) - LINEヤフーTech (LY Corporation Tech) (2026-09)
+
+**Information Extraction, NER & Annotation**
+- [\[輪講資料\] A Frustratingly Easy Approach for Entity and Relation Extraction](https://speakerdeck.com/tossy/lun-jiang-zi-liao-a-frustratingly-easy-approach-for-entity-and-relation-extraction) - tossy (2022-06)
 
 **Document AI & OCR**
 - [バクラクのAI-OCR機能を支えるアノテーションの仕組み](https://speakerdeck.com/tomoaki25/bakurakunoai-ocrji-neng-wozhi-eruanotesiyonnoshi-zu-mi) - Tomoaki (2023-09)
@@ -99,7 +111,7 @@ Decks added to this list in the last 7 days. Each one stays here for 7 days from
 **Speech Recognition & Speech Processing**
 - [Interspeech2023 参加報告](https://speakerdeck.com/kentaro321/interspeech2023-can-jia-bao-gao) - Kentaro Mitsui (2023-12)
 
-_Updated on 2026-09-12_
+_Updated on 2026-09-18_
 
 </details>
 
@@ -276,6 +288,7 @@ Pretrained models from BERT onward, and how Transformers work.
 - [PyTorchによるGPT-2モデルのフルスクラッチ実装と内部構造の解説](https://speakerdeck.com/sennsann99/pytorchniyorugpt-2moderunohurusukuratutishi-zhuang-tonei-bu-gou-zao-nojie-shuo) - Chigen SEN (2026-03)
 - [非情報系研究者へ送る Transformer入門](https://speakerdeck.com/rishiyama/fei-qing-bao-xi-yan-jiu-zhe-hesong-ru-transformerru-men) - Ryo Ishiyama (2026-03)
 - [大規模言語モデルを支える頭脳：Transformerを30分でつかむ](https://speakerdeck.com/rhagihara0844/da-gui-mo-yan-yu-moderuwozhi-erutou-noy-transformerwo30fen-detukamu) - r-hagihara-max (2025-08)
+- [論文読み会 SNLP2024 Instruction-tuned Language Models are Better Knowledge Learners. In: ACL 2024](https://speakerdeck.com/s_mizuki_nlp/instruction-tuned-language-models-are-better-knowledge-learners-in-acl-2024) - S (2024-08)
 - [Transformerによるテキストベクトル化を解説](https://speakerdeck.com/payanotty/transformerniyorutekisutobekutoruhua-wojie-shuo) - payanotty (2024-01)
 - [【初心者向け】まだ間に合う！ Hugging Face入門 -TransformersでAI推論&学習](https://speakerdeck.com/tkhresk/huggingfaceru-men) - Takahiro Esaki (2023-09)
 - [Hyena Hierarchy: Towards Larger Convolutional Language Models](https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models) - Hayato Tsukagoshi (2023-08)
@@ -483,6 +496,7 @@ Designing, improving, and evaluating retrieval-augmented generation.
 - [論文紹介 "Long-Context LLMs Meet RAG: Overcoming Challenges for Long Inputs in RAG" @GDG Tokyo](https://speakerdeck.com/shukob/lun-wen-shao-jie-long-context-llms-meet-rag-overcoming-challenges-for-long-inputs-in-rag-at-gdg-tokyo) - Shu Kobuchi (2025-01)
 - [LLMによるRAG評価用合成テストデータの生成](https://speakerdeck.com/licux/llmniyoruragping-jia-yong-he-cheng-tesutodetanosheng-cheng) - matsukada (2025-01)
 - [生成AIをより賢く エンジニアのための RAG入門 - Oracle AI Jam Session #20](https://speakerdeck.com/kutsushitaneko/sheng-cheng-aiwoyorixian-ku-enzinianotameno-ragru-men-oracle-ai-jam-session-number-20) - Yuji Arakawa (2024-12)
+- [話題のGraphRAG、その可能性と課題を理解する](https://speakerdeck.com/hide212131/the-trending-graphrag-understanding-its-potential-and-challenges) - 鏡味秀行 (2024-10)
 - [LLMアプリをRagasで評価して、Langfuseで可視化しよう！](https://speakerdeck.com/minorun365/llmapuriworagasdeping-jia-site-langfusedeke-shi-hua-siyou) - みのるん (2024-10)
 - [実務におけるRAG 〜学びと現場のノウハウ〜](https://www.docswell.com/s/hoxo-m_inc/K4V3MW-rag) - 株式会社ホクソエム (2024-07)
 - [RAGの基本と最新技術動向](https://speakerdeck.com/fumina/ragnoji-ben-tozui-xin-ji-shu-dong-xiang) - Fumina Chihama (2024-06)
@@ -528,6 +542,7 @@ Designing, evaluating and operating LLM agents that use tools, and wiring those 
 - [AIエージェント開発フレームワークはどう選ぶ](https://www.docswell.com/s/harinezumi/ZWRL8Q-2026-07-14-131052) - Syoitu Den (2026-07)
 - [ローカルLLMを使ったエージェント開発の現在地 〜社内PR自動レビューに「ローカルLLM」は使えるか？コスト×精度で検証してみた〜](https://speakerdeck.com/7nohe/rokarullmwoshi-tutaezientokai-fa-noxian-zai-di-she-nei-przi-dong-rebiyuni-rokarullm-hashi-eruka-kosutoxjing-du-dejian-zheng-sitemita) - daiki7nohe (2026-06)
 - [白金鉱業Meetup\_Vol.24\_「AIエージェントは分けるほど良い」は本当か？ / Is it true that "the more you divide AI agents, the better"?](https://speakerdeck.com/brainpadpr/is-it-true-that-the-more-you-divide-ai-agents-the-better) - 中西 映人 (Akito Nakanishi) (2026-06)
+- [論文図解\_プロンプト工学\_AIエージェント\_ハーネス\_1論文1ページ](https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636) - smile_yukiko_it (2026-06)
 - [エージェント化するAI：現在地とその先に起きる変化 / AI as Agents: The Current State and the Changes Ahead](https://speakerdeck.com/ks91/ai-as-agents-the-current-state-and-the-changes-ahead) - Kenji Saito (2026-06)
 - [データエージェントのためのナレッジカタログ](https://speakerdeck.com/na0/detaezientonotamenonaretuzikatarogu) - na0 (2026-05)
 - [The Landscape of Agentic Reinforcement Learning for LLMs: A Survey](https://speakerdeck.com/shunk031/the-landscape-of-agentic-reinforcement-learning-for-llms-a-survey) - Shunsuke KITADA (2026-04)
@@ -672,6 +687,7 @@ Extracting structured information from text, and the training data behind it.
 - [メールからの名刺情報抽出におけるLLM活用 / Use of LLM in extracting business card information from e-mails](https://speakerdeck.com/sansan_randd/use-of-llm-in-extracting-business-card-information-from-e-mails) - Sansan R&D (2024-11)
 - [日本語エンティティリンキングのための行政機関ウェブ文書コーパスの構築 (CADEL)](https://speakerdeck.com/shigashiyama/cadel-at-ipsj-nl-260) - shigashiyama (2024-06)
 - [場所参照表現と位置情報を紐付けるジオコーディングの概観と発展に向けての考察 / 言語処理学会第29回年次大会(NLP2023)](https://speakerdeck.com/sorami/nlp2023) - Sorami Shiromizu (2023-03)
+- [\[輪講資料\] A Frustratingly Easy Approach for Entity and Relation Extraction](https://speakerdeck.com/tossy/lun-jiang-zi-liao-a-frustratingly-easy-approach-for-entity-and-relation-extraction) - tossy (2022-06)
 - [継続して改善する固有表現抽出 / Continuous improvement of named entity extraction](https://speakerdeck.com/sansanbuildersbox/continuous-improvement-of-named-entity-extraction) - Sansan (2021-11)
 - [jel: japanese entity linker](https://speakerdeck.com/izuna385/jel-japanese-entity-linker) - izuna385 (2021-09)
 - [実務で使う固有表現抽出 / Practical Use of Named Entity Recognition](https://speakerdeck.com/sansandsoc/practical-use-of-named-entity-recognition) - Sansan DSOC (2020-10)

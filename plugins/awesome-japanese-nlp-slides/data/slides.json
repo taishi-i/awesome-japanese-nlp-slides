@@ -1008,6 +1008,14 @@
   "src": "slideshare"
  },
  {
+  "t": "論文読み会 SNLP2024 Instruction-tuned Language Models are Better Knowledge Learners. In: ACL 2024",
+  "u": "https://speakerdeck.com/s_mizuki_nlp/instruction-tuned-language-models-are-better-knowledge-learners-in-acl-2024",
+  "a": "S",
+  "d": "2024-08-19",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
   "u": "https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models",
   "a": "Hayato Tsukagoshi",
@@ -2240,6 +2248,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "話題のGraphRAG、その可能性と課題を理解する",
+  "u": "https://speakerdeck.com/hide212131/the-trending-graphrag-understanding-its-potential-and-challenges",
+  "a": "鏡味秀行",
+  "d": "2024-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "実例で紹介するRAG導入時の知見と精度向上の勘所",
   "u": "https://speakerdeck.com/yamahiro/shi-li-deshao-jie-sururagdao-ru-shi-nozhi-jian-tojing-du-xiang-shang-nokan-suo",
   "a": "Hiroki YAMAMOTO",
@@ -2638,6 +2654,14 @@
   "d": "2026-07-22",
   "s": "AI エージェント・MCP",
   "src": "speakerdeck"
+ },
+ {
+  "t": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ",
+  "u": "https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636",
+  "a": "smile_yukiko_it",
+  "d": "2026-06-13",
+  "s": "AI エージェント・MCP",
+  "src": "docswell"
  },
  {
   "t": "エージェント化するAI：現在地とその先に起きる変化 / AI as Agents: The Current State and the Changes Ahead",
@@ -3636,6 +3660,14 @@
   "u": "https://speakerdeck.com/sorami/nlp2023",
   "a": "Sorami Shiromizu",
   "d": "2023-03-16",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "[輪講資料] A Frustratingly Easy Approach for Entity and Relation Extraction",
+  "u": "https://speakerdeck.com/tossy/lun-jiang-zi-liao-a-frustratingly-easy-approach-for-entity-and-relation-extraction",
+  "a": "tossy",
+  "d": "2022-06-03",
   "s": "情報抽出・固有表現・アノテーション",
   "src": "speakerdeck"
  },

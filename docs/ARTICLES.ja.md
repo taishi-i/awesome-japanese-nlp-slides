@@ -9,7 +9,7 @@
 日本語の自然言語処理（NLP）に関する、企業や個人開発者によるウェブページ・ブログ記事を集めた厳選リストです。
 [スライド一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) と同じ32のトピックで整理しています。
 
-190 件の記事を 32 カテゴリに分類しています。
+201 件の記事を 32 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは日々更新中です。新しい記事を随時追加しています。
@@ -19,15 +19,34 @@
 このリストに直近7日以内に追加された記事です。追加された日から7日間、ここに表示されます。
 
 **日本語の基礎解析（形態素解析・構文解析）**
+- [形態素解析の歴史と機械学習への影響~中野哲平は頑張るエンジニアですという文字列に対して解析](https://zenn.dev/m_nakano_teppei/articles/62e039f03ff88c) - 中野哲平（2025-02）
+- [形態素解析の可視化ツール「ViSudachi」を使ってみる](https://zenn.dev/sorami/articles/66c553df6de7b0) - sorami（2021-11）
 - [世界最速の日本語形態素解析器Jaggerを使ってみる](https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7) - soyamash7（2024-12）
 
+**NLP ライブラリ・ツール開発**
+- [高速日本語形態素解析 jagger を動かすメモ](https://zenn.dev/syoyo/articles/8381ddef921a5a) - syoyo（2023-07）
+
+**大規模言語モデル（概論・動向）**
+- [NLP2026の最優秀賞・優秀賞から見る言語処理最前線](https://zenn.dev/mkj/articles/nlp_20260208) - Taisei Ozaki（2026-03）
+
 **日本語LLMの開発（事前学習・コーパス構築）**
+- [国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える](https://zenn.dev/nitic_students/articles/e2e331dea0c616) - Juna1013（2026-03）
 - [日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開](https://zenn.dev/elyza/articles/f9dd010e895a34) - tt（株式会社ELYZA）（2026-01）
 - [【論文紹介】D-CPT Law](https://zenn.dev/eques/articles/956df2978885de) - EQUES Lab（2025-02）
 - [松尾研LLM開発 チームZoo(三内チーム)におけるコーパス構築](https://zenn.dev/matsuolab/articles/96922493795189) - So（東大松尾・岩澤研究室）（2024-07）
 - [日本語LLMの学習に向けたデータ前処理](https://zenn.dev/elith/articles/5321e321956ac2) - Sloth（株式会社Elith）（2024-01）
 
+**ファインチューニング・事後学習**
+- [【論文深掘り】LLM ファインチューニングの"内部動作"を探る](https://zenn.dev/gemcook/articles/f0c2b88b142624) - MJ（2025-06）
+- [LLMのファインチューニングでドメイン知識の獲得は可能か。知識付与の限界と可能性](https://zenn.dev/dalab/articles/d41110bfbb120e) - Ikeda Shouhei（2024-11）
+
+**評価・ベンチマーク**
+- [LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法](https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026) - lumichy（2026-04）
+- [選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ](https://zenn.dev/headwaters/articles/4ec70e80a5c477) - T. Shimotomai, PhD.（2026-02）
+
 **検索・RAG**
+- [LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する](https://qiita.com/ynakayama/items/88005c72a6272939ad0b) - Yasuhiro Nakayama（2026-09）
+- [【完全解説】なぜLangChainで作った社内RAGは現場で死ぬのか？〜完全閉域網・BM25+ChromaDBハイブリッドRRF・コサイン](https://qiita.com/dytjj02/items/58c75b1ed60f7ff9c532) - dytjj02（2026-09）
 - [Azure AI Searchの裏側【RAGの精度改善手法】](https://zenn.dev/galirage/articles/azure_ai_search_rag_improvement) - ますみ（Galirage Inc.）（2024-12）
 
 **音声認識・音声処理**
@@ -36,7 +55,7 @@
 **対話システム・音声対話**
 - [音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと](https://zenn.dev/isaka_aipdm/articles/9a522441733382) - Isaka（2026-01）
 
-_2026-09-12 時点_
+_2026-09-18 時点_
 
 ## 目次
 
@@ -103,9 +122,11 @@ _2026-09-12 時点_
 
 形態素解析・係り受け解析の仕組みを手を動かして理解する記事。
 
+- [形態素解析の歴史と機械学習への影響~中野哲平は頑張るエンジニアですという文字列に対して解析](https://zenn.dev/m_nakano_teppei/articles/62e039f03ff88c) - 中野哲平（2025-02）
 - [世界最速の日本語形態素解析器Jaggerを使ってみる](https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7) - soyamash7（2024-12）
 - [テキスト分析の大通り#04: 形態素解析(Sudachi編)](https://note.com/yssymmt/n/n1da058b57cab) - yssymmt（2022-10）
 - [形態素解析に触れる ～ 日本語処理の入口を理解する ～](https://note.com/1in9mu/n/n28df7e4879bb) - lingmu（2022-05）
+- [形態素解析の可視化ツール「ViSudachi」を使ってみる](https://zenn.dev/sorami/articles/66c553df6de7b0) - sorami（2021-11）
 - [自然言語処理入門 Vol.2 係り受け解析/構文解析](https://leadinge.co.jp/rd/2021/05/10/696/) - M.H（株式会社リーディング・エッジ社）（2021-05）
 - [自然言語処理の形態素解析について調べたまとめ](https://zenn.dev/megane_otoko/articles/008_morphological_analysis) - koji（2020-11）
 - [形態素解析器比較 Sudachi vs Mecab+Neologd](https://tdual.hatenablog.com/entry/2020/07/13/162151) - tdualdir（2020-07）
@@ -117,6 +138,7 @@ _2026-09-12 時点_
 
 形態素解析器や検索ツールなど、NLPライブラリ本体の実装記事。
 
+- [高速日本語形態素解析 jagger を動かすメモ](https://zenn.dev/syoyo/articles/8381ddef921a5a) - syoyo（2023-07）
 - [速度の高みを目指す：高速な単語分割器 Vaporetto の技術解説](https://tech.legalforce.co.jp/entry/2021/09/28/180844) - 赤部（LegalOn Technologies）（2021-09）
 - [形態素解析を行うだけのバッチをつくる](https://techlife.cookpad.com/entry/2021/03/08/093000) - jharashima（クックパッド）（2021-03）
 - [SuikaというPure Rubyな形態素解析器を作成した](https://yoshoku.hatenablog.com/entry/2020/07/05/090000) - yoshoku（洋食の日記）（2020-07）
@@ -174,6 +196,7 @@ BERTとTransformerの仕組みを図解・実装で理解する記事。
 
 LLMの全体像や最新動向を追った記事・まとめ。
 
+- [NLP2026の最優秀賞・優秀賞から見る言語処理最前線](https://zenn.dev/mkj/articles/nlp_20260208) - Taisei Ozaki（2026-03）
 - [NLP2026に初参加したAIエンジニアが気になった論文3選](https://tech.legalscape.co.jp/entry/2026/03/19/125513) - Akihiro Tomita（2026-03）
 - [日本特有の知識に特化した大規模言語モデルの学習および評価](https://zenn.dev/elyza/articles/9e46b79371fc0e) - Daisuke Oba（ELYZA株式会社）（2024-11）
 - [ChatGPT（とその周辺）の技術](https://zenn.dev/zenkigen_tech/articles/2023-05-kurihara) - masakuri（株式会社ZENKIGEN）（2023-06）
@@ -183,6 +206,7 @@ LLMの全体像や最新動向を追った記事・まとめ。
 
 日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。
 
+- [国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える](https://zenn.dev/nitic_students/articles/e2e331dea0c616) - Juna1013（2026-03）
 - [日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開](https://zenn.dev/elyza/articles/f9dd010e895a34) - tt（株式会社ELYZA）（2026-01）
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
 - [【論文紹介】D-CPT Law](https://zenn.dev/eques/articles/956df2978885de) - EQUES Lab（2025-02）
@@ -209,7 +233,9 @@ LoRAなどを使ったファインチューニングの入門・実践記事。
 - [LLMファインチューニング入門──RAGと使い分けるための基礎からLoRA実装まで【2026】](https://zenn.dev/karaagedesu/articles/edf46190f70b1d) - karaagedesu（2026-05）
 - [コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -](https://nowokay.hatenablog.com/entry/2026/01/10/125059) - きしだ (kishida)（2026-01）
 - [大規模言語モデルのファインチューニングを理解するための丁寧な入門ガイド](https://zenn.dev/nakano_teppei/articles/fe4ae4748ecb5d) - 中野哲平（2025-11）
+- [【論文深掘り】LLM ファインチューニングの"内部動作"を探る](https://zenn.dev/gemcook/articles/f0c2b88b142624) - MJ（2025-06）
 - [日本語LLMの指示学習における回答が長い訓練サンプルの影響](https://tech.preferred.jp/ja/blog/japanease-it-length/) - Preferred Networks（2025-01）
+- [LLMのファインチューニングでドメイン知識の獲得は可能か。知識付与の限界と可能性](https://zenn.dev/dalab/articles/d41110bfbb120e) - Ikeda Shouhei（2024-11）
 - [【初心者】LoRAを使って日本語GPTモデルをファインチューニングする](https://zenn.dev/takumi0616/articles/b79f6fa04562e5) - takumi0616（2024-11）
 - [日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編](https://zenn.dev/matsuolab/articles/a6a941571138e3) - santhosh（2024-08）
 
@@ -228,7 +254,9 @@ vLLMや量子化を使った推論高速化の実践記事。
 JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。
 
 - [日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）](https://blog.qualiteg.com/llm-ranking-2026/) - Qualiteg プロダクト開発部（2026-07）
+- [LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法](https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026) - lumichy（2026-04）
 - [日本語の自然さを測る評価手法の検証](https://tech.preferred.jp/ja/blog/llm-as-a-judge-for-japanese/) - Preferred Networks（2026-02）
+- [選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ](https://zenn.dev/headwaters/articles/4ec70e80a5c477) - T. Shimotomai, PhD.（2026-02）
 - [JFBench: 実務レベルの日本語指示追従性能を備えた生成AIを目指して](https://tech.preferred.jp/ja/blog/jfbench-japanese-instruction-following-benchmark/) - Preferred Networks（2026-01）
 - [事前学習LLMの評価における既存LLMの活用](https://tech.preferred.jp/ja/blog/llm-eval-by-answer-matching/) - Hiroaki Mikami（Preferred Networks）（2025-09）
 - [LLMの精度ってどう測るの？評価指標を調べてみた](https://tech.smarthr.jp/entry/2025/08/05/192115) - mizunao（株式会社SmartHR）（2025-08）
@@ -250,6 +278,8 @@ Elasticsearchなど検索基盤を日本語向けにチューニングする記�
 
 RAGの仕組みをゼロから実装して学ぶ記事。
 
+- [LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する](https://qiita.com/ynakayama/items/88005c72a6272939ad0b) - Yasuhiro Nakayama（2026-09）
+- [【完全解説】なぜLangChainで作った社内RAGは現場で死ぬのか？〜完全閉域網・BM25+ChromaDBハイブリッドRRF・コサイン](https://qiita.com/dytjj02/items/58c75b1ed60f7ff9c532) - dytjj02（2026-09）
 - [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト（2026-07）
 - [【2026年最新】RAG精度改善技術のカオスマップ─ 74の技術を6カテゴリで構造的に整理した](https://zenn.dev/epicai_techblog/articles/a78517cc0d5df2) - 川上晴也（2026-04）
 - [RAGチャンキング戦略2026：7手法の精度比較とパラメータ最適化](https://zenn.dev/0h_n0/articles/5137ee7d4dd05d) - ohno（2026-03）

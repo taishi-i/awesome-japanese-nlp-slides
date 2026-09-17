@@ -942,6 +942,14 @@
   "blurb": "BERT 以降の事前学習モデルと Transformer の解説資料。",
   "entries": [
    {
+    "title": "論文読み会 SNLP2024 Instruction-tuned Language Models are Better Knowledge Learners. In: ACL 2024",
+    "url": "https://speakerdeck.com/s_mizuki_nlp/instruction-tuned-language-models-are-better-knowledge-learners-in-acl-2024",
+    "author": "S",
+    "date": "2024-08-19",
+    "source": "speakerdeck",
+    "added": "2026-09-18"
+   },
+   {
     "title": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
     "url": "https://speakerdeck.com/hpprc/hyena-hierarchy-towards-larger-convolutional-language-models",
     "author": "Hayato Tsukagoshi",
@@ -2101,6 +2109,14 @@
     "added": "2026-08-30"
    },
    {
+    "title": "話題のGraphRAG、その可能性と課題を理解する",
+    "url": "https://speakerdeck.com/hide212131/the-trending-graphrag-understanding-its-potential-and-challenges",
+    "author": "鏡味秀行",
+    "date": "2024-10-30",
+    "source": "speakerdeck",
+    "added": "2026-09-18"
+   },
+   {
     "title": "実例で紹介するRAG導入時の知見と精度向上の勘所",
     "url": "https://speakerdeck.com/yamahiro/shi-li-deshao-jie-sururagdao-ru-shi-nozhi-jian-tojing-du-xiang-shang-nokan-suo",
     "author": "Hiroki YAMAMOTO",
@@ -2483,6 +2499,14 @@
     "date": "2026-07-22",
     "source": "speakerdeck",
     "added": "2026-08-26"
+   },
+   {
+    "title": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ",
+    "url": "https://www.docswell.com/s/smile_yukiko_it/5VJM9L-2026-06-13-121636",
+    "author": "smile_yukiko_it",
+    "date": "2026-06-13",
+    "source": "docswell",
+    "added": "2026-09-18"
    },
    {
     "title": "エージェント化するAI：現在地とその先に起きる変化 / AI as Agents: The Current State and the Changes Ahead",
@@ -3402,6 +3426,14 @@
     "author": "Sorami Shiromizu",
     "date": "2023-03-16",
     "source": "speakerdeck"
+   },
+   {
+    "title": "[輪講資料] A Frustratingly Easy Approach for Entity and Relation Extraction",
+    "url": "https://speakerdeck.com/tossy/lun-jiang-zi-liao-a-frustratingly-easy-approach-for-entity-and-relation-extraction",
+    "author": "tossy",
+    "date": "2022-06-03",
+    "source": "speakerdeck",
+    "added": "2026-09-18"
    },
    {
     "title": "継続して改善する固有表現抽出 / Continuous improvement of named entity extraction",

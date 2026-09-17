@@ -77,10 +77,24 @@
   "s": "大学講義・体系的な講義資料"
  },
  {
+  "t": "形態素解析の歴史と機械学習への影響~中野哲平は頑張るエンジニアですという文字列に対して解析",
+  "u": "https://zenn.dev/m_nakano_teppei/articles/62e039f03ff88c",
+  "a": "中野哲平",
+  "d": "2025-02-20",
+  "s": "日本語の基礎解析（形態素解析・構文解析）"
+ },
+ {
   "t": "世界最速の日本語形態素解析器Jaggerを使ってみる",
   "u": "https://qiita.com/soyamash7/items/31a8861d5ece54bae8e7",
   "a": "soyamash7",
   "d": "2024-12-03",
+  "s": "日本語の基礎解析（形態素解析・構文解析）"
+ },
+ {
+  "t": "形態素解析の可視化ツール「ViSudachi」を使ってみる",
+  "u": "https://zenn.dev/sorami/articles/66c553df6de7b0",
+  "a": "sorami",
+  "d": "2021-11-04",
   "s": "日本語の基礎解析（形態素解析・構文解析）"
  },
  {
@@ -138,6 +152,13 @@
   "a": "R&Dチーム（LAPRAS株式会社）",
   "d": "2019-11-11",
   "s": "日本語の基礎解析（形態素解析・構文解析）"
+ },
+ {
+  "t": "高速日本語形態素解析 jagger を動かすメモ",
+  "u": "https://zenn.dev/syoyo/articles/8381ddef921a5a",
+  "a": "syoyo",
+  "d": "2023-07-28",
+  "s": "NLP ライブラリ・ツール開発"
  },
  {
   "t": "SuikaというPure Rubyな形態素解析器を作成した",
@@ -364,6 +385,13 @@
   "s": "事前学習モデル・Transformer"
  },
  {
+  "t": "NLP2026の最優秀賞・優秀賞から見る言語処理最前線",
+  "u": "https://zenn.dev/mkj/articles/nlp_20260208",
+  "a": "Taisei Ozaki",
+  "d": "2026-03-25",
+  "s": "大規模言語モデル（概論・動向）"
+ },
+ {
   "t": "NLP2026に初参加したAIエンジニアが気になった論文3選",
   "u": "https://tech.legalscape.co.jp/entry/2026/03/19/125513",
   "a": "Akihiro Tomita",
@@ -390,6 +418,13 @@
   "a": "@omiita（オミータ）",
   "d": "2022-12-11",
   "s": "大規模言語モデル（概論・動向）"
+ },
+ {
+  "t": "国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える",
+  "u": "https://zenn.dev/nitic_students/articles/e2e331dea0c616",
+  "a": "Juna1013",
+  "d": "2026-03-27",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
   "t": "日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開",
@@ -518,6 +553,20 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "【論文深掘り】LLM ファインチューニングの\"内部動作\"を探る",
+  "u": "https://zenn.dev/gemcook/articles/f0c2b88b142624",
+  "a": "MJ",
+  "d": "2025-06-30",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
+  "t": "LLMのファインチューニングでドメイン知識の獲得は可能か。知識付与の限界と可能性",
+  "u": "https://zenn.dev/dalab/articles/d41110bfbb120e",
+  "a": "Ikeda Shouhei",
+  "d": "2024-11-21",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
   "t": "日本語LLMにヒンディー語も学習させてみた。②事後学習・知識転移編",
   "u": "https://zenn.dev/matsuolab/articles/a6a941571138e3",
   "a": "santhosh",
@@ -599,6 +648,20 @@
   "u": "https://blog.qualiteg.com/llm-ranking-2026/",
   "a": "Qualiteg プロダクト開発部",
   "d": "2026-07-13",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法",
+  "u": "https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026",
+  "a": "lumichy",
+  "d": "2026-04-26",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ",
+  "u": "https://zenn.dev/headwaters/articles/4ec70e80a5c477",
+  "a": "T. Shimotomai, PhD.",
+  "d": "2026-02-06",
   "s": "評価・ベンチマーク"
  },
  {
@@ -684,6 +747,20 @@
   "a": "vasilyjp（株式会社ZOZO）",
   "d": "2021-11-05",
   "s": "全文検索・検索基盤"
+ },
+ {
+  "t": "LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する",
+  "u": "https://qiita.com/ynakayama/items/88005c72a6272939ad0b",
+  "a": "Yasuhiro Nakayama",
+  "d": "2026-09-17",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "【完全解説】なぜLangChainで作った社内RAGは現場で死ぬのか？〜完全閉域網・BM25+ChromaDBハイブリッドRRF・コサイン",
+  "u": "https://qiita.com/dytjj02/items/58c75b1ed60f7ff9c532",
+  "a": "dytjj02",
+  "d": "2026-09-07",
+  "s": "検索・RAG"
  },
  {
   "t": "埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする",
