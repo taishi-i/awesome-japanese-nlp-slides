@@ -216,6 +216,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "【YANS2022 チュートリアル】対話システムのすすめ",
+  "u": "https://speakerdeck.com/rhigashinaka/yans2022-tiyutoriaru-dui-hua-sisutemunosusume",
+  "a": "Ryuichiro Higashinaka",
+  "d": "2022-08-30",
+  "s": "学会チュートリアル",
+  "src": "speakerdeck"
+ },
+ {
   "t": "自然言語処理とVision-and-Language / A Tutorial on NLP & Vision-and-Language",
   "u": "https://speakerdeck.com/kyoun/a-tutorial-on-nlp-and-vision-and-language",
   "a": "Kyosuke Nishida",
@@ -1256,6 +1264,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "第12回ザッピングセミナー発表資料",
+  "u": "https://speakerdeck.com/ran_iwamoto/di-12hui-zatupinguseminafa-biao-zi-liao",
+  "a": "Ran Iwamoto",
+  "d": "2023-04-02",
+  "s": "大規模言語モデル（概論・動向）",
+  "src": "speakerdeck"
+ },
+ {
   "t": "大規模言語モデルの驚異と脅威",
   "u": "https://speakerdeck.com/chokkan/20230327_riken_llm",
   "a": "Naoaki Okazaki",
@@ -1332,6 +1348,14 @@
   "u": "https://speakerdeck.com/odashi/llm-jp-3-and-beyond-training-large-language-models",
   "a": "Yusuke Oda",
   "d": "2025-10-29",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AIスパコン「さくらONE」のLLM学習ベンチマークによる性能評価 / SAKURAONE LLM Training Benchmarking",
+  "u": "https://speakerdeck.com/yuukit/sakuraone-llm-training-benchmarking",
+  "a": "Yuuki Tsubouchi (yuuk1)",
+  "d": "2025-09-05",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
  },
@@ -1470,6 +1494,14 @@
   "d": "2024-02-08",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
+ },
+ {
+  "t": "自作LLM作ろうとして 爆散した話",
+  "u": "https://www.slideshare.net/slideshows/llm-1pdf/265499752",
+  "a": "SuperHot DogCat",
+  "d": "2024-01-17",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）",
+  "src": "slideshare"
  },
  {
   "t": "Stability AI Japanにおける大規模言語モデルの研究開発",
@@ -2240,6 +2272,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "RAGでハマりがちな\"Excelの罠\"を、データの構造化で突破する",
+  "u": "https://speakerdeck.com/harumiweb/rag-findy",
+  "a": "harumi",
+  "d": "2026-02-25",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "AIエージェントによるエンタープライズ向けスライド検索！",
   "u": "https://speakerdeck.com/shibuiwilliam/aiezientoniyoruentapuraizuxiang-kesuraidojian-suo",
   "a": "shibuiwilliam",
@@ -2252,6 +2292,14 @@
   "u": "https://speakerdeck.com/hide212131/the-trending-graphrag-understanding-its-potential-and-challenges",
   "a": "鏡味秀行",
   "d": "2024-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ビックデータにおける、RAG性能向上戦略",
+  "u": "https://speakerdeck.com/randoryo/hitukutetaniokeru-ragxing-neng-xiang-shang-zhan-lue",
+  "a": "大堀遼介",
+  "d": "2024-05-24",
   "s": "検索・RAG",
   "src": "speakerdeck"
  },
@@ -2516,6 +2564,14 @@
   "u": "https://speakerdeck.com/nearme_tech/safe-llm-usage-in-development",
   "a": "NearMe",
   "d": "2026-05-08",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMに何を任せ、何を任せないか",
+  "u": "https://speakerdeck.com/cap120/llmnihe-woren-se-he-woren-senaika",
+  "a": "an",
+  "d": "2026-03-25",
   "s": "LLM アプリケーション開発・運用",
   "src": "speakerdeck"
  },
@@ -3142,6 +3198,14 @@
   "d": "2025-10-31",
   "s": "テキスト分類・感情分析",
   "src": "speakerdeck"
+ },
+ {
+  "t": "TAS2024_大規模言語モデルを活用した金融センチメント分析における企業固有バイアスの評価",
+  "u": "https://www.slideshare.net/slideshow/tas2024_/271542006",
+  "a": "Kei Nakagawa",
+  "d": "2024-09-03",
+  "s": "テキスト分類・感情分析",
+  "src": "slideshare"
  },
  {
   "t": "gpt-3.5-turboのFine-tuningによる分類タスク改善の試み",
@@ -3848,6 +3912,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "LLMでAI-OCR、実際どうなの？",
+  "u": "https://speakerdeck.com/sbrf248/llm-ai-ocr-layerx-bet-ai-day-lt",
+  "a": "sbrf248",
+  "d": "2025-07-30",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
+ },
+ {
   "t": "帳票構造化タスクにおけるLLMファインチューニングの性能評価",
   "u": "https://speakerdeck.com/yosukeyoshida/zhang-piao-gou-zao-hua-tasukuniokerullmhuaintiyuningunoxing-neng-ping-jia",
   "a": "yosukeyoshida",
@@ -4056,12 +4128,28 @@
   "src": "speakerdeck"
  },
  {
+  "t": "LLM翻訳 vs 機械翻訳！ AWSでのリアルタイム翻訳は何がベスト？",
+  "u": "https://www.docswell.com/s/moriyama/ZMQV6G-2026-05-25-042218",
+  "a": "もりやま",
+  "d": "2026-05-25",
+  "s": "機械翻訳",
+  "src": "docswell"
+ },
+ {
   "t": "古典日本語の現代語機械翻訳のための評価資源の整備",
   "u": "https://speakerdeck.com/shigashiyama/20260318-aamt",
   "a": "shigashiyama",
   "d": "2026-03-18",
   "s": "機械翻訳",
   "src": "speakerdeck"
+ },
+ {
+  "t": "Google ADKを活用したエンタメ翻訳",
+  "u": "https://www.docswell.com/s/3906110/ZM6NN2-CEDEC-KYUSHU-2025",
+  "a": "増渕大輔",
+  "d": "2025-11-30",
+  "s": "機械翻訳",
+  "src": "docswell"
  },
  {
   "t": "自動同時音声翻訳技術の進展とこれからの展望（九州大学アジアウィーク2025 Webセミナー）",
@@ -4448,6 +4536,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "クロスモーダル表現学習の研究動向: 音声関連を中心として",
+  "u": "https://speakerdeck.com/ryomasumura/kurosumodarubiao-xian-xue-xi-noyan-jiu-dong-xiang-yin-sheng-guan-lian-wozhong-xin-tosite",
+  "a": "Ryo Masumura",
+  "d": "2024-03-08",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Interspeech2023 参加報告",
   "u": "https://speakerdeck.com/kentaro321/interspeech2023-can-jia-bao-gao",
   "a": "Kentaro Mitsui",
@@ -4460,6 +4556,22 @@
   "u": "https://speakerdeck.com/atsushi_ando/yin-sheng-gan-qing-ren-shi-ji-shu-nozui-qian-xian",
   "a": "A. Ando",
   "d": "2023-09-26",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ESPnet2のTTS実施報告",
+  "u": "https://speakerdeck.com/takeshun256/espnet2falsettsshi-shi-bao-gao",
+  "a": "takeshun",
+  "d": "2022-06-21",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "複数人会話データを活用した音声言語処理とアプリケーション(slud研究会招待講演)",
+  "u": "https://speakerdeck.com/ryomasumura/fu-shu-ren-hui-hua-detawohuo-yong-sitayin-sheng-yan-yu-chu-li-toapurikesiyon-sludyan-jiu-hui-zhao-dai-jiang-yan",
+  "a": "Ryo Masumura",
+  "d": "2021-03-02",
   "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
@@ -5008,6 +5120,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "LLM の内部を操るベクトル？",
+  "u": "https://speakerdeck.com/shunk031/llm-nonei-bu-wocao-rubekutoru",
+  "a": "Shunsuke KITADA",
+  "d": "2026-02-17",
+  "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
   "t": "最先端NLP勉強会2025: Quantifying Semantic Emergence in Language Models",
   "u": "https://speakerdeck.com/ttsujimura/snlp2025-quantifying-semantic-emergence-in-language-models",
   "a": "Tomoki Tsujimura",
@@ -5212,6 +5332,14 @@
   "u": "https://speakerdeck.com/k951286/kagglezi-ran-yan-yu-chu-li-konpexiang-kerokarullmhuo-yong-ru-men",
   "a": "monnu",
   "d": "2025-02-27",
+  "s": "産業応用・実務事例",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLM活用の現在とこれから：LayerXにおける事例とともに 2025/1 ver.",
+  "u": "https://speakerdeck.com/yuya4/layerx-llm-202501",
+  "a": "Yuya Matsumura",
+  "d": "2025-01-23",
   "s": "産業応用・実務事例",
   "src": "speakerdeck"
  },

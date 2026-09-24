@@ -21,6 +21,27 @@
   "s": "学会チュートリアル"
  },
  {
+  "t": "言語処理学会第32回年次大会(NLP2026)に参加しました",
+  "u": "https://buildersbox.corp-sansan.com/entry/2026/03/24/100000",
+  "a": "yugen-sato（Sansan）",
+  "d": "2026-03-24",
+  "s": "学会チュートリアル"
+ },
+ {
+  "t": "「言語処理学会第32回年次大会（NLP2026）」参加レポート",
+  "u": "https://tech.legalforce.co.jp/entry/nlp2026-report",
+  "a": "藤田（LegalOn Technologies）",
+  "d": "2026-03-18",
+  "s": "学会チュートリアル"
+ },
+ {
+  "t": "言語処理学会第32回年次大会(NLP2026) 参加レポート",
+  "u": "https://tech.layerx.co.jp/entry/2026/03/16/145839",
+  "a": "堤（LayerX）",
+  "d": "2026-03-16",
+  "s": "学会チュートリアル"
+ },
+ {
   "t": "言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！",
   "u": "https://hacosato.hatenablog.com/entry/201904020/nlp2019",
   "a": "hacosato",
@@ -294,6 +315,13 @@
   "s": "単語・文の分散表現"
  },
  {
+  "t": "実は進化している！ローカルで動くembeddingモデルたち",
+  "u": "https://zenn.dev/sirasagi62/articles/a75d0ba39f0125",
+  "a": "Sirasagi62",
+  "d": "2025-10-09",
+  "s": "単語・文の分散表現"
+ },
+ {
   "t": "Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで",
   "u": "https://zenn.dev/dxc_ai_driven/articles/22069126393a7d",
   "a": "Adrian Tam（DXC AI-Driven）",
@@ -441,6 +469,13 @@
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
+  "t": "フルスクラッチLLM「PLaMo」の事前学習を支える技術",
+  "u": "https://preferred.jp/ja/blog/tech/plamo-pretrain-codebase/",
+  "a": "Preferred Networks",
+  "d": "2025-02-05",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
   "t": "事前学習の方法（10/27日勉強会公開用）",
   "u": "https://zenn.dev/matsuolab/articles/9f05f2be70cff8",
   "a": "Masaki Okamura",
@@ -560,6 +595,13 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "継続事前学習の内容を忘却せずにSupervised fine tuningしたい",
+  "u": "https://qiita.com/ikedachin/items/8c31b359ec7473e00595",
+  "a": "ikedachin",
+  "d": "2025-01-16",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
   "t": "LLMのファインチューニングでドメイン知識の獲得は可能か。知識付与の限界と可能性",
   "u": "https://zenn.dev/dalab/articles/d41110bfbb120e",
   "a": "Ikeda Shouhei",
@@ -651,6 +693,13 @@
   "s": "評価・ベンチマーク"
  },
  {
+  "t": "LLM-as-a-Judgeを採点器で終わらせないために、評価ケース化と人間確認ゲートを整理してみた",
+  "u": "https://tech.iimon.co.jp/entry/2026/07/08/080000",
+  "a": "須藤（iimon）",
+  "d": "2026-07-08",
+  "s": "評価・ベンチマーク"
+ },
+ {
   "t": "LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法",
   "u": "https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026",
   "a": "lumichy",
@@ -658,10 +707,24 @@
   "s": "評価・ベンチマーク"
  },
  {
+  "t": "LLMプロダクトの評価はどう考えてどうやればいいの？",
+  "u": "https://zenn.dev/gvatech_blog/articles/7ff1d69682a415",
+  "a": "ojapi（GVA TECH）",
+  "d": "2026-02-20",
+  "s": "評価・ベンチマーク"
+ },
+ {
   "t": "選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ",
   "u": "https://zenn.dev/headwaters/articles/4ec70e80a5c477",
   "a": "T. Shimotomai, PhD.",
   "d": "2026-02-06",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "LLMによるLLMの評価「LLM-as-a-Judge」入門〜基礎から運用まで徹底解説",
+  "u": "https://zenn.dev/pharmax/articles/2d07bf0498e212",
+  "a": "Akihiro Ueno（PharmaX）",
+  "d": "2024-08-06",
   "s": "評価・ベンチマーク"
  },
  {
@@ -714,10 +777,31 @@
   "s": "評価・ベンチマーク"
  },
  {
+  "t": "ゼロから作るSNS その22 超低コスト全文検索の実運用に向けた改良",
+  "u": "https://mikio.hatenablog.com/entry/2026/08/21/053626",
+  "a": "fridaynight（豪鬼メモ）",
+  "d": "2026-08-21",
+  "s": "全文検索・検索基盤"
+ },
+ {
   "t": "マルチモーダルLLMを活用したZOZOTOWN検索の関連性評価手法",
   "u": "https://techblog.zozo.com/entry/search-quantitative-evaluation-llm",
   "a": "橘（ZOZO）",
   "d": "2026-02-03",
+  "s": "全文検索・検索基盤"
+ },
+ {
+  "t": "改めて振り返る全文検索エンジンのアナライザー設定",
+  "u": "https://techblog.zozo.com/entry/improve-search-engine-analyzer-settings",
+  "a": "vasilyjp（株式会社ZOZO）",
+  "d": "2025-02-18",
+  "s": "全文検索・検索基盤"
+ },
+ {
+  "t": "ゼロから検索エンジニアになるまで",
+  "u": "https://zenn.dev/knowledgework/articles/ff066e9e949e71",
+  "a": "togatoga（Knowledge Work）",
+  "d": "2025-02-17",
   "s": "全文検索・検索基盤"
  },
  {
@@ -1001,6 +1085,13 @@
   "s": "テキスト分類・感情分析"
  },
  {
+  "t": "Zennへのスパム投稿が急増したのでLLMでなんとかした話",
+  "u": "https://zenn.dev/team_zenn/articles/zenn-check-spam-by-llm",
+  "a": "dyoshikawa（Zenn）",
+  "d": "2024-08-07",
+  "s": "スパム・有害コンテンツ対策"
+ },
+ {
   "t": "マルチモーダルモデルによる不正出品の検知",
   "u": "https://engineering.mercari.com/blog/entry/2018-04-24-164919/",
   "a": "mercari-shido（メルカリ）",
@@ -1043,6 +1134,13 @@
   "s": "テキストマイニング・トピックモデル"
  },
  {
+  "t": "LLMの気持ちに寄り添って生成的に固有表現認識を解くプロンプトを検討する",
+  "u": "https://zenn.dev/0x9d28/articles/cced78119f725d",
+  "a": "鴨",
+  "d": "2023-09-18",
+  "s": "情報抽出・固有表現・アノテーション"
+ },
+ {
   "t": "【自然言語処理】アノテーションがぐっと楽になる！ お助けツールprodigyについて",
   "u": "https://note.com/asahi_ictrad/n/n2201dad206bd",
   "a": "朝日新聞社メディア研究開発センター（杉野かおり）",
@@ -1083,6 +1181,20 @@
   "a": "Hironsan",
   "d": "2018-05-28",
   "s": "情報抽出・固有表現・アノテーション"
+ },
+ {
+  "t": "OCRだけでは読めない日本語帳票をローカルLLMで補正する ─ 24GB VRAMで動く多段パイプライン",
+  "u": "https://qiita.com/nakatada-lab/items/b5e12ee21f95e9ce7652",
+  "a": "nakatada-lab",
+  "d": "2026-06-24",
+  "s": "文書処理・OCR"
+ },
+ {
+  "t": "オンプレRAGの第一歩 —— 日本語OCR 7モデルを実機で定量比較",
+  "u": "https://zenn.dev/epicai_techblog/articles/a28272a83c24d0",
+  "a": "a_shinohara",
+  "d": "2026-03-10",
+  "s": "文書処理・OCR"
  },
  {
   "t": "手書き文字起こしの比較",

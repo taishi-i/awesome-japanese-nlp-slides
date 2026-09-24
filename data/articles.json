@@ -30,6 +30,27 @@
     "added": "2026-09-05"
    },
    {
+    "title": "言語処理学会第32回年次大会(NLP2026)に参加しました",
+    "url": "https://buildersbox.corp-sansan.com/entry/2026/03/24/100000",
+    "author": "yugen-sato（Sansan）",
+    "date": "2026-03-24",
+    "added": "2026-09-24"
+   },
+   {
+    "title": "「言語処理学会第32回年次大会（NLP2026）」参加レポート",
+    "url": "https://tech.legalforce.co.jp/entry/nlp2026-report",
+    "author": "藤田（LegalOn Technologies）",
+    "date": "2026-03-18",
+    "added": "2026-09-24"
+   },
+   {
+    "title": "言語処理学会第32回年次大会(NLP2026) 参加レポート",
+    "url": "https://tech.layerx.co.jp/entry/2026/03/16/145839",
+    "author": "堤（LayerX）",
+    "date": "2026-03-16",
+    "added": "2026-09-24"
+   },
+   {
     "title": "言語処理学会の論文がぜんぶ公開されたからみんなで見ようぜ！！",
     "url": "https://hacosato.hatenablog.com/entry/201904020/nlp2019",
     "author": "hacosato",
@@ -317,6 +338,13 @@
     "added": "2026-08-30"
    },
    {
+    "title": "実は進化している！ローカルで動くembeddingモデルたち",
+    "url": "https://zenn.dev/sirasagi62/articles/a75d0ba39f0125",
+    "author": "Sirasagi62",
+    "date": "2025-10-09",
+    "added": "2026-09-24"
+   },
+   {
     "title": "Sentence-Transformersで日本語文埋め込みを理解する：可視化からクラスタリングまで",
     "url": "https://zenn.dev/dxc_ai_driven/articles/22069126393a7d",
     "author": "Adrian Tam（DXC AI-Driven）",
@@ -469,6 +497,13 @@
     "added": "2026-09-12"
    },
    {
+    "title": "フルスクラッチLLM「PLaMo」の事前学習を支える技術",
+    "url": "https://preferred.jp/ja/blog/tech/plamo-pretrain-codebase/",
+    "author": "Preferred Networks",
+    "date": "2025-02-05",
+    "added": "2026-09-24"
+   },
+   {
     "title": "事前学習の方法（10/27日勉強会公開用）",
     "url": "https://zenn.dev/matsuolab/articles/9f05f2be70cff8",
     "author": "Masaki Okamura",
@@ -590,6 +625,13 @@
     "added": "2026-09-18"
    },
    {
+    "title": "継続事前学習の内容を忘却せずにSupervised fine tuningしたい",
+    "url": "https://qiita.com/ikedachin/items/8c31b359ec7473e00595",
+    "author": "ikedachin",
+    "date": "2025-01-16",
+    "added": "2026-09-24"
+   },
+   {
     "title": "LLMのファインチューニングでドメイン知識の獲得は可能か。知識付与の限界と可能性",
     "url": "https://zenn.dev/dalab/articles/d41110bfbb120e",
     "author": "Ikeda Shouhei",
@@ -686,6 +728,13 @@
     "added": "2026-08-30"
    },
    {
+    "title": "LLM-as-a-Judgeを採点器で終わらせないために、評価ケース化と人間確認ゲートを整理してみた",
+    "url": "https://tech.iimon.co.jp/entry/2026/07/08/080000",
+    "author": "須藤（iimon）",
+    "date": "2026-07-08",
+    "added": "2026-09-24"
+   },
+   {
     "title": "LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法",
     "url": "https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026",
     "author": "lumichy",
@@ -693,11 +742,25 @@
     "added": "2026-09-18"
    },
    {
+    "title": "LLMプロダクトの評価はどう考えてどうやればいいの？",
+    "url": "https://zenn.dev/gvatech_blog/articles/7ff1d69682a415",
+    "author": "ojapi（GVA TECH）",
+    "date": "2026-02-20",
+    "added": "2026-09-24"
+   },
+   {
     "title": "選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ",
     "url": "https://zenn.dev/headwaters/articles/4ec70e80a5c477",
     "author": "T. Shimotomai, PhD.",
     "date": "2026-02-06",
     "added": "2026-09-18"
+   },
+   {
+    "title": "LLMによるLLMの評価「LLM-as-a-Judge」入門〜基礎から運用まで徹底解説",
+    "url": "https://zenn.dev/pharmax/articles/2d07bf0498e212",
+    "author": "Akihiro Ueno（PharmaX）",
+    "date": "2024-08-06",
+    "added": "2026-09-24"
    },
    {
     "title": "日本語言語理解ベンチマークJGLUEの構築 〜 自然言語処理モデルの評価用データセットを公開しました",
@@ -751,11 +814,32 @@
   "blurb": "Elasticsearchなど検索基盤を日本語向けにチューニングする記事。",
   "entries": [
    {
+    "title": "ゼロから作るSNS その22 超低コスト全文検索の実運用に向けた改良",
+    "url": "https://mikio.hatenablog.com/entry/2026/08/21/053626",
+    "author": "fridaynight（豪鬼メモ）",
+    "date": "2026-08-21",
+    "added": "2026-09-24"
+   },
+   {
     "title": "マルチモーダルLLMを活用したZOZOTOWN検索の関連性評価手法",
     "url": "https://techblog.zozo.com/entry/search-quantitative-evaluation-llm",
     "author": "橘（ZOZO）",
     "date": "2026-02-03",
     "added": "2026-08-22"
+   },
+   {
+    "title": "改めて振り返る全文検索エンジンのアナライザー設定",
+    "url": "https://techblog.zozo.com/entry/improve-search-engine-analyzer-settings",
+    "author": "vasilyjp（株式会社ZOZO）",
+    "date": "2025-02-18",
+    "added": "2026-09-24"
+   },
+   {
+    "title": "ゼロから検索エンジニアになるまで",
+    "url": "https://zenn.dev/knowledgework/articles/ff066e9e949e71",
+    "author": "togatoga（Knowledge Work）",
+    "date": "2025-02-17",
+    "added": "2026-09-24"
    },
    {
     "title": "全文検索を日本語向けにチューニングする",
@@ -1053,6 +1137,13 @@
   "blurb": "不適切な投稿・コメントを検知する仕組みの開発記事。",
   "entries": [
    {
+    "title": "Zennへのスパム投稿が急増したのでLLMでなんとかした話",
+    "url": "https://zenn.dev/team_zenn/articles/zenn-check-spam-by-llm",
+    "author": "dyoshikawa（Zenn）",
+    "date": "2024-08-07",
+    "added": "2026-09-24"
+   },
+   {
     "title": "マルチモーダルモデルによる不正出品の検知",
     "url": "https://engineering.mercari.com/blog/entry/2018-04-24-164919/",
     "author": "mercari-shido（メルカリ）",
@@ -1103,6 +1194,13 @@
   "blurb": "固有表現抽出（NER）のデータセットと実装の記事。",
   "entries": [
    {
+    "title": "LLMの気持ちに寄り添って生成的に固有表現認識を解くプロンプトを検討する",
+    "url": "https://zenn.dev/0x9d28/articles/cced78119f725d",
+    "author": "鴨",
+    "date": "2023-09-18",
+    "added": "2026-09-24"
+   },
+   {
     "title": "【自然言語処理】アノテーションがぐっと楽になる！ お助けツールprodigyについて",
     "url": "https://note.com/asahi_ictrad/n/n2201dad206bd",
     "author": "朝日新聞社メディア研究開発センター（杉野かおり）",
@@ -1144,6 +1242,20 @@
   "section": "文書処理・OCR",
   "blurb": "帳票・請求書などをAI-OCRやLLMでデータ化する記事。",
   "entries": [
+   {
+    "title": "OCRだけでは読めない日本語帳票をローカルLLMで補正する ─ 24GB VRAMで動く多段パイプライン",
+    "url": "https://qiita.com/nakatada-lab/items/b5e12ee21f95e9ce7652",
+    "author": "nakatada-lab",
+    "date": "2026-06-24",
+    "added": "2026-09-24"
+   },
+   {
+    "title": "オンプレRAGの第一歩 —— 日本語OCR 7モデルを実機で定量比較",
+    "url": "https://zenn.dev/epicai_techblog/articles/a28272a83c24d0",
+    "author": "a_shinohara",
+    "date": "2026-03-10",
+    "added": "2026-09-24"
+   },
    {
     "title": "手書き文字起こしの比較",
     "url": "https://hunny-hachimitsu.hatenablog.com/entry/2025/11/26/215702",
