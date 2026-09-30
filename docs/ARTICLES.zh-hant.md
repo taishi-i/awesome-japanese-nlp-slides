@@ -9,7 +9,7 @@
 這是一份精選清單，收錄了日語自然語言處理（NLP）相關、由企業與個人開發者撰寫的網頁與部落格文章。
 採用與[投影片清單](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.zh-hant.md)相同的 32 個主題分類。
 
-共收錄 217 篇文章，分為 32 個分類。
+共收錄 220 篇文章，分為 32 個分類。
 
 文章標題保留發表時的原文，因此絕大多數為日語。
 
@@ -20,60 +20,12 @@
 
 這是最近 7 天內加入本清單的文章。自加入之日起，會在此顯示 7 天。
 
-**學會教學演講**
-- [言語処理学会第32回年次大会(NLP2026)に参加しました](https://buildersbox.corp-sansan.com/entry/2026/03/24/100000) - yugen-sato（Sansan）（2026-03）
-- [「言語処理学会第32回年次大会（NLP2026）」参加レポート](https://tech.legalforce.co.jp/entry/nlp2026-report) - 藤田（LegalOn Technologies）（2026-03）
-- [言語処理学会第32回年次大会(NLP2026) 参加レポート](https://tech.layerx.co.jp/entry/2026/03/16/145839) - 堤（LayerX）（2026-03）
-
-**日語的基礎分析（形態素分析・句法分析）**
-- [形態素解析の歴史と機械学習への影響~中野哲平は頑張るエンジニアですという文字列に対して解析](https://zenn.dev/m_nakano_teppei/articles/62e039f03ff88c) - 中野哲平（2025-02）
-- [形態素解析の可視化ツール「ViSudachi」を使ってみる](https://zenn.dev/sorami/articles/66c553df6de7b0) - sorami（2021-11）
-
-**NLP 函式庫與工具開發**
-- [高速日本語形態素解析 jagger を動かすメモ](https://zenn.dev/syoyo/articles/8381ddef921a5a) - syoyo（2023-07）
-
-**詞與句的分散式表示**
-- [実は進化している！ローカルで動くembeddingモデルたち](https://zenn.dev/sirasagi62/articles/a75d0ba39f0125) - Sirasagi62（2025-10）
-
-**大型語言模型（概論・趨勢）**
-- [NLP2026の最優秀賞・優秀賞から見る言語処理最前線](https://zenn.dev/mkj/articles/nlp_20260208) - Taisei Ozaki（2026-03）
-
-**日語 LLM 的開發（預訓練・語料庫建置）**
-- [フルスクラッチLLM「PLaMo」の事前学習を支える技術](https://preferred.jp/ja/blog/tech/plamo-pretrain-codebase/) - Preferred Networks（2025-02）
-- [国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える](https://zenn.dev/nitic_students/articles/e2e331dea0c616) - Juna1013（2026-03）
-
-**微調・後訓練**
-- [継続事前学習の内容を忘却せずにSupervised fine tuningしたい](https://qiita.com/ikedachin/items/8c31b359ec7473e00595) - ikedachin（2025-01）
-- [【論文深掘り】LLM ファインチューニングの"内部動作"を探る](https://zenn.dev/gemcook/articles/f0c2b88b142624) - MJ（2025-06）
-- [LLMのファインチューニングでドメイン知識の獲得は可能か。知識付与の限界と可能性](https://zenn.dev/dalab/articles/d41110bfbb120e) - Ikeda Shouhei（2024-11）
-
 **評測・基準測試**
-- [LLM-as-a-Judgeを採点器で終わらせないために、評価ケース化と人間確認ゲートを整理してみた](https://tech.iimon.co.jp/entry/2026/07/08/080000) - 須藤（iimon）（2026-07）
-- [LLMプロダクトの評価はどう考えてどうやればいいの？](https://zenn.dev/gvatech_blog/articles/7ff1d69682a415) - ojapi（GVA TECH）（2026-02）
-- [LLMによるLLMの評価「LLM-as-a-Judge」入門〜基礎から運用まで徹底解説](https://zenn.dev/pharmax/articles/2d07bf0498e212) - Akihiro Ueno（PharmaX）（2024-08）
-- [LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法](https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026) - lumichy（2026-04）
-- [選好ベースのアライメント／評価（LLM-as-a-judge）と物語アライメントに関する最新動向：サーベイ](https://zenn.dev/headwaters/articles/4ec70e80a5c477) - T. Shimotomai, PhD.（2026-02）
+- [J-tau の3ドメインを日英で実験した](https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en) - Hirotaka（2026-08）
+- [【GENIAC第3期成果】会議要約ベンチマーク「J-MeetEval」の整備](https://zenn.dev/team_nishika/articles/2d346fd1151faa) - naoto nm（Nishika）（2026-08）
+- [LLM-as-a-Judgeはどこまで信用できるか。人手177件と突き合わせたらκ=0.25だった](https://zenn.dev/tokimoa/articles/68bec615f313c7) - tokimoa（2026-07）
 
-**全文檢索・搜尋基礎架構**
-- [ゼロから作るSNS その22 超低コスト全文検索の実運用に向けた改良](https://mikio.hatenablog.com/entry/2026/08/21/053626) - fridaynight（豪鬼メモ）（2026-08）
-- [改めて振り返る全文検索エンジンのアナライザー設定](https://techblog.zozo.com/entry/improve-search-engine-analyzer-settings) - vasilyjp（株式会社ZOZO）（2025-02）
-- [ゼロから検索エンジニアになるまで](https://zenn.dev/knowledgework/articles/ff066e9e949e71) - togatoga（Knowledge Work）（2025-02）
-
-**檢索・RAG**
-- [LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する](https://qiita.com/ynakayama/items/88005c72a6272939ad0b) - Yasuhiro Nakayama（2026-09）
-- [【完全解説】なぜLangChainで作った社内RAGは現場で死ぬのか？〜完全閉域網・BM25+ChromaDBハイブリッドRRF・コサイン](https://qiita.com/dytjj02/items/58c75b1ed60f7ff9c532) - dytjj02（2026-09）
-
-**垃圾訊息・有害內容治理**
-- [Zennへのスパム投稿が急増したのでLLMでなんとかした話](https://zenn.dev/team_zenn/articles/zenn-check-spam-by-llm) - dyoshikawa（Zenn）（2024-08）
-
-**資訊抽取・命名實體・標註**
-- [LLMの気持ちに寄り添って生成的に固有表現認識を解くプロンプトを検討する](https://zenn.dev/0x9d28/articles/cced78119f725d) - 鴨（2023-09）
-
-**文件處理・OCR**
-- [OCRだけでは読めない日本語帳票をローカルLLMで補正する ─ 24GB VRAMで動く多段パイプライン](https://qiita.com/nakatada-lab/items/b5e12ee21f95e9ce7652) - nakatada-lab（2026-06）
-- [オンプレRAGの第一歩 —— 日本語OCR 7モデルを実機で定量比較](https://zenn.dev/epicai_techblog/articles/a28272a83c24d0) - a_shinohara（2026-03）
-
-_2026-09-24 更新_
+_2026-10-01 更新_
 
 ## 目錄
 
@@ -277,6 +229,9 @@ vLLMや量子化を使った推論高速化の実践記事。
 
 JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。
 
+- [J-tau の3ドメインを日英で実験した](https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en) - Hirotaka（2026-08）
+- [【GENIAC第3期成果】会議要約ベンチマーク「J-MeetEval」の整備](https://zenn.dev/team_nishika/articles/2d346fd1151faa) - naoto nm（Nishika）（2026-08）
+- [LLM-as-a-Judgeはどこまで信用できるか。人手177件と突き合わせたらκ=0.25だった](https://zenn.dev/tokimoa/articles/68bec615f313c7) - tokimoa（2026-07）
 - [日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）](https://blog.qualiteg.com/llm-ranking-2026/) - Qualiteg プロダクト開発部（2026-07）
 - [LLM-as-a-Judgeを採点器で終わらせないために、評価ケース化と人間確認ゲートを整理してみた](https://tech.iimon.co.jp/entry/2026/07/08/080000) - 須藤（iimon）（2026-07）
 - [LLMベンチマーク21選を完全解説：AIの「成績表」を正しく読む方法](https://zenn.dev/lumichy/articles/llm-benchmarks-guide-2026) - lumichy（2026-04）

@@ -721,6 +721,27 @@
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
    {
+    "title": "J-tau の3ドメインを日英で実験した",
+    "url": "https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en",
+    "author": "Hirotaka",
+    "date": "2026-08-21",
+    "added": "2026-10-01"
+   },
+   {
+    "title": "【GENIAC第3期成果】会議要約ベンチマーク「J-MeetEval」の整備",
+    "url": "https://zenn.dev/team_nishika/articles/2d346fd1151faa",
+    "author": "naoto nm（Nishika）",
+    "date": "2026-08-10",
+    "added": "2026-10-01"
+   },
+   {
+    "title": "LLM-as-a-Judgeはどこまで信用できるか。人手177件と突き合わせたらκ=0.25だった",
+    "url": "https://zenn.dev/tokimoa/articles/68bec615f313c7",
+    "author": "tokimoa",
+    "date": "2026-07-24",
+    "added": "2026-10-01"
+   },
+   {
     "title": "日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）",
     "url": "https://blog.qualiteg.com/llm-ranking-2026/",
     "author": "Qualiteg プロダクト開発部",

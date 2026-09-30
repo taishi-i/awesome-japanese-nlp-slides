@@ -686,6 +686,27 @@
   "s": "LLM の推論最適化・サービング"
  },
  {
+  "t": "J-tau の3ドメインを日英で実験した",
+  "u": "https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en",
+  "a": "Hirotaka",
+  "d": "2026-08-21",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "【GENIAC第3期成果】会議要約ベンチマーク「J-MeetEval」の整備",
+  "u": "https://zenn.dev/team_nishika/articles/2d346fd1151faa",
+  "a": "naoto nm（Nishika）",
+  "d": "2026-08-10",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "LLM-as-a-Judgeはどこまで信用できるか。人手177件と突き合わせたらκ=0.25だった",
+  "u": "https://zenn.dev/tokimoa/articles/68bec615f313c7",
+  "a": "tokimoa",
+  "d": "2026-07-24",
+  "s": "評価・ベンチマーク"
+ },
+ {
   "t": "日本語対応 LLMランキング2026～ベンチマーク分析レポート～（7月10日版）",
   "u": "https://blog.qualiteg.com/llm-ranking-2026/",
   "a": "Qualiteg プロダクト開発部",

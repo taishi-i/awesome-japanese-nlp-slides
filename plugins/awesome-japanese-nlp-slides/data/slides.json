@@ -1016,6 +1016,14 @@
   "src": "slideshare"
  },
  {
+  "t": "【生成AIなんでも展示会vol.5 LT登壇】NexteraBERT発表資料",
+  "u": "https://speakerdeck.com/rikkabotan7/sheng-cheng-ainandemozhan-shi-hui-vol-dot-5-ltdeng-tan-nexterabertfa-biao-zi-liao",
+  "a": "Rikka Botan",
+  "d": "2026-05-06",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
+ },
+ {
   "t": "論文読み会 SNLP2024 Instruction-tuned Language Models are Better Knowledge Learners. In: ACL 2024",
   "u": "https://speakerdeck.com/s_mizuki_nlp/instruction-tuned-language-models-are-better-knowledge-learners-in-acl-2024",
   "a": "S",
@@ -4528,6 +4536,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "シングルチャネルマルチトーカー音声認識の進展",
+  "u": "https://speakerdeck.com/ryomasumura/singurutiyanerumarutitokayin-sheng-ren-shi-nojin-zhan",
+  "a": "Ryo Masumura",
+  "d": "2026-06-08",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
   "t": "SpeechTranscriber + AIによる文字起こし機能",
   "u": "https://speakerdeck.com/kazuki1220/speechtranscriber-plus-ainiyoruwen-zi-qi-kosiji-neng",
   "a": "Kazuki Shirai",
@@ -5117,6 +5133,14 @@
   "a": "自然言語処理研究室",
   "d": "2012-03-31",
   "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "通時的な類似度行列に基づく単語の意味変化の分析",
+  "u": "https://speakerdeck.com/rudorudo11/tong-shi-de-nalei-si-du-xing-lie-niji-dukudan-yu-noyi-wei-bian-hua-nofen-xi",
+  "a": "hajime kiyama",
+  "d": "2026-03-09",
+  "s": "解釈性・分析・言語学的視点",
   "src": "speakerdeck"
  },
  {
