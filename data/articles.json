@@ -324,6 +324,20 @@
   "blurb": "単語埋め込み・分散表現の仕組みと活用の解説記事。",
   "entries": [
    {
+    "title": "日本語検索1位を達成したLLMベースの日本語埋め込みモデル",
+    "url": "https://zenn.dev/sionicai_jp/articles/a97e20332f8881",
+    "author": "サイオニックエーアイ株式会社",
+    "date": "2026-09-20",
+    "added": "2026-10-05"
+   },
+   {
+    "title": "日本語の埋め込みモデルって結局どれが良いの？JMTEBのスコアと実測で比べてみた",
+    "url": "https://zenn.dev/shogo_h/articles/japanese-embedding-benchmark-2026",
+    "author": "shogo-h",
+    "date": "2026-08-30",
+    "added": "2026-10-05"
+   },
+   {
     "title": "日本語に対応した埋め込みモデルの検索性能を比較する",
     "url": "https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja",
     "author": "Hironsan",
@@ -893,6 +907,13 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目",
+    "url": "https://labo.ivyxon.com/japanese-embedding-rerank",
+    "author": "IVYXON",
+    "date": "2026-10-01",
+    "added": "2026-10-05"
+   },
+   {
     "title": "LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する",
     "url": "https://qiita.com/ynakayama/items/88005c72a6272939ad0b",
     "author": "Yasuhiro Nakayama",
@@ -1421,6 +1442,13 @@
     "author": "heroz-tkubo（HEROZ）",
     "date": "2026-08-18",
     "added": "2026-08-26"
+   },
+   {
+    "title": "WER・CERだけでは不十分？日本語音声認識を「名詞・固有名詞F1スコア」で再評価した結果",
+    "url": "https://neosophie.com/ja/blog/20260421-asr-evaluation",
+    "author": "Neosophie Editorial",
+    "date": "2026-04-21",
+    "added": "2026-10-05"
    },
    {
     "title": "Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか",

@@ -139,6 +139,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "ことばの意味を計算するしくみ",
+    "url": "https://speakerdeck.com/verypluming/kotobanoyi-wei-woji-suan-surusikumi",
+    "author": "Hitomi Yanaka",
+    "date": "2025-03-09",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
+   },
+   {
     "title": "最強DB講義 #35 大規模言語モデルに基づく検索モデル",
     "url": "https://speakerdeck.com/mpkato/zui-qiang-dbjiang-yi-number-35-da-gui-mo-yan-yu-moderuniji-dukujian-suo-moderu",
     "author": "Makoto P. Kato",
@@ -257,6 +265,14 @@
   "section": "大学講義・体系的な講義資料",
   "blurb": "大学の講義や、書籍の輪読会で使われた連続講義資料。",
   "entries": [
+   {
+    "title": "言葉をはかる：テキストマイニング入門①講義編",
+    "url": "https://speakerdeck.com/satocos135/kotoba-o-hakaru-tekisuto-mainingu-nyuumon-kougihen",
+    "author": "Kosuke Sato",
+    "date": "2026-09-14",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
+   },
    {
     "title": "特殊演習(データ・AI活用) 第2回 生成AIの概要と利用方法",
     "url": "https://www.docswell.com/s/3349800/KDWP1W-2026-01-25-222913",
@@ -1221,6 +1237,14 @@
     "date": "2026-04-20",
     "source": "speakerdeck",
     "added": "2026-08-19"
+   },
+   {
+    "title": "大規模データに基づく自然言語処理",
+    "url": "https://www.slideshare.net/JunSuzuki21/3-udac",
+    "author": "鈴木潤",
+    "date": "2023-02-07",
+    "source": "slideshare",
+    "added": "2026-10-05"
    }
   ]
  },
@@ -1414,6 +1438,14 @@
     "added": "2026-09-24"
    },
    {
+    "title": "大規模言語モデル開発を支える分散学習技術",
+    "url": "https://www.slideshare.net/slideshow/ss-7984/264914233",
+    "author": "藤井一喜",
+    "date": "2023-12-26",
+    "source": "slideshare",
+    "added": "2026-10-05"
+   },
+   {
     "title": "Stability AI Japanにおける大規模言語モデルの研究開発",
     "url": "https://speakerdeck.com/iwiwi/stability-ai-japanniokeruda-gui-mo-yan-yu-moderunoyan-jiu-kai-fa",
     "author": "Takuya Akiba",
@@ -1449,6 +1481,14 @@
   "section": "ファインチューニング・事後学習",
   "blurb": "既存モデルを目的に合わせて調整する手法。",
   "entries": [
+   {
+    "title": "【DL輪読会】Self-Adapting Language Models(SEAL)",
+    "url": "https://www.docswell.com/s/DeepLearning2023/5G29JJ-2026-02-20-135910",
+    "author": "Deep Learning JP",
+    "date": "2026-02-05",
+    "source": "docswell",
+    "added": "2026-10-05"
+   },
    {
     "title": "OpenAI gpt-oss ファインチューニング入門",
     "url": "https://speakerdeck.com/kmotohas/openai-gpt-oss-huaintiyuninguru-men",
@@ -1707,6 +1747,14 @@
     "author": "Koki Itai",
     "date": "2025-09-23",
     "source": "speakerdeck"
+   },
+   {
+    "title": "Evaluation of an open-access large-scale language model capable of speaking Japanese",
+    "url": "https://www.slideshare.net/slideshow/evaluation-of-an-open-access-large-scale-language-model-capable-of-speaking-japanese/273215044",
+    "author": "Ryousuke Wayama",
+    "date": "2024-11-12",
+    "source": "slideshare",
+    "added": "2026-10-05"
    },
    {
     "title": "日本語が話せるオープンアクセス大規模言語モデルの評価",
@@ -2405,6 +2453,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "PLaMoを毎日の開発で使い育てていく",
+    "url": "https://speakerdeck.com/pfn/20260730_pfn_llm_4_plamo_dogfooding",
+    "author": "Preferred Networks",
+    "date": "2026-07-30",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
+   },
+   {
     "title": "LangfuseによるLLMOps基盤の構築と活用事例",
     "url": "https://speakerdeck.com/zozotech/llmops-platform-with-langfuse",
     "author": "ZOZO Developers",
@@ -2903,6 +2959,14 @@
     "author": "Masahiro Kaneko",
     "date": "2026-06-02",
     "source": "speakerdeck"
+   },
+   {
+    "title": "埋め込み反転攻撃に対するプライバシー保護手法の定量的評価 - 防御効果と有用性のトレードオフ分析 -",
+    "url": "https://speakerdeck.com/techtekt/embedding-inversion-defense-evaluation",
+    "author": "PERSOL CAREER Dev | techtekt",
+    "date": "2026-03-11",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
    },
    {
     "title": "プロンプトインジェクションと事例",
@@ -3470,6 +3534,14 @@
     "author": "Takashi Nishibayashi",
     "date": "2025-05-29",
     "source": "speakerdeck"
+   },
+   {
+    "title": "地理空間情報と自然言語処理：「地球の歩き方旅行記データセット」の高付加価値化を通じて",
+    "url": "https://speakerdeck.com/hiroki13/di-li-kong-jian-qing-bao-tozi-ran-yan-yu-chu-li-di-qiu-nobu-kifang-lu-xing-ji-detasetuto-nogao-fu-jia-jia-zhi-hua-wotong-zite",
+    "author": "Hiroki Ouchi",
+    "date": "2025-01-15",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
    },
    {
     "title": "AIの血肉となるアノテーションデータのために大事にしている事",
@@ -4665,6 +4737,14 @@
   "blurb": "テキスト生成とその応用タスク。",
   "entries": [
    {
+    "title": "20260427 Ehime DS Seminar: MBR-CBDT Decoding",
+    "url": "https://speakerdeck.com/de9uch1/20260427-ehimedscseminar-mbr-cbdt-decoding",
+    "author": "Hiroyuki Deguchi",
+    "date": "2026-09-02",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
+   },
+   {
     "title": "日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization",
     "url": "https://speakerdeck.com/upura/t5-news-summarization",
     "author": "Shotaro Ishihara",
@@ -4805,6 +4885,14 @@
   "section": "解釈性・分析・言語学的視点",
   "blurb": "モデルの中身を覗き、言語の観点から評価する。",
   "entries": [
+   {
+    "title": "Sparse Autoencoder 〜 大規模言語モデルの内部表現を読む 〜　Sparse Autoencoder: Understanding LLM's Latent Representations",
+    "url": "https://speakerdeck.com/neurogica/sparse-autoencoder-daikibo-gengo-moderu-no-naibu-hyougen-o-yomu-sparse-autoencoder-understanding-llm-s-latent-representations",
+    "author": "Neurogica",
+    "date": "2026-09-05",
+    "source": "speakerdeck",
+    "added": "2026-10-05"
+   },
    {
     "title": "通時的な類似度行列に基づく単語の意味変化の分析",
     "url": "https://speakerdeck.com/rudorudo11/tong-shi-de-nalei-si-du-xing-lie-niji-dukudan-yu-noyi-wei-bian-hua-nofen-xi",

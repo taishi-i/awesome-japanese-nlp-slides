@@ -9,7 +9,7 @@
 A curated list of web pages and blog posts on Japanese natural language processing (NLP), written by companies and individual developers.
 Organized under the same 32 topics as the [slide list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.en.md).
 
-220 articles across 32 categories.
+224 articles across 32 categories.
 
 Article titles are kept as published, so most of them are in Japanese.
 
@@ -20,12 +20,22 @@ Article titles are kept as published, so most of them are in Japanese.
 
 Articles added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
 
+**Word & Sentence Embeddings**
+- [日本語検索1位を達成したLLMベースの日本語埋め込みモデル](https://zenn.dev/sionicai_jp/articles/a97e20332f8881) - サイオニックエーアイ株式会社 (2026-09)
+- [日本語の埋め込みモデルって結局どれが良いの？JMTEBのスコアと実測で比べてみた](https://zenn.dev/shogo_h/articles/japanese-embedding-benchmark-2026) - shogo-h (2026-08)
+
 **Evaluation & Benchmarks**
 - [J-tau の3ドメインを日英で実験した](https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en) - Hirotaka (2026-08)
 - [【GENIAC第3期成果】会議要約ベンチマーク「J-MeetEval」の整備](https://zenn.dev/team_nishika/articles/2d346fd1151faa) - naoto nm（Nishika） (2026-08)
 - [LLM-as-a-Judgeはどこまで信用できるか。人手177件と突き合わせたらκ=0.25だった](https://zenn.dev/tokimoa/articles/68bec615f313c7) - tokimoa (2026-07)
 
-_Updated on 2026-10-01_
+**Search & RAG**
+- [日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目](https://labo.ivyxon.com/japanese-embedding-rerank) - IVYXON (2026-10)
+
+**Speech Recognition & Speech Processing**
+- [WER・CERだけでは不十分？日本語音声認識を「名詞・固有名詞F1スコア」で再評価した結果](https://neosophie.com/ja/blog/20260421-asr-evaluation) - Neosophie Editorial (2026-04)
+
+_Updated on 2026-10-05_
 
 ## Contents
 
@@ -144,6 +154,8 @@ IMEやかな漢字変換エンジンの自作記録。
 
 単語埋め込み・分散表現の仕組みと活用の解説記事。
 
+- [日本語検索1位を達成したLLMベースの日本語埋め込みモデル](https://zenn.dev/sionicai_jp/articles/a97e20332f8881) - サイオニックエーアイ株式会社 (2026-09)
+- [日本語の埋め込みモデルって結局どれが良いの？JMTEBのスコアと実測で比べてみた](https://zenn.dev/shogo_h/articles/japanese-embedding-benchmark-2026) - shogo-h (2026-08)
 - [日本語に対応した埋め込みモデルの検索性能を比較する](https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja) - Hironsan (2026-04)
 - [【2026年版】ローカルLLMにおける埋め込みモデルの最前線](https://zenn.dev/cahal_inc/articles/21211c78841847) - 中野哲平 (2026-02)
 - [実は進化している！ローカルで動くembeddingモデルたち](https://zenn.dev/sirasagi62/articles/a75d0ba39f0125) - Sirasagi62 (2025-10)
@@ -263,6 +275,7 @@ Elasticsearchなど検索基盤を日本語向けにチューニングする記�
 
 RAGの仕組みをゼロから実装して学ぶ記事。
 
+- [日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目](https://labo.ivyxon.com/japanese-embedding-rerank) - IVYXON (2026-10)
 - [LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する](https://qiita.com/ynakayama/items/88005c72a6272939ad0b) - Yasuhiro Nakayama (2026-09)
 - [【完全解説】なぜLangChainで作った社内RAGは現場で死ぬのか？〜完全閉域網・BM25+ChromaDBハイブリッドRRF・コサイン](https://qiita.com/dytjj02/items/58c75b1ed60f7ff9c532) - dytjj02 (2026-09)
 - [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト (2026-07)
@@ -394,6 +407,7 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 Whisperなど音声認識モデルの検証・活用記事。
 
 - [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ） (2026-08)
+- [WER・CERだけでは不十分？日本語音声認識を「名詞・固有名詞F1スコア」で再評価した結果](https://neosophie.com/ja/blog/20260421-asr-evaluation) - Neosophie Editorial (2026-04)
 - [Whisper運用の次の壁：短音声誤認識・幻覚亜種をどう減らすか](https://zenn.dev/hidetzu/articles/whisper-recognition-quality) - hidetzu (2026-04)
 - [音声認識ツールWhisperの固有名詞の認識精度向上に向けたチューニング](https://www.canon-its.co.jp/column/tech-report/19) - キヤノンITソリューションズ (2026-02)
 - [SwiftUIで作るオンデバイス話者分離アプリ - 営業商談の音声メモを端末内で完結](https://zenn.dev/okamyuji/articles/swiftui-offline-speaker-diarization) - okamyuji (2025-12)

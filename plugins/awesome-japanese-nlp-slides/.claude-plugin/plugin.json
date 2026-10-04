@@ -1,7 +1,7 @@
 {
   "name": "awesome-japanese-nlp-slides",
   "version": "0.3.0",
-  "description": "Search 600+ curated Japanese NLP presentation slides (Speaker Deck, Docswell, SlideShare) and 150+ blog articles / tech-blog posts: tutorials, university lectures, LLM development, RAG, evaluation, and industry case studies. Also finds new slides on the web that the list does not cover yet",
+  "description": "Search 700+ curated Japanese NLP presentation slides (Speaker Deck, Docswell, SlideShare) and 200+ blog articles / tech-blog posts: tutorials, university lectures, LLM development, RAG, evaluation, and industry case studies. Also finds new slides on the web that the list does not cover yet",
   "author": {
     "name": "taishi-i"
   },

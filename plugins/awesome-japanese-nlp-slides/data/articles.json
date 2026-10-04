@@ -301,6 +301,20 @@
   "s": "辞書・かな漢字変換・日本語入力"
  },
  {
+  "t": "日本語検索1位を達成したLLMベースの日本語埋め込みモデル",
+  "u": "https://zenn.dev/sionicai_jp/articles/a97e20332f8881",
+  "a": "サイオニックエーアイ株式会社",
+  "d": "2026-09-20",
+  "s": "単語・文の分散表現"
+ },
+ {
+  "t": "日本語の埋め込みモデルって結局どれが良いの？JMTEBのスコアと実測で比べてみた",
+  "u": "https://zenn.dev/shogo_h/articles/japanese-embedding-benchmark-2026",
+  "a": "shogo-h",
+  "d": "2026-08-30",
+  "s": "単語・文の分散表現"
+ },
+ {
   "t": "日本語に対応した埋め込みモデルの検索性能を比較する",
   "u": "https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja",
   "a": "Hironsan",
@@ -854,6 +868,13 @@
   "s": "全文検索・検索基盤"
  },
  {
+  "t": "日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目",
+  "u": "https://labo.ivyxon.com/japanese-embedding-rerank",
+  "a": "IVYXON",
+  "d": "2026-10-01",
+  "s": "検索・RAG"
+ },
+ {
   "t": "LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する",
   "u": "https://qiita.com/ynakayama/items/88005c72a6272939ad0b",
   "a": "Yasuhiro Nakayama",
@@ -1348,6 +1369,13 @@
   "u": "https://techblog.heroz.jp/entry/2026/08/18/120000",
   "a": "heroz-tkubo（HEROZ）",
   "d": "2026-08-18",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "WER・CERだけでは不十分？日本語音声認識を「名詞・固有名詞F1スコア」で再評価した結果",
+  "u": "https://neosophie.com/ja/blog/20260421-asr-evaluation",
+  "a": "Neosophie Editorial",
+  "d": "2026-04-21",
   "s": "音声認識・音声処理"
  },
  {

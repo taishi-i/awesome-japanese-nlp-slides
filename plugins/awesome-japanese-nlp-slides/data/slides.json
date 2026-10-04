@@ -144,6 +144,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "ことばの意味を計算するしくみ",
+  "u": "https://speakerdeck.com/verypluming/kotobanoyi-wei-woji-suan-surusikumi",
+  "a": "Hitomi Yanaka",
+  "d": "2025-03-09",
+  "s": "学会チュートリアル",
+  "src": "speakerdeck"
+ },
+ {
   "t": "最強DB講義 #35 大規模言語モデルに基づく検索モデル",
   "u": "https://speakerdeck.com/mpkato/zui-qiang-dbjiang-yi-number-35-da-gui-mo-yan-yu-moderuniji-dukujian-suo-moderu",
   "a": "Makoto P. Kato",
@@ -270,6 +278,14 @@
   "d": "2016-09-15",
   "s": "学会チュートリアル",
   "src": "slideshare"
+ },
+ {
+  "t": "言葉をはかる：テキストマイニング入門①講義編",
+  "u": "https://speakerdeck.com/satocos135/kotoba-o-hakaru-tekisuto-mainingu-nyuumon-kougihen",
+  "a": "Kosuke Sato",
+  "d": "2026-09-14",
+  "s": "大学講義・体系的な講義資料",
+  "src": "speakerdeck"
  },
  {
   "t": "特殊演習(データ・AI活用) 第2回 生成AIの概要と利用方法",
@@ -1304,6 +1320,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "大規模データに基づく自然言語処理",
+  "u": "https://www.slideshare.net/JunSuzuki21/3-udac",
+  "a": "鈴木潤",
+  "d": "2023-02-07",
+  "s": "大規模言語モデル（概論・動向）",
+  "src": "slideshare"
+ },
+ {
   "t": "AIエージェント時代のLLM-jpモデルのあるべき姿",
   "u": "https://speakerdeck.com/k141303/aiezientoshi-dai-nollm-jpmoderunoarubekizi",
   "a": "Kouta Nakayama",
@@ -1512,6 +1536,14 @@
   "src": "slideshare"
  },
  {
+  "t": "大規模言語モデル開発を支える分散学習技術",
+  "u": "https://www.slideshare.net/slideshow/ss-7984/264914233",
+  "a": "藤井一喜",
+  "d": "2023-12-26",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）",
+  "src": "slideshare"
+ },
+ {
   "t": "Stability AI Japanにおける大規模言語モデルの研究開発",
   "u": "https://speakerdeck.com/iwiwi/stability-ai-japanniokeruda-gui-mo-yan-yu-moderunoyan-jiu-kai-fa",
   "a": "Takuya Akiba",
@@ -1542,6 +1574,14 @@
   "d": "2026-07-23",
   "s": "日本語LLMの開発（事前学習・コーパス構築）",
   "src": "speakerdeck"
+ },
+ {
+  "t": "【DL輪読会】Self-Adapting Language Models(SEAL)",
+  "u": "https://www.docswell.com/s/DeepLearning2023/5G29JJ-2026-02-20-135910",
+  "a": "Deep Learning JP",
+  "d": "2026-02-05",
+  "s": "ファインチューニング・事後学習",
+  "src": "docswell"
  },
  {
   "t": "OpenAI gpt-oss ファインチューニング入門",
@@ -1814,6 +1854,14 @@
   "d": "2025-09-23",
   "s": "評価・ベンチマーク",
   "src": "speakerdeck"
+ },
+ {
+  "t": "Evaluation of an open-access large-scale language model capable of speaking Japanese",
+  "u": "https://www.slideshare.net/slideshow/evaluation-of-an-open-access-large-scale-language-model-capable-of-speaking-japanese/273215044",
+  "a": "Ryousuke Wayama",
+  "d": "2024-11-12",
+  "s": "評価・ベンチマーク",
+  "src": "slideshare"
  },
  {
   "t": "日本語が話せるオープンアクセス大規模言語モデルの評価",
@@ -2552,6 +2600,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "PLaMoを毎日の開発で使い育てていく",
+  "u": "https://speakerdeck.com/pfn/20260730_pfn_llm_4_plamo_dogfooding",
+  "a": "Preferred Networks",
+  "d": "2026-07-30",
+  "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
   "t": "LangfuseによるLLMOps基盤の構築と活用事例",
   "u": "https://speakerdeck.com/zozotech/llmops-platform-with-langfuse",
   "a": "ZOZO Developers",
@@ -3084,6 +3140,14 @@
   "u": "https://speakerdeck.com/kanekomasahiro/ai-safety-survey",
   "a": "Masahiro Kaneko",
   "d": "2026-06-02",
+  "s": "LLM の安全性・セキュリティ",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "埋め込み反転攻撃に対するプライバシー保護手法の定量的評価 - 防御効果と有用性のトレードオフ分析 -",
+  "u": "https://speakerdeck.com/techtekt/embedding-inversion-defense-evaluation",
+  "a": "PERSOL CAREER Dev | techtekt",
+  "d": "2026-03-11",
   "s": "LLM の安全性・セキュリティ",
   "src": "speakerdeck"
  },
@@ -3700,6 +3764,14 @@
   "u": "https://speakerdeck.com/hagino3000/zhen-duan-qian-nobing-li-tekisutowodui-xiang-tositallmniyoruenteiteirinkinkujing-du-jian-zheng",
   "a": "Takashi Nishibayashi",
   "d": "2025-05-29",
+  "s": "情報抽出・固有表現・アノテーション",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "地理空間情報と自然言語処理：「地球の歩き方旅行記データセット」の高付加価値化を通じて",
+  "u": "https://speakerdeck.com/hiroki13/di-li-kong-jian-qing-bao-tozi-ran-yan-yu-chu-li-di-qiu-nobu-kifang-lu-xing-ji-detasetuto-nogao-fu-jia-jia-zhi-hua-wotong-zite",
+  "a": "Hiroki Ouchi",
+  "d": "2025-01-15",
   "s": "情報抽出・固有表現・アノテーション",
   "src": "speakerdeck"
  },
@@ -4984,6 +5056,14 @@
   "src": "slideshare"
  },
  {
+  "t": "20260427 Ehime DS Seminar: MBR-CBDT Decoding",
+  "u": "https://speakerdeck.com/de9uch1/20260427-ehimedscseminar-mbr-cbdt-decoding",
+  "a": "Hiroyuki Deguchi",
+  "d": "2026-09-02",
+  "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
   "t": "日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization",
   "u": "https://speakerdeck.com/upura/t5-news-summarization",
   "a": "Shotaro Ishihara",
@@ -5133,6 +5213,14 @@
   "a": "自然言語処理研究室",
   "d": "2012-03-31",
   "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Sparse Autoencoder 〜 大規模言語モデルの内部表現を読む 〜 Sparse Autoencoder: Understanding LLM's Latent Representations",
+  "u": "https://speakerdeck.com/neurogica/sparse-autoencoder-daikibo-gengo-moderu-no-naibu-hyougen-o-yomu-sparse-autoencoder-understanding-llm-s-latent-representations",
+  "a": "Neurogica",
+  "d": "2026-09-05",
+  "s": "解釈性・分析・言語学的視点",
   "src": "speakerdeck"
  },
  {
