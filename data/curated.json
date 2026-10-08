@@ -841,6 +841,14 @@
     "added": "2026-09-02"
    },
    {
+    "title": "Karkada さんの論文 × 2 の紹介: (1) Closed-Form Training Dynamics Reveal Learned Features and Linear Structure in Word2Vec-like Models, (2) Symmetry in language statistics shapes the geometry of model representations",
+    "url": "https://speakerdeck.com/eumesy/symmetry-in-language-statistics-shapes-the-geometry-of-model-representations",
+    "author": "Sho Yokoi",
+    "date": "2026-08-31",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
     "title": "Zipf 白色化：タイプとトークンの区別がもたらす良質な埋め込み空間と損失関数",
     "url": "https://speakerdeck.com/eumesy/zipfian-whitening",
     "author": "Sho Yokoi",
@@ -965,6 +973,30 @@
   "section": "事前学習モデル・Transformer",
   "blurb": "BERT 以降の事前学習モデルと Transformer の解説資料。",
   "entries": [
+   {
+    "title": "【人工知能・深層学習】論文紹介：LoopedTransformer",
+    "url": "https://www.docswell.com/s/8328889256/5WRYEQ-2026-09-26-184835",
+    "author": "Taki lab.",
+    "date": "2026-09-26",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "[SNLP2026] Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+    "url": "https://speakerdeck.com/wataruuuuu/snlp2026-scaling-up-test-time-compute-with-latent-reasoning-a-recurrent-depth-approach",
+    "author": "池田航",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "【DL輪読会】Attention Residuals",
+    "url": "https://www.docswell.com/s/DeepLearning2023/KJWXVV-2026-05-14-154040",
+    "author": "Deep Learning JP",
+    "date": "2026-05-07",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
    {
     "title": "【生成AIなんでも展示会vol.5 LT登壇】NexteraBERT発表資料",
     "url": "https://speakerdeck.com/rikkabotan7/sheng-cheng-ainandemozhan-shi-hui-vol-dot-5-ltdeng-tan-nexterabertfa-biao-zi-liao",
@@ -1260,6 +1292,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "【DL輪読会】Synthetic continued pretraining",
+    "url": "https://www.docswell.com/s/DeepLearning2023/K27L9M-2026-03-17-104713",
+    "author": "Deep Learning JP",
+    "date": "2026-03-05",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
     "title": "2024-02-Tokyo-Tech-大規模言語モデルの事前学習知見",
     "url": "https://speakerdeck.com/fujiikazuki2000/2024-02-tokyo-tech-da-gui-mo-yan-yu-moderunoshi-qian-xue-xi-zhi-jian",
     "author": "Kazuki Fujii",
@@ -1481,6 +1521,54 @@
   "section": "ファインチューニング・事後学習",
   "blurb": "既存モデルを目的に合わせて調整する手法。",
   "entries": [
+   {
+    "title": "【Paper&Hacks vol.98】医療LLM事後学習：RL系とPinpointTuningの実験記録",
+    "url": "https://www.docswell.com/s/matsuo-lab_llm/KJWR7M-Paper&HacksVol.98",
+    "author": "松尾研LLMコミュニティ",
+    "date": "2026-09-08",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "最先端NLP勉強会2026_Self-Distillation_Enables_Continual_Learning",
+    "url": "https://speakerdeck.com/koki_itai/snlp2026-koki-itai",
+    "author": "Koki Itai",
+    "date": "2026-08-29",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "論文紹介：Doc-to-LoRA: Learning to Instantly Internalize Contexts",
+    "url": "https://speakerdeck.com/yukako_nakano/ronbun-shoukai-doc-to-lora-learning-to-instantly-internalize-contexts",
+    "author": "Yukako Nakano",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "SNLP2026 - Crossing the Reward Bridge: Expanding Reinforcement Learning with Verifiable Rewards Across Diverse Domains",
+    "url": "https://speakerdeck.com/kaitos/snlp2026-crossing-the-reward-bridge-expanding-reinforcement-learning-with-verifiable-rewards-across-diverse-domains",
+    "author": "Suzuki Kaito",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "最先端NLP勉強会2026 論文紹介：Reasoning with Sampling: Your Base Model is Smarter Than You Think (ICLR 2026 paper)",
+    "url": "https://speakerdeck.com/kogoro/saisentan-nlp-benkyoukai-2026-ronbun-shoukai-reasoning-with-sampling-your-base-model-is-smarter-than-you-think-iclr-2026-paper",
+    "author": "Kogoro",
+    "date": "2026-08-19",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "[最先端NLP勉強会2026] Checklists Are Better Than Reward Models For Aligning Language Models",
+    "url": "https://speakerdeck.com/nzw0301/saisentan-nlp-benkyoukai-2026-checklists-are-better-than-reward-models-for-aligning-language-models",
+    "author": "Kento Nozawa",
+    "date": "2026-08-13",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
    {
     "title": "【DL輪読会】Self-Adapting Language Models(SEAL)",
     "url": "https://www.docswell.com/s/DeepLearning2023/5G29JJ-2026-02-20-135910",
@@ -1705,6 +1793,22 @@
   "section": "評価・ベンチマーク",
   "blurb": "日本語 LLM・NLP システムをどう測るか。",
   "entries": [
+   {
+    "title": "SNLP2026発表資料",
+    "url": "https://speakerdeck.com/k141303/snlp2026-happyou-shiryou",
+    "author": "Kouta Nakayama",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "論文読み会 SNLP2026 Tau2-Bench: Evaluating Conversational Agents in a Dual-Control Environment",
+    "url": "https://speakerdeck.com/s_mizuki_nlp/ronbun-yomikai-snlp2026-tau2-bench-evaluating-conversational-agents-in-a-dual-control-environment",
+    "author": "S",
+    "date": "2026-08-19",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
    {
     "title": "最適化向けLLMベンチマークの潮流",
     "url": "https://speakerdeck.com/mickey_kubo/zui-shi-hua-xiang-kellmbentimakunochao-liu",
@@ -2141,6 +2245,14 @@
   "blurb": "検索拡張生成（RAG）の設計・改善・評価。",
   "entries": [
    {
+    "title": "【Paper&Hacks vol.99】RAGの基盤を固めよう 〜 評価／検索システム／データ前処理 〜",
+    "url": "https://www.docswell.com/s/matsuo-lab_llm/Z4NRNL-Paper&HacksVol.99",
+    "author": "松尾研LLMコミュニティ",
+    "date": "2026-09-15",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
     "title": "【AI×DevOps Study #22】AI Agent のための RAG System２（全2回）",
     "url": "https://speakerdeck.com/scalar/aixdevops-study-22-ai-agent-no-tame-no-rag-system-chon-2-kai",
     "author": "深津航",
@@ -2163,6 +2275,14 @@
     "date": "2026-08-04",
     "source": "docswell",
     "added": "2026-09-02"
+   },
+   {
+    "title": "【Paper&Hacks Vol.85】チャンク／プロンプト戦略＋アドバンスRAGアプリハンズオン",
+    "url": "https://www.docswell.com/s/matsuo-lab_llm/ZR8YVJ-Paper&HacksVol.85",
+    "author": "松尾研LLMコミュニティ",
+    "date": "2026-08-04",
+    "source": "docswell",
+    "added": "2026-10-09"
    },
    {
     "title": "1,000件のデータ依頼を、検索できる経験知に変える",
@@ -2438,6 +2558,14 @@
     "added": "2026-08-26"
    },
    {
+    "title": "promptfooを使ったLLM評価基盤設計 ― 評価サイクルを回す3つの工夫",
+    "url": "https://www.docswell.com/s/KJR020/Z27J97-promptfoo-llm-evaluation-platform",
+    "author": "KJR020",
+    "date": "2026-08-25",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
     "title": "【CEDEC2026】コードレビュー支援ツール開発から学ぶ：LLMを用いた業務システムの実践的な運用設計と誤出力対策",
     "url": "https://speakerdeck.com/cygames/cygames_202607_cedec2026_04",
     "author": "Cygames, Inc.",
@@ -2597,12 +2725,36 @@
   "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
   "entries": [
    {
+    "title": "【輪講資料】Lost in Execution: On the Multilingual Robustness of Tool Calling in Large Language Models",
+    "url": "https://speakerdeck.com/yano0/rinkou-shiryou-lost-in-execution-on-the-multilingual-robustness-of-tool-calling-in-large-language-models",
+    "author": "Yano",
+    "date": "2026-09-25",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
     "title": "Bet AI Day 2026丨Production-Ready AI Agents — エンタープライズの実務を任せるための設計と運用",
     "url": "https://speakerdeck.com/layerx/bet-ai-day-2026-session04",
     "author": "須藤 欧佑",
     "date": "2026-09-03",
     "source": "speakerdeck",
     "added": "2026-09-05"
+   },
+   {
+    "title": "[最先端NLP勉強会2026] Agentic Rubrics as Contextual Verifiers for SWE Agents",
+    "url": "https://speakerdeck.com/rfujii/snlp2026-acl26-agentic-rubrics",
+    "author": "Ryo Fujii",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "最先端NLP勉強会2026: How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior",
+    "url": "https://speakerdeck.com/iryuki1110/saisentan-nlp-benkyoukai-2026-how-memory-management-impacts-llm-agents-an-empirical-study-of-experience-following-behavior",
+    "author": "Ryuki Ida",
+    "date": "2026-08-14",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
    },
    {
     "title": "AI エージェントの「思考」を可視化する！ Agent Observability 最前線",
@@ -2613,12 +2765,28 @@
     "added": "2026-09-05"
    },
    {
+    "title": "【DL輪読会】Agent Learning via Early Experience",
+    "url": "https://www.docswell.com/s/DeepLearning2023/ZMQYRE-2026-07-31-165420",
+    "author": "Deep Learning JP",
+    "date": "2026-07-30",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
     "title": "『モデル + ハーネス』で読み解く AIエージェント入門",
     "url": "https://speakerdeck.com/oracle4engineer/moderu-plus-hanesu-dedu-mijie-ku-aiezientoru-men",
     "author": "oracle4engineer",
     "date": "2026-07-22",
     "source": "speakerdeck",
     "added": "2026-08-26"
+   },
+   {
+    "title": "【DL輪読会】TRINITY: An Evolved LLM Coordinator",
+    "url": "https://www.docswell.com/s/DeepLearning2023/KGNW6J-2026-07-13-095647",
+    "author": "Deep Learning JP",
+    "date": "2026-07-09",
+    "source": "docswell",
+    "added": "2026-10-09"
    },
    {
     "title": "論文図解_プロンプト工学_AIエージェント_ハーネス_1論文1ページ",
@@ -2926,6 +3094,14 @@
     "added": "2026-09-12"
    },
    {
+    "title": "SNLP2026 Mind the Value-Action Gap",
+    "url": "https://speakerdeck.com/ttsujimura/snlp2026-mind-the-value-action-gap",
+    "author": "Tomoki Tsujimura",
+    "date": "2026-08-18",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
     "title": "セキュリティ・キャンプ2026B3 LLMアプリからAIエージェントまで /seccamp2026-b3",
     "url": "https://www.docswell.com/s/melonattacker/ZDM6MV-seccamp-b3",
     "author": "JJ (yuasa)",
@@ -2959,6 +3135,22 @@
     "author": "Masahiro Kaneko",
     "date": "2026-06-02",
     "source": "speakerdeck"
+   },
+   {
+    "title": "[ACL 2026 Demo] Fast-MIA: Efficient and Scalable Membership Inference for LLMs",
+    "url": "https://speakerdeck.com/upura/acl-2026-demo-fast-mia-efficient-and-scalable-membership-inference-for-llms",
+    "author": "Shotaro Ishihara",
+    "date": "2026-05-12",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "nlp2026 Constitutional AI における原則適用順序と有害転化現象の分析",
+    "url": "https://speakerdeck.com/takashiinui/nlp2026-constitutional-ai-niokeruyuan-ze-shi-yong-shun-xu-toyou-hai-zhuan-hua-xian-xiang-nofen-xi",
+    "author": "Takashi INUI",
+    "date": "2026-03-30",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
    },
    {
     "title": "埋め込み反転攻撃に対するプライバシー保護手法の定量的評価 - 防御効果と有用性のトレードオフ分析 -",
@@ -3318,6 +3510,14 @@
   "section": "テキストマイニング・トピックモデル",
   "blurb": "アンケートやレビューの自由記述を計量的に読む手法と、トピックモデルによる潜在構造の分析。",
   "entries": [
+   {
+    "title": "SteamレビューのLLMを用いた分析",
+    "url": "https://www.docswell.com/s/6610037/K6N8GV-2026-09-12-142925",
+    "author": "小山友介",
+    "date": "2026-09-12",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
    {
     "title": "ブロードリスニングの技術 （デジタル民主主義サミット2026登壇資料）",
     "url": "https://www.docswell.com/s/tokoroten/5Q2LVW-tech-of-broadlistening-dd-summit2026",
@@ -3859,6 +4059,14 @@
   "blurb": "知識を扱う言語モデルと質問応答システム。",
   "entries": [
    {
+    "title": "nlp2026 In-Context Learningに基づく経路案内のための地理的知識の活用方法に関する検討",
+    "url": "https://speakerdeck.com/takashiinui/nlp2026-in-context-learningniji-dukujing-lu-an-nei-notamenodi-li-de-zhi-shi-nohuo-yong-fang-fa-niguan-surujian-tao",
+    "author": "Takashi INUI",
+    "date": "2026-03-30",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
     "title": "An Open and Reproducible Deep Research Agent for Long-Form Question Answering",
     "url": "https://speakerdeck.com/ikuyamada/an-open-and-reproducible-deep-research-agent-for-long-form-question-answering",
     "author": "Ikuya Yamada",
@@ -4337,6 +4545,14 @@
     "added": "2026-09-05"
    },
    {
+    "title": "音声言語モデル手法に関する発表の紹介",
+    "url": "https://speakerdeck.com/kzinmr/yin-sheng-yan-yu-moderushou-fa-niguan-surufa-biao",
+    "author": "Kazuki Inamura",
+    "date": "2026-04-27",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
     "title": "クロスモーダル表現学習の研究動向: 音声関連を中心として",
     "url": "https://speakerdeck.com/ryomasumura/kurosumodarubiao-xian-xue-xi-noyan-jiu-dong-xiang-yin-sheng-guan-lian-wozhong-xin-tosite",
     "author": "Ryo Masumura",
@@ -4745,6 +4961,14 @@
     "added": "2026-10-05"
    },
    {
+    "title": "AIくさい文章から脱出する技術 ― 6モデル180サンプルで測った「バレる文章」の正体",
+    "url": "https://www.docswell.com/s/kenimo49/57NLX7-ai-text-slop-escape",
+    "author": "井本 賢",
+    "date": "2026-08-23",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
     "title": "日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization",
     "url": "https://speakerdeck.com/upura/t5-news-summarization",
     "author": "Shotaro Ishihara",
@@ -4894,12 +5118,76 @@
     "added": "2026-10-05"
    },
    {
+    "title": "最先端NLP 2026 論文紹介: Wait, Wait, Wait... Why Do Reasoning Models Loop? / SNLP Paper Review: Wait, Wait, Wait... Why Do Reasoning Models Loop?",
+    "url": "https://speakerdeck.com/tkng/snlp-paper-review-wait-wait-wait-dot-dot-dot-why-do-reasoning-models-loop",
+    "author": "tkng",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "論文紹介: Understanding Epistemic Language with a Language-augmented Bayesian Theory of Mind",
+    "url": "https://speakerdeck.com/hisaokatsumi/ronbun-shoukai-understanding-epistemic-language-with-a-language-augmented-bayesian-theory-of-mind",
+    "author": "Hisao Katsumi",
+    "date": "2026-08-20",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "【輪講資料】How much can language models memorize?",
+    "url": "https://speakerdeck.com/yano0/rinkou-shiryou-how-much-can-language-models-memorize",
+    "author": "Yano",
+    "date": "2026-08-19",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "SNLP2026 中石 発表スライド（Deriving Neural Scaling Laws from the Statistics of Natural Language）",
+    "url": "https://speakerdeck.com/kai1997/snlp2026-nakaishi-happyou-suraido-deriving-neural-scaling-laws-from-the-statistics-of-natural-language",
+    "author": "Kai Nakaishi",
+    "date": "2026-08-15",
+    "source": "speakerdeck",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "【DL輪読会】Humans and transformer LMs: Abstraction drives language learning",
+    "url": "https://www.docswell.com/s/DeepLearning2023/KY8G99-2026-07-28-102750",
+    "author": "Deep Learning JP",
+    "date": "2026-07-23",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "【人工知能・深層学習】論文紹介：Why Steering Works:Toward a Unified View of Language Model Parameter Dynamics",
+    "url": "https://www.docswell.com/s/8328889256/KDM9L8-2026-07-20-185532",
+    "author": "Taki lab.",
+    "date": "2026-07-20",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "【DL輪読会】Shaping Shared Languages: Human and Large Language Models' Inductive Biases in Emergent Communication",
+    "url": "https://www.docswell.com/s/DeepLearning2023/KMQXPE-2026-04-15-104518",
+    "author": "Deep Learning JP",
+    "date": "2026-04-09",
+    "source": "docswell",
+    "added": "2026-10-09"
+   },
+   {
     "title": "通時的な類似度行列に基づく単語の意味変化の分析",
     "url": "https://speakerdeck.com/rudorudo11/tong-shi-de-nalei-si-du-xing-lie-niji-dukudan-yu-noyi-wei-bian-hua-nofen-xi",
     "author": "hajime kiyama",
     "date": "2026-03-09",
     "source": "speakerdeck",
     "added": "2026-10-01"
+   },
+   {
+    "title": "【DL輪読会】Who Reasons in the Large Language Models？",
+    "url": "https://www.docswell.com/s/DeepLearning2023/ZX2132-2026-03-10-141733",
+    "author": "Deep Learning JP",
+    "date": "2026-03-05",
+    "source": "docswell",
+    "added": "2026-10-09"
    },
    {
     "title": "LLM の内部を操るベクトル？",

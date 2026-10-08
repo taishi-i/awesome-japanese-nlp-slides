@@ -23,6 +23,20 @@
   "blurb": "言語処理学会などの参加報告記事。チュートリアルの雰囲気が伝わる。",
   "entries": [
    {
+    "title": "YANS2026 参加報告",
+    "url": "https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922",
+    "author": "平子潤, 松野智紀, 今井悠人（SB Intuitions）",
+    "date": "2026-08-31",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "言語処理若手シンポジウム YANS2026 に参加してきました",
+    "url": "https://zenn.dev/poclab_techblog/articles/09a31a59dfe2b8",
+    "author": "坪井 一馬（Poclab）",
+    "date": "2026-08-27",
+    "added": "2026-10-09"
+   },
+   {
     "title": "NLP2026 参加報告",
     "url": "https://zenn.dev/elyza/articles/d8e5958bdb86e9",
     "author": "Shoetsu Sato（ELYZA株式会社）",
@@ -228,6 +242,13 @@
   "blurb": "neologdnや独自の正規化処理など、表記ゆれ対策の実装記事。",
   "entries": [
    {
+    "title": "表記ゆれで埋め込みベクトルの類似度はどれだけ変動するのか 【Amazon Titan Embeddings V2】",
+    "url": "https://zenn.dev/aiforall/articles/62764900660cf8",
+    "author": "たこやき（株式会社メンバーズ）",
+    "date": "2026-09-02",
+    "added": "2026-10-09"
+   },
+   {
     "title": "なぜ私たちは住所正規化エンジンをRustで“再発明”したのか？ - FFIによる多言語高速化と開発者体験の裏側",
     "url": "https://buildersbox.corp-sansan.com/entry/2025/06/20/120000",
     "author": "kiyonori-matsumoto（Sansan）",
@@ -264,6 +285,13 @@
   "section": "辞書・かな漢字変換・日本語入力",
   "blurb": "IMEやかな漢字変換エンジンの自作記録。",
   "entries": [
+   {
+    "title": "Mozcに26万語足しても変換精度は上がらなかった — 拡張辞書を実測する",
+    "url": "https://zenn.dev/jassdack/articles/bd87426fa1c2f4",
+    "author": "jassdack",
+    "date": "2026-09-07",
+    "added": "2026-10-09"
+   },
    {
     "title": "2026年2月のIMEに関するできごと",
     "url": "https://zenn.dev/komatsuh/articles/komatsuh_ime_news_2026_02",
@@ -338,6 +366,13 @@
     "added": "2026-10-05"
    },
    {
+    "title": "Embedding は採点に向かない ── 「偶数」と「奇数」に満点を出した話",
+    "url": "https://zenn.dev/ferretcode/articles/why-i-dropped-embedding-scoring",
+    "author": "フェレットさん",
+    "date": "2026-08-23",
+    "added": "2026-10-09"
+   },
+   {
     "title": "日本語に対応した埋め込みモデルの検索性能を比較する",
     "url": "https://hironsan.hatenablog.com/entry/benchmark-nano-beir-ja",
     "author": "Hironsan",
@@ -402,6 +437,13 @@
   "section": "事前学習モデル・Transformer",
   "blurb": "BERTとTransformerの仕組みを図解・実装で理解する記事。",
   "entries": [
+   {
+    "title": "Mixture of Experts 基礎技術メモ",
+    "url": "https://iwashi.co/2026/09/23/mixture-of-experts-moe-memo",
+    "author": "iwashi86",
+    "date": "2026-09-23",
+    "added": "2026-10-09"
+   },
    {
     "title": "【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する",
     "url": "https://zenn.dev/epicai_techblog/articles/cbb8774f43783b",
@@ -625,6 +667,20 @@
   "blurb": "LoRAなどを使ったファインチューニングの入門・実践記事。",
   "entries": [
    {
+    "title": "「ELYZA-Thinking-1.0-llm-jp-4」シリーズの学習方法と評価結果",
+    "url": "https://zenn.dev/elyza/articles/79a3d4ed4be915",
+    "author": "stohda（株式会社ELYZA）",
+    "date": "2026-10-08",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "LLM-jp-4.1 モデルの公開",
+    "url": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-1/",
+    "author": "児玉貴志, Yunang Wu（LLM-jp）",
+    "date": "2026-09-28",
+    "added": "2026-10-09"
+   },
+   {
     "title": "コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -",
     "url": "https://nowokay.hatenablog.com/entry/2026/01/10/125059",
     "author": "きしだ (kishida)",
@@ -698,6 +754,13 @@
   "blurb": "vLLMや量子化を使った推論高速化の実践記事。",
   "entries": [
    {
+    "title": "自作GPTにKVキャッシュを実装し、プロンプトキャッシュの仕組みを学んだ",
+    "url": "https://blog.shibayu36.org/entry/2026/10/02/214736",
+    "author": "shibayu36",
+    "date": "2026-10-02",
+    "added": "2026-10-09"
+   },
+   {
     "title": "gpt-ossを4bit量子化したら流暢に壊れた話。量子化方式で忠実度が2倍変わった実測記録",
     "url": "https://zenn.dev/tokimoa/articles/222fa96dcf1b20",
     "author": "tokimoa",
@@ -734,6 +797,13 @@
   "section": "評価・ベンチマーク",
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
+   {
+    "title": "J-MultiChallenge：日本語マルチターン対話能力評価ベンチマークの公開",
+    "url": "https://www.sbintuitions.co.jp/blog/entry/2026/09/28/110000",
+    "author": "栗原理聡（SB Intuitions）",
+    "date": "2026-09-28",
+    "added": "2026-10-09"
+   },
    {
     "title": "J-tau の3ドメインを日英で実験した",
     "url": "https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en",
@@ -849,6 +919,13 @@
   "blurb": "Elasticsearchなど検索基盤を日本語向けにチューニングする記事。",
   "entries": [
    {
+    "title": "学習型スパース検索における語彙選択",
+    "url": "https://zenn.dev/retrieva_tech/articles/5e0d783058eba5",
+    "author": "コイン スティーブン（株式会社レトリバ）",
+    "date": "2026-10-05",
+    "added": "2026-10-09"
+   },
+   {
     "title": "ゼロから作るSNS その22 超低コスト全文検索の実運用に向けた改良",
     "url": "https://mikio.hatenablog.com/entry/2026/08/21/053626",
     "author": "fridaynight（豪鬼メモ）",
@@ -906,6 +983,13 @@
   "section": "検索・RAG",
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
+   {
+    "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+    "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+    "author": "テッツォ",
+    "date": "2026-10-05",
+    "added": "2026-10-09"
+   },
    {
     "title": "日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目",
     "url": "https://labo.ivyxon.com/japanese-embedding-rerank",
@@ -1007,6 +1091,13 @@
   "section": "LLM アプリケーション開発・運用",
   "blurb": "プロンプトの設計・管理など、LLMプロダクト開発の実務記事。",
   "entries": [
+   {
+    "title": "文字数・バイト数からのトークン数推定は実際どれくらいズレるのか",
+    "url": "https://zenn.dev/aiforall/articles/63501821b1e50e",
+    "author": "nishina（株式会社メンバーズ）",
+    "date": "2026-09-11",
+    "added": "2026-10-09"
+   },
    {
     "title": "持たざる者のLLM学習理論",
     "url": "https://zenn.dev/strixai/articles/1d36ed2aed59e4",
@@ -1143,6 +1234,20 @@
   "blurb": "テキスト分類・感情分析モデルの実装記事。",
   "entries": [
    {
+    "title": "Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた",
+    "url": "https://zenn.dev/genelab_999/articles/533144853290a7",
+    "author": "GeneLab",
+    "date": "2026-09-22",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "Jevはどれだけ優秀なif文か？軽量モデルを分類器用途で比較してみた",
+    "url": "https://journal.supa.ai/jev-classifier-benchmark/",
+    "author": "supa Lab（supa株式会社）",
+    "date": "2026-09-18",
+    "added": "2026-10-09"
+   },
+   {
     "title": "BERTモデルを使った日本語テキスト感情分析プログラムの実装",
     "url": "https://qiita.com/kiyotaman/items/736d5d0e47dbfd419244",
     "author": "kiyotaman（清田史和）",
@@ -1210,6 +1315,20 @@
   "section": "テキストマイニング・トピックモデル",
   "blurb": "トピックモデルなどテキストマイニング手法の実践記事。",
   "entries": [
+   {
+    "title": "生成AI以前と以後でエンジニアの文章はどう変わったのか: Qiitaの7万記事を数えてみた話",
+    "url": "https://nyosegawa.com/posts/qiita-writing-before-after-ai/",
+    "author": "逆瀬川ちゃん",
+    "date": "2026-09-11",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "AIの口癖を日本語記事で測ろうとして、3回とも失敗した",
+    "url": "https://qiita.com/suwa_nobu/items/4231026d13f7527c0f69",
+    "author": "suwa_nobu",
+    "date": "2026-08-29",
+    "added": "2026-10-09"
+   },
    {
     "title": "Agentic Analytics — AI に分析を任せる時代の基盤とコンテキストレイヤー",
     "url": "https://creators.bengo4.com/entry/2026/06/25/090000",
@@ -1284,6 +1403,13 @@
   "section": "文書処理・OCR",
   "blurb": "帳票・請求書などをAI-OCRやLLMでデータ化する記事。",
   "entries": [
+   {
+    "title": "LLMでカタログPDFから構造化データを抽出する：プロンプト設計と後処理の実践",
+    "url": "https://zenn.dev/optimax/articles/0fc6979bd6e0eb",
+    "author": "Chen（OptiMax）",
+    "date": "2026-09-04",
+    "added": "2026-10-09"
+   },
    {
     "title": "OCRだけでは読めない日本語帳票をローカルLLMで補正する ─ 24GB VRAMで動く多段パイプライン",
     "url": "https://qiita.com/nakatada-lab/items/b5e12ee21f95e9ce7652",
@@ -1367,6 +1493,13 @@
   "blurb": "機械翻訳モデルの開発・自作の記事。",
   "entries": [
    {
+    "title": "plamo-3-translate: フロンティア級の翻訳特化LLM",
+    "url": "https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release",
+    "author": "Preferred Networks",
+    "date": "2026-10-07",
+    "added": "2026-10-09"
+   },
+   {
     "title": "再帰型ニューラルネットで英語から日本語の機械翻訳を実装する方法",
     "url": "https://zenn.dev/derbuihan/articles/c964a0b1c75d28",
     "author": "derbuihan",
@@ -1398,6 +1531,13 @@
   "section": "マルチモーダル・Vision-and-Language",
   "blurb": "画像と言語を組み合わせるVLM（視覚言語モデル）の解説記事。",
   "entries": [
+   {
+    "title": "LLM-jp-4-VL 9Bリリース",
+    "url": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-vl-9b/",
+    "author": "杉浦一瑳（LLM-jp）",
+    "date": "2026-09-01",
+    "added": "2026-10-09"
+   },
    {
     "title": "日本語マルチモーダル RAG のための Embedding モデル 12 本比較（2026年5月）",
     "url": "https://qiita.com/yumaha/items/c9618d39fffe89a4b0c5",
@@ -1436,6 +1576,20 @@
   "section": "音声認識・音声処理",
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
+   {
+    "title": "自分専用のASRモデルを作ってみた",
+    "url": "https://zenn.dev/holy_fox/articles/7e2d1c8fa2ab6e",
+    "author": "ほーりーふぉっくす",
+    "date": "2026-09-10",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "無音で文字起こしすると「ご視聴ありがとうございました」になる理由を検証",
+    "url": "https://zenn.dev/trtd56/articles/994f43aebd2057",
+    "author": "t.toda",
+    "date": "2026-09-01",
+    "added": "2026-10-09"
+   },
    {
     "title": "Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた",
     "url": "https://techblog.heroz.jp/entry/2026/08/18/120000",
@@ -1509,6 +1663,13 @@
   "blurb": "音声対話AIの開発・評価に関する実務記事。",
   "entries": [
    {
+    "title": "OpenAIの音声エージェント評価ガイドを日本語の小売サポートで試してみた",
+    "url": "https://zenn.dev/aishift/articles/38baaf6dd758d2",
+    "author": "大竹（AI Shift）",
+    "date": "2026-09-30",
+    "added": "2026-10-09"
+   },
+   {
     "title": "音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと",
     "url": "https://zenn.dev/isaka_aipdm/articles/9a522441733382",
     "author": "Isaka",
@@ -1547,6 +1708,20 @@
   "blurb": "文章生成・要約・校正を自動化する実装記事。",
   "entries": [
    {
+    "title": "【最新v1.1.0公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+    "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+    "author": "大賀愛一郎（ALGO ARTIS）",
+    "date": "2026-10-01",
+    "added": "2026-10-09"
+   },
+   {
+    "title": "AIが書いた日本語に頻出する単語を指摘するtextlintプリセットを作った",
+    "url": "https://blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/",
+    "author": "ぷらす",
+    "date": "2026-09-13",
+    "added": "2026-10-09"
+   },
+   {
     "title": "LLMを用いてブログ記事の文法間違い・誤字脱字検出を自動化する",
     "url": "https://zenn.dev/cybozu_ept/articles/ai-blog-review-on-github",
     "author": "Futa Hirakoba（サイボウズ）",
@@ -1584,6 +1759,13 @@
   "section": "解釈性・分析・言語学的視点",
   "blurb": "LLMの内部表現を解析・解釈する記事。",
   "entries": [
+   {
+    "title": "最近のLLMは黙って考えられるようになっている",
+    "url": "https://joisino.hatenablog.com/entry/filler",
+    "author": "joisino",
+    "date": "2026-10-07",
+    "added": "2026-10-09"
+   },
    {
     "title": "大規模言語モデルの「思考」を追跡する – Anthropic最新研究ー原文英語だから翻訳と解説",
     "url": "https://note.com/ogawa_ramo/n/nc1b04e4b92b8",

@@ -90,8 +90,8 @@ easiest to just always run it after touching either `curated.json` or
 To validate without generating anything, run the shared modules directly.
 
 ```bash
-python3 scripts/slides.py               # ok: 701 entries in 32 sections
-python3 scripts/articles.py             # ok: 224 entries in 32 sections
+python3 scripts/slides.py               # ok: 737 entries in 32 sections
+python3 scripts/articles.py             # ok: 250 entries in 32 sections
 ```
 
 There are no dependencies — the Python 3 standard library is enough (3.9 or
