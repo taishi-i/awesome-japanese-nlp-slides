@@ -242,6 +242,13 @@
   "blurb": "neologdnや独自の正規化処理など、表記ゆれ対策の実装記事。",
   "entries": [
    {
+    "title": "辞書は「2026」を読めない。数と助数詞の境目の音を Go で当てる",
+    "url": "https://zenn.dev/snknsk/articles/go-number-counter-reading",
+    "author": "shouni",
+    "date": "2026-10-12",
+    "added": "2026-10-17"
+   },
+   {
     "title": "表記ゆれで埋め込みベクトルの類似度はどれだけ変動するのか 【Amazon Titan Embeddings V2】",
     "url": "https://zenn.dev/aiforall/articles/62764900660cf8",
     "author": "たこやき（株式会社メンバーズ）",
@@ -285,6 +292,13 @@
   "section": "辞書・かな漢字変換・日本語入力",
   "blurb": "IMEやかな漢字変換エンジンの自作記録。",
   "entries": [
+   {
+    "title": "「ほしょう」は保証か補償か保障か；Jevで「もしかして」",
+    "url": "https://zenn.dev/kotap/articles/didyoumean-without-generation",
+    "author": "Kota Mizuno",
+    "date": "2026-10-12",
+    "added": "2026-10-17"
+   },
    {
     "title": "Mozcに26万語足しても変換精度は上がらなかった — 拡張辞書を実測する",
     "url": "https://zenn.dev/jassdack/articles/bd87426fa1c2f4",
@@ -438,6 +452,34 @@
   "blurb": "BERTとTransformerの仕組みを図解・実装で理解する記事。",
   "entries": [
    {
+    "title": "大規模テキストデータを活用したサービス特化型言語モデルの社内共有プロジェクト：Moegi",
+    "url": "https://techblog.lycorp.co.jp/ja/20261015a",
+    "author": "伊奈拓郎（LINEヤフー）",
+    "date": "2026-10-15",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "GPT-6.1 Solが安い理由？Looped Transformerを試したら、ループするほど賢く遅くなった",
+    "url": "https://zenn.dev/yukito_lmlab/articles/ouro-looped-transformer-loops",
+    "author": "日本語言語モデル開発ノート",
+    "date": "2026-10-14",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "NinaXander：RNNとTransformerを凍結したまま合体させたら「しゃべるキメラ」が生まれた【論文解説】",
+    "url": "https://zenn.dev/katalab/articles/ninaxander-overview",
+    "author": "樹神（名古屋大学 片桐・星野研究室）",
+    "date": "2026-10-05",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "結局、Looped Transformerってなんや？",
+    "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e",
+    "author": "sakai1250",
+    "date": "2026-10-04",
+    "added": "2026-10-17"
+   },
+   {
     "title": "Mixture of Experts 基礎技術メモ",
     "url": "https://iwashi.co/2026/09/23/mixture-of-experts-moe-memo",
     "author": "iwashi86",
@@ -532,6 +574,13 @@
   "blurb": "日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。",
   "entries": [
    {
+    "title": "LLM-jp-4 の公開CPT・SFTデータを読んでみた",
+    "url": "https://zenn.dev/yukito_lmlab/articles/llmjp4-public-data",
+    "author": "日本語言語モデル開発ノート",
+    "date": "2026-10-13",
+    "added": "2026-10-17"
+   },
+   {
     "title": "国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える",
     "url": "https://zenn.dev/nitic_students/articles/e2e331dea0c616",
     "author": "Juna1013",
@@ -544,6 +593,13 @@
     "author": "tt（株式会社ELYZA）",
     "date": "2026-01-16",
     "added": "2026-09-12"
+   },
+   {
+    "title": "LLM-jpモデルに対するOLMo2ベースの中間学習の検討",
+    "url": "https://llm-jp.nii.ac.jp/blog/blog-1039/",
+    "author": "Koshi EGUCHI, Sosuke Hosokawa, Kouta NAKAYAMA（LLM-jp）",
+    "date": "2025-08-27",
+    "added": "2026-10-17"
    },
    {
     "title": "【論文紹介】D-CPT Law",
@@ -667,6 +723,13 @@
   "blurb": "LoRAなどを使ったファインチューニングの入門・実践記事。",
   "entries": [
    {
+    "title": "RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話",
+    "url": "https://zenn.dev/rayagent/articles/d25bd3f6368ac1",
+    "author": "ray",
+    "date": "2026-10-13",
+    "added": "2026-10-17"
+   },
+   {
     "title": "「ELYZA-Thinking-1.0-llm-jp-4」シリーズの学習方法と評価結果",
     "url": "https://zenn.dev/elyza/articles/79a3d4ed4be915",
     "author": "stohda（株式会社ELYZA）",
@@ -679,6 +742,13 @@
     "author": "児玉貴志, Yunang Wu（LLM-jp）",
     "date": "2026-09-28",
     "added": "2026-10-09"
+   },
+   {
+    "title": "中国語が混ざる4Bモデルを、27Bからの蒸留で日本語化した（混入18%→0%、数学は落ちず）",
+    "url": "https://zenn.dev/atemoya/articles/bd05a6a7d3f535",
+    "author": "Atemoya",
+    "date": "2026-09-27",
+    "added": "2026-10-17"
    },
    {
     "title": "コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -",
@@ -754,6 +824,20 @@
   "blurb": "vLLMや量子化を使った推論高速化の実践記事。",
   "entries": [
    {
+    "title": "Speculative Decoding(投機的デコーディング)についてわかりやすく",
+    "url": "https://zenn.dev/asap/articles/e1cd9ffee4d2c2",
+    "author": "asap",
+    "date": "2026-10-10",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "データ量を 4 分の 1 にしても答えが大きく変わらないのはなぜか？LLM の 4bit 量子化の仕組み",
+    "url": "https://zenn.dev/satto_workspace/articles/c02cef0929ebe3",
+    "author": "Gen Tamura（ソフトバンク）",
+    "date": "2026-10-05",
+    "added": "2026-10-17"
+   },
+   {
     "title": "自作GPTにKVキャッシュを実装し、プロンプトキャッシュの仕組みを学んだ",
     "url": "https://blog.shibayu36.org/entry/2026/10/02/214736",
     "author": "shibayu36",
@@ -766,6 +850,13 @@
     "author": "tokimoa",
     "date": "2026-07-24",
     "added": "2026-08-22"
+   },
+   {
+    "title": "LLM-jp-4 Thinking モデルの量子化版の公開",
+    "url": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-thinking-quantization/",
+    "author": "清丸寛一（LLM-jp）",
+    "date": "2026-06-23",
+    "added": "2026-10-17"
    },
    {
     "title": "LLMの量子化手法と実装方法について",
@@ -798,11 +889,39 @@
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
    {
+    "title": "Tokyo-Metropolitan Government Complex QA：日本語の複雑な質問応答と引用を評価するベンチマーク",
+    "url": "https://www.preferred.jp/ja/blog/tech/tmg-cqa",
+    "author": "Hideaki Imamura（Preferred Networks）",
+    "date": "2026-10-16",
+    "added": "2026-10-17"
+   },
+   {
     "title": "J-MultiChallenge：日本語マルチターン対話能力評価ベンチマークの公開",
     "url": "https://www.sbintuitions.co.jp/blog/entry/2026/09/28/110000",
     "author": "栗原理聡（SB Intuitions）",
     "date": "2026-09-28",
     "added": "2026-10-09"
+   },
+   {
+    "title": "答えは合っているのに不正解？ LLMベンチマークの点数はどう決まるのか",
+    "url": "https://zenn.dev/sun_asterisk/articles/39c9a38680aeef",
+    "author": "ロリョウ（Sun*）",
+    "date": "2026-09-28",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "日本語ベンチマークでJevの性能を検証する",
+    "url": "https://zenn.dev/ivry/articles/65c1c4242e1156",
+    "author": "tagucci（IVRy）",
+    "date": "2026-09-25",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "Jevはサイコロを振らない｜「較正された確率」の意外な落とし穴",
+    "url": "https://note.com/kantahayashiai/n/n4c54eed30787",
+    "author": "林寛太",
+    "date": "2026-09-19",
+    "added": "2026-10-17"
    },
    {
     "title": "J-tau の3ドメインを日英で実験した",
@@ -984,6 +1103,20 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
+    "url": "https://zenn.dev/aiforall/articles/8e1803396534de",
+    "author": "nishina（株式会社メンバーズ）",
+    "date": "2026-10-16",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "日本の判例19万件で BM25・ruri-v3・BGE-M3 を比べたら、ハイブリッド検索が必要だった話",
+    "url": "https://zenn.dev/tailexi/articles/5b78a3167c3ddc",
+    "author": "TaiLexi AI",
+    "date": "2026-10-15",
+    "added": "2026-10-17"
+   },
+   {
     "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
     "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
     "author": "テッツォ",
@@ -996,6 +1129,13 @@
     "author": "IVYXON",
     "date": "2026-10-01",
     "added": "2026-10-05"
+   },
+   {
+    "title": "Jev を用い rerank・関連度でフィルターできるライブラリ jev-reranker を公開",
+    "url": "https://secon.dev/entry/2026/09/20/100000-jev-reranker/",
+    "author": "hotchpotch",
+    "date": "2026-09-20",
+    "added": "2026-10-17"
    },
    {
     "title": "LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する",
@@ -1202,6 +1342,20 @@
   "blurb": "プロンプトインジェクションなどLLM特有の脅威と対策の記事。",
   "entries": [
    {
+    "title": "課題達成のために暴走するAIエージェントを防ぐ安全性研究",
+    "url": "https://zenn.dev/tsurubee/articles/ai-agent-safety-research",
+    "author": "tsurubee",
+    "date": "2026-10-16",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "文字列アルゴリズムで著作権侵害リスクの分析を高速化した話",
+    "url": "https://creators.bengo4.com/entry/2026/09/18/080000",
+    "author": "s_uno（弁護士ドットコム）",
+    "date": "2026-09-18",
+    "added": "2026-10-17"
+   },
+   {
     "title": "Claude Code / CursorのHooksで実装した AIエージェントの3層プロンプトインジェクション対策",
     "url": "https://creators.bengo4.com/entry/2026/03/24/080000",
     "author": "cloudsign_fujitani（弁護士ドットコム）",
@@ -1233,6 +1387,20 @@
   "section": "テキスト分類・感情分析",
   "blurb": "テキスト分類・感情分析モデルの実装記事。",
   "entries": [
+   {
+    "title": "決定モデルの分類精度をKaggleの過去NLPコンペで検証する",
+    "url": "https://zenn.dev/trtd56/articles/a3a65631b5e773",
+    "author": "t.toda",
+    "date": "2026-10-14",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "Jev で話題の「判断モデル（System One）」の日本語OSS: sokudan の使い方",
+    "url": "https://zenn.dev/genelab_999/articles/702c2f62a3c614",
+    "author": "GeneLab",
+    "date": "2026-10-01",
+    "added": "2026-10-17"
+   },
    {
     "title": "Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた",
     "url": "https://zenn.dev/genelab_999/articles/533144853290a7",
@@ -1354,6 +1522,13 @@
   "section": "情報抽出・固有表現・アノテーション",
   "blurb": "固有表現抽出（NER）のデータセットと実装の記事。",
   "entries": [
+   {
+    "title": "「エラーは出ないが内容が消える」——LLM抽出でハマった落とし穴と対策",
+    "url": "https://zenn.dev/enterprise_ai/articles/fc3629c0f6b886",
+    "author": "yohko（ISE Enterprise AI Team）",
+    "date": "2026-09-29",
+    "added": "2026-10-17"
+   },
    {
     "title": "LLMの気持ちに寄り添って生成的に固有表現認識を解くプロンプトを検討する",
     "url": "https://zenn.dev/0x9d28/articles/cced78119f725d",
@@ -1500,6 +1675,13 @@
     "added": "2026-10-09"
    },
    {
+    "title": "ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話",
+    "url": "https://zenn.dev/knowledgework/articles/2691721311c2e4",
+    "author": "Taein Kim（ナレッジワーク）",
+    "date": "2026-09-30",
+    "added": "2026-10-17"
+   },
+   {
     "title": "再帰型ニューラルネットで英語から日本語の機械翻訳を実装する方法",
     "url": "https://zenn.dev/derbuihan/articles/c964a0b1c75d28",
     "author": "derbuihan",
@@ -1576,6 +1758,20 @@
   "section": "音声認識・音声処理",
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
+   {
+    "title": "AIに評価させたら「Whisperの6分の1」。その数字を翌日撤回した理由",
+    "url": "https://zenn.dev/ihsan/articles/ai-whisper-6-1-c3ddb3153854",
+    "author": "イサン",
+    "date": "2026-10-04",
+    "added": "2026-10-17"
+   },
+   {
+    "title": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
+    "url": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
+    "author": "Kiyoshi Kurihara（松尾研究所）",
+    "date": "2026-09-28",
+    "added": "2026-10-17"
+   },
    {
     "title": "自分専用のASRモデルを作ってみた",
     "url": "https://zenn.dev/holy_fox/articles/7e2d1c8fa2ab6e",
@@ -1663,6 +1859,13 @@
   "blurb": "音声対話AIの開発・評価に関する実務記事。",
   "entries": [
    {
+    "title": "AIとの音声会話が遅いので、Streaming STTを入れて応答開始まで1.6秒にした",
+    "url": "https://zenn.dev/uthuyomi/articles/5009790d5ca28f",
+    "author": "おやす",
+    "date": "2026-10-04",
+    "added": "2026-10-17"
+   },
+   {
     "title": "OpenAIの音声エージェント評価ガイドを日本語の小売サポートで試してみた",
     "url": "https://zenn.dev/aishift/articles/38baaf6dd758d2",
     "author": "大竹（AI Shift）",
@@ -1707,6 +1910,13 @@
   "section": "生成・要約・校正",
   "blurb": "文章生成・要約・校正を自動化する実装記事。",
   "entries": [
+   {
+    "title": "国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？",
+    "url": "https://zenn.dev/algoartis/articles/03ca12150ccbee",
+    "author": "大賀愛一郎（ALGO ARTIS）",
+    "date": "2026-10-15",
+    "added": "2026-10-17"
+   },
    {
     "title": "【最新v1.1.0公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
     "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",

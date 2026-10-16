@@ -224,6 +224,13 @@
   "s": "NLP ライブラリ・ツール開発"
  },
  {
+  "t": "辞書は「2026」を読めない。数と助数詞の境目の音を Go で当てる",
+  "u": "https://zenn.dev/snknsk/articles/go-number-counter-reading",
+  "a": "shouni",
+  "d": "2026-10-12",
+  "s": "日本語テキストの正規化・表記ゆれ"
+ },
+ {
   "t": "表記ゆれで埋め込みベクトルの類似度はどれだけ変動するのか 【Amazon Titan Embeddings V2】",
   "u": "https://zenn.dev/aiforall/articles/62764900660cf8",
   "a": "たこやき（株式会社メンバーズ）",
@@ -264,6 +271,13 @@
   "a": "Hironsan",
   "d": "2017-04-17",
   "s": "日本語テキストの正規化・表記ゆれ"
+ },
+ {
+  "t": "「ほしょう」は保証か補償か保障か；Jevで「もしかして」",
+  "u": "https://zenn.dev/kotap/articles/didyoumean-without-generation",
+  "a": "Kota Mizuno",
+  "d": "2026-10-12",
+  "s": "辞書・かな漢字変換・日本語入力"
  },
  {
   "t": "Mozcに26万語足しても変換精度は上がらなかった — 拡張辞書を実測する",
@@ -413,6 +427,34 @@
   "s": "単語・文の分散表現"
  },
  {
+  "t": "大規模テキストデータを活用したサービス特化型言語モデルの社内共有プロジェクト：Moegi",
+  "u": "https://techblog.lycorp.co.jp/ja/20261015a",
+  "a": "伊奈拓郎（LINEヤフー）",
+  "d": "2026-10-15",
+  "s": "事前学習モデル・Transformer"
+ },
+ {
+  "t": "GPT-6.1 Solが安い理由？Looped Transformerを試したら、ループするほど賢く遅くなった",
+  "u": "https://zenn.dev/yukito_lmlab/articles/ouro-looped-transformer-loops",
+  "a": "日本語言語モデル開発ノート",
+  "d": "2026-10-14",
+  "s": "事前学習モデル・Transformer"
+ },
+ {
+  "t": "NinaXander：RNNとTransformerを凍結したまま合体させたら「しゃべるキメラ」が生まれた【論文解説】",
+  "u": "https://zenn.dev/katalab/articles/ninaxander-overview",
+  "a": "樹神（名古屋大学 片桐・星野研究室）",
+  "d": "2026-10-05",
+  "s": "事前学習モデル・Transformer"
+ },
+ {
+  "t": "結局、Looped Transformerってなんや？",
+  "u": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e",
+  "a": "sakai1250",
+  "d": "2026-10-04",
+  "s": "事前学習モデル・Transformer"
+ },
+ {
   "t": "Mixture of Experts 基礎技術メモ",
   "u": "https://iwashi.co/2026/09/23/mixture-of-experts-moe-memo",
   "a": "iwashi86",
@@ -504,6 +546,13 @@
   "s": "大規模言語モデル（概論・動向）"
  },
  {
+  "t": "LLM-jp-4 の公開CPT・SFTデータを読んでみた",
+  "u": "https://zenn.dev/yukito_lmlab/articles/llmjp4-public-data",
+  "a": "日本語言語モデル開発ノート",
+  "d": "2026-10-13",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
   "t": "国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える",
   "u": "https://zenn.dev/nitic_students/articles/e2e331dea0c616",
   "a": "Juna1013",
@@ -515,6 +564,13 @@
   "u": "https://zenn.dev/elyza/articles/f9dd010e895a34",
   "a": "tt（株式会社ELYZA）",
   "d": "2026-01-16",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "LLM-jpモデルに対するOLMo2ベースの中間学習の検討",
+  "u": "https://llm-jp.nii.ac.jp/blog/blog-1039/",
+  "a": "Koshi EGUCHI, Sosuke Hosokawa, Kouta NAKAYAMA（LLM-jp）",
+  "d": "2025-08-27",
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
@@ -637,6 +693,13 @@
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
+  "t": "RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話",
+  "u": "https://zenn.dev/rayagent/articles/d25bd3f6368ac1",
+  "a": "ray",
+  "d": "2026-10-13",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
   "t": "「ELYZA-Thinking-1.0-llm-jp-4」シリーズの学習方法と評価結果",
   "u": "https://zenn.dev/elyza/articles/79a3d4ed4be915",
   "a": "stohda（株式会社ELYZA）",
@@ -648,6 +711,13 @@
   "u": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-1/",
   "a": "児玉貴志, Yunang Wu（LLM-jp）",
   "d": "2026-09-28",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
+  "t": "中国語が混ざる4Bモデルを、27Bからの蒸留で日本語化した（混入18%→0%、数学は落ちず）",
+  "u": "https://zenn.dev/atemoya/articles/bd05a6a7d3f535",
+  "a": "Atemoya",
+  "d": "2026-09-27",
   "s": "ファインチューニング・事後学習"
  },
  {
@@ -721,6 +791,20 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "Speculative Decoding(投機的デコーディング)についてわかりやすく",
+  "u": "https://zenn.dev/asap/articles/e1cd9ffee4d2c2",
+  "a": "asap",
+  "d": "2026-10-10",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "データ量を 4 分の 1 にしても答えが大きく変わらないのはなぜか？LLM の 4bit 量子化の仕組み",
+  "u": "https://zenn.dev/satto_workspace/articles/c02cef0929ebe3",
+  "a": "Gen Tamura（ソフトバンク）",
+  "d": "2026-10-05",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
   "t": "自作GPTにKVキャッシュを実装し、プロンプトキャッシュの仕組みを学んだ",
   "u": "https://blog.shibayu36.org/entry/2026/10/02/214736",
   "a": "shibayu36",
@@ -732,6 +816,13 @@
   "u": "https://zenn.dev/tokimoa/articles/222fa96dcf1b20",
   "a": "tokimoa",
   "d": "2026-07-24",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "LLM-jp-4 Thinking モデルの量子化版の公開",
+  "u": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-thinking-quantization/",
+  "a": "清丸寛一（LLM-jp）",
+  "d": "2026-06-23",
   "s": "LLM の推論最適化・サービング"
  },
  {
@@ -763,10 +854,38 @@
   "s": "LLM の推論最適化・サービング"
  },
  {
+  "t": "Tokyo-Metropolitan Government Complex QA：日本語の複雑な質問応答と引用を評価するベンチマーク",
+  "u": "https://www.preferred.jp/ja/blog/tech/tmg-cqa",
+  "a": "Hideaki Imamura（Preferred Networks）",
+  "d": "2026-10-16",
+  "s": "評価・ベンチマーク"
+ },
+ {
   "t": "J-MultiChallenge：日本語マルチターン対話能力評価ベンチマークの公開",
   "u": "https://www.sbintuitions.co.jp/blog/entry/2026/09/28/110000",
   "a": "栗原理聡（SB Intuitions）",
   "d": "2026-09-28",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "答えは合っているのに不正解？ LLMベンチマークの点数はどう決まるのか",
+  "u": "https://zenn.dev/sun_asterisk/articles/39c9a38680aeef",
+  "a": "ロリョウ（Sun*）",
+  "d": "2026-09-28",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "日本語ベンチマークでJevの性能を検証する",
+  "u": "https://zenn.dev/ivry/articles/65c1c4242e1156",
+  "a": "tagucci（IVRy）",
+  "d": "2026-09-25",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "Jevはサイコロを振らない｜「較正された確率」の意外な落とし穴",
+  "u": "https://note.com/kantahayashiai/n/n4c54eed30787",
+  "a": "林寛太",
+  "d": "2026-09-19",
   "s": "評価・ベンチマーク"
  },
  {
@@ -945,6 +1064,20 @@
   "s": "全文検索・検索基盤"
  },
  {
+  "t": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
+  "u": "https://zenn.dev/aiforall/articles/8e1803396534de",
+  "a": "nishina（株式会社メンバーズ）",
+  "d": "2026-10-16",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "日本の判例19万件で BM25・ruri-v3・BGE-M3 を比べたら、ハイブリッド検索が必要だった話",
+  "u": "https://zenn.dev/tailexi/articles/5b78a3167c3ddc",
+  "a": "TaiLexi AI",
+  "d": "2026-10-15",
+  "s": "検索・RAG"
+ },
+ {
   "t": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
   "u": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
   "a": "テッツォ",
@@ -956,6 +1089,13 @@
   "u": "https://labo.ivyxon.com/japanese-embedding-rerank",
   "a": "IVYXON",
   "d": "2026-10-01",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "Jev を用い rerank・関連度でフィルターできるライブラリ jev-reranker を公開",
+  "u": "https://secon.dev/entry/2026/09/20/100000-jev-reranker/",
+  "a": "hotchpotch",
+  "d": "2026-09-20",
   "s": "検索・RAG"
  },
  {
@@ -1155,6 +1295,20 @@
   "s": "AI エージェント・MCP"
  },
  {
+  "t": "課題達成のために暴走するAIエージェントを防ぐ安全性研究",
+  "u": "https://zenn.dev/tsurubee/articles/ai-agent-safety-research",
+  "a": "tsurubee",
+  "d": "2026-10-16",
+  "s": "LLM の安全性・セキュリティ"
+ },
+ {
+  "t": "文字列アルゴリズムで著作権侵害リスクの分析を高速化した話",
+  "u": "https://creators.bengo4.com/entry/2026/09/18/080000",
+  "a": "s_uno（弁護士ドットコム）",
+  "d": "2026-09-18",
+  "s": "LLM の安全性・セキュリティ"
+ },
+ {
   "t": "Claude Code / CursorのHooksで実装した AIエージェントの3層プロンプトインジェクション対策",
   "u": "https://creators.bengo4.com/entry/2026/03/24/080000",
   "a": "cloudsign_fujitani（弁護士ドットコム）",
@@ -1181,6 +1335,20 @@
   "a": "石川（GMOフラットセキュリティ株式会社）",
   "d": "2025-05-20",
   "s": "LLM の安全性・セキュリティ"
+ },
+ {
+  "t": "決定モデルの分類精度をKaggleの過去NLPコンペで検証する",
+  "u": "https://zenn.dev/trtd56/articles/a3a65631b5e773",
+  "a": "t.toda",
+  "d": "2026-10-14",
+  "s": "テキスト分類・感情分析"
+ },
+ {
+  "t": "Jev で話題の「判断モデル（System One）」の日本語OSS: sokudan の使い方",
+  "u": "https://zenn.dev/genelab_999/articles/702c2f62a3c614",
+  "a": "GeneLab",
+  "d": "2026-10-01",
+  "s": "テキスト分類・感情分析"
  },
  {
   "t": "Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた",
@@ -1293,6 +1461,13 @@
   "a": "YM_DSKR",
   "d": "2019-02-18",
   "s": "テキストマイニング・トピックモデル"
+ },
+ {
+  "t": "「エラーは出ないが内容が消える」——LLM抽出でハマった落とし穴と対策",
+  "u": "https://zenn.dev/enterprise_ai/articles/fc3629c0f6b886",
+  "a": "yohko（ISE Enterprise AI Team）",
+  "d": "2026-09-29",
+  "s": "情報抽出・固有表現・アノテーション"
  },
  {
   "t": "LLMの気持ちに寄り添って生成的に固有表現認識を解くプロンプトを検討する",
@@ -1435,6 +1610,13 @@
   "s": "機械翻訳"
  },
  {
+  "t": "ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話",
+  "u": "https://zenn.dev/knowledgework/articles/2691721311c2e4",
+  "a": "Taein Kim（ナレッジワーク）",
+  "d": "2026-09-30",
+  "s": "機械翻訳"
+ },
+ {
   "t": "再帰型ニューラルネットで英語から日本語の機械翻訳を実装する方法",
   "u": "https://zenn.dev/derbuihan/articles/c964a0b1c75d28",
   "a": "derbuihan",
@@ -1503,6 +1685,20 @@
   "a": "taku_sid",
   "d": "2025-04-23",
   "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
+  "t": "AIに評価させたら「Whisperの6分の1」。その数字を翌日撤回した理由",
+  "u": "https://zenn.dev/ihsan/articles/ai-whisper-6-1-c3ddb3153854",
+  "a": "イサン",
+  "d": "2026-10-04",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】",
+  "u": "https://zenn.dev/mkj/articles/speech-tts-japanese-2026",
+  "a": "Kiyoshi Kurihara（松尾研究所）",
+  "d": "2026-09-28",
+  "s": "音声認識・音声処理"
  },
  {
   "t": "自分専用のASRモデルを作ってみた",
@@ -1589,6 +1785,13 @@
   "s": "音声認識・音声処理"
  },
  {
+  "t": "AIとの音声会話が遅いので、Streaming STTを入れて応答開始まで1.6秒にした",
+  "u": "https://zenn.dev/uthuyomi/articles/5009790d5ca28f",
+  "a": "おやす",
+  "d": "2026-10-04",
+  "s": "対話システム・音声対話"
+ },
+ {
   "t": "OpenAIの音声エージェント評価ガイドを日本語の小売サポートで試してみた",
   "u": "https://zenn.dev/aishift/articles/38baaf6dd758d2",
   "a": "大竹（AI Shift）",
@@ -1629,6 +1832,13 @@
   "a": "Hironsan",
   "d": "2016-08-24",
   "s": "対話システム・音声対話"
+ },
+ {
+  "t": "国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？",
+  "u": "https://zenn.dev/algoartis/articles/03ca12150ccbee",
+  "a": "大賀愛一郎（ALGO ARTIS）",
+  "d": "2026-10-15",
+  "s": "生成・要約・校正"
  },
  {
   "t": "【最新v1.1.0公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",

@@ -9,7 +9,7 @@
 日本語の自然言語処理（NLP）に関する、企業や個人開発者によるウェブページ・ブログ記事を集めた厳選リストです。
 [スライド一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/README.ja.md) と同じ32のトピックで整理しています。
 
-250 件の記事を 32 カテゴリに分類しています。
+280 件の記事を 32 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは日々更新中です。新しい記事を随時追加しています。
@@ -18,77 +18,67 @@
 
 このリストに直近7日以内に追加された記事です。追加された日から7日間、ここに表示されます。
 
-**学会チュートリアル**
-- [YANS2026 参加報告](https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922) - 平子潤, 松野智紀, 今井悠人（SB Intuitions）（2026-08）
-- [言語処理若手シンポジウム YANS2026 に参加してきました](https://zenn.dev/poclab_techblog/articles/09a31a59dfe2b8) - 坪井 一馬（Poclab）（2026-08）
-
 **日本語テキストの正規化・表記ゆれ**
-- [表記ゆれで埋め込みベクトルの類似度はどれだけ変動するのか 【Amazon Titan Embeddings V2】](https://zenn.dev/aiforall/articles/62764900660cf8) - たこやき（株式会社メンバーズ）（2026-09）
+- [辞書は「2026」を読めない。数と助数詞の境目の音を Go で当てる](https://zenn.dev/snknsk/articles/go-number-counter-reading) - shouni（2026-10）
 
 **辞書・かな漢字変換・日本語入力**
-- [Mozcに26万語足しても変換精度は上がらなかった — 拡張辞書を実測する](https://zenn.dev/jassdack/articles/bd87426fa1c2f4) - jassdack（2026-09）
-
-**単語・文の分散表現**
-- [Embedding は採点に向かない ── 「偶数」と「奇数」に満点を出した話](https://zenn.dev/ferretcode/articles/why-i-dropped-embedding-scoring) - フェレットさん（2026-08）
-- [日本語検索1位を達成したLLMベースの日本語埋め込みモデル](https://zenn.dev/sionicai_jp/articles/a97e20332f8881) - サイオニックエーアイ株式会社（2026-09）
-- [日本語の埋め込みモデルって結局どれが良いの？JMTEBのスコアと実測で比べてみた](https://zenn.dev/shogo_h/articles/japanese-embedding-benchmark-2026) - shogo-h（2026-08）
+- [「ほしょう」は保証か補償か保障か；Jevで「もしかして」](https://zenn.dev/kotap/articles/didyoumean-without-generation) - Kota Mizuno（2026-10）
 
 **事前学習モデル・Transformer**
-- [Mixture of Experts 基礎技術メモ](https://iwashi.co/2026/09/23/mixture-of-experts-moe-memo) - iwashi86（2026-09）
+- [大規模テキストデータを活用したサービス特化型言語モデルの社内共有プロジェクト：Moegi](https://techblog.lycorp.co.jp/ja/20261015a) - 伊奈拓郎（LINEヤフー）（2026-10）
+- [GPT-6.1 Solが安い理由？Looped Transformerを試したら、ループするほど賢く遅くなった](https://zenn.dev/yukito_lmlab/articles/ouro-looped-transformer-loops) - 日本語言語モデル開発ノート（2026-10）
+- [NinaXander：RNNとTransformerを凍結したまま合体させたら「しゃべるキメラ」が生まれた【論文解説】](https://zenn.dev/katalab/articles/ninaxander-overview) - 樹神（名古屋大学 片桐・星野研究室）（2026-10）
+- [結局、Looped Transformerってなんや？](https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e) - sakai1250（2026-10）
+
+**日本語LLMの開発（事前学習・コーパス構築）**
+- [LLM-jp-4 の公開CPT・SFTデータを読んでみた](https://zenn.dev/yukito_lmlab/articles/llmjp4-public-data) - 日本語言語モデル開発ノート（2026-10）
+- [LLM-jpモデルに対するOLMo2ベースの中間学習の検討](https://llm-jp.nii.ac.jp/blog/blog-1039/) - Koshi EGUCHI, Sosuke Hosokawa, Kouta NAKAYAMA（LLM-jp）（2025-08）
 
 **ファインチューニング・事後学習**
-- [「ELYZA-Thinking-1.0-llm-jp-4」シリーズの学習方法と評価結果](https://zenn.dev/elyza/articles/79a3d4ed4be915) - stohda（株式会社ELYZA）（2026-10）
-- [LLM-jp-4.1 モデルの公開](https://llm-jp.nii.ac.jp/blog/llm-jp-4-1/) - 児玉貴志, Yunang Wu（LLM-jp）（2026-09）
+- [RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話](https://zenn.dev/rayagent/articles/d25bd3f6368ac1) - ray（2026-10）
+- [中国語が混ざる4Bモデルを、27Bからの蒸留で日本語化した（混入18%→0%、数学は落ちず）](https://zenn.dev/atemoya/articles/bd05a6a7d3f535) - Atemoya（2026-09）
 
 **LLM の推論最適化・サービング**
-- [自作GPTにKVキャッシュを実装し、プロンプトキャッシュの仕組みを学んだ](https://blog.shibayu36.org/entry/2026/10/02/214736) - shibayu36（2026-10）
+- [Speculative Decoding(投機的デコーディング)についてわかりやすく](https://zenn.dev/asap/articles/e1cd9ffee4d2c2) - asap（2026-10）
+- [データ量を 4 分の 1 にしても答えが大きく変わらないのはなぜか？LLM の 4bit 量子化の仕組み](https://zenn.dev/satto_workspace/articles/c02cef0929ebe3) - Gen Tamura（ソフトバンク）（2026-10）
+- [LLM-jp-4 Thinking モデルの量子化版の公開](https://llm-jp.nii.ac.jp/blog/llm-jp-4-thinking-quantization/) - 清丸寛一（LLM-jp）（2026-06）
 
 **評価・ベンチマーク**
-- [J-MultiChallenge：日本語マルチターン対話能力評価ベンチマークの公開](https://www.sbintuitions.co.jp/blog/entry/2026/09/28/110000) - 栗原理聡（SB Intuitions）（2026-09）
-
-**全文検索・検索基盤**
-- [学習型スパース検索における語彙選択](https://zenn.dev/retrieva_tech/articles/5e0d783058eba5) - コイン スティーブン（株式会社レトリバ）（2026-10）
+- [Tokyo-Metropolitan Government Complex QA：日本語の複雑な質問応答と引用を評価するベンチマーク](https://www.preferred.jp/ja/blog/tech/tmg-cqa) - Hideaki Imamura（Preferred Networks）（2026-10）
+- [答えは合っているのに不正解？ LLMベンチマークの点数はどう決まるのか](https://zenn.dev/sun_asterisk/articles/39c9a38680aeef) - ロリョウ（Sun*）（2026-09）
+- [日本語ベンチマークでJevの性能を検証する](https://zenn.dev/ivry/articles/65c1c4242e1156) - tagucci（IVRy）（2026-09）
+- [Jevはサイコロを振らない｜「較正された確率」の意外な落とし穴](https://note.com/kantahayashiai/n/n4c54eed30787) - 林寛太（2026-09）
 
 **検索・RAG**
-- [GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】](https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c) - テッツォ（2026-10）
-- [日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目](https://labo.ivyxon.com/japanese-embedding-rerank) - IVYXON（2026-10）
+- [ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた](https://zenn.dev/aiforall/articles/8e1803396534de) - nishina（株式会社メンバーズ）（2026-10）
+- [日本の判例19万件で BM25・ruri-v3・BGE-M3 を比べたら、ハイブリッド検索が必要だった話](https://zenn.dev/tailexi/articles/5b78a3167c3ddc) - TaiLexi AI（2026-10）
+- [Jev を用い rerank・関連度でフィルターできるライブラリ jev-reranker を公開](https://secon.dev/entry/2026/09/20/100000-jev-reranker/) - hotchpotch（2026-09）
 
-**LLM アプリケーション開発・運用**
-- [文字数・バイト数からのトークン数推定は実際どれくらいズレるのか](https://zenn.dev/aiforall/articles/63501821b1e50e) - nishina（株式会社メンバーズ）（2026-09）
+**LLM の安全性・セキュリティ**
+- [課題達成のために暴走するAIエージェントを防ぐ安全性研究](https://zenn.dev/tsurubee/articles/ai-agent-safety-research) - tsurubee（2026-10）
+- [文字列アルゴリズムで著作権侵害リスクの分析を高速化した話](https://creators.bengo4.com/entry/2026/09/18/080000) - s_uno（弁護士ドットコム）（2026-09）
 
 **テキスト分類・感情分析**
-- [Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた](https://zenn.dev/genelab_999/articles/533144853290a7) - GeneLab（2026-09）
-- [Jevはどれだけ優秀なif文か？軽量モデルを分類器用途で比較してみた](https://journal.supa.ai/jev-classifier-benchmark/) - supa Lab（supa株式会社）（2026-09）
+- [決定モデルの分類精度をKaggleの過去NLPコンペで検証する](https://zenn.dev/trtd56/articles/a3a65631b5e773) - t.toda（2026-10）
+- [Jev で話題の「判断モデル（System One）」の日本語OSS: sokudan の使い方](https://zenn.dev/genelab_999/articles/702c2f62a3c614) - GeneLab（2026-10）
 
-**テキストマイニング・トピックモデル**
-- [生成AI以前と以後でエンジニアの文章はどう変わったのか: Qiitaの7万記事を数えてみた話](https://nyosegawa.com/posts/qiita-writing-before-after-ai/) - 逆瀬川ちゃん（2026-09）
-- [AIの口癖を日本語記事で測ろうとして、3回とも失敗した](https://qiita.com/suwa_nobu/items/4231026d13f7527c0f69) - suwa_nobu（2026-08）
-
-**文書処理・OCR**
-- [LLMでカタログPDFから構造化データを抽出する：プロンプト設計と後処理の実践](https://zenn.dev/optimax/articles/0fc6979bd6e0eb) - Chen（OptiMax）（2026-09）
+**情報抽出・固有表現・アノテーション**
+- [「エラーは出ないが内容が消える」——LLM抽出でハマった落とし穴と対策](https://zenn.dev/enterprise_ai/articles/fc3629c0f6b886) - yohko（ISE Enterprise AI Team）（2026-09）
 
 **機械翻訳**
-- [plamo-3-translate: フロンティア級の翻訳特化LLM](https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release) - Preferred Networks（2026-10）
-
-**マルチモーダル・Vision-and-Language**
-- [LLM-jp-4-VL 9Bリリース](https://llm-jp.nii.ac.jp/blog/llm-jp-4-vl-9b/) - 杉浦一瑳（LLM-jp）（2026-09）
+- [ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話](https://zenn.dev/knowledgework/articles/2691721311c2e4) - Taein Kim（ナレッジワーク）（2026-09）
 
 **音声認識・音声処理**
-- [自分専用のASRモデルを作ってみた](https://zenn.dev/holy_fox/articles/7e2d1c8fa2ab6e) - ほーりーふぉっくす（2026-09）
-- [無音で文字起こしすると「ご視聴ありがとうございました」になる理由を検証](https://zenn.dev/trtd56/articles/994f43aebd2057) - t.toda（2026-09）
-- [WER・CERだけでは不十分？日本語音声認識を「名詞・固有名詞F1スコア」で再評価した結果](https://neosophie.com/ja/blog/20260421-asr-evaluation) - Neosophie Editorial（2026-04）
+- [AIに評価させたら「Whisperの6分の1」。その数字を翌日撤回した理由](https://zenn.dev/ihsan/articles/ai-whisper-6-1-c3ddb3153854) - イサン（2026-10）
+- [音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】](https://zenn.dev/mkj/articles/speech-tts-japanese-2026) - Kiyoshi Kurihara（松尾研究所）（2026-09）
 
 **対話システム・音声対話**
-- [OpenAIの音声エージェント評価ガイドを日本語の小売サポートで試してみた](https://zenn.dev/aishift/articles/38baaf6dd758d2) - 大竹（AI Shift）（2026-09）
+- [AIとの音声会話が遅いので、Streaming STTを入れて応答開始まで1.6秒にした](https://zenn.dev/uthuyomi/articles/5009790d5ca28f) - おやす（2026-10）
 
 **生成・要約・校正**
-- [【最新v1.1.0公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました](https://zenn.dev/algoartis/articles/0b1c731881b25c) - 大賀愛一郎（ALGO ARTIS）（2026-10）
-- [AIが書いた日本語に頻出する単語を指摘するtextlintプリセットを作った](https://blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/) - ぷらす（2026-09）
+- [国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？](https://zenn.dev/algoartis/articles/03ca12150ccbee) - 大賀愛一郎（ALGO ARTIS）（2026-10）
 
-**解釈性・分析・言語学的視点**
-- [最近のLLMは黙って考えられるようになっている](https://joisino.hatenablog.com/entry/filler) - joisino（2026-10）
-
-_2026-10-09 時点_
+_2026-10-17 時点_
 
 ## 目次
 
@@ -186,6 +176,7 @@ _2026-10-09 時点_
 
 neologdnや独自の正規化処理など、表記ゆれ対策の実装記事。
 
+- [辞書は「2026」を読めない。数と助数詞の境目の音を Go で当てる](https://zenn.dev/snknsk/articles/go-number-counter-reading) - shouni（2026-10）
 - [表記ゆれで埋め込みベクトルの類似度はどれだけ変動するのか 【Amazon Titan Embeddings V2】](https://zenn.dev/aiforall/articles/62764900660cf8) - たこやき（株式会社メンバーズ）（2026-09）
 - [なぜ私たちは住所正規化エンジンをRustで“再発明”したのか？ - FFIによる多言語高速化と開発者体験の裏側](https://buildersbox.corp-sansan.com/entry/2025/06/20/120000) - kiyonori-matsumoto（Sansan）（2025-06）
 - [住所正規化のデモ機能を作ったので、日本のヤバい住所を入力してみた](https://zenn.dev/sikkim/articles/bc86fbcac3a9fd) - TAKAHASHI Taro（2023-09）
@@ -197,6 +188,7 @@ neologdnや独自の正規化処理など、表記ゆれ対策の実装記事。
 
 IMEやかな漢字変換エンジンの自作記録。
 
+- [「ほしょう」は保証か補償か保障か；Jevで「もしかして」](https://zenn.dev/kotap/articles/didyoumean-without-generation) - Kota Mizuno（2026-10）
 - [Mozcに26万語足しても変換精度は上がらなかった — 拡張辞書を実測する](https://zenn.dev/jassdack/articles/bd87426fa1c2f4) - jassdack（2026-09）
 - [自作 macOS IME「RomKana」開発記](https://zenn.dev/toshinao/articles/1cffb713b1c670) - toshinao（2026-06）
 - [IMEなしの日本語サジェスト実装メモ：実務で使える4つのTips（+番外編1つ）](https://qiita.com/Rapls/items/868df2f859df470d86e9) - Rapls（2026-05）
@@ -228,6 +220,10 @@ IMEやかな漢字変換エンジンの自作記録。
 
 BERTとTransformerの仕組みを図解・実装で理解する記事。
 
+- [大規模テキストデータを活用したサービス特化型言語モデルの社内共有プロジェクト：Moegi](https://techblog.lycorp.co.jp/ja/20261015a) - 伊奈拓郎（LINEヤフー）（2026-10）
+- [GPT-6.1 Solが安い理由？Looped Transformerを試したら、ループするほど賢く遅くなった](https://zenn.dev/yukito_lmlab/articles/ouro-looped-transformer-loops) - 日本語言語モデル開発ノート（2026-10）
+- [NinaXander：RNNとTransformerを凍結したまま合体させたら「しゃべるキメラ」が生まれた【論文解説】](https://zenn.dev/katalab/articles/ninaxander-overview) - 樹神（名古屋大学 片桐・星野研究室）（2026-10）
+- [結局、Looped Transformerってなんや？](https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e) - sakai1250（2026-10）
 - [Mixture of Experts 基礎技術メモ](https://iwashi.co/2026/09/23/mixture-of-experts-moe-memo) - iwashi86（2026-09）
 - [TransformerのSelf AttentionのQKVを直感的に解説する](https://qiita.com/kenmatsu4/items/1b3853a3314ab66eb2a3) - kenmatsu4（まつけん）（2026-05）
 - [【LLMの事前学習と事後学習を支える技術】 GPT-3, InstructGPT, DeepSeek-R1で理解し, OSSで再現実装する](https://zenn.dev/epicai_techblog/articles/cbb8774f43783b) - bishopfunc（2025-12）
@@ -251,8 +247,10 @@ LLMの全体像や最新動向を追った記事・まとめ。
 
 日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。
 
+- [LLM-jp-4 の公開CPT・SFTデータを読んでみた](https://zenn.dev/yukito_lmlab/articles/llmjp4-public-data) - 日本語言語モデル開発ノート（2026-10）
 - [国産LLMは作れるのか？ - RakutenAI 3.0の炎上から考える](https://zenn.dev/nitic_students/articles/e2e331dea0c616) - Juna1013（2026-03）
 - [日本語特化拡散言語モデル「ELYZA-LLM-Diffusion」の公開](https://zenn.dev/elyza/articles/f9dd010e895a34) - tt（株式会社ELYZA）（2026-01）
+- [LLM-jpモデルに対するOLMo2ベースの中間学習の検討](https://llm-jp.nii.ac.jp/blog/blog-1039/) - Koshi EGUCHI, Sosuke Hosokawa, Kouta NAKAYAMA（LLM-jp）（2025-08）
 - [LLMによる大規模な事前学習データセット生成システムの構築と運用](https://tech.preferred.jp/ja/blog/data-generation-by-llm/) - Preferred Networks（2025-04）
 - [【論文紹介】D-CPT Law](https://zenn.dev/eques/articles/956df2978885de) - EQUES Lab（2025-02）
 - [フルスクラッチLLM「PLaMo」の事前学習を支える技術](https://preferred.jp/ja/blog/tech/plamo-pretrain-codebase/) - Preferred Networks（2025-02）
@@ -275,8 +273,10 @@ LLMの全体像や最新動向を追った記事・まとめ。
 
 LoRAなどを使ったファインチューニングの入門・実践記事。
 
+- [RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話](https://zenn.dev/rayagent/articles/d25bd3f6368ac1) - ray（2026-10）
 - [「ELYZA-Thinking-1.0-llm-jp-4」シリーズの学習方法と評価結果](https://zenn.dev/elyza/articles/79a3d4ed4be915) - stohda（株式会社ELYZA）（2026-10）
 - [LLM-jp-4.1 モデルの公開](https://llm-jp.nii.ac.jp/blog/llm-jp-4-1/) - 児玉貴志, Yunang Wu（LLM-jp）（2026-09）
+- [中国語が混ざる4Bモデルを、27Bからの蒸留で日本語化した（混入18%→0%、数学は落ちず）](https://zenn.dev/atemoya/articles/bd05a6a7d3f535) - Atemoya（2026-09）
 - [LLM 事後学習 (SFT / RLHF / DPO / RLVR / GRPO / 自己蒸留) を教師信号から眺める](https://zenn.dev/shunk031/articles/llm-post-training-overview) - しゅんけー, Ph.D.（2026-06）
 - [LLMファインチューニング入門──RAGと使い分けるための基礎からLoRA実装まで【2026】](https://zenn.dev/karaagedesu/articles/edf46190f70b1d) - karaagedesu（2026-05）
 - [コンパイルエラーを元気に説明するLLMをファインチューンでつくる - ローカルファインチューン完全ガイド -](https://nowokay.hatenablog.com/entry/2026/01/10/125059) - きしだ (kishida)（2026-01）
@@ -292,8 +292,11 @@ LoRAなどを使ったファインチューニングの入門・実践記事。
 
 vLLMや量子化を使った推論高速化の実践記事。
 
+- [Speculative Decoding(投機的デコーディング)についてわかりやすく](https://zenn.dev/asap/articles/e1cd9ffee4d2c2) - asap（2026-10）
+- [データ量を 4 分の 1 にしても答えが大きく変わらないのはなぜか？LLM の 4bit 量子化の仕組み](https://zenn.dev/satto_workspace/articles/c02cef0929ebe3) - Gen Tamura（ソフトバンク）（2026-10）
 - [自作GPTにKVキャッシュを実装し、プロンプトキャッシュの仕組みを学んだ](https://blog.shibayu36.org/entry/2026/10/02/214736) - shibayu36（2026-10）
 - [gpt-ossを4bit量子化したら流暢に壊れた話。量子化方式で忠実度が2倍変わった実測記録](https://zenn.dev/tokimoa/articles/222fa96dcf1b20) - tokimoa（2026-07）
+- [LLM-jp-4 Thinking モデルの量子化版の公開](https://llm-jp.nii.ac.jp/blog/llm-jp-4-thinking-quantization/) - 清丸寛一（LLM-jp）（2026-06）
 - [LLMの量子化手法と実装方法について](https://www.skygroup.jp/tech-blog/article/2117/) - Sky株式会社（2026-02）
 - [「量子化済みLLM+LoRA」 vs 「量子化なしLLM+LoRA」、RPSとlatencyはどう変わるか？](https://buildersbox.corp-sansan.com/entry/2025/12/22/100000) - 齋藤慎一朗（Sansan株式会社）（2025-12）
 - [vLLMを利用したLLM推論高速化テクニック](https://acro-engineer.hatenablog.com/entry/2024/12/24/120000) - tereka114（株式会社アクロクエストテクノロジー）（2024-12）
@@ -303,7 +306,11 @@ vLLMや量子化を使った推論高速化の実践記事。
 
 JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。
 
+- [Tokyo-Metropolitan Government Complex QA：日本語の複雑な質問応答と引用を評価するベンチマーク](https://www.preferred.jp/ja/blog/tech/tmg-cqa) - Hideaki Imamura（Preferred Networks）（2026-10）
 - [J-MultiChallenge：日本語マルチターン対話能力評価ベンチマークの公開](https://www.sbintuitions.co.jp/blog/entry/2026/09/28/110000) - 栗原理聡（SB Intuitions）（2026-09）
+- [答えは合っているのに不正解？ LLMベンチマークの点数はどう決まるのか](https://zenn.dev/sun_asterisk/articles/39c9a38680aeef) - ロリョウ（Sun*）（2026-09）
+- [日本語ベンチマークでJevの性能を検証する](https://zenn.dev/ivry/articles/65c1c4242e1156) - tagucci（IVRy）（2026-09）
+- [Jevはサイコロを振らない｜「較正された確率」の意外な落とし穴](https://note.com/kantahayashiai/n/n4c54eed30787) - 林寛太（2026-09）
 - [J-tau の3ドメインを日英で実験した](https://zenn.dev/takkuhiro/articles/j-tau-three-domains-ja-en) - Hirotaka（2026-08）
 - [【GENIAC第3期成果】会議要約ベンチマーク「J-MeetEval」の整備](https://zenn.dev/team_nishika/articles/2d346fd1151faa) - naoto nm（Nishika）（2026-08）
 - [LLM-as-a-Judgeはどこまで信用できるか。人手177件と突き合わせたらκ=0.25だった](https://zenn.dev/tokimoa/articles/68bec615f313c7) - tokimoa（2026-07）
@@ -339,8 +346,11 @@ Elasticsearchなど検索基盤を日本語向けにチューニングする記�
 
 RAGの仕組みをゼロから実装して学ぶ記事。
 
+- [ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた](https://zenn.dev/aiforall/articles/8e1803396534de) - nishina（株式会社メンバーズ）（2026-10）
+- [日本の判例19万件で BM25・ruri-v3・BGE-M3 を比べたら、ハイブリッド検索が必要だった話](https://zenn.dev/tailexi/articles/5b78a3167c3ddc) - TaiLexi AI（2026-10）
 - [GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】](https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c) - テッツォ（2026-10）
 - [日本語の埋め込みモデルをローカルで比べた — Ruri v3・Qwen3-Embedding・PLaMo-Embedding と Gemini、リランカーの効き目](https://labo.ivyxon.com/japanese-embedding-rerank) - IVYXON（2026-10）
+- [Jev を用い rerank・関連度でフィルターできるライブラリ jev-reranker を公開](https://secon.dev/entry/2026/09/20/100000-jev-reranker/) - hotchpotch（2026-09）
 - [LangChain ParentDocumentRetriever で RAG の検索チャンクと生成文脈を分離する](https://qiita.com/ynakayama/items/88005c72a6272939ad0b) - Yasuhiro Nakayama（2026-09）
 - [【完全解説】なぜLangChainで作った社内RAGは現場で死ぬのか？〜完全閉域網・BM25+ChromaDBハイブリッドRRF・コサイン](https://qiita.com/dytjj02/items/58c75b1ed60f7ff9c532) - dytjj02（2026-09）
 - [埋め込みモデル2026総点検：Qwen3-Embedding＋Matryoshkaで日本語RAGのコストと精度を両取りする](https://zenn.dev/libercraft/articles/20260709-embedding-models-2026-matryoshka) - リベルクラフト（2026-07）
@@ -384,6 +394,8 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 
 プロンプトインジェクションなどLLM特有の脅威と対策の記事。
 
+- [課題達成のために暴走するAIエージェントを防ぐ安全性研究](https://zenn.dev/tsurubee/articles/ai-agent-safety-research) - tsurubee（2026-10）
+- [文字列アルゴリズムで著作権侵害リスクの分析を高速化した話](https://creators.bengo4.com/entry/2026/09/18/080000) - s_uno（弁護士ドットコム）（2026-09）
 - [Claude Code / CursorのHooksで実装した AIエージェントの3層プロンプトインジェクション対策](https://creators.bengo4.com/entry/2026/03/24/080000) - cloudsign_fujitani（弁護士ドットコム）（2026-03）
 - [【LLMセキュリティ】間接的プロンプトインジェクションの脅威と対策](https://tech.akariinc.co.jp/entry/2026/01/29/190549) - soichiro_sugimoto（株式会社AKARI）（2026-01）
 - [プロンプトインジェクション対策: 様々な攻撃パターンから学ぶセキュリティのリスク](https://blog.flatt.tech/entry/prompt_injection) - 石川（GMOフラットセキュリティ株式会社）（2025-05）
@@ -393,6 +405,8 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 
 テキスト分類・感情分析モデルの実装記事。
 
+- [決定モデルの分類精度をKaggleの過去NLPコンペで検証する](https://zenn.dev/trtd56/articles/a3a65631b5e773) - t.toda（2026-10）
+- [Jev で話題の「判断モデル（System One）」の日本語OSS: sokudan の使い方](https://zenn.dev/genelab_999/articles/702c2f62a3c614) - GeneLab（2026-10）
 - [Jev 系 OSS「Laya」は日本語で使えるのか。300 件測ったら、順序尺度が「選択肢の位置」で壊れていた](https://zenn.dev/genelab_999/articles/533144853290a7) - GeneLab（2026-09）
 - [Jevはどれだけ優秀なif文か？軽量モデルを分類器用途で比較してみた](https://journal.supa.ai/jev-classifier-benchmark/) - supa Lab（supa株式会社）（2026-09）
 - [BERTモデルを使った日本語テキスト感情分析プログラムの実装](https://qiita.com/kiyotaman/items/736d5d0e47dbfd419244) - kiyotaman（清田史和）（2024-10）
@@ -424,6 +438,7 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 
 固有表現抽出（NER）のデータセットと実装の記事。
 
+- [「エラーは出ないが内容が消える」——LLM抽出でハマった落とし穴と対策](https://zenn.dev/enterprise_ai/articles/fc3629c0f6b886) - yohko（ISE Enterprise AI Team）（2026-09）
 - [LLMの気持ちに寄り添って生成的に固有表現認識を解くプロンプトを検討する](https://zenn.dev/0x9d28/articles/cced78119f725d) - 鴨（2023-09）
 - [【自然言語処理】アノテーションがぐっと楽になる！ お助けツールprodigyについて](https://note.com/asahi_ictrad/n/n2201dad206bd) - 朝日新聞社メディア研究開発センター（杉野かおり）（2021-07）
 - [Transformersを用いた固有表現抽出のtips](https://tech.mntsq.co.jp/entry/2020/12/16/160006) - 稲村和樹（株式会社MNTSQ）（2020-12）
@@ -459,6 +474,7 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 機械翻訳モデルの開発・自作の記事。
 
 - [plamo-3-translate: フロンティア級の翻訳特化LLM](https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release) - Preferred Networks（2026-10）
+- [ゲーミングPC向けで LLMとデプロイ環境を最適化してみた話](https://zenn.dev/knowledgework/articles/2691721311c2e4) - Taein Kim（ナレッジワーク）（2026-09）
 - [特化型大規模言語モデル『PLaMo翻訳』を公開しました](https://tech.preferred.jp/ja/blog/plamo-translate/) - Kentaro Imajo（Preferred Networks）（2025-05）
 - [再帰型ニューラルネットで英語から日本語の機械翻訳を実装する方法](https://zenn.dev/derbuihan/articles/c964a0b1c75d28) - derbuihan（2023-06）
 - [ニューラル機械翻訳モデルを自作してみる](https://lab.astamuse.co.jp/entry/neural-machine-translation) - astamuse株式会社（2020-12）
@@ -479,6 +495,8 @@ LangGraphやMCPを使ったAIエージェント実装の記事。
 
 Whisperなど音声認識モデルの検証・活用記事。
 
+- [AIに評価させたら「Whisperの6分の1」。その数字を翌日撤回した理由](https://zenn.dev/ihsan/articles/ai-whisper-6-1-c3ddb3153854) - イサン（2026-10）
+- [音声合成に日本語を正しく読んでもらう話 〜高低アクセントからG2Pまで〜 【前編】](https://zenn.dev/mkj/articles/speech-tts-japanese-2026) - Kiyoshi Kurihara（松尾研究所）（2026-09）
 - [自分専用のASRモデルを作ってみた](https://zenn.dev/holy_fox/articles/7e2d1c8fa2ab6e) - ほーりーふぉっくす（2026-09）
 - [無音で文字起こしすると「ご視聴ありがとうございました」になる理由を検証](https://zenn.dev/trtd56/articles/994f43aebd2057) - t.toda（2026-09）
 - [Whisperはまだ第一候補なのか？最新OSSとOpenAI Transcribe APIを日本語音声で比較してみた](https://techblog.heroz.jp/entry/2026/08/18/120000) - heroz-tkubo（HEROZ）（2026-08）
@@ -496,6 +514,7 @@ Whisperなど音声認識モデルの検証・活用記事。
 
 音声対話AIの開発・評価に関する実務記事。
 
+- [AIとの音声会話が遅いので、Streaming STTを入れて応答開始まで1.6秒にした](https://zenn.dev/uthuyomi/articles/5009790d5ca28f) - おやす（2026-10）
 - [OpenAIの音声エージェント評価ガイドを日本語の小売サポートで試してみた](https://zenn.dev/aishift/articles/38baaf6dd758d2) - 大竹（AI Shift）（2026-09）
 - [音声AIとテキストAIの大きな違い: 音声AIの基本アーキテクチャに足りないこと](https://zenn.dev/isaka_aipdm/articles/9a522441733382) - Isaka（2026-01）
 - [音声対話システムの自動評価フレームワーク「VociMetrics」](https://developers.cyberagent.co.jp/blog/archives/61458/) - ohira_yoshiki（株式会社サイバーエージェント）（2025-12）
@@ -507,6 +526,7 @@ Whisperなど音声認識モデルの検証・活用記事。
 
 文章生成・要約・校正を自動化する実装記事。
 
+- [国産モデル sarashina3-mini は日本語の推敲で何を変えるのか？](https://zenn.dev/algoartis/articles/03ca12150ccbee) - 大賀愛一郎（ALGO ARTIS）（2026-10）
 - [【最新v1.1.0公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました](https://zenn.dev/algoartis/articles/0b1c731881b25c) - 大賀愛一郎（ALGO ARTIS）（2026-10）
 - [AIが書いた日本語に頻出する単語を指摘するtextlintプリセットを作った](https://blog.p1ass.com/posts/textlint-rule-preset-ai-words-ja/) - ぷらす（2026-09）
 - [AIによる文章要約と重複チェックの開発](https://tech.makeshop.co.jp/entry/2024/10/07/180251) - tech-makeshop-mori（GMOメイクショップ株式会社）（2024-10）
