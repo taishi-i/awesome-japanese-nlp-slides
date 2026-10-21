@@ -112,6 +112,13 @@
   "s": "大学講義・体系的な講義資料"
  },
  {
+  "t": "日本語字幕を文節で改行する（Python + Janome、そのまま動く 90 行）",
+  "u": "https://qiita.com/yosuga-sugita/items/f4b358b7d2f7d3c88d48",
+  "a": "yosuga-sugita",
+  "d": "2026-10-19",
+  "s": "日本語の基礎解析（形態素解析・構文解析）"
+ },
+ {
   "t": "形態素解析の歴史と機械学習への影響~中野哲平は頑張るエンジニアですという文字列に対して解析",
   "u": "https://zenn.dev/m_nakano_teppei/articles/62e039f03ff88c",
   "a": "中野哲平",
@@ -693,6 +700,13 @@
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
+  "t": "日本語の業務判断に特化させた選択モデルを作った【Erabo-2B】",
+  "u": "https://qiita.com/tanakaisworking/items/05bd45dd8387b85f25bf",
+  "a": "tanakaisworking",
+  "d": "2026-10-20",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
   "t": "RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話",
   "u": "https://zenn.dev/rayagent/articles/d25bd3f6368ac1",
   "a": "ray",
@@ -791,6 +805,20 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "24GB推奨のモデルを16GBで:Nemotron 3.5 Bolt の速度・日本語品質・エージェント実験",
+  "u": "https://qiita.com/kougi/items/1e7b3bfbad0545653ab5",
+  "a": "kougi",
+  "d": "2026-10-18",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "vLLM 0.31 に上げて TTFT を詰めた記録 — 「1,584トークン未満は prefix cache に残らない」と、RAG を\"モデルに決めさせる\"話（追加PR4件は効かなかった）",
+  "u": "https://qiita.com/nakanokensetsu/items/7a5b9478d3763d89cb91",
+  "a": "nakanokensetsu",
+  "d": "2026-10-13",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
   "t": "Speculative Decoding(投機的デコーディング)についてわかりやすく",
   "u": "https://zenn.dev/asap/articles/e1cd9ffee4d2c2",
   "a": "asap",
@@ -852,6 +880,13 @@
   "a": "Aratako（松尾研究室）",
   "d": "2024-09-09",
   "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "llm-jp-evalとllm-jp-eval-inferenceを変更し、オープンウェイト版Jevの日本語性能を比較可能にする",
+  "u": "https://qiita.com/CLRR/items/77c4ed369b894762bf2f",
+  "a": "CLRR",
+  "d": "2026-10-18",
+  "s": "評価・ベンチマーク"
  },
  {
   "t": "Tokyo-Metropolitan Government Complex QA：日本語の複雑な質問応答と引用を評価するベンチマーク",
@@ -1001,6 +1036,13 @@
   "s": "評価・ベンチマーク"
  },
  {
+  "t": "サーバー不要のベクトル検索、でも日本語検索は0件だった：Go に埋め込める rostam の実力と弱点",
+  "u": "https://zenn.dev/nonejp/articles/c854f25ab5c525",
+  "a": "ousiass（VeriCerts）",
+  "d": "2026-10-21",
+  "s": "全文検索・検索基盤"
+ },
+ {
   "t": "学習型スパース検索における語彙選択",
   "u": "https://zenn.dev/retrieva_tech/articles/5e0d783058eba5",
   "a": "コイン スティーブン（株式会社レトリバ）",
@@ -1064,6 +1106,20 @@
   "s": "全文検索・検索基盤"
  },
  {
+  "t": "RAG のチャンクは「今|日」で切れていた：Go 製 nibble の日本語分割を青空文庫で確かめる",
+  "u": "https://zenn.dev/ousiass/articles/cde25ed34e5320",
+  "a": "ousiass",
+  "d": "2026-10-19",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "1万件超の社内文書で正答率96.7% ― RAGをやめて「絞る・探す・読み切る」にしたNAYUTAの設計",
+  "u": "https://zenn.dev/bocek/articles/nayuta-agentic-search-design",
+  "a": "Yuta Euchi（Bocek）",
+  "d": "2026-10-18",
+  "s": "検索・RAG"
+ },
+ {
   "t": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
   "u": "https://zenn.dev/aiforall/articles/8e1803396534de",
   "a": "nishina（株式会社メンバーズ）",
@@ -1075,6 +1131,13 @@
   "u": "https://zenn.dev/tailexi/articles/5b78a3167c3ddc",
   "a": "TaiLexi AI",
   "d": "2026-10-15",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "実務者が書いたRAGの正解データは「文書の外」を含む — 消さずに分けて測る評価の作り方",
+  "u": "https://zenn.dev/boy_techblog/articles/zenn-gold-answers-beyond-docs",
+  "a": "tonten（横浜銀行）",
+  "d": "2026-10-13",
   "s": "検索・RAG"
  },
  {
@@ -1190,6 +1253,13 @@
   "s": "検索・RAG"
  },
  {
+  "t": "LLMに自動プロンプト最適化させ続けたら、人間の出番はなくなるのか？",
+  "u": "https://zenn.dev/scien/articles/llm-prompt-optimization-human-rules",
+  "a": "Kanon Amemiya（SCIEN）",
+  "d": "2026-10-20",
+  "s": "LLM アプリケーション開発・運用"
+ },
+ {
   "t": "文字数・バイト数からのトークン数推定は実際どれくらいズレるのか",
   "u": "https://zenn.dev/aiforall/articles/63501821b1e50e",
   "a": "nishina（株式会社メンバーズ）",
@@ -1295,6 +1365,13 @@
   "s": "AI エージェント・MCP"
  },
  {
+  "t": "AI に外部の文章を読ませる機能のプロンプトインジェクション対策 ―― 見破るより、有効にする前に止める",
+  "u": "https://zenn.dev/r2_san/articles/03451c287fe9ab",
+  "a": "R2-san",
+  "d": "2026-10-20",
+  "s": "LLM の安全性・セキュリティ"
+ },
+ {
   "t": "課題達成のために暴走するAIエージェントを防ぐ安全性研究",
   "u": "https://zenn.dev/tsurubee/articles/ai-agent-safety-research",
   "a": "tsurubee",
@@ -1341,6 +1418,13 @@
   "u": "https://zenn.dev/trtd56/articles/a3a65631b5e773",
   "a": "t.toda",
   "d": "2026-10-14",
+  "s": "テキスト分類・感情分析"
+ },
+ {
+  "t": "OpenAI Decisions API を日本語判定で検証し、Jev と比べたメモ",
+  "u": "https://zenn.dev/i2bskn/articles/7f3f374e4272bb",
+  "a": "i2bskn",
+  "d": "2026-10-12",
   "s": "テキスト分類・感情分析"
  },
  {
@@ -1645,6 +1729,20 @@
   "s": "機械翻訳"
  },
  {
+  "t": "画像生成 AI で日本語の文字はどこまで正しく出るか（Qwen-Image で 16語×4枚を実測）",
+  "u": "https://zenn.dev/rayray/articles/1941eb67b58f69",
+  "a": "Ray",
+  "d": "2026-10-20",
+  "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
+  "t": "画像はどうやってベクトルになるのか — 正解の画像でも類似度が 0.5 に届かない理由",
+  "u": "https://zenn.dev/kotap/articles/clip-image-embedding",
+  "a": "Kota Mizuno",
+  "d": "2026-10-12",
+  "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
   "t": "LLM-jp-4-VL 9Bリリース",
   "u": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-vl-9b/",
   "a": "杉浦一瑳（LLM-jp）",
@@ -1685,6 +1783,41 @@
   "a": "taku_sid",
   "d": "2025-04-23",
   "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
+  "t": "Whisper の large-v3 が長い録音で turbo に負けた。文が消える原因は2つあった",
+  "u": "https://zenn.dev/eight_blog/articles/930e61ec56bab0",
+  "a": "eight",
+  "d": "2026-10-20",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "音声言語モデルが欲しくて 27B ver",
+  "u": "https://zenn.dev/ivry/articles/25810878bef593",
+  "a": "kai-yo（IVRy）",
+  "d": "2026-10-18",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "音声言語モデルが欲しくて",
+  "u": "https://zenn.dev/ivry/articles/a2731736355065",
+  "a": "kai-yo（IVRy）",
+  "d": "2026-10-13",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "whisperの文字起こしにJevで話者ラベルを付けようとしたら、Jevは要らなかった",
+  "u": "https://zenn.dev/ik11235/articles/whisper-jev-speaker-label",
+  "a": "ik-fib",
+  "d": "2026-10-12",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "日本語の会議録音、ローカルWhisperはどのサイズで足りる？ Macで6サイズ×雑音・話し声・用語ヒントを実測した",
+  "u": "https://zenn.dev/kagaage/articles/b046f8a597c63a",
+  "a": "karaage",
+  "d": "2026-10-12",
+  "s": "音声認識・音声処理"
  },
  {
   "t": "AIに評価させたら「Whisperの6分の1」。その数字を翌日撤回した理由",
@@ -1888,6 +2021,13 @@
   "a": "vasilyjp（株式会社ZOZO）",
   "d": "2017-05-01",
   "s": "生成・要約・校正"
+ },
+ {
+  "t": "Sarashina3は「ら抜き言葉」と「なるはや」「役不足」にどう反応するか ― 文化庁『国語に関する世論調査』での検証",
+  "u": "https://zenn.dev/yukikubo/articles/ee4f8a58c5ec34",
+  "a": "kubo",
+  "d": "2026-10-19",
+  "s": "解釈性・分析・言語学的視点"
  },
  {
   "t": "最近のLLMは黙って考えられるようになっている",

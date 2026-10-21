@@ -126,6 +126,13 @@
   "blurb": "形態素解析・係り受け解析の仕組みを手を動かして理解する記事。",
   "entries": [
    {
+    "title": "日本語字幕を文節で改行する（Python + Janome、そのまま動く 90 行）",
+    "url": "https://qiita.com/yosuga-sugita/items/f4b358b7d2f7d3c88d48",
+    "author": "yosuga-sugita",
+    "date": "2026-10-19",
+    "added": "2026-10-22"
+   },
+   {
     "title": "形態素解析の歴史と機械学習への影響~中野哲平は頑張るエンジニアですという文字列に対して解析",
     "url": "https://zenn.dev/m_nakano_teppei/articles/62e039f03ff88c",
     "author": "中野哲平",
@@ -723,6 +730,13 @@
   "blurb": "LoRAなどを使ったファインチューニングの入門・実践記事。",
   "entries": [
    {
+    "title": "日本語の業務判断に特化させた選択モデルを作った【Erabo-2B】",
+    "url": "https://qiita.com/tanakaisworking/items/05bd45dd8387b85f25bf",
+    "author": "tanakaisworking",
+    "date": "2026-10-20",
+    "added": "2026-10-22"
+   },
+   {
     "title": "RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話",
     "url": "https://zenn.dev/rayagent/articles/d25bd3f6368ac1",
     "author": "ray",
@@ -824,6 +838,20 @@
   "blurb": "vLLMや量子化を使った推論高速化の実践記事。",
   "entries": [
    {
+    "title": "24GB推奨のモデルを16GBで:Nemotron 3.5 Bolt の速度・日本語品質・エージェント実験",
+    "url": "https://qiita.com/kougi/items/1e7b3bfbad0545653ab5",
+    "author": "kougi",
+    "date": "2026-10-18",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "vLLM 0.31 に上げて TTFT を詰めた記録 — 「1,584トークン未満は prefix cache に残らない」と、RAG を\"モデルに決めさせる\"話（追加PR4件は効かなかった）",
+    "url": "https://qiita.com/nakanokensetsu/items/7a5b9478d3763d89cb91",
+    "author": "nakanokensetsu",
+    "date": "2026-10-13",
+    "added": "2026-10-22"
+   },
+   {
     "title": "Speculative Decoding(投機的デコーディング)についてわかりやすく",
     "url": "https://zenn.dev/asap/articles/e1cd9ffee4d2c2",
     "author": "asap",
@@ -888,6 +916,13 @@
   "section": "評価・ベンチマーク",
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
+   {
+    "title": "llm-jp-evalとllm-jp-eval-inferenceを変更し、オープンウェイト版Jevの日本語性能を比較可能にする",
+    "url": "https://qiita.com/CLRR/items/77c4ed369b894762bf2f",
+    "author": "CLRR",
+    "date": "2026-10-18",
+    "added": "2026-10-22"
+   },
    {
     "title": "Tokyo-Metropolitan Government Complex QA：日本語の複雑な質問応答と引用を評価するベンチマーク",
     "url": "https://www.preferred.jp/ja/blog/tech/tmg-cqa",
@@ -1038,6 +1073,13 @@
   "blurb": "Elasticsearchなど検索基盤を日本語向けにチューニングする記事。",
   "entries": [
    {
+    "title": "サーバー不要のベクトル検索、でも日本語検索は0件だった：Go に埋め込める rostam の実力と弱点",
+    "url": "https://zenn.dev/nonejp/articles/c854f25ab5c525",
+    "author": "ousiass（VeriCerts）",
+    "date": "2026-10-21",
+    "added": "2026-10-22"
+   },
+   {
     "title": "学習型スパース検索における語彙選択",
     "url": "https://zenn.dev/retrieva_tech/articles/5e0d783058eba5",
     "author": "コイン スティーブン（株式会社レトリバ）",
@@ -1103,6 +1145,20 @@
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
    {
+    "title": "RAG のチャンクは「今|日」で切れていた：Go 製 nibble の日本語分割を青空文庫で確かめる",
+    "url": "https://zenn.dev/ousiass/articles/cde25ed34e5320",
+    "author": "ousiass",
+    "date": "2026-10-19",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "1万件超の社内文書で正答率96.7% ― RAGをやめて「絞る・探す・読み切る」にしたNAYUTAの設計",
+    "url": "https://zenn.dev/bocek/articles/nayuta-agentic-search-design",
+    "author": "Yuta Euchi（Bocek）",
+    "date": "2026-10-18",
+    "added": "2026-10-22"
+   },
+   {
     "title": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
     "url": "https://zenn.dev/aiforall/articles/8e1803396534de",
     "author": "nishina（株式会社メンバーズ）",
@@ -1115,6 +1171,13 @@
     "author": "TaiLexi AI",
     "date": "2026-10-15",
     "added": "2026-10-17"
+   },
+   {
+    "title": "実務者が書いたRAGの正解データは「文書の外」を含む — 消さずに分けて測る評価の作り方",
+    "url": "https://zenn.dev/boy_techblog/articles/zenn-gold-answers-beyond-docs",
+    "author": "tonten（横浜銀行）",
+    "date": "2026-10-13",
+    "added": "2026-10-22"
    },
    {
     "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
@@ -1232,6 +1295,13 @@
   "blurb": "プロンプトの設計・管理など、LLMプロダクト開発の実務記事。",
   "entries": [
    {
+    "title": "LLMに自動プロンプト最適化させ続けたら、人間の出番はなくなるのか？",
+    "url": "https://zenn.dev/scien/articles/llm-prompt-optimization-human-rules",
+    "author": "Kanon Amemiya（SCIEN）",
+    "date": "2026-10-20",
+    "added": "2026-10-22"
+   },
+   {
     "title": "文字数・バイト数からのトークン数推定は実際どれくらいズレるのか",
     "url": "https://zenn.dev/aiforall/articles/63501821b1e50e",
     "author": "nishina（株式会社メンバーズ）",
@@ -1342,6 +1412,13 @@
   "blurb": "プロンプトインジェクションなどLLM特有の脅威と対策の記事。",
   "entries": [
    {
+    "title": "AI に外部の文章を読ませる機能のプロンプトインジェクション対策 ―― 見破るより、有効にする前に止める",
+    "url": "https://zenn.dev/r2_san/articles/03451c287fe9ab",
+    "author": "R2-san",
+    "date": "2026-10-20",
+    "added": "2026-10-22"
+   },
+   {
     "title": "課題達成のために暴走するAIエージェントを防ぐ安全性研究",
     "url": "https://zenn.dev/tsurubee/articles/ai-agent-safety-research",
     "author": "tsurubee",
@@ -1393,6 +1470,13 @@
     "author": "t.toda",
     "date": "2026-10-14",
     "added": "2026-10-17"
+   },
+   {
+    "title": "OpenAI Decisions API を日本語判定で検証し、Jev と比べたメモ",
+    "url": "https://zenn.dev/i2bskn/articles/7f3f374e4272bb",
+    "author": "i2bskn",
+    "date": "2026-10-12",
+    "added": "2026-10-22"
    },
    {
     "title": "Jev で話題の「判断モデル（System One）」の日本語OSS: sokudan の使い方",
@@ -1714,6 +1798,20 @@
   "blurb": "画像と言語を組み合わせるVLM（視覚言語モデル）の解説記事。",
   "entries": [
    {
+    "title": "画像生成 AI で日本語の文字はどこまで正しく出るか（Qwen-Image で 16語×4枚を実測）",
+    "url": "https://zenn.dev/rayray/articles/1941eb67b58f69",
+    "author": "Ray",
+    "date": "2026-10-20",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "画像はどうやってベクトルになるのか — 正解の画像でも類似度が 0.5 に届かない理由",
+    "url": "https://zenn.dev/kotap/articles/clip-image-embedding",
+    "author": "Kota Mizuno",
+    "date": "2026-10-12",
+    "added": "2026-10-22"
+   },
+   {
     "title": "LLM-jp-4-VL 9Bリリース",
     "url": "https://llm-jp.nii.ac.jp/blog/llm-jp-4-vl-9b/",
     "author": "杉浦一瑳（LLM-jp）",
@@ -1758,6 +1856,41 @@
   "section": "音声認識・音声処理",
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
+   {
+    "title": "Whisper の large-v3 が長い録音で turbo に負けた。文が消える原因は2つあった",
+    "url": "https://zenn.dev/eight_blog/articles/930e61ec56bab0",
+    "author": "eight",
+    "date": "2026-10-20",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "音声言語モデルが欲しくて 27B ver",
+    "url": "https://zenn.dev/ivry/articles/25810878bef593",
+    "author": "kai-yo（IVRy）",
+    "date": "2026-10-18",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "音声言語モデルが欲しくて",
+    "url": "https://zenn.dev/ivry/articles/a2731736355065",
+    "author": "kai-yo（IVRy）",
+    "date": "2026-10-13",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "whisperの文字起こしにJevで話者ラベルを付けようとしたら、Jevは要らなかった",
+    "url": "https://zenn.dev/ik11235/articles/whisper-jev-speaker-label",
+    "author": "ik-fib",
+    "date": "2026-10-12",
+    "added": "2026-10-22"
+   },
+   {
+    "title": "日本語の会議録音、ローカルWhisperはどのサイズで足りる？ Macで6サイズ×雑音・話し声・用語ヒントを実測した",
+    "url": "https://zenn.dev/kagaage/articles/b046f8a597c63a",
+    "author": "karaage",
+    "date": "2026-10-12",
+    "added": "2026-10-22"
+   },
    {
     "title": "AIに評価させたら「Whisperの6分の1」。その数字を翌日撤回した理由",
     "url": "https://zenn.dev/ihsan/articles/ai-whisper-6-1-c3ddb3153854",
@@ -1969,6 +2102,13 @@
   "section": "解釈性・分析・言語学的視点",
   "blurb": "LLMの内部表現を解析・解釈する記事。",
   "entries": [
+   {
+    "title": "Sarashina3は「ら抜き言葉」と「なるはや」「役不足」にどう反応するか ― 文化庁『国語に関する世論調査』での検証",
+    "url": "https://zenn.dev/yukikubo/articles/ee4f8a58c5ec34",
+    "author": "kubo",
+    "date": "2026-10-19",
+    "added": "2026-10-22"
+   },
    {
     "title": "最近のLLMは黙って考えられるようになっている",
     "url": "https://joisino.hatenablog.com/entry/filler",
