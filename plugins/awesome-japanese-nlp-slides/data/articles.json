@@ -280,6 +280,13 @@
   "s": "日本語テキストの正規化・表記ゆれ"
  },
  {
+  "t": "日本語入力システムSumibiの開発 part33: 大きなLLMほど変換が上手いのは、文章の意味がわかるからか",
+  "u": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-33",
+  "a": "kiyoka",
+  "d": "2026-10-23",
+  "s": "辞書・かな漢字変換・日本語入力"
+ },
+ {
   "t": "「ほしょう」は保証か補償か保障か；Jevで「もしかして」",
   "u": "https://zenn.dev/kotap/articles/didyoumean-without-generation",
   "a": "Kota Mizuno",
@@ -518,6 +525,13 @@
   "s": "事前学習モデル・Transformer"
  },
  {
+  "t": "post-training 時代の LLM 学習の規模と効率の整理",
+  "u": "https://zenn.dev/tosshi/articles/99375dd5ac013f",
+  "a": "littlemex",
+  "d": "2026-10-22",
+  "s": "大規模言語モデル（概論・動向）"
+ },
+ {
   "t": "NLP2026の最優秀賞・優秀賞から見る言語処理最前線",
   "u": "https://zenn.dev/mkj/articles/nlp_20260208",
   "a": "Taisei Ozaki",
@@ -551,6 +565,20 @@
   "a": "@omiita（オミータ）",
   "d": "2022-12-11",
   "s": "大規模言語モデル（概論・動向）"
+ },
+ {
+  "t": "国産LLM Sarashina3.2 mini thinking の紹介",
+  "u": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
+  "a": "浅野広樹, 泉健太, 金輝燦, 澁谷紘人（SB Intuitions）",
+  "d": "2026-10-29",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
+ },
+ {
+  "t": "PLaMo 3.1 Primeをリリースしました",
+  "u": "https://www.preferred.jp/ja/blog/tech/plamo-3-1-prime-release",
+  "a": "Hiroki Konishi（Preferred Networks）",
+  "d": "2026-10-27",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
   "t": "LLM-jp-4 の公開CPT・SFTデータを読んでみた",
@@ -707,6 +735,13 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "LLMにおける要約ベースコンテキスト圧縮の学習",
+  "u": "https://www.preferred.jp/ja/blog/tech/i26-da-nohara-llm-context-compression",
+  "a": "Daisuke Nohara（Preferred Networks）",
+  "d": "2026-10-15",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
   "t": "RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話",
   "u": "https://zenn.dev/rayagent/articles/d25bd3f6368ac1",
   "a": "ray",
@@ -812,6 +847,13 @@
   "s": "LLM の推論最適化・サービング"
  },
  {
+  "t": "【AI-Lab】インターン体験記 2026｜セルフホストLLMの推論基盤最適化と、仮説検証の2週間",
+  "u": "https://developers.freee.co.jp/entry/2026/10/14/143700",
+  "a": "斗内一誠, 大田啓人（freee）",
+  "d": "2026-10-14",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
   "t": "vLLM 0.31 に上げて TTFT を詰めた記録 — 「1,584トークン未満は prefix cache に残らない」と、RAG を\"モデルに決めさせる\"話（追加PR4件は効かなかった）",
   "u": "https://qiita.com/nakanokensetsu/items/7a5b9478d3763d89cb91",
   "a": "nakanokensetsu",
@@ -880,6 +922,20 @@
   "a": "Aratako（松尾研究室）",
   "d": "2024-09-09",
   "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "Sarashina無償ベータを6モデル試す：翻訳と検索は堅実、組み込みには毎分6回の壁",
+  "u": "https://zenn.dev/skrtk98/articles/sarashina-service-beta-review",
+  "a": "skrtk98",
+  "d": "2026-10-24",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "LLM生成ベンチマークの妥当性の検証",
+  "u": "https://www.preferred.jp/ja/blog/tech/llm-generated-benchmark-validity",
+  "a": "Keita Saito（Preferred Networks）",
+  "d": "2026-10-22",
+  "s": "評価・ベンチマーク"
  },
  {
   "t": "llm-jp-evalとllm-jp-eval-inferenceを変更し、オープンウェイト版Jevの日本語性能を比較可能にする",
@@ -1036,6 +1092,13 @@
   "s": "評価・ベンチマーク"
  },
  {
+  "t": "OpenSearchのLLM-as-a-Judgeを日本語の商品検索で動かして、人手ラベルと比べてみた",
+  "u": "https://zenn.dev/nextbeat/articles/c22b45b1d784b0",
+  "a": "nkhr（nextbeat）",
+  "d": "2026-10-29",
+  "s": "全文検索・検索基盤"
+ },
+ {
   "t": "サーバー不要のベクトル検索、でも日本語検索は0件だった：Go に埋め込める rostam の実力と弱点",
   "u": "https://zenn.dev/nonejp/articles/c854f25ab5c525",
   "a": "ousiass（VeriCerts）",
@@ -1104,6 +1167,13 @@
   "a": "vasilyjp（株式会社ZOZO）",
   "d": "2021-11-05",
   "s": "全文検索・検索基盤"
+ },
+ {
+  "t": "Cohere Rerank 5 に乗り換える価値はあるか：日本語の業務文書40問で精度・Context Focus・較正スコアを実測した",
+  "u": "https://zenn.dev/codetech/articles/cohere-rerank5-ja-rag-eval",
+  "a": "Dayaa",
+  "d": "2026-10-25",
+  "s": "検索・RAG"
  },
  {
   "t": "RAG のチャンクは「今|日」で切れていた：Go 製 nibble の日本語分割を青空文庫で確かめる",
@@ -1484,6 +1554,13 @@
   "s": "テキスト分類・感情分析"
  },
  {
+  "t": "LLM Content Moderationを支える評価・改善ループの実践",
+  "u": "https://tech.timee.co.jp/entry/2026/10/23/140034",
+  "a": "栁泉穂（タイミー）",
+  "d": "2026-10-23",
+  "s": "スパム・有害コンテンツ対策"
+ },
+ {
   "t": "Zennへのスパム投稿が急増したのでLLMでなんとかした話",
   "u": "https://zenn.dev/team_zenn/articles/zenn-check-spam-by-llm",
   "a": "dyoshikawa（Zenn）",
@@ -1601,6 +1678,20 @@
   "a": "Hironsan",
   "d": "2018-05-28",
   "s": "情報抽出・固有表現・アノテーション"
+ },
+ {
+  "t": "CPUだけのIndra OCRを日本語で測る：遅さの正体は出力層",
+  "u": "https://zenn.dev/mskbhd/articles/lab-1117-indra-ocr-1mcpu",
+  "a": "mskbhd",
+  "d": "2026-10-22",
+  "s": "文書処理・OCR"
+ },
+ {
+  "t": "「第３条第４項第１号には何が書かれているか」を SQL で調べる：日本語の契約書・約款 PDF を Snowflake で構造化する",
+  "u": "https://zenn.dev/snowflakejp/articles/a50036cfaaa26c",
+  "a": "澁井雄介（Snowflake）",
+  "d": "2026-10-16",
+  "s": "文書処理・OCR"
  },
  {
   "t": "LLMでカタログPDFから構造化データを抽出する：プロンプト設計と後処理の実践",
@@ -1785,10 +1876,31 @@
   "s": "マルチモーダル・Vision-and-Language"
  },
  {
+  "t": "日本語の文字起こしモデル11個を無料GPUで比べたら、読み上げ1位が放送音声で8位だった",
+  "u": "https://zenn.dev/yukobayashi500/articles/849115a7c596f7",
+  "a": "JA Model Bench",
+  "d": "2026-10-27",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
+  "u": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
+  "a": "Atotti",
+  "d": "2026-10-26",
+  "s": "音声認識・音声処理"
+ },
+ {
   "t": "Whisper の large-v3 が長い録音で turbo に負けた。文が消える原因は2つあった",
   "u": "https://zenn.dev/eight_blog/articles/930e61ec56bab0",
   "a": "eight",
   "d": "2026-10-20",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "mlx-whisperのinitial_promptは長い音声の途中から効かなくなる transcribe.pyを読み、117秒の会議音声で区切り方を比べた",
+  "u": "https://qiita.com/namahmmu/items/95408fe97b75f8c96794",
+  "a": "karaage",
+  "d": "2026-10-19",
   "s": "音声認識・音声処理"
  },
  {

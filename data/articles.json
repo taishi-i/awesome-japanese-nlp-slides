@@ -300,6 +300,13 @@
   "blurb": "IMEやかな漢字変換エンジンの自作記録。",
   "entries": [
    {
+    "title": "日本語入力システムSumibiの開発 part33: 大きなLLMほど変換が上手いのは、文章の意味がわかるからか",
+    "url": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-33",
+    "author": "kiyoka",
+    "date": "2026-10-23",
+    "added": "2026-10-30"
+   },
+   {
     "title": "「ほしょう」は保証か補償か保障か；Jevで「もしかして」",
     "url": "https://zenn.dev/kotap/articles/didyoumean-without-generation",
     "author": "Kota Mizuno",
@@ -543,6 +550,13 @@
   "blurb": "LLMの全体像や最新動向を追った記事・まとめ。",
   "entries": [
    {
+    "title": "post-training 時代の LLM 学習の規模と効率の整理",
+    "url": "https://zenn.dev/tosshi/articles/99375dd5ac013f",
+    "author": "littlemex",
+    "date": "2026-10-22",
+    "added": "2026-10-30"
+   },
+   {
     "title": "NLP2026の最優秀賞・優秀賞から見る言語処理最前線",
     "url": "https://zenn.dev/mkj/articles/nlp_20260208",
     "author": "Taisei Ozaki",
@@ -580,6 +594,20 @@
   "section": "日本語LLMの開発（事前学習・コーパス構築）",
   "blurb": "日本語LLMを実際に開発したチームの知見と、事前学習の技術記事まとめ。",
   "entries": [
+   {
+    "title": "国産LLM Sarashina3.2 mini thinking の紹介",
+    "url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
+    "author": "浅野広樹, 泉健太, 金輝燦, 澁谷紘人（SB Intuitions）",
+    "date": "2026-10-29",
+    "added": "2026-10-30"
+   },
+   {
+    "title": "PLaMo 3.1 Primeをリリースしました",
+    "url": "https://www.preferred.jp/ja/blog/tech/plamo-3-1-prime-release",
+    "author": "Hiroki Konishi（Preferred Networks）",
+    "date": "2026-10-27",
+    "added": "2026-10-30"
+   },
    {
     "title": "LLM-jp-4 の公開CPT・SFTデータを読んでみた",
     "url": "https://zenn.dev/yukito_lmlab/articles/llmjp4-public-data",
@@ -737,6 +765,13 @@
     "added": "2026-10-22"
    },
    {
+    "title": "LLMにおける要約ベースコンテキスト圧縮の学習",
+    "url": "https://www.preferred.jp/ja/blog/tech/i26-da-nohara-llm-context-compression",
+    "author": "Daisuke Nohara（Preferred Networks）",
+    "date": "2026-10-15",
+    "added": "2026-10-30"
+   },
+   {
     "title": "RAFT蒸留でQwen3-8Bに「資料にないことは答えない」を教えたら、通常SFTでは拒否率が0%になった話",
     "url": "https://zenn.dev/rayagent/articles/d25bd3f6368ac1",
     "author": "ray",
@@ -845,6 +880,13 @@
     "added": "2026-10-22"
    },
    {
+    "title": "【AI-Lab】インターン体験記 2026｜セルフホストLLMの推論基盤最適化と、仮説検証の2週間",
+    "url": "https://developers.freee.co.jp/entry/2026/10/14/143700",
+    "author": "斗内一誠, 大田啓人（freee）",
+    "date": "2026-10-14",
+    "added": "2026-10-30"
+   },
+   {
     "title": "vLLM 0.31 に上げて TTFT を詰めた記録 — 「1,584トークン未満は prefix cache に残らない」と、RAG を\"モデルに決めさせる\"話（追加PR4件は効かなかった）",
     "url": "https://qiita.com/nakanokensetsu/items/7a5b9478d3763d89cb91",
     "author": "nakanokensetsu",
@@ -916,6 +958,20 @@
   "section": "評価・ベンチマーク",
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
+   {
+    "title": "Sarashina無償ベータを6モデル試す：翻訳と検索は堅実、組み込みには毎分6回の壁",
+    "url": "https://zenn.dev/skrtk98/articles/sarashina-service-beta-review",
+    "author": "skrtk98",
+    "date": "2026-10-24",
+    "added": "2026-10-30"
+   },
+   {
+    "title": "LLM生成ベンチマークの妥当性の検証",
+    "url": "https://www.preferred.jp/ja/blog/tech/llm-generated-benchmark-validity",
+    "author": "Keita Saito（Preferred Networks）",
+    "date": "2026-10-22",
+    "added": "2026-10-30"
+   },
    {
     "title": "llm-jp-evalとllm-jp-eval-inferenceを変更し、オープンウェイト版Jevの日本語性能を比較可能にする",
     "url": "https://qiita.com/CLRR/items/77c4ed369b894762bf2f",
@@ -1073,6 +1129,13 @@
   "blurb": "Elasticsearchなど検索基盤を日本語向けにチューニングする記事。",
   "entries": [
    {
+    "title": "OpenSearchのLLM-as-a-Judgeを日本語の商品検索で動かして、人手ラベルと比べてみた",
+    "url": "https://zenn.dev/nextbeat/articles/c22b45b1d784b0",
+    "author": "nkhr（nextbeat）",
+    "date": "2026-10-29",
+    "added": "2026-10-30"
+   },
+   {
     "title": "サーバー不要のベクトル検索、でも日本語検索は0件だった：Go に埋め込める rostam の実力と弱点",
     "url": "https://zenn.dev/nonejp/articles/c854f25ab5c525",
     "author": "ousiass（VeriCerts）",
@@ -1144,6 +1207,13 @@
   "section": "検索・RAG",
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
+   {
+    "title": "Cohere Rerank 5 に乗り換える価値はあるか：日本語の業務文書40問で精度・Context Focus・較正スコアを実測した",
+    "url": "https://zenn.dev/codetech/articles/cohere-rerank5-ja-rag-eval",
+    "author": "Dayaa",
+    "date": "2026-10-25",
+    "added": "2026-10-30"
+   },
    {
     "title": "RAG のチャンクは「今|日」で切れていた：Go 製 nibble の日本語分割を青空文庫で確かめる",
     "url": "https://zenn.dev/ousiass/articles/cde25ed34e5320",
@@ -1536,6 +1606,13 @@
   "blurb": "不適切な投稿・コメントを検知する仕組みの開発記事。",
   "entries": [
    {
+    "title": "LLM Content Moderationを支える評価・改善ループの実践",
+    "url": "https://tech.timee.co.jp/entry/2026/10/23/140034",
+    "author": "栁泉穂（タイミー）",
+    "date": "2026-10-23",
+    "added": "2026-10-30"
+   },
+   {
     "title": "Zennへのスパム投稿が急増したのでLLMでなんとかした話",
     "url": "https://zenn.dev/team_zenn/articles/zenn-check-spam-by-llm",
     "author": "dyoshikawa（Zenn）",
@@ -1662,6 +1739,20 @@
   "section": "文書処理・OCR",
   "blurb": "帳票・請求書などをAI-OCRやLLMでデータ化する記事。",
   "entries": [
+   {
+    "title": "CPUだけのIndra OCRを日本語で測る：遅さの正体は出力層",
+    "url": "https://zenn.dev/mskbhd/articles/lab-1117-indra-ocr-1mcpu",
+    "author": "mskbhd",
+    "date": "2026-10-22",
+    "added": "2026-10-30"
+   },
+   {
+    "title": "「第３条第４項第１号には何が書かれているか」を SQL で調べる：日本語の契約書・約款 PDF を Snowflake で構造化する",
+    "url": "https://zenn.dev/snowflakejp/articles/a50036cfaaa26c",
+    "author": "澁井雄介（Snowflake）",
+    "date": "2026-10-16",
+    "added": "2026-10-30"
+   },
    {
     "title": "LLMでカタログPDFから構造化データを抽出する：プロンプト設計と後処理の実践",
     "url": "https://zenn.dev/optimax/articles/0fc6979bd6e0eb",
@@ -1857,11 +1948,32 @@
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
    {
+    "title": "日本語の文字起こしモデル11個を無料GPUで比べたら、読み上げ1位が放送音声で8位だった",
+    "url": "https://zenn.dev/yukobayashi500/articles/849115a7c596f7",
+    "author": "JA Model Bench",
+    "date": "2026-10-27",
+    "added": "2026-10-30"
+   },
+   {
+    "title": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
+    "url": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
+    "author": "Atotti",
+    "date": "2026-10-26",
+    "added": "2026-10-30"
+   },
+   {
     "title": "Whisper の large-v3 が長い録音で turbo に負けた。文が消える原因は2つあった",
     "url": "https://zenn.dev/eight_blog/articles/930e61ec56bab0",
     "author": "eight",
     "date": "2026-10-20",
     "added": "2026-10-22"
+   },
+   {
+    "title": "mlx-whisperのinitial_promptは長い音声の途中から効かなくなる transcribe.pyを読み、117秒の会議音声で区切り方を比べた",
+    "url": "https://qiita.com/namahmmu/items/95408fe97b75f8c96794",
+    "author": "karaage",
+    "date": "2026-10-19",
+    "added": "2026-10-30"
    },
    {
     "title": "音声言語モデルが欲しくて 27B ver",

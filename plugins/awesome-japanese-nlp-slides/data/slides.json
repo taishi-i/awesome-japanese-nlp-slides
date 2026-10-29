@@ -144,6 +144,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "現代AI入門: 大規模言語モデルから思考するシステムへ — Test-Time Scaling, Loop, Harness, RSI",
+  "u": "https://speakerdeck.com/stillpedant/thinking-systems",
+  "a": "Masafumi Oyamada",
+  "d": "2026-10-27",
+  "s": "学会チュートリアル",
+  "src": "speakerdeck"
+ },
+ {
   "t": "[IBIS 2025] 深層基盤モデルのための強化学習 驚きから理論にもとづく納得へ",
   "u": "https://speakerdeck.com/akifumi_wachi/ibis-2025-shen-ceng-ji-pan-moderunotamenoqiang-hua-xue-xi-jing-kikarali-lun-nimotodukuna-de-he",
   "a": "Akifumi Wachi",
@@ -328,6 +336,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "松尾研LLM講座2025 応用編Day3「軽量化」 講義資料",
+  "u": "https://speakerdeck.com/aratako/song-wei-yan-llmjiang-zuo-2025-day3-qing-liang-hua-jiang-yi-zi-liao",
+  "a": "Aratako",
+  "d": "2025-12-25",
+  "s": "大学講義・体系的な講義資料",
+  "src": "speakerdeck"
+ },
+ {
   "t": "[輪講] Transformer（大規模言語モデル入門第２章）",
   "u": "https://speakerdeck.com/taro_nakasone/lun-jiang-transformer-da-gui-mo-yan-yu-moderuru-men-di-2zhang",
   "a": "Taro Nakasone",
@@ -454,6 +470,14 @@
   "d": "2024-09-14",
   "s": "日本語の基礎解析（形態素解析・構文解析）",
   "src": "speakerdeck"
+ },
+ {
+  "t": "[論文紹介@SNLP2023] Unsupervised Discontinuous Constituency Parsing with Mildly Context-Sensitive Grammars (ACL2023)",
+  "u": "https://www.docswell.com/s/ryo-ueda/5M1Q1N-snlp-2023-08-28",
+  "a": "Ryo Ueda",
+  "d": "2023-08-21",
+  "s": "日本語の基礎解析（形態素解析・構文解析）",
+  "src": "docswell"
  },
  {
   "t": "KWJA：汎用言語モデルに基づく日本語解析器 / kyoto-waseda-japanese-analyzer",
@@ -918,6 +942,14 @@
   "d": "2011-03-31",
   "s": "辞書・かな漢字変換・日本語入力",
   "src": "speakerdeck"
+ },
+ {
+  "t": "大規模日本語ブログコーパスにおける言語モデルの構築と評価",
+  "u": "https://www.docswell.com/s/ydnjp/KQJ2VZ-2011-03-29-145639",
+  "a": "Yahoo!デベロッパーネットワーク",
+  "d": "2011-03-29",
+  "s": "辞書・かな漢字変換・日本語入力",
+  "src": "docswell"
  },
  {
   "t": "日本語かな漢字変換における識別モデルの適用とその考察",
@@ -2048,6 +2080,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Fujitsuの量子化技術を完全理解する",
+  "u": "https://speakerdeck.com/nagiss/fujitsunoliang-zi-hua-ji-shu-wowan-quan-li-jie-suru",
+  "a": "nagiss",
+  "d": "2025-10-24",
+  "s": "LLM の推論最適化・サービング",
+  "src": "speakerdeck"
+ },
+ {
   "t": "NLPコロキウム20251022_超効率化への挑戦: LLM 1bit量子化のロードマップ",
   "u": "https://speakerdeck.com/yumaichikawa/nlpkorokiumu20251022-chao-xiao-lu-hua-henotiao-zhan-llm-1bitliang-zi-hua-norodomatupu",
   "a": "Yuma Ichikawa",
@@ -2368,6 +2408,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "検索品質がRAGを決める",
+  "u": "https://speakerdeck.com/sbtechnight/kensaku-hinshitsu-ga-rag-o-kimeru",
+  "a": "SoftBank Tech Night",
+  "d": "2026-10-22",
+  "s": "全文検索・検索基盤",
+  "src": "speakerdeck"
+ },
+ {
   "t": "LanceDB入門",
   "u": "https://speakerdeck.com/mocobeta/lancedb-nyuumon",
   "a": "Tomoko Uchida",
@@ -2508,6 +2556,14 @@
   "u": "https://speakerdeck.com/monochromegane/inside-vector-search",
   "a": "monochromegane",
   "d": "2025-03-25",
+  "s": "全文検索・検索基盤",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "20250226 NLP colloquium: \"SoftMatcha: 10億単語規模コーパス検索のための柔らかくも高速なパターンマッチャー\"",
+  "u": "https://speakerdeck.com/de9uch1/20250226-nlp-colloquium-softmatcha",
+  "a": "Hiroyuki Deguchi",
+  "d": "2025-02-26",
   "s": "全文検索・検索基盤",
   "src": "speakerdeck"
  },
@@ -2672,6 +2728,14 @@
   "src": "slideshare"
  },
  {
+  "t": "BacklogのRAG 今ならこう作る - S3 Vectorsと自前パイプラインの勘所",
+  "u": "https://speakerdeck.com/revsystem/2026-10-23-aws-community-builders-meetup-kyushu-2026",
+  "a": "Tsuyoshi Yamasaki",
+  "d": "2026-10-22",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【Paper&Hacks vol.99】RAGの基盤を固めよう 〜 評価／検索システム／データ前処理 〜",
   "u": "https://www.docswell.com/s/matsuo-lab_llm/Z4NRNL-Paper&HacksVol.99",
   "a": "松尾研LLMコミュニティ",
@@ -2796,6 +2860,14 @@
   "u": "https://speakerdeck.com/hide212131/the-trending-graphrag-understanding-its-potential-and-challenges",
   "a": "鏡味秀行",
   "d": "2024-10-30",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "論文紹介: PEFA: Parameter-Free Adapters for Large-scale Embedding-based Retrieval Models (WSDM 2024)",
+  "u": "https://speakerdeck.com/ynakano/irreadings2024spring-nakano",
+  "a": "Yu Nakano / 中野優",
+  "d": "2024-06-15",
   "s": "検索・RAG",
   "src": "speakerdeck"
  },
@@ -3672,6 +3744,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "AI Safety, Seen Through Its Questions",
+  "u": "https://speakerdeck.com/kanekomasahiro/ai-safety-seen-through-its-questions",
+  "a": "Masahiro Kaneko",
+  "d": "2026-10-28",
+  "s": "LLM の安全性・セキュリティ",
+  "src": "speakerdeck"
+ },
+ {
   "t": "多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン",
   "u": "https://speakerdeck.com/lycorptech_jp/20260908a",
   "a": "LINEヤフーTech (LY Corporation Tech)",
@@ -4021,6 +4101,14 @@
   "a": "けんご",
   "d": "2016-03-02",
   "s": "テキスト分類・感情分析",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLM Content Moderationを支える評価・改善ループの実践",
+  "u": "https://speakerdeck.com/suikabar/llm-content-moderation-o-sasaeru-hyouka-kaizen-rupu-no-jissen",
+  "a": "suikabar",
+  "d": "2026-10-21",
+  "s": "スパム・有害コンテンツ対策",
   "src": "speakerdeck"
  },
  {
@@ -5352,6 +5440,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "大規模画像テキストデータのフィルタリング手法の紹介",
+  "u": "https://speakerdeck.com/lyakaap/da-gui-mo-hua-xiang-tekisutodetanohuirutaringushou-fa-noshao-jie",
+  "a": "lyakaap",
+  "d": "2024-02-09",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
   "t": "テキストからの実世界理解に向けて",
   "u": "https://speakerdeck.com/shuheikurita/tekisutokaranoshi-shi-jie-li-jie-nixiang-kete",
   "a": "Shuhei Kurita",
@@ -5460,6 +5556,22 @@
   "u": "https://speakerdeck.com/ryomasumura/kurosumodarubiao-xian-xue-xi-noyan-jiu-dong-xiang-yin-sheng-guan-lian-wozhong-xin-tosite",
   "a": "Ryo Masumura",
   "d": "2024-03-08",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "F0に基づいて伸縮された画像文字からの音声合成 [ASJ2024春]",
+  "u": "https://speakerdeck.com/nehi0615/f0niji-duiteshen-suo-saretahua-xiang-wen-zi-karanoyin-sheng-he-cheng",
+  "a": "Hien Ohnaka",
+  "d": "2024-03-08",
+  "s": "音声認識・音声処理",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AI エージェント間の自然な会話に向けたテキストからの音声対話生成",
+  "u": "https://speakerdeck.com/kentaro321/ai-ezientojian-nozi-ran-nahui-hua-nixiang-ketatekisutokaranoyin-sheng-dui-hua-sheng-cheng",
+  "a": "Kentaro Mitsui",
+  "d": "2024-03-06",
   "s": "音声認識・音声処理",
   "src": "speakerdeck"
  },
@@ -5748,6 +5860,14 @@
   "u": "https://www.docswell.com/s/ydnjp/KM2JLK-2017-08-01-143133",
   "a": "Yahoo!デベロッパーネットワーク",
   "d": "2017-08-01",
+  "s": "音声認識・音声処理",
+  "src": "docswell"
+ },
+ {
+  "t": "ヤフー音声認識サービスでのディープラーニングとGPU利用事例",
+  "u": "https://www.docswell.com/s/ydnjp/ZQQVMZ-2016-07-14-133335",
+  "a": "Yahoo!デベロッパーネットワーク",
+  "d": "2016-07-14",
   "s": "音声認識・音声処理",
   "src": "docswell"
  },
@@ -6596,6 +6716,14 @@
   "u": "https://speakerdeck.com/pfn/20241015_todai_nlp_unno_lecture",
   "a": "Preferred Networks",
   "d": "2024-10-18",
+  "s": "産業応用・実務事例",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ニュースメディアにおける事前学習済みモデルの可能性と課題 / IBIS2024",
+  "u": "https://speakerdeck.com/upura/ibis2024",
+  "a": "Shotaro Ishihara",
+  "d": "2024-10-07",
   "s": "産業応用・実務事例",
   "src": "speakerdeck"
  },
