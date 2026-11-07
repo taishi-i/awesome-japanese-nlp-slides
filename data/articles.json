@@ -249,6 +249,13 @@
   "blurb": "neologdnや独自の正規化処理など、表記ゆれ対策の実装記事。",
   "entries": [
    {
+    "title": "【Nishika 論文サク読み 第27回】似た形の漢字を検索するモデル",
+    "url": "https://zenn.dev/team_nishika/articles/4b3b6e00d35819",
+    "author": "Nishio Hibiki（Nishika）",
+    "date": "2026-11-05",
+    "added": "2026-11-08"
+   },
+   {
     "title": "辞書は「2026」を読めない。数と助数詞の境目の音を Go で当てる",
     "url": "https://zenn.dev/snknsk/articles/go-number-counter-reading",
     "author": "shouni",
@@ -299,6 +306,13 @@
   "section": "辞書・かな漢字変換・日本語入力",
   "blurb": "IMEやかな漢字変換エンジンの自作記録。",
   "entries": [
+   {
+    "title": "日本語入力システムSumibiの開発 part35: ベンチマークを日常の文章に近づけたら、LLMはどう崩れたか",
+    "url": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-35",
+    "author": "kiyoka",
+    "date": "2026-11-05",
+    "added": "2026-11-08"
+   },
    {
     "title": "日本語入力システムSumibiの開発 part33: 大きなLLMほど変換が上手いのは、文章の意味がわかるからか",
     "url": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-33",
@@ -758,6 +772,13 @@
   "blurb": "LoRAなどを使ったファインチューニングの入門・実践記事。",
   "entries": [
    {
+    "title": "日本語の推論過程付き数量推論データセット「JaMathCoT」を作成し，Sarashina2.2をSFTしてみた",
+    "url": "https://zenn.dev/ao1neko/articles/cd64c5152ffcd2",
+    "author": "青い猫",
+    "date": "2026-11-06",
+    "added": "2026-11-08"
+   },
+   {
     "title": "日本語の業務判断に特化させた選択モデルを作った【Erabo-2B】",
     "url": "https://qiita.com/tanakaisworking/items/05bd45dd8387b85f25bf",
     "author": "tanakaisworking",
@@ -873,6 +894,13 @@
   "blurb": "vLLMや量子化を使った推論高速化の実践記事。",
   "entries": [
    {
+    "title": "vLLM・SGLang・TensorRT-LLMをEC2で動かしたら、それぞれの個性が見えてきた",
+    "url": "https://zenn.dev/yuya0408/articles/llm-serving-engines-on-l4",
+    "author": "yuya_h",
+    "date": "2026-10-30",
+    "added": "2026-11-08"
+   },
+   {
     "title": "24GB推奨のモデルを16GBで:Nemotron 3.5 Bolt の速度・日本語品質・エージェント実験",
     "url": "https://qiita.com/kougi/items/1e7b3bfbad0545653ab5",
     "author": "kougi",
@@ -958,6 +986,20 @@
   "section": "評価・ベンチマーク",
   "blurb": "JGLUEなど日本語LLMの評価手法・ベンチマークの解説記事。",
   "entries": [
+   {
+    "title": "運用しながら改善する LLM-as-a-Judge の構築",
+    "url": "https://tech.timee.co.jp/entry/2026/11/05/101407",
+    "author": "貝出（タイミー）",
+    "date": "2026-11-05",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "Snapshot BrowseComp-ja：日本語Web検索エージェントの評価ベンチマーク",
+    "url": "https://www.preferred.jp/ja/blog/tech/snapshot-browsecomp-ja",
+    "author": "Hiroaki Mikami（Preferred Networks）",
+    "date": "2026-10-29",
+    "added": "2026-11-08"
+   },
    {
     "title": "Sarashina無償ベータを6モデル試す：翻訳と検索は堅実、組み込みには毎分6回の壁",
     "url": "https://zenn.dev/skrtk98/articles/sarashina-service-beta-review",
@@ -1129,11 +1171,25 @@
   "blurb": "Elasticsearchなど検索基盤を日本語向けにチューニングする記事。",
   "entries": [
    {
+    "title": "Contract Oneの全文検索を評価する基盤を作成した（インターン成果報告）",
+    "url": "https://buildersbox.corp-sansan.com/entry/2026/10/30/110000",
+    "author": "tsukune（Sansan）",
+    "date": "2026-10-30",
+    "added": "2026-11-08"
+   },
+   {
     "title": "OpenSearchのLLM-as-a-Judgeを日本語の商品検索で動かして、人手ラベルと比べてみた",
     "url": "https://zenn.dev/nextbeat/articles/c22b45b1d784b0",
     "author": "nkhr（nextbeat）",
     "date": "2026-10-29",
     "added": "2026-10-30"
+   },
+   {
+    "title": "GIF で見る、Faiss と Lucene のベクトル検索",
+    "url": "https://zenn.dev/kotap/articles/faiss-lucene-ann-gif",
+    "author": "Kota Mizuno",
+    "date": "2026-10-27",
+    "added": "2026-11-08"
    },
    {
     "title": "サーバー不要のベクトル検索、でも日本語検索は0件だった：Go に埋め込める rostam の実力と弱点",
@@ -1207,6 +1263,27 @@
   "section": "検索・RAG",
   "blurb": "RAGの仕組みをゼロから実装して学ぶ記事。",
   "entries": [
+   {
+    "title": "検索は1回で足りるのか：grep で探すエージェント DCI(Direct Corpus Interaction) と、Top-5 を1回だけ取る RAG を同じ文書で比べてみた",
+    "url": "https://tech.algomatic.jp/entry/dci",
+    "author": "武藤（Algomatic）",
+    "date": "2026-11-05",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "GraphRAG自作はJEMHopQA 120問でベクトル検索73.3%に負けた",
+    "url": "https://qiita.com/kenimo49/items/c79eac9ec482b67b0845",
+    "author": "井本 賢",
+    "date": "2026-11-02",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "誤りを棄却し、正しい結果を1件だけ返すための検索の改善",
+    "url": "https://zenn.dev/genax_corp/articles/20261005-qa-retrieval-improvement",
+    "author": "箕輪（Gen-AX）",
+    "date": "2026-10-30",
+    "added": "2026-11-08"
+   },
    {
     "title": "Cohere Rerank 5 に乗り換える価値はあるか：日本語の業務文書40問で精度・Context Focus・較正スコアを実測した",
     "url": "https://zenn.dev/codetech/articles/cohere-rerank5-ja-rag-eval",
@@ -1365,6 +1442,13 @@
   "blurb": "プロンプトの設計・管理など、LLMプロダクト開発の実務記事。",
   "entries": [
    {
+    "title": "ローカルLLMはどんな業務で使えるのか？ DGX Spark + DeepSeek V4-FlashのSlackチャットボットを評価した",
+    "url": "https://zenn.dev/sompojapan_dx/articles/05f34316118943",
+    "author": "akira0g（損害保険ジャパン）",
+    "date": "2026-11-02",
+    "added": "2026-11-08"
+   },
+   {
     "title": "LLMに自動プロンプト最適化させ続けたら、人間の出番はなくなるのか？",
     "url": "https://zenn.dev/scien/articles/llm-prompt-optimization-human-rules",
     "author": "Kanon Amemiya（SCIEN）",
@@ -1482,6 +1566,34 @@
   "blurb": "プロンプトインジェクションなどLLM特有の脅威と対策の記事。",
   "entries": [
    {
+    "title": "言語モデルのウォーターマークと言い換え耐性",
+    "url": "https://zenn.dev/ncdc/articles/3ab5031c409b85",
+    "author": "senna（NCDC）",
+    "date": "2026-11-03",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "Sarashina3.2 mini thinking の安全性",
+    "url": "https://www.sbintuitions.co.jp/blog/entry/2026/11/02/01",
+    "author": "澁谷紘人（SB Intuitions）",
+    "date": "2026-11-02",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "強いLLMならPrompt Injectionに耐えられる？ 7つのローカルLLMで検証した",
+    "url": "https://zenn.dev/sun_asterisk/articles/8370ad0dbca870",
+    "author": "ロリョウ（Sun*）",
+    "date": "2026-10-30",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "LLMで日常会話に攻撃者の指示を紛れ込ませることはできるのか？（DEF CON 34登壇記）",
+    "url": "https://engineers.ntt.com/entry/202610-steganoC2/entry",
+    "author": "上野（NTT docomo Business）",
+    "date": "2026-10-27",
+    "added": "2026-11-08"
+   },
+   {
     "title": "AI に外部の文章を読ませる機能のプロンプトインジェクション対策 ―― 見破るより、有効にする前に止める",
     "url": "https://zenn.dev/r2_san/articles/03451c287fe9ab",
     "author": "R2-san",
@@ -1534,6 +1646,20 @@
   "section": "テキスト分類・感情分析",
   "blurb": "テキスト分類・感情分析モデルの実装記事。",
   "entries": [
+   {
+    "title": "おーぷん2ch発話の判定を通した音声・言語エンコーダの精度・速度比較",
+    "url": "https://zenn.dev/ivry/articles/9bd9ca7f1e7699",
+    "author": "kai-yo（IVRy）",
+    "date": "2026-11-06",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "【EmbeddingGemma 2】お客様の申告の件数を、判定の確率で按分して数える",
+    "url": "https://zenn.dev/michy/articles/d4c97cd7a57240",
+    "author": "zaiwa",
+    "date": "2026-10-30",
+    "added": "2026-11-08"
+   },
    {
     "title": "決定モデルの分類精度をKaggleの過去NLPコンペで検証する",
     "url": "https://zenn.dev/trtd56/articles/a3a65631b5e773",
@@ -1740,6 +1866,20 @@
   "blurb": "帳票・請求書などをAI-OCRやLLMでデータ化する記事。",
   "entries": [
    {
+    "title": "Textractの新モデルで日本語OCRを19パターン試して料金も比べてみた",
+    "url": "https://zenn.dev/upgradetech/articles/2026-11-textract-japanese-ocr-verification",
+    "author": "nachi（UPGRADE）",
+    "date": "2026-11-03",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "EmbeddingGemma 2 でOCRがしたい",
+    "url": "https://tech.algomatic.jp/entry/2026/10/30/193642",
+    "author": "末國（Algomatic）",
+    "date": "2026-10-30",
+    "added": "2026-11-08"
+   },
+   {
     "title": "CPUだけのIndra OCRを日本語で測る：遅さの正体は出力層",
     "url": "https://zenn.dev/mskbhd/articles/lab-1117-indra-ocr-1mcpu",
     "author": "mskbhd",
@@ -1843,6 +1983,20 @@
   "blurb": "機械翻訳モデルの開発・自作の記事。",
   "entries": [
    {
+    "title": "Sarashina3.2 translate: 常体・敬体を指定できる翻訳モデル",
+    "url": "https://www.sbintuitions.co.jp/blog/entry/2026/11/05/163543",
+    "author": "松野智紀（SB Intuitions）",
+    "date": "2026-11-05",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "PLaMo 3 Translate：世界最高クラスの翻訳特化LLMの重み公開と開発秘話",
+    "url": "https://www.preferred.jp/ja/blog/tech/plamo-3-translate-weight-release",
+    "author": "鈴木 海渡（Preferred Networks）",
+    "date": "2026-11-05",
+    "added": "2026-11-08"
+   },
+   {
     "title": "plamo-3-translate: フロンティア級の翻訳特化LLM",
     "url": "https://www.preferred.jp/ja/blog/tech/plamo-3-translate-product-release",
     "author": "Preferred Networks",
@@ -1888,6 +2042,13 @@
   "section": "マルチモーダル・Vision-and-Language",
   "blurb": "画像と言語を組み合わせるVLM（視覚言語モデル）の解説記事。",
   "entries": [
+   {
+    "title": "SigLIP2に匹敵する画像エンコーダーをフルスクラッチで開発した話",
+    "url": "https://zenn.dev/noetra_techblog/articles/0cea39ce67d2c2",
+    "author": "Mikihiro Tanaka（Noetra）",
+    "date": "2026-11-04",
+    "added": "2026-11-08"
+   },
    {
     "title": "画像生成 AI で日本語の文字はどこまで正しく出るか（Qwen-Image で 16語×4枚を実測）",
     "url": "https://zenn.dev/rayray/articles/1941eb67b58f69",
@@ -1947,6 +2108,27 @@
   "section": "音声認識・音声処理",
   "blurb": "Whisperなど音声認識モデルの検証・活用記事。",
   "entries": [
+   {
+    "title": "LFM3をllama.cppで手元の会話の補助に。速さは足りたが、専門用語の聞き取りでWhisperに届かなかった",
+    "url": "https://zenn.dev/maruhana/articles/lfm3-audio-llamacpp-conversation-aid",
+    "author": "maruhana",
+    "date": "2026-11-04",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "NVIDIAの音声修復モデルRE-USEでポッドキャストのノイズ除去と文字起こしを比較してみた",
+    "url": "https://zenn.dev/karaage0703/articles/podcast-reuse-whisper-workflow",
+    "author": "からあげ",
+    "date": "2026-11-03",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "日本語STT「Haas-ja-v1.0」を Windows + RTX 3050 で動かして Soniox と比べた（6時間の音声を2分45秒、でも固有名詞に弱い）",
+    "url": "https://qiita.com/tasekino/items/99141a0e287126ec5ffc",
+    "author": "tasekino",
+    "date": "2026-10-31",
+    "added": "2026-11-08"
+   },
    {
     "title": "日本語の文字起こしモデル11個を無料GPUで比べたら、読み上げ1位が放送音声で8位だった",
     "url": "https://zenn.dev/yukobayashi500/articles/849115a7c596f7",

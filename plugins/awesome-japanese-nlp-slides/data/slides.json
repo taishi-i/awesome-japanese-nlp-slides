@@ -960,6 +960,14 @@
   "src": "slideshare"
  },
  {
+  "t": "超小型・多言語検索モデル Bekko Embedding",
+  "u": "https://speakerdeck.com/hotchpotch/chou-ta-kensaku-moderu-bekko-embedding",
+  "a": "Yuichi Tateno",
+  "d": "2026-11-01",
+  "s": "単語・文の分散表現",
+  "src": "speakerdeck"
+ },
+ {
   "t": "LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―",
   "u": "https://speakerdeck.com/nikkei_engineer_recruiting/yans2026",
   "a": "日本経済新聞社 エンジニア採用事務局",
@@ -1056,6 +1064,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Discovering Universal Geometry in Embeddings with ICA",
+  "u": "https://speakerdeck.com/momoseoyama/discovering-universal-geometry-in-embeddings-with-ica",
+  "a": "Momose Oyama",
+  "d": "2023-12-21",
+  "s": "単語・文の分散表現",
+  "src": "speakerdeck"
+ },
+ {
   "t": "[輪講資料] One Embedder, Any Task: Instruction-Finetuned Text Embeddings",
   "u": "https://speakerdeck.com/hpprc/one-embedder-any-task-instruction-finetuned-text-embeddings",
   "a": "Hayato Tsukagoshi",
@@ -1142,6 +1158,14 @@
   "d": "2015-05-31",
   "s": "単語・文の分散表現",
   "src": "slideshare"
+ },
+ {
+  "t": "【HackSick vol.10 LT会】複数軸から見るSelf Attention改善手法の体系的整理",
+  "u": "https://speakerdeck.com/rikkabotan7/hacksick-vol-10-lt-kai-fukusuujiku-kara-miru-self-attention-kaizen-shuhou-no-taikeiteki-seiri",
+  "a": "Rikka Botan",
+  "d": "2026-10-31",
+  "s": "事前学習モデル・Transformer",
+  "src": "speakerdeck"
  },
  {
   "t": "松尾研LLMコミュニティLLMATCHS4成果発表会_堀田 大智",
@@ -1792,6 +1816,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "Nagoya NLP ACL reading seminar 2026 kinoshita",
+  "u": "https://speakerdeck.com/dieverwandlungtk/nagoya-nlp-acl-reading-seminar-2026-kinoshita",
+  "a": "Takato Kinoshita",
+  "d": "2026-09-23",
+  "s": "ファインチューニング・事後学習",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【Paper&Hacks vol.98】医療LLM事後学習：RL系とPinpointTuningの実験記録",
   "u": "https://www.docswell.com/s/matsuo-lab_llm/KJWR7M-Paper&HacksVol.98",
   "a": "松尾研LLMコミュニティ",
@@ -2360,6 +2392,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "[第55回 NLPコロキウム] コンピュータビジョン分野での評価設計と分析の研究について",
+  "u": "https://speakerdeck.com/otani_mayu/di-55hui-nlpkorokiumu-konpiyutabiziyonfen-ye-denoping-jia-she-ji-tofen-xi-noyan-jiu-nituite",
+  "a": "大谷まゆ",
+  "d": "2024-04-05",
+  "s": "評価・ベンチマーク",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Japanese_MT-Bench_を使った_LLM_モデルの評価",
   "u": "https://speakerdeck.com/olachinkei/japanese-mt-bench-woshi-tuta-llm-moterunoping-jia",
   "a": "Keisuke Kamata",
@@ -2435,6 +2475,14 @@
   "t": "AIエージェントのための検索",
   "u": "https://speakerdeck.com/takatorisatoshi/aiezientonotamenojian-suo",
   "a": "takatori",
+  "d": "2026-07-23",
+  "s": "全文検索・検索基盤",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "グラフデータベースでも全文検索がんばりたい",
+  "u": "https://speakerdeck.com/sansantech/260723",
+  "a": "SansanTech",
   "d": "2026-07-23",
   "s": "全文検索・検索基盤",
   "src": "speakerdeck"
@@ -2530,6 +2578,14 @@
  {
   "t": "社内版ビズリーチ LLMとセマンティックサーチによる新たな人材検索の挑戦 / Search Engineering MEET UP_2-2",
   "u": "https://speakerdeck.com/visional_engineering_and_design/search-engineering-meet-up-2-2",
+  "a": "Visional Engineering ＆ Design",
+  "d": "2025-10-14",
+  "s": "全文検索・検索基盤",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ビズリーチ求職者検索におけるPLMとLLMの活用 / Search Engineering MEET UP_2-1",
+  "u": "https://speakerdeck.com/visional_engineering_and_design/search-engineering-meet-up-2-1",
   "a": "Visional Engineering ＆ Design",
   "d": "2025-10-14",
   "s": "全文検索・検索基盤",
@@ -2851,6 +2907,14 @@
   "t": "生成検索エンジン最適化に関する研究の紹介",
   "u": "https://speakerdeck.com/ynakano/irreadings2025spring-generative-engine-optimization",
   "a": "Yu Nakano / 中野優",
+  "d": "2025-05-24",
+  "s": "検索・RAG",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "Relevance Filtering for Embedding-based Retrieval",
+  "u": "https://speakerdeck.com/meshidenn/relevance-filtering-for-embedding-based-retrieval",
+  "a": "Hiroki_Iida",
   "d": "2025-05-24",
   "s": "検索・RAG",
   "src": "speakerdeck"
@@ -4832,6 +4896,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "RAGのためのビジネス文書解析技術",
+  "u": "https://speakerdeck.com/eida/ragnotamenobizinesuwen-shu-jie-xi-ji-shu",
+  "a": "eida",
+  "d": "2024-11-05",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
+ },
+ {
   "t": "FiftyOneを用いたOCRモデルの比較 / Comparing OCR Models using FiftyOne",
   "u": "https://speakerdeck.com/moneyforward/comparing-ocr-models-using-fiftyone",
   "a": "Money Forward, Inc.",
@@ -4948,6 +5020,14 @@
   "u": "https://speakerdeck.com/ikuyamada/zhi-shi-qiang-hua-yan-yu-moderuluke-at-lukemitoatupu",
   "a": "Ikuya Yamada",
   "d": "2025-01-30",
+  "s": "質問応答・知識",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "生成AIと知識グラフの相互利用に基づく文書解析",
+  "u": "https://speakerdeck.com/koujikozaki/sheng-cheng-aitozhi-shi-gurahunoxiang-hu-li-yong-niji-dukuwen-shu-jie-xi",
+  "a": "Kouji Kozaki",
+  "d": "2024-11-01",
   "s": "質問応答・知識",
   "src": "speakerdeck"
  },
@@ -5192,6 +5272,14 @@
   "src": "slideshare"
  },
  {
+  "t": "Adapting MLLMs for Nuanced Video Retrieval(ECCV2026)",
+  "u": "https://speakerdeck.com/yokokawa_shunsuke/adapting-mllms-for-nuanced-video-retrieval-eccv2026",
+  "a": "yokokawa shunsuke",
+  "d": "2026-10-24",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
   "t": "[EMNLP26] RIGEL: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation",
   "u": "https://speakerdeck.com/keio_smilab/emnlp26-rigel-self-distilled-score-adaptation-for-image-and-video-captioning-evaluation",
   "a": "Semantic Machine Intelligence Lab., Keio Univ.",
@@ -5244,6 +5332,14 @@
   "u": "https://speakerdeck.com/kzmssk/llm-manga-vqa-evaluation",
   "a": "kzmssk",
   "d": "2026-08-13",
+  "s": "マルチモーダル・Vision-and-Language",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "CVPR2026論文紹介_VLMにとって良いvision encoderとは何か？Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance",
+  "u": "https://speakerdeck.com/kobayashi31/cvpr2026lun-wen-shao-jie-vlmnitotuteliang-ivision-encodertohahe-ka-rethinking-model-selection-in-vlm-through-the-lens-of-gromov-wasserstein-distance",
+  "a": "小林優斗",
+  "d": "2026-06-20",
   "s": "マルチモーダル・Vision-and-Language",
   "src": "speakerdeck"
  },
@@ -6048,6 +6144,14 @@
   "src": "docswell"
  },
  {
+  "t": "People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text",
+  "u": "https://speakerdeck.com/rudorudo11/people-who-frequently-use-chatgpt-for-writing-tasks-are-accurate-and-robust-detectors-of-ai-generated-text",
+  "a": "hajime kiyama",
+  "d": "2025-08-31",
+  "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
   "t": "大規模言語モデルを用いた料理レシピの曖昧表現補完",
   "u": "https://www.docswell.com/s/okmt_lab/Z4EJPL-2025-05-27-jsai2025-ueda",
   "a": "Okamoto Lab. (The Univ. of Electro-Communications)",
@@ -6059,6 +6163,14 @@
   "t": "日本語ニュース記事要約支援に向けたドメイン特化事前学習済みモデルの構築と活用 / t5-news-summarization",
   "u": "https://speakerdeck.com/upura/t5-news-summarization",
   "a": "Shotaro Ishihara",
+  "d": "2025-03-12",
+  "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "痒い所に手が届く！要約モデルのつくり方",
+  "u": "https://speakerdeck.com/sakusakumura/yang-isuo-nishou-gajie-ku-yao-yue-moderunotukurifang",
+  "a": "Sakusakumura",
   "d": "2025-03-12",
   "s": "生成・要約・校正",
   "src": "speakerdeck"
@@ -6092,6 +6204,14 @@
   "u": "https://speakerdeck.com/atsumoto/minimum-bayes-risk-decoding-niokeruxing-neng-bian-dong-noli-jie-nixiang-kete-2024nian-6yue-5ri-di-59hui-nlpkorokiumu",
   "a": "Atsumoto Ohashi",
   "d": "2024-06-05",
+  "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMとの共同執筆は文章の多様性を減らすか？",
+  "u": "https://speakerdeck.com/kuri8ive/iclr2024-reading-does-writing-with-language-models-reduce-content-diversity",
+  "a": "kuri8ive",
+  "d": "2024-06-04",
   "s": "生成・要約・校正",
   "src": "speakerdeck"
  },
@@ -6232,6 +6352,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "「表象」を再定義するー潜在表現解析の落とし穴",
+  "u": "https://speakerdeck.com/ykamit/hyoushou-o-saiteigi-suru-senzai-hyougen-kaiseki-no-otoshiana",
+  "a": "Yuki Kamitani",
+  "d": "2026-09-30",
+  "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
   "t": "Sparse Autoencoder 〜 大規模言語モデルの内部表現を読む 〜 Sparse Autoencoder: Understanding LLM's Latent Representations",
   "u": "https://speakerdeck.com/neurogica/sparse-autoencoder-daikibo-gengo-moderu-no-naibu-hyougen-o-yomu-sparse-autoencoder-understanding-llm-s-latent-representations",
   "a": "Neurogica",
@@ -6318,6 +6446,14 @@
   "d": "2026-04-09",
   "s": "解釈性・分析・言語学的視点",
   "src": "docswell"
+ },
+ {
+  "t": "論文紹介：Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers",
+  "u": "https://speakerdeck.com/araim10/lun-wen-shao-jie-causal-head-gating-a-framework-for-interpreting-roles-of-attention-heads-in-transformers",
+  "a": "Arai M",
+  "d": "2026-03-23",
+  "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
  },
  {
   "t": "通時的な類似度行列に基づく単語の意味変化の分析",
@@ -6408,6 +6544,22 @@
   "src": "speakerdeck"
  },
  {
+  "t": "ウェブ・ソーシャルメディア論文読み会 第31回: The rising entropy of English in the attention economy. (Commun Psychology, 2024)",
+  "u": "https://speakerdeck.com/hkefka385/uebusosiyarumedeialun-wen-du-mihui-di-31hui-the-rising-entropy-of-english-in-the-attention-economy-commun-psychology-2024",
+  "a": "taichi_murayama",
+  "d": "2025-07-10",
+  "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "心理言語学の視点から再考する言語モデルの学習過程",
+  "u": "https://speakerdeck.com/chemical_tree/xin-li-yan-yu-xue-noshi-dian-karazai-kao-suruyan-yu-moderunoxue-xi-guo-cheng",
+  "a": "Masato Mita",
+  "d": "2025-06-26",
+  "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
   "t": "【DL輪読会】 Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations",
   "u": "https://www.docswell.com/s/DeepLearning2023/ZG133M-2025-06-19-143325",
   "a": "Deep Learning JP",
@@ -6444,6 +6596,14 @@
   "u": "https://speakerdeck.com/eumesy/embers-of-autoregression-understanding-large-language-models-through-the-problem-they-are-trained-to-solve",
   "a": "Sho Yokoi",
   "d": "2024-08-24",
+  "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "論文紹介/Expectations over Unspoken Alternatives Predict Pragmatic Inferences",
+  "u": "https://speakerdeck.com/chemical_tree/expectations-over-unspoken-alternatives-predict-pragmatic-inferences",
+  "a": "Masato Mita",
+  "d": "2024-08-20",
   "s": "解釈性・分析・言語学的視点",
   "src": "speakerdeck"
  },

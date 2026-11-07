@@ -905,6 +905,14 @@
   "blurb": "単語ベクトル、文埋め込み、埋め込み空間の性質に関する資料。",
   "entries": [
    {
+    "title": "超小型・多言語検索モデル Bekko Embedding",
+    "url": "https://speakerdeck.com/hotchpotch/chou-ta-kensaku-moderu-bekko-embedding",
+    "author": "Yuichi Tateno",
+    "date": "2026-11-01",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "LLMによる属性・行動の関連付けに基づくユーザーベクトル生成 ―日経電子版を対象として―",
     "url": "https://speakerdeck.com/nikkei_engineer_recruiting/yans2026",
     "author": "日本経済新聞社 エンジニア採用事務局",
@@ -995,6 +1003,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "Discovering Universal Geometry in Embeddings with ICA",
+    "url": "https://speakerdeck.com/momoseoyama/discovering-universal-geometry-in-embeddings-with-ica",
+    "author": "Momose Oyama",
+    "date": "2023-12-21",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "[輪講資料] One Embedder, Any Task: Instruction-Finetuned Text Embeddings",
     "url": "https://speakerdeck.com/hpprc/one-embedder-any-task-instruction-finetuned-text-embeddings",
     "author": "Hayato Tsukagoshi",
@@ -1077,6 +1093,14 @@
   "section": "事前学習モデル・Transformer",
   "blurb": "BERT 以降の事前学習モデルと Transformer の解説資料。",
   "entries": [
+   {
+    "title": "【HackSick vol.10 LT会】複数軸から見るSelf Attention改善手法の体系的整理",
+    "url": "https://speakerdeck.com/rikkabotan7/hacksick-vol-10-lt-kai-fukusuujiku-kara-miru-self-attention-kaizen-shuhou-no-taikeiteki-seiri",
+    "author": "Rikka Botan",
+    "date": "2026-10-31",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
    {
     "title": "松尾研LLMコミュニティLLMATCHS4成果発表会_堀田 大智",
     "url": "https://www.docswell.com/s/matsuo-lab_llm/KL36E6-LLMATCHS4-hottadaichi",
@@ -1698,6 +1722,14 @@
   "blurb": "既存モデルを目的に合わせて調整する手法。",
   "entries": [
    {
+    "title": "Nagoya NLP ACL reading seminar 2026 kinoshita",
+    "url": "https://speakerdeck.com/dieverwandlungtk/nagoya-nlp-acl-reading-seminar-2026-kinoshita",
+    "author": "Takato Kinoshita",
+    "date": "2026-09-23",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "【Paper&Hacks vol.98】医療LLM事後学習：RL系とPinpointTuningの実験記録",
     "url": "https://www.docswell.com/s/matsuo-lab_llm/KJWR7M-Paper&HacksVol.98",
     "author": "松尾研LLMコミュニティ",
@@ -2248,6 +2280,14 @@
     "added": "2026-08-19"
    },
    {
+    "title": "[第55回 NLPコロキウム] コンピュータビジョン分野での評価設計と分析の研究について",
+    "url": "https://speakerdeck.com/otani_mayu/di-55hui-nlpkorokiumu-konpiyutabiziyonfen-ye-denoping-jia-she-ji-tofen-xi-noyan-jiu-nituite",
+    "author": "大谷まゆ",
+    "date": "2024-04-05",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "Japanese_MT-Bench_を使った_LLM_モデルの評価",
     "url": "https://speakerdeck.com/olachinkei/japanese-mt-bench-woshi-tuta-llm-moterunoping-jia",
     "author": "Keisuke Kamata",
@@ -2324,6 +2364,14 @@
     "author": "takatori",
     "date": "2026-07-23",
     "source": "speakerdeck"
+   },
+   {
+    "title": "グラフデータベースでも全文検索がんばりたい",
+    "url": "https://speakerdeck.com/sansantech/260723",
+    "author": "SansanTech",
+    "date": "2026-07-23",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "Hatena Engineer Seminar #37「言語モデルの活用に関する研究」",
@@ -2409,6 +2457,14 @@
     "author": "Visional Engineering ＆ Design",
     "date": "2025-10-14",
     "source": "speakerdeck"
+   },
+   {
+    "title": "ビズリーチ求職者検索におけるPLMとLLMの活用 / Search Engineering MEET UP_2-1",
+    "url": "https://speakerdeck.com/visional_engineering_and_design/search-engineering-meet-up-2-1",
+    "author": "Visional Engineering ＆ Design",
+    "date": "2025-10-14",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "「LINE MUSIC」におけるハイブリッド検索や略称抽出を用いた曖昧検索への挑戦 / Challenges in Ambiguous Search Using Hybrid Search and Abbreviation Extraction in \"LINE MUSIC\"",
@@ -2715,6 +2771,14 @@
     "date": "2025-05-24",
     "source": "speakerdeck",
     "added": "2026-10-17"
+   },
+   {
+    "title": "Relevance Filtering for Embedding-based Retrieval",
+    "url": "https://speakerdeck.com/meshidenn/relevance-filtering-for-embedding-based-retrieval",
+    "author": "Hiroki_Iida",
+    "date": "2025-05-24",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "話題のGraphRAG、その可能性と課題を理解する",
@@ -4579,6 +4643,14 @@
     "source": "speakerdeck"
    },
    {
+    "title": "RAGのためのビジネス文書解析技術",
+    "url": "https://speakerdeck.com/eida/ragnotamenobizinesuwen-shu-jie-xi-ji-shu",
+    "author": "eida",
+    "date": "2024-11-05",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "FiftyOneを用いたOCRモデルの比較 / Comparing OCR Models using FiftyOne",
     "url": "https://speakerdeck.com/moneyforward/comparing-ocr-models-using-fiftyone",
     "author": "Money Forward, Inc.",
@@ -4695,6 +4767,14 @@
     "author": "Ikuya Yamada",
     "date": "2025-01-30",
     "source": "speakerdeck"
+   },
+   {
+    "title": "生成AIと知識グラフの相互利用に基づく文書解析",
+    "url": "https://speakerdeck.com/koujikozaki/sheng-cheng-aitozhi-shi-gurahunoxiang-hu-li-yong-niji-dukuwen-shu-jie-xi",
+    "author": "Kouji Kozaki",
+    "date": "2024-11-01",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "ナレッジグラフとLLMの相互利用",
@@ -4926,6 +5006,14 @@
   "blurb": "画像と言語をつなぐモデルの研究開発と、VLM をプロダクトに組み込んだ事例。",
   "entries": [
    {
+    "title": "Adapting MLLMs for Nuanced Video Retrieval(ECCV2026)",
+    "url": "https://speakerdeck.com/yokokawa_shunsuke/adapting-mllms-for-nuanced-video-retrieval-eccv2026",
+    "author": "yokokawa shunsuke",
+    "date": "2026-10-24",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "[EMNLP26] RIGEL: Self-Distilled Score Adaptation for Image and Video Captioning Evaluation",
     "url": "https://speakerdeck.com/keio_smilab/emnlp26-rigel-self-distilled-score-adaptation-for-image-and-video-captioning-evaluation",
     "author": "Semantic Machine Intelligence Lab., Keio Univ.",
@@ -4980,6 +5068,14 @@
     "date": "2026-08-13",
     "source": "speakerdeck",
     "added": "2026-10-22"
+   },
+   {
+    "title": "CVPR2026論文紹介_VLMにとって良いvision encoderとは何か？Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance",
+    "url": "https://speakerdeck.com/kobayashi31/cvpr2026lun-wen-shao-jie-vlmnitotuteliang-ivision-encodertohahe-ka-rethinking-model-selection-in-vlm-through-the-lens-of-gromov-wasserstein-distance",
+    "author": "小林優斗",
+    "date": "2026-06-20",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "SSII2026 [OS2-2] 製造業ドメインにおける VLMの現在地",
@@ -5729,6 +5825,14 @@
     "added": "2026-10-09"
    },
    {
+    "title": "People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text",
+    "url": "https://speakerdeck.com/rudorudo11/people-who-frequently-use-chatgpt-for-writing-tasks-are-accurate-and-robust-detectors-of-ai-generated-text",
+    "author": "hajime kiyama",
+    "date": "2025-08-31",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "大規模言語モデルを用いた料理レシピの曖昧表現補完",
     "url": "https://www.docswell.com/s/okmt_lab/Z4EJPL-2025-05-27-jsai2025-ueda",
     "author": "Okamoto Lab. (The Univ. of Electro-Communications)",
@@ -5742,6 +5846,14 @@
     "author": "Shotaro Ishihara",
     "date": "2025-03-12",
     "source": "speakerdeck"
+   },
+   {
+    "title": "痒い所に手が届く！要約モデルのつくり方",
+    "url": "https://speakerdeck.com/sakusakumura/yang-isuo-nishou-gajie-ku-yao-yue-moderunotukurifang",
+    "author": "Sakusakumura",
+    "date": "2025-03-12",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "NLP2025 WS Shared Task 文法誤り訂正部門 ehiMetrick",
@@ -5771,6 +5883,14 @@
     "date": "2024-06-05",
     "source": "speakerdeck",
     "added": "2026-10-22"
+   },
+   {
+    "title": "LLMとの共同執筆は文章の多様性を減らすか？",
+    "url": "https://speakerdeck.com/kuri8ive/iclr2024-reading-does-writing-with-language-models-reduce-content-diversity",
+    "author": "kuri8ive",
+    "date": "2024-06-04",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "大規模言語モデルを用いた意味分析による辞書記述への応用",
@@ -5902,6 +6022,14 @@
   "blurb": "モデルの中身を覗き、言語の観点から評価する。",
   "entries": [
    {
+    "title": "「表象」を再定義するー潜在表現解析の落とし穴",
+    "url": "https://speakerdeck.com/ykamit/hyoushou-o-saiteigi-suru-senzai-hyougen-kaiseki-no-otoshiana",
+    "author": "Yuki Kamitani",
+    "date": "2026-09-30",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "Sparse Autoencoder 〜 大規模言語モデルの内部表現を読む 〜　Sparse Autoencoder: Understanding LLM's Latent Representations",
     "url": "https://speakerdeck.com/neurogica/sparse-autoencoder-daikibo-gengo-moderu-no-naibu-hyougen-o-yomu-sparse-autoencoder-understanding-llm-s-latent-representations",
     "author": "Neurogica",
@@ -5988,6 +6116,14 @@
     "date": "2026-04-09",
     "source": "docswell",
     "added": "2026-10-09"
+   },
+   {
+    "title": "論文紹介：Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers",
+    "url": "https://speakerdeck.com/araim10/lun-wen-shao-jie-causal-head-gating-a-framework-for-interpreting-roles-of-attention-heads-in-transformers",
+    "author": "Arai M",
+    "date": "2026-03-23",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "通時的な類似度行列に基づく単語の意味変化の分析",
@@ -6078,6 +6214,22 @@
     "added": "2026-08-26"
    },
    {
+    "title": "ウェブ・ソーシャルメディア論文読み会 第31回: The rising entropy of English in the attention economy. (Commun Psychology, 2024)",
+    "url": "https://speakerdeck.com/hkefka385/uebusosiyarumedeialun-wen-du-mihui-di-31hui-the-rising-entropy-of-english-in-the-attention-economy-commun-psychology-2024",
+    "author": "taichi_murayama",
+    "date": "2025-07-10",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
+    "title": "心理言語学の視点から再考する言語モデルの学習過程",
+    "url": "https://speakerdeck.com/chemical_tree/xin-li-yan-yu-xue-noshi-dian-karazai-kao-suruyan-yu-moderunoxue-xi-guo-cheng",
+    "author": "Masato Mita",
+    "date": "2025-06-26",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
+   },
+   {
     "title": "【DL輪読会】 Language Models Are Capable of Metacognitive Monitoring and Control of Their Internal Activations",
     "url": "https://www.docswell.com/s/DeepLearning2023/ZG133M-2025-06-19-143325",
     "author": "Deep Learning JP",
@@ -6116,6 +6268,14 @@
     "date": "2024-08-24",
     "source": "speakerdeck",
     "added": "2026-10-22"
+   },
+   {
+    "title": "論文紹介/Expectations over Unspoken Alternatives Predict Pragmatic Inferences",
+    "url": "https://speakerdeck.com/chemical_tree/expectations-over-unspoken-alternatives-predict-pragmatic-inferences",
+    "author": "Masato Mita",
+    "date": "2024-08-20",
+    "source": "speakerdeck",
+    "added": "2026-11-08"
    },
    {
     "title": "【人工知能・深層学習】論文紹介：In-Context Learning Creates Task Vectors",
