@@ -1352,6 +1352,14 @@
   "src": "docswell"
  },
  {
+  "t": "ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611",
+  "u": "https://speakerdeck.com/kishida/20261113localllm",
+  "a": "Naoki Kishida",
+  "d": "2026-11-13",
+  "s": "大規模言語モデル（概論・動向）",
+  "src": "speakerdeck"
+ },
+ {
   "t": "ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge",
   "u": "https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge",
   "a": "Naoki Kishida",
@@ -2189,6 +2197,14 @@
   "a": "Preferred Networks",
   "d": "2024-05-13",
   "s": "LLM の推論最適化・サービング",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "ハルシネーション率って考えた事ありますか？",
+  "u": "https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou",
+  "a": "Suguru Ohishi",
+  "d": "2026-11-06",
+  "s": "評価・ベンチマーク",
   "src": "speakerdeck"
  },
  {
@@ -3376,6 +3392,14 @@
   "src": "speakerdeck"
  },
  {
+  "t": "AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する",
+  "u": "https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy",
+  "a": "日下 武紀",
+  "d": "2026-11-15",
+  "s": "AI エージェント・MCP",
+  "src": "docswell"
+ },
+ {
   "t": "グラフ基盤ワークフローで実現するLLMによる自動ゲームプレイ",
   "u": "https://speakerdeck.com/gree_tech/gurafu-kiban-waku-furo-de-jitsugen-suru-llm-niyoru-jidou",
   "a": "gree_tech",
@@ -3805,6 +3829,14 @@
   "a": "Shunsuke KITADA",
   "d": "2026-04-01",
   "s": "AI エージェント・MCP",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "LLMをConfidential VMで動かす話",
+  "u": "https://speakerdeck.com/lycorptech_jp/20261104a",
+  "a": "LINEヤフーTech (LY Corporation Tech)",
+  "d": "2026-11-04",
+  "s": "LLM の安全性・セキュリティ",
   "src": "speakerdeck"
  },
  {
@@ -4806,6 +4838,14 @@
   "d": "2012-06-07",
   "s": "情報抽出・固有表現・アノテーション",
   "src": "slideshare"
+ },
+ {
+  "t": "文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか",
+  "u": "https://speakerdeck.com/sansantech/261112-3",
+  "a": "SansanTech",
+  "d": "2026-11-13",
+  "s": "文書処理・OCR",
+  "src": "speakerdeck"
  },
  {
   "t": "契約書画像からの情報抽出に特化した視覚接地モデルを育てる話",

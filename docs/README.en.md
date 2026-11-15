@@ -11,7 +11,7 @@
 A curated list of presentation slides on Japanese natural language processing (NLP).
 Conference tutorials, university lectures, technical deep dives by OSS developers, and industry case studies, organized by topic.
 
-877 decks across 32 categories.
+882 decks across 32 categories.
 
 Deck titles are kept as published, so most of them are in Japanese.
 
@@ -57,7 +57,7 @@ Deck titles are kept as published, so most of them are in Japanese.
 
 ## 🔍 Search from Claude Code
 
-A plugin is available to search all 877 decks in this list from Claude Code.
+A plugin is available to search all 882 decks in this list from Claude Code.
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -79,56 +79,29 @@ Once installed, pass a keyword or a natural language question to the `search` sk
 
 📝 The story behind this search skill is written up in [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) (Japanese).
 
-🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (342 entries).
+🌐 Blog posts and web articles from companies and individual developers are collected separately in [this article list](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.en.md) (373 entries).
 
 <details>
 <summary>🎉 The Latest Additions (click to expand)</summary>
 
 Decks added to this list in the last 7 days. Each one stays here for 7 days from the day it was added.
 
-**Word & Sentence Embeddings**
-- [超小型・多言語検索モデル Bekko Embedding](https://speakerdeck.com/hotchpotch/chou-ta-kensaku-moderu-bekko-embedding) - Yuichi Tateno (2026-11)
-- [Discovering Universal Geometry in Embeddings with ICA](https://speakerdeck.com/momoseoyama/discovering-universal-geometry-in-embeddings-with-ica) - Momose Oyama (2023-12)
-
-**Pretrained Models & Transformers**
-- [【HackSick vol.10 LT会】複数軸から見るSelf Attention改善手法の体系的整理](https://speakerdeck.com/rikkabotan7/hacksick-vol-10-lt-kai-fukusuujiku-kara-miru-self-attention-kaizen-shuhou-no-taikeiteki-seiri) - Rikka Botan (2026-10)
-
-**Fine-tuning & Post-training**
-- [Nagoya NLP ACL reading seminar 2026 kinoshita](https://speakerdeck.com/dieverwandlungtk/nagoya-nlp-acl-reading-seminar-2026-kinoshita) - Takato Kinoshita (2026-09)
+**Large Language Models (Overview & Trends)**
+- [ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611](https://speakerdeck.com/kishida/20261113localllm) - Naoki Kishida (2026-11)
 
 **Evaluation & Benchmarks**
-- [\[第55回 NLPコロキウム\] コンピュータビジョン分野での評価設計と分析の研究について](https://speakerdeck.com/otani_mayu/di-55hui-nlpkorokiumu-konpiyutabiziyonfen-ye-denoping-jia-she-ji-tofen-xi-noyan-jiu-nituite) - 大谷まゆ (2024-04)
+- [ハルシネーション率って考えた事ありますか？](https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou) - Suguru Ohishi (2026-11)
 
-**Full-text Search & Search Infrastructure**
-- [グラフデータベースでも全文検索がんばりたい](https://speakerdeck.com/sansantech/260723) - SansanTech (2026-07)
-- [ビズリーチ求職者検索におけるPLMとLLMの活用 / Search Engineering MEET UP\_2-1](https://speakerdeck.com/visional_engineering_and_design/search-engineering-meet-up-2-1) - Visional Engineering ＆ Design (2025-10)
+**AI Agents & MCP**
+- [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀 (2026-11)
 
-**Search & RAG**
-- [Relevance Filtering for Embedding-based Retrieval](https://speakerdeck.com/meshidenn/relevance-filtering-for-embedding-based-retrieval) - Hiroki_Iida (2025-05)
+**LLM Safety & Security**
+- [LLMをConfidential VMで動かす話](https://speakerdeck.com/lycorptech_jp/20261104a) - LINEヤフーTech (LY Corporation Tech) (2026-11)
 
 **Document AI & OCR**
-- [RAGのためのビジネス文書解析技術](https://speakerdeck.com/eida/ragnotamenobizinesuwen-shu-jie-xi-ji-shu) - eida (2024-11)
+- [文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか](https://speakerdeck.com/sansantech/261112-3) - SansanTech (2026-11)
 
-**Question Answering & Knowledge**
-- [生成AIと知識グラフの相互利用に基づく文書解析](https://speakerdeck.com/koujikozaki/sheng-cheng-aitozhi-shi-gurahunoxiang-hu-li-yong-niji-dukuwen-shu-jie-xi) - Kouji Kozaki (2024-11)
-
-**Multimodal & Vision-and-Language**
-- [Adapting MLLMs for Nuanced Video Retrieval(ECCV2026)](https://speakerdeck.com/yokokawa_shunsuke/adapting-mllms-for-nuanced-video-retrieval-eccv2026) - yokokawa shunsuke (2026-10)
-- [CVPR2026論文紹介\_VLMにとって良いvision encoderとは何か？Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance](https://speakerdeck.com/kobayashi31/cvpr2026lun-wen-shao-jie-vlmnitotuteliang-ivision-encodertohahe-ka-rethinking-model-selection-in-vlm-through-the-lens-of-gromov-wasserstein-distance) - 小林優斗 (2026-06)
-
-**Generation, Summarization & Proofreading**
-- [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](https://speakerdeck.com/rudorudo11/people-who-frequently-use-chatgpt-for-writing-tasks-are-accurate-and-robust-detectors-of-ai-generated-text) - hajime kiyama (2025-08)
-- [痒い所に手が届く！要約モデルのつくり方](https://speakerdeck.com/sakusakumura/yang-isuo-nishou-gajie-ku-yao-yue-moderunotukurifang) - Sakusakumura (2025-03)
-- [LLMとの共同執筆は文章の多様性を減らすか？](https://speakerdeck.com/kuri8ive/iclr2024-reading-does-writing-with-language-models-reduce-content-diversity) - kuri8ive (2024-06)
-
-**Interpretability, Analysis & Linguistic Perspectives**
-- [「表象」を再定義するー潜在表現解析の落とし穴](https://speakerdeck.com/ykamit/hyoushou-o-saiteigi-suru-senzai-hyougen-kaiseki-no-otoshiana) - Yuki Kamitani (2026-09)
-- [論文紹介：Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers](https://speakerdeck.com/araim10/lun-wen-shao-jie-causal-head-gating-a-framework-for-interpreting-roles-of-attention-heads-in-transformers) - Arai M (2026-03)
-- [ウェブ・ソーシャルメディア論文読み会 第31回: The rising entropy of English in the attention economy. (Commun Psychology, 2024)](https://speakerdeck.com/hkefka385/uebusosiyarumedeialun-wen-du-mihui-di-31hui-the-rising-entropy-of-english-in-the-attention-economy-commun-psychology-2024) - taichi_murayama (2025-07)
-- [心理言語学の視点から再考する言語モデルの学習過程](https://speakerdeck.com/chemical_tree/xin-li-yan-yu-xue-noshi-dian-karazai-kao-suruyan-yu-moderunoxue-xi-guo-cheng) - Masato Mita (2025-06)
-- [論文紹介/Expectations over Unspoken Alternatives Predict Pragmatic Inferences](https://speakerdeck.com/chemical_tree/expectations-over-unspoken-alternatives-predict-pragmatic-inferences) - Masato Mita (2024-08)
-
-_Updated on 2026-11-08_
+_Updated on 2026-11-16_
 
 </details>
 
@@ -350,6 +323,7 @@ Pretrained models from BERT onward, and how Transformers work.
 
 Surveys and invited talks that map out the LLM landscape.
 
+- [ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611](https://speakerdeck.com/kishida/20261113localllm) - Naoki Kishida (2026-11)
 - [ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge](https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge) - Naoki Kishida (2026-09)
 - [AI研修(Day2)【MIXI 26新卒技術研修】](https://speakerdeck.com/mixi_engineers/2026_new_grad_training_ai_day2) - MIXI ENGINEERS (2026-07)
 - [AIはどのように考えて話すのか？ ― 言葉と知能の不思議](https://speakerdeck.com/chokkan/how-ai-thinks-and-responds) - Naoaki Okazaki (2026-07)
@@ -475,6 +449,7 @@ Quantization, distillation, and serving infrastructure for running trained model
 
 How to measure Japanese LLM and NLP systems.
 
+- [ハルシネーション率って考えた事ありますか？](https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou) - Suguru Ohishi (2026-11)
 - [LLM-as-a-Judgeは本当に信頼できるのか――評価器を評価する話](https://speakerdeck.com/taka_aki/llm-as-a-judge-ha-hontouni-shinrai-dekiru-no-ka-hyoukaki-o-hyouka-suru-hanashi) - Takaaki Yayoi (2026-10)
 - [そのベンチマーク、 誰の物差しですか？ / Whose Ruler Are You Measuring With](https://speakerdeck.com/zhizhiarv/whose-ruler-are-you-measuring-with) - Xinzhi Sherry Zhu (2026-10)
 - [専門領域のAIをどう評価するか](https://speakerdeck.com/bengo4com/evals-enjinia-no-shigoto-uno) - 弁護士ドットコム (2026-10)
@@ -643,6 +618,7 @@ Shipping LLMs inside real products and keeping them running.
 
 Designing, evaluating and operating LLM agents that use tools, and wiring those tools up through MCP.
 
+- [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀 (2026-11)
 - [グラフ基盤ワークフローで実現するLLMによる自動ゲームプレイ](https://speakerdeck.com/gree_tech/gurafu-kiban-waku-furo-de-jitsugen-suru-llm-niyoru-jidou) - gree_tech (2026-10)
 - [Compute-Use Agentの強化学習](https://www.docswell.com/s/MatsuoInstitute/5Y8643-2026-10-08-164941) - (株)松尾研究所 (2026-10)
 - [Self-Play Agentic RL](https://www.docswell.com/s/MatsuoInstitute/5R87RN-2026-10-08-165306) - (株)松尾研究所 (2026-10)
@@ -702,6 +678,7 @@ Designing, evaluating and operating LLM agents that use tools, and wiring those 
 
 Attacks such as prompt injection and the defenses against them, guardrails, and the technical side of AI safety.
 
+- [LLMをConfidential VMで動かす話](https://speakerdeck.com/lycorptech_jp/20261104a) - LINEヤフーTech (LY Corporation Tech) (2026-11)
 - [AI Safety, Seen Through Its Questions](https://speakerdeck.com/kanekomasahiro/ai-safety-seen-through-its-questions) - Masahiro Kaneko (2026-10)
 - [多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン](https://speakerdeck.com/lycorptech_jp/20260908a) - LINEヤフーTech (LY Corporation Tech) (2026-09)
 - [SNLP2026 Mind the Value-Action Gap](https://speakerdeck.com/ttsujimura/snlp2026-mind-the-value-action-gap) - Tomoki Tsujimura (2026-08)
@@ -852,6 +829,7 @@ Extracting structured information from text, and the training data behind it.
 
 Turning real-world documents — invoices, contracts, business cards — into data.
 
+- [文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか](https://speakerdeck.com/sansantech/261112-3) - SansanTech (2026-11)
 - [契約書画像からの情報抽出に特化した視覚接地モデルを育てる話](https://speakerdeck.com/sansantech/261004) - SansanTech (2026-10)
 - [BizDocVQA: 実世界ビジネス帳票に対する根拠付きVQAデータセットの提案](https://speakerdeck.com/icoxfog417/biz-doc-vqa-dataset) - Takahiro Kubo (2026-03)
 - [バクラクにおける Document Understanding の挑戦：書類の「読取」から「意思決定」へ / document-understanding-in-bakuraku-2026](https://speakerdeck.com/yuya4/document-understanding-in-bakuraku-2026) - Yuya Matsumura (2026-02)

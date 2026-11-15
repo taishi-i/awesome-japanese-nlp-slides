@@ -11,7 +11,7 @@
 这是一份精选列表，收录了日语自然语言处理（NLP）相关的演示幻灯片。
 按主题整理了学会的教程演讲、大学课程、OSS 开发者的技术讲解，以及企业的实践案例。
 
-共收录 877 份资料，分为 32 个分类。
+共收录 882 份资料，分为 32 个分类。
 
 幻灯片标题保留发表时的原文，因此绝大多数为日语。
 
@@ -57,7 +57,7 @@
 
 ## 🔍 从 Claude Code 搜索
 
-我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 877 份资料。
+我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 882 份资料。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -79,56 +79,29 @@
 
 📝 这个搜索技能背后的故事，写在 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d)（日文）。
 
-🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hans.md)（342 篇）。
+🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hans.md)（373 篇）。
 
 <details>
 <summary>🎉 最近新增的幻灯片 （点击展开）</summary>
 
 这是最近 7 天内加入本列表的幻灯片。自加入之日起，会在此显示 7 天。
 
-**词与句的分布式表示**
-- [超小型・多言語検索モデル Bekko Embedding](https://speakerdeck.com/hotchpotch/chou-ta-kensaku-moderu-bekko-embedding) - Yuichi Tateno（2026-11）
-- [Discovering Universal Geometry in Embeddings with ICA](https://speakerdeck.com/momoseoyama/discovering-universal-geometry-in-embeddings-with-ica) - Momose Oyama（2023-12）
-
-**预训练模型・Transformer**
-- [【HackSick vol.10 LT会】複数軸から見るSelf Attention改善手法の体系的整理](https://speakerdeck.com/rikkabotan7/hacksick-vol-10-lt-kai-fukusuujiku-kara-miru-self-attention-kaizen-shuhou-no-taikeiteki-seiri) - Rikka Botan（2026-10）
-
-**微调・后训练**
-- [Nagoya NLP ACL reading seminar 2026 kinoshita](https://speakerdeck.com/dieverwandlungtk/nagoya-nlp-acl-reading-seminar-2026-kinoshita) - Takato Kinoshita（2026-09）
+**大语言模型（概论・趋势）**
+- [ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611](https://speakerdeck.com/kishida/20261113localllm) - Naoki Kishida（2026-11）
 
 **评测・基准测试**
-- [\[第55回 NLPコロキウム\] コンピュータビジョン分野での評価設計と分析の研究について](https://speakerdeck.com/otani_mayu/di-55hui-nlpkorokiumu-konpiyutabiziyonfen-ye-denoping-jia-she-ji-tofen-xi-noyan-jiu-nituite) - 大谷まゆ（2024-04）
+- [ハルシネーション率って考えた事ありますか？](https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou) - Suguru Ohishi（2026-11）
 
-**全文检索・搜索基础设施**
-- [グラフデータベースでも全文検索がんばりたい](https://speakerdeck.com/sansantech/260723) - SansanTech（2026-07）
-- [ビズリーチ求職者検索におけるPLMとLLMの活用 / Search Engineering MEET UP\_2-1](https://speakerdeck.com/visional_engineering_and_design/search-engineering-meet-up-2-1) - Visional Engineering ＆ Design（2025-10）
+**AI 智能体・MCP**
+- [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀（2026-11）
 
-**检索・RAG**
-- [Relevance Filtering for Embedding-based Retrieval](https://speakerdeck.com/meshidenn/relevance-filtering-for-embedding-based-retrieval) - Hiroki_Iida（2025-05）
+**LLM 的安全性・安全防护**
+- [LLMをConfidential VMで動かす話](https://speakerdeck.com/lycorptech_jp/20261104a) - LINEヤフーTech (LY Corporation Tech)（2026-11）
 
 **文档处理・OCR**
-- [RAGのためのビジネス文書解析技術](https://speakerdeck.com/eida/ragnotamenobizinesuwen-shu-jie-xi-ji-shu) - eida（2024-11）
+- [文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか](https://speakerdeck.com/sansantech/261112-3) - SansanTech（2026-11）
 
-**问答・知识**
-- [生成AIと知識グラフの相互利用に基づく文書解析](https://speakerdeck.com/koujikozaki/sheng-cheng-aitozhi-shi-gurahunoxiang-hu-li-yong-niji-dukuwen-shu-jie-xi) - Kouji Kozaki（2024-11）
-
-**多模态・视觉与语言**
-- [Adapting MLLMs for Nuanced Video Retrieval(ECCV2026)](https://speakerdeck.com/yokokawa_shunsuke/adapting-mllms-for-nuanced-video-retrieval-eccv2026) - yokokawa shunsuke（2026-10）
-- [CVPR2026論文紹介\_VLMにとって良いvision encoderとは何か？Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance](https://speakerdeck.com/kobayashi31/cvpr2026lun-wen-shao-jie-vlmnitotuteliang-ivision-encodertohahe-ka-rethinking-model-selection-in-vlm-through-the-lens-of-gromov-wasserstein-distance) - 小林優斗（2026-06）
-
-**生成・摘要・校对**
-- [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](https://speakerdeck.com/rudorudo11/people-who-frequently-use-chatgpt-for-writing-tasks-are-accurate-and-robust-detectors-of-ai-generated-text) - hajime kiyama（2025-08）
-- [痒い所に手が届く！要約モデルのつくり方](https://speakerdeck.com/sakusakumura/yang-isuo-nishou-gajie-ku-yao-yue-moderunotukurifang) - Sakusakumura（2025-03）
-- [LLMとの共同執筆は文章の多様性を減らすか？](https://speakerdeck.com/kuri8ive/iclr2024-reading-does-writing-with-language-models-reduce-content-diversity) - kuri8ive（2024-06）
-
-**可解释性・分析・语言学观点**
-- [「表象」を再定義するー潜在表現解析の落とし穴](https://speakerdeck.com/ykamit/hyoushou-o-saiteigi-suru-senzai-hyougen-kaiseki-no-otoshiana) - Yuki Kamitani（2026-09）
-- [論文紹介：Causal Head Gating: A Framework for Interpreting Roles of Attention Heads in Transformers](https://speakerdeck.com/araim10/lun-wen-shao-jie-causal-head-gating-a-framework-for-interpreting-roles-of-attention-heads-in-transformers) - Arai M（2026-03）
-- [ウェブ・ソーシャルメディア論文読み会 第31回: The rising entropy of English in the attention economy. (Commun Psychology, 2024)](https://speakerdeck.com/hkefka385/uebusosiyarumedeialun-wen-du-mihui-di-31hui-the-rising-entropy-of-english-in-the-attention-economy-commun-psychology-2024) - taichi_murayama（2025-07）
-- [心理言語学の視点から再考する言語モデルの学習過程](https://speakerdeck.com/chemical_tree/xin-li-yan-yu-xue-noshi-dian-karazai-kao-suruyan-yu-moderunoxue-xi-guo-cheng) - Masato Mita（2025-06）
-- [論文紹介/Expectations over Unspoken Alternatives Predict Pragmatic Inferences](https://speakerdeck.com/chemical_tree/expectations-over-unspoken-alternatives-predict-pragmatic-inferences) - Masato Mita（2024-08）
-
-_2026-11-08 更新_
+_2026-11-16 更新_
 
 </details>
 
@@ -350,6 +323,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 纵观 LLM 全貌的讲解与特邀演讲。
 
+- [ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611](https://speakerdeck.com/kishida/20261113localllm) - Naoki Kishida（2026-11）
 - [ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge](https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge) - Naoki Kishida（2026-09）
 - [AI研修(Day2)【MIXI 26新卒技術研修】](https://speakerdeck.com/mixi_engineers/2026_new_grad_training_ai_day2) - MIXI ENGINEERS（2026-07）
 - [AIはどのように考えて話すのか？ ― 言葉と知能の不思議](https://speakerdeck.com/chokkan/how-ai-thinks-and-responds) - Naoaki Okazaki（2026-07）
@@ -475,6 +449,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 该如何衡量日语 LLM 与 NLP 系统。
 
+- [ハルシネーション率って考えた事ありますか？](https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou) - Suguru Ohishi（2026-11）
 - [LLM-as-a-Judgeは本当に信頼できるのか――評価器を評価する話](https://speakerdeck.com/taka_aki/llm-as-a-judge-ha-hontouni-shinrai-dekiru-no-ka-hyoukaki-o-hyouka-suru-hanashi) - Takaaki Yayoi（2026-10）
 - [そのベンチマーク、 誰の物差しですか？ / Whose Ruler Are You Measuring With](https://speakerdeck.com/zhizhiarv/whose-ruler-are-you-measuring-with) - Xinzhi Sherry Zhu（2026-10）
 - [専門領域のAIをどう評価するか](https://speakerdeck.com/bengo4com/evals-enjinia-no-shigoto-uno) - 弁護士ドットコム（2026-10）
@@ -643,6 +618,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 让 LLM 使用工具的智能体的设计、评估与运维，以及通过 MCP 实现的工具联动。
 
+- [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀（2026-11）
 - [グラフ基盤ワークフローで実現するLLMによる自動ゲームプレイ](https://speakerdeck.com/gree_tech/gurafu-kiban-waku-furo-de-jitsugen-suru-llm-niyoru-jidou) - gree_tech（2026-10）
 - [Compute-Use Agentの強化学習](https://www.docswell.com/s/MatsuoInstitute/5Y8643-2026-10-08-164941) - (株)松尾研究所（2026-10）
 - [Self-Play Agentic RL](https://www.docswell.com/s/MatsuoInstitute/5R87RN-2026-10-08-165306) - (株)松尾研究所（2026-10）
@@ -702,6 +678,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 提示词注入等攻击手法与防御、护栏机制，以及 AI 安全的技术论点。
 
+- [LLMをConfidential VMで動かす話](https://speakerdeck.com/lycorptech_jp/20261104a) - LINEヤフーTech (LY Corporation Tech)（2026-11）
 - [AI Safety, Seen Through Its Questions](https://speakerdeck.com/kanekomasahiro/ai-safety-seen-through-its-questions) - Masahiro Kaneko（2026-10）
 - [多層防御と最⼩権限で実現する、安全なAIエージェント設計パターン](https://speakerdeck.com/lycorptech_jp/20260908a) - LINEヤフーTech (LY Corporation Tech)（2026-09）
 - [SNLP2026 Mind the Value-Action Gap](https://speakerdeck.com/ttsujimura/snlp2026-mind-the-value-action-gap) - Tomoki Tsujimura（2026-08）
@@ -852,6 +829,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 把表单、合同、名片等真实世界的文档转成数据的技术。
 
+- [文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか](https://speakerdeck.com/sansantech/261112-3) - SansanTech（2026-11）
 - [契約書画像からの情報抽出に特化した視覚接地モデルを育てる話](https://speakerdeck.com/sansantech/261004) - SansanTech（2026-10）
 - [BizDocVQA: 実世界ビジネス帳票に対する根拠付きVQAデータセットの提案](https://speakerdeck.com/icoxfog417/biz-doc-vqa-dataset) - Takahiro Kubo（2026-03）
 - [バクラクにおける Document Understanding の挑戦：書類の「読取」から「意思決定」へ / document-understanding-in-bakuraku-2026](https://speakerdeck.com/yuya4/document-understanding-in-bakuraku-2026) - Yuya Matsumura（2026-02）

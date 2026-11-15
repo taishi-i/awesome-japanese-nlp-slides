@@ -231,6 +231,13 @@
   "s": "NLP ライブラリ・ツール開発"
  },
  {
+  "t": "EmbeddingGemma 2を法人名寄せ用に追加学習したら、文字列検索に勝てなかった",
+  "u": "https://zenn.dev/jo_okazaki/articles/accelai-embeddinggemma2-corporate-name-matching",
+  "a": "じょー",
+  "d": "2026-11-14",
+  "s": "日本語テキストの正規化・表記ゆれ"
+ },
+ {
   "t": "【Nishika 論文サク読み 第27回】似た形の漢字を検索するモデル",
   "u": "https://zenn.dev/team_nishika/articles/4b3b6e00d35819",
   "a": "Nishio Hibiki（Nishika）",
@@ -371,6 +378,13 @@
   "s": "辞書・かな漢字変換・日本語入力"
  },
  {
+  "t": "iPhoneで動く日本語意味検索 — Core ML版 ruri-v3 は Apple 標準モデルより古典に強い",
+  "u": "https://zenn.dev/masahiroid/articles/496dae611c1315",
+  "a": "masahiroid",
+  "d": "2026-11-08",
+  "s": "単語・文の分散表現"
+ },
+ {
   "t": "日本語検索1位を達成したLLMベースの日本語埋め込みモデル",
   "u": "https://zenn.dev/sionicai_jp/articles/a97e20332f8881",
   "a": "サイオニックエーアイ株式会社",
@@ -453,6 +467,13 @@
   "a": "Hironsan",
   "d": "2017-03-07",
   "s": "単語・文の分散表現"
+ },
+ {
+  "t": "なぜ最新LLMはハイブリッド構造を選ぶのか？GemmaやQwenから紐解くアテンションの役割分担",
+  "u": "https://zenn.dev/highreso/articles/0766e0b2764539",
+  "a": "Yuichi Tominaga（株式会社ハイレゾ）",
+  "d": "2026-11-12",
+  "s": "事前学習モデル・Transformer"
  },
  {
   "t": "大規模テキストデータを活用したサービス特化型言語モデルの社内共有プロジェクト：Moegi",
@@ -539,6 +560,13 @@
   "s": "事前学習モデル・Transformer"
  },
  {
+  "t": "AI 基礎② なぜ日本語は英語よりトークン消費量が多いのか",
+  "u": "https://zenn.dev/luvmini511/articles/japanese-korean-tokens",
+  "a": "みんちゃん",
+  "d": "2026-11-15",
+  "s": "大規模言語モデル（概論・動向）"
+ },
+ {
   "t": "post-training 時代の LLM 学習の規模と効率の整理",
   "u": "https://zenn.dev/tosshi/articles/99375dd5ac013f",
   "a": "littlemex",
@@ -579,6 +607,13 @@
   "a": "@omiita（オミータ）",
   "d": "2022-12-11",
   "s": "大規模言語モデル（概論・動向）"
+ },
+ {
+  "t": "金融特化型の小規模言語モデルPLaMo 3.0 Finの開発",
+  "u": "https://www.preferred.jp/ja/blog/tech/plamo-3-fin-development",
+  "a": "Ryota Ozaki（Preferred Networks）",
+  "d": "2026-11-09",
+  "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
   "t": "国産LLM Sarashina3.2 mini thinking の紹介",
@@ -742,6 +777,27 @@
   "s": "日本語LLMの開発（事前学習・コーパス構築）"
  },
  {
+  "t": "【わくわく駆動開発】今治弁モデル評価結果！",
+  "u": "https://qiita.com/ikedachin/items/f515445c0f5db058315e",
+  "a": "ikedachin",
+  "d": "2026-11-14",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
+  "t": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+  "u": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+  "a": "rizumita（合同会社CAPH TECH）",
+  "d": "2026-11-13",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
+  "t": "0.5Bの日本語System Oneモデルを学習してLambdaで推論する",
+  "u": "https://zenn.dev/ken_11/articles/670177d6ab7c49",
+  "a": "ken",
+  "d": "2026-11-11",
+  "s": "ファインチューニング・事後学習"
+ },
+ {
   "t": "日本語の推論過程付き数量推論データセット「JaMathCoT」を作成し，Sarashina2.2をSFTしてみた",
   "u": "https://zenn.dev/ao1neko/articles/cd64c5152ffcd2",
   "a": "青い猫",
@@ -861,6 +917,13 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "torch.compileでLLMの文章生成を速くしてみる—生成速度と初回コストの検証",
+  "u": "https://zenn.dev/zenkigen_tech/articles/1739826e1d843d",
+  "a": "てばさき（株式会社ZENKIGEN）",
+  "d": "2026-11-11",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
   "t": "vLLM・SGLang・TensorRT-LLMをEC2で動かしたら、それぞれの個性が見えてきた",
   "u": "https://zenn.dev/yuya0408/articles/llm-serving-engines-on-l4",
   "a": "yuya_h",
@@ -950,6 +1013,20 @@
   "a": "Aratako（松尾研究室）",
   "d": "2024-09-09",
   "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "約9Bまでの日本語 Decision Model 13種を公開データで比べた（精度・較正・順序頑健性）",
+  "u": "https://zenn.dev/tatsuyaaaaaaa/articles/74ec715380cf61",
+  "a": "風景太郎",
+  "d": "2026-11-10",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "LLMは7が好き？：点数・確信度・生成データに潜む数値バイアス",
+  "u": "https://zenn.dev/mtec_blog/articles/5adf8992de7943",
+  "a": "ακιτο（MTEC）",
+  "d": "2026-11-09",
+  "s": "評価・ベンチマーク"
  },
  {
   "t": "運用しながら改善する LLM-as-a-Judge の構築",
@@ -1134,6 +1211,20 @@
   "s": "評価・ベンチマーク"
  },
  {
+  "t": "最近アップデートが続く日本語トークナイザーで、BM25の検索精度を比べてみました",
+  "u": "https://qiita.com/xxyc/items/f27f6fb14042f58bdc9a",
+  "a": "xxyc",
+  "d": "2026-11-14",
+  "s": "全文検索・検索基盤"
+ },
+ {
+  "t": "日本語の Analyzer は何をしているか",
+  "u": "https://zenn.dev/kotap/articles/japanese-analyzer-inside",
+  "a": "Kota Mizuno",
+  "d": "2026-11-13",
+  "s": "全文検索・検索基盤"
+ },
+ {
   "t": "Contract Oneの全文検索を評価する基盤を作成した（インターン成果報告）",
   "u": "https://buildersbox.corp-sansan.com/entry/2026/10/30/110000",
   "a": "tsukune（Sansan）",
@@ -1223,6 +1314,27 @@
   "a": "vasilyjp（株式会社ZOZO）",
   "d": "2021-11-05",
   "s": "全文検索・検索基盤"
+ },
+ {
+  "t": "『坊っちゃん』でゼロから作って理解するGraphRAG：自作実装からMicrosoft GraphRAGとの3方式比較まで",
+  "u": "https://qiita.com/koji0705/items/543b8d93c9373534e1a2",
+  "a": "koji0705",
+  "d": "2026-11-15",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "ローカルLLMのRAGが『資料からはわかりません』ばかり返す原因は、検索ではなかった（M1 Mac・25問で実測）",
+  "u": "https://zenn.dev/hoshihoshi/articles/5f07aa9a13f042",
+  "a": "ちーたん",
+  "d": "2026-11-11",
+  "s": "検索・RAG"
+ },
+ {
+  "t": "少年団の役員向けRAGを作った — 条文単位に切り直しただけで正答52%→72%、ハイブリッド検索は効かなかった",
+  "u": "https://zenn.dev/mappy55/articles/rulebook-rag-01",
+  "a": "mappy",
+  "d": "2026-11-10",
+  "s": "検索・RAG"
  },
  {
   "t": "検索は1回で足りるのか：grep で探すエージェント DCI(Direct Corpus Interaction) と、Top-5 を1回だけ取る RAG を同じ文書で比べてみた",
@@ -1519,6 +1631,13 @@
   "s": "AI エージェント・MCP"
  },
  {
+  "t": "オープンウェイトLLMの重みにバックドアを仕込む：LoRA 差分の SVD でわかること・わからないこと",
+  "u": "https://zenn.dev/coworker_jp/articles/open-weight-llm-weights-backdoor",
+  "a": "伊藤（CoWorker株式会社）",
+  "d": "2026-11-14",
+  "s": "LLM の安全性・セキュリティ"
+ },
+ {
   "t": "言語モデルのウォーターマークと言い換え耐性",
   "u": "https://zenn.dev/ncdc/articles/3ab5031c409b85",
   "a": "senna（NCDC）",
@@ -1594,6 +1713,13 @@
   "a": "石川（GMOフラットセキュリティ株式会社）",
   "d": "2025-05-20",
   "s": "LLM の安全性・セキュリティ"
+ },
+ {
+  "t": "日本のビジネスシーンで日々直面する5つの判定タスクで、機械的判定・LLM・判定専用モデルを比べた",
+  "u": "https://zenn.dev/nemolize/articles/judge-models-japanese-tasks",
+  "a": "nemolize",
+  "d": "2026-11-08",
+  "s": "テキスト分類・感情分析"
  },
  {
   "t": "おーぷん2ch発話の判定を通した音声・言語エンコーダの精度・速度比較",
@@ -1715,6 +1841,13 @@
   "s": "スパム・有害コンテンツ対策"
  },
  {
+  "t": "「求める人物像」をLLMで抽出。Embeddingとクラスタリングで件数を数えてみた",
+  "u": "https://qiita.com/badorisu0555/items/4626207dad9911dc95d4",
+  "a": "badorisu0555",
+  "d": "2026-11-14",
+  "s": "テキストマイニング・トピックモデル"
+ },
+ {
   "t": "生成AI以前と以後でエンジニアの文章はどう変わったのか: Qiitaの7万記事を数えてみた話",
   "u": "https://nyosegawa.com/posts/qiita-writing-before-after-ai/",
   "a": "逆瀬川ちゃん",
@@ -1748,6 +1881,13 @@
   "a": "YM_DSKR",
   "d": "2019-02-18",
   "s": "テキストマイニング・トピックモデル"
+ },
+ {
+  "t": "【AmiVoice】セキュリティ事故が怖いので、AmiVoiceを使って通話録音から個人情報を消してみる",
+  "u": "https://zenn.dev/subara3/articles/7ce96225a32a8d",
+  "a": "Subara3",
+  "d": "2026-11-11",
+  "s": "情報抽出・固有表現・アノテーション"
  },
  {
   "t": "「エラーは出ないが内容が消える」——LLM抽出でハマった落とし穴と対策",
@@ -1804,6 +1944,13 @@
   "a": "Hironsan",
   "d": "2018-05-28",
   "s": "情報抽出・固有表現・アノテーション"
+ },
+ {
+  "t": "介護保険の請求書類の読み取り誤りを、マスタ照合と計算で自動検出してみた",
+  "u": "https://zenn.dev/kurojica/articles/27127c51c7107c",
+  "a": "堂上 拓（クロジカ）",
+  "d": "2026-11-10",
+  "s": "文書処理・OCR"
  },
  {
   "t": "Textractの新モデルで日本語OCRを19パターン試して料金も比べてみた",
@@ -1916,6 +2063,27 @@
   "a": "S.S.（GMOインターネットグループ）",
   "d": "2022-04-06",
   "s": "質問応答・知識"
+ },
+ {
+  "t": "「草」を \"Grass\" と訳さない：ゲーム内チャットを Workers AI の LLM で翻訳する",
+  "u": "https://zenn.dev/tsukaima_kobo/articles/45c73cee00f0bd",
+  "a": "使い魔工房",
+  "d": "2026-11-15",
+  "s": "機械翻訳"
+ },
+ {
+  "t": "翻訳プロンプト選定の検証：LLM-as-a-Judgeによる翻訳評価の妥当性",
+  "u": "https://zenn.dev/bullman/articles/623fc9b6c2f0e3",
+  "a": "BullMan",
+  "d": "2026-11-11",
+  "s": "機械翻訳"
+ },
+ {
+  "t": "【ローカルLLM】国産LLM「PLaMo 3 Translate」で英日翻訳と古文の現代語訳を試す（Ubuntu＋Intel Arc Pro B70）",
+  "u": "https://qiita.com/h-nabata/items/528ded59b4583714af0d",
+  "a": "h-nabata",
+  "d": "2026-11-08",
+  "s": "機械翻訳"
  },
  {
   "t": "Sarashina3.2 translate: 常体・敬体を指定できる翻訳モデル",
@@ -2035,6 +2203,41 @@
   "a": "taku_sid",
   "d": "2025-04-23",
   "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
+  "t": "15秒黙ってから話した音声メモが、Whisperで「ご視聴ありがとうございました」だけになった",
+  "u": "https://zenn.dev/hilopon/articles/whisper-silence-erases-voice-memo",
+  "a": "みんなのおたすけ研究所",
+  "d": "2026-11-14",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "Irodori-TTS・Qwen3-TTS・Fish Audio Drama 3 を速く動かす音声合成サーバー、sokutou を作った話",
+  "u": "https://zenn.dev/soyomi/articles/sokutou-tts-server",
+  "a": "Soyomi",
+  "d": "2026-11-13",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "Weight-Space Programming っぽいことを Whisper でやってみた:出力層の 1 行で句点を打たせる",
+  "u": "https://zenn.dev/team_nishika/articles/a1c80040321b8d",
+  "a": "hiroyuki.matsuda（Nishika）",
+  "d": "2026-11-13",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "文字起こしは何を選べばいいか｜AWS Transcribe・Whisper・Notion AIを比べた",
+  "u": "https://zenn.dev/trust/articles/expo2026-asr-comparison",
+  "a": "Sakurai（TRUST）",
+  "d": "2026-11-09",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "日本語 STT 12 エンジン実測 — AmiVoice・Google・Deepgram・Whisper を同じ音声で比べた",
+  "u": "https://zenn.dev/wisteriacorp/articles/wisteria-2abed5b30bd1",
+  "a": "Wisteria",
+  "d": "2026-11-07",
+  "s": "音声認識・音声処理"
  },
  {
   "t": "LFM3をllama.cppで手元の会話の補助に。速さは足りたが、専門用語の聞き取りでWhisperに届かなかった",
@@ -2212,6 +2415,13 @@
   "s": "音声認識・音声処理"
  },
  {
+  "t": "ゼロから作ったMamba3言語モデルを日本語で話せる全二重音声対話モデルに拡張するまで",
+  "u": "https://zenn.dev/taaroo/articles/47f8d1ac55d4af",
+  "a": "Taro",
+  "d": "2026-11-09",
+  "s": "対話システム・音声対話"
+ },
+ {
   "t": "AIとの音声会話が遅いので、Streaming STTを入れて応答開始まで1.6秒にした",
   "u": "https://zenn.dev/uthuyomi/articles/5009790d5ca28f",
   "a": "おやす",
@@ -2315,6 +2525,13 @@
   "a": "vasilyjp（株式会社ZOZO）",
   "d": "2017-05-01",
   "s": "生成・要約・校正"
+ },
+ {
+  "t": "AIの「思考過程」は本当の判断理由を語っているか：CoT忠実性の研究",
+  "u": "https://zenn.dev/tsurubee/articles/cot-faithfulness-intro",
+  "a": "tsurubee",
+  "d": "2026-11-11",
+  "s": "解釈性・分析・言語学的視点"
  },
  {
   "t": "Sarashina3は「ら抜き言葉」と「なるはや」「役不足」にどう反応するか ― 文化庁『国語に関する世論調査』での検証",

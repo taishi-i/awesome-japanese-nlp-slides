@@ -1280,6 +1280,14 @@
   "blurb": "LLM 全体を俯瞰する解説・招待講演。",
   "entries": [
    {
+    "title": "ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611",
+    "url": "https://speakerdeck.com/kishida/20261113localllm",
+    "author": "Naoki Kishida",
+    "date": "2026-11-13",
+    "source": "speakerdeck",
+    "added": "2026-11-16"
+   },
+   {
     "title": "ローカルLLMでどこまでコードが書けるか -LLM基礎知識 / How much code can be written on a local LLM - fundamental knowledge",
     "url": "https://speakerdeck.com/kishida/how-much-code-can-be-written-on-a-local-llm-fundamental-knowledge",
     "author": "Naoki Kishida",
@@ -2089,6 +2097,14 @@
   "section": "評価・ベンチマーク",
   "blurb": "日本語 LLM・NLP システムをどう測るか。",
   "entries": [
+   {
+    "title": "ハルシネーション率って考えた事ありますか？",
+    "url": "https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou",
+    "author": "Suguru Ohishi",
+    "date": "2026-11-06",
+    "source": "speakerdeck",
+    "added": "2026-11-16"
+   },
    {
     "title": "LLM-as-a-Judgeは本当に信頼できるのか――評価器を評価する話",
     "url": "https://speakerdeck.com/taka_aki/llm-as-a-judge-ha-hontouni-shinrai-dekiru-no-ka-hyoukaki-o-hyouka-suru-hanashi",
@@ -3221,6 +3237,14 @@
   "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
   "entries": [
    {
+    "title": "AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する",
+    "url": "https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy",
+    "author": "日下 武紀",
+    "date": "2026-11-15",
+    "source": "docswell",
+    "added": "2026-11-16"
+   },
+   {
     "title": "グラフ基盤ワークフローで実現するLLMによる自動ゲームプレイ",
     "url": "https://speakerdeck.com/gree_tech/gurafu-kiban-waku-furo-de-jitsugen-suru-llm-niyoru-jidou",
     "author": "gree_tech",
@@ -3629,6 +3653,14 @@
   "section": "LLM の安全性・セキュリティ",
   "blurb": "プロンプトインジェクションなどの攻撃と防御、ガードレール、AI セーフティの技術的論点。",
   "entries": [
+   {
+    "title": "LLMをConfidential VMで動かす話",
+    "url": "https://speakerdeck.com/lycorptech_jp/20261104a",
+    "author": "LINEヤフーTech (LY Corporation Tech)",
+    "date": "2026-11-04",
+    "source": "speakerdeck",
+    "added": "2026-11-16"
+   },
    {
     "title": "AI Safety, Seen Through Its Questions",
     "url": "https://speakerdeck.com/kanekomasahiro/ai-safety-seen-through-its-questions",
@@ -4559,6 +4591,14 @@
   "section": "文書処理・OCR",
   "blurb": "帳票・契約書・名刺など、実世界の文書をデータに変える技術。",
   "entries": [
+   {
+    "title": "文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか",
+    "url": "https://speakerdeck.com/sansantech/261112-3",
+    "author": "SansanTech",
+    "date": "2026-11-13",
+    "source": "speakerdeck",
+    "added": "2026-11-16"
+   },
    {
     "title": "契約書画像からの情報抽出に特化した視覚接地モデルを育てる話",
     "url": "https://speakerdeck.com/sansantech/261004",
