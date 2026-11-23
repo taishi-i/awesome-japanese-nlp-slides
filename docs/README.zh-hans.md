@@ -11,7 +11,7 @@
 这是一份精选列表，收录了日语自然语言处理（NLP）相关的演示幻灯片。
 按主题整理了学会的教程演讲、大学课程、OSS 开发者的技术讲解，以及企业的实践案例。
 
-共收录 882 份资料，分为 32 个分类。
+共收录 886 份资料，分为 32 个分类。
 
 幻灯片标题保留发表时的原文，因此绝大多数为日语。
 
@@ -57,7 +57,7 @@
 
 ## 🔍 从 Claude Code 搜索
 
-我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 882 份资料。
+我们提供了插件，让你可以从 Claude Code 搜索本列表收录的 886 份资料。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -79,29 +79,26 @@
 
 📝 这个搜索技能背后的故事，写在 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d)（日文）。
 
-🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hans.md)（373 篇）。
+🌐 企业与个人开发者发布的博客文章，另外整理于[这份文章列表](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.zh-hans.md)（393 篇）。
 
 <details>
 <summary>🎉 最近新增的幻灯片 （点击展开）</summary>
 
 这是最近 7 天内加入本列表的幻灯片。自加入之日起，会在此显示 7 天。
 
-**大语言模型（概论・趋势）**
-- [ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611](https://speakerdeck.com/kishida/20261113localllm) - Naoki Kishida（2026-11）
-
-**评测・基准测试**
-- [ハルシネーション率って考えた事ありますか？](https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou) - Suguru Ohishi（2026-11）
+**检索・RAG**
+- [莫大な物量を支えるログシステム「RELog」の設計と実装／10年分の知見へのアクセスをLLMで実現する「REAssistAI」 \[RE:2026 2026年10月2日登壇\]](https://www.docswell.com/s/CAPCOM_RandD/KL3Y9Q-RE2026-WEST-5) - カプコン技研（2026-11）
 
 **AI 智能体・MCP**
-- [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀（2026-11）
+- [AIエージェントの「テストは通るのに本番で壊れる」を減らす](https://speakerdeck.com/shibuiwilliam/agent-eval-talk-dot-pptx) - shibuiwilliam（2026-11）
 
-**LLM 的安全性・安全防护**
-- [LLMをConfidential VMで動かす話](https://speakerdeck.com/lycorptech_jp/20261104a) - LINEヤフーTech (LY Corporation Tech)（2026-11）
+**生成・摘要・校对**
+- [LLMごとの文章力を測ってみた話](https://speakerdeck.com/yoshimura_datam/05-llm-goto-no-bunshouryoku-o-haka-te-mita-hanashi) - よしむら＠データマネジメント担当（2026-11）
 
-**文档处理・OCR**
-- [文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか](https://speakerdeck.com/sansantech/261112-3) - SansanTech（2026-11）
+**产业应用・实务案例**
+- [専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価](https://speakerdeck.com/hagino3000/building-ai-product-for-expert) - Takashi Nishibayashi（2026-11）
 
-_2026-11-16 更新_
+_2026-11-24 更新_
 
 </details>
 
@@ -534,6 +531,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 检索增强生成（RAG）的设计、改善与评测。
 
+- [莫大な物量を支えるログシステム「RELog」の設計と実装／10年分の知見へのアクセスをLLMで実現する「REAssistAI」 \[RE:2026 2026年10月2日登壇\]](https://www.docswell.com/s/CAPCOM_RandD/KL3Y9Q-RE2026-WEST-5) - カプコン技研（2026-11）
 - [BacklogのRAG 今ならこう作る - S3 Vectorsと自前パイプラインの勘所](https://speakerdeck.com/revsystem/2026-10-23-aws-community-builders-meetup-kyushu-2026) - Tsuyoshi Yamasaki（2026-10）
 - [【Paper&Hacks vol.99】RAGの基盤を固めよう 〜 評価／検索システム／データ前処理 〜](https://www.docswell.com/s/matsuo-lab_llm/Z4NRNL-Paper&HacksVol.99) - 松尾研LLMコミュニティ（2026-09）
 - [【AI×DevOps Study #22】AI Agent のための RAG System２（全2回）](https://speakerdeck.com/scalar/aixdevops-study-22-ai-agent-no-tame-no-rag-system-chon-2-kai) - 深津航（2026-08）
@@ -618,6 +616,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 让 LLM 使用工具的智能体的设计、评估与运维，以及通过 MCP 实现的工具联动。
 
+- [AIエージェントの「テストは通るのに本番で壊れる」を減らす](https://speakerdeck.com/shibuiwilliam/agent-eval-talk-dot-pptx) - shibuiwilliam（2026-11）
 - [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀（2026-11）
 - [グラフ基盤ワークフローで実現するLLMによる自動ゲームプレイ](https://speakerdeck.com/gree_tech/gurafu-kiban-waku-furo-de-jitsugen-suru-llm-niyoru-jidou) - gree_tech（2026-10）
 - [Compute-Use Agentの強化学習](https://www.docswell.com/s/MatsuoInstitute/5Y8643-2026-10-08-164941) - (株)松尾研究所（2026-10）
@@ -1025,6 +1024,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 文本生成及其应用任务。
 
+- [LLMごとの文章力を測ってみた話](https://speakerdeck.com/yoshimura_datam/05-llm-goto-no-bunshouryoku-o-haka-te-mita-hanashi) - よしむら＠データマネジメント担当（2026-11）
 - [20260427 Ehime DS Seminar: MBR-CBDT Decoding](https://speakerdeck.com/de9uch1/20260427-ehimedscseminar-mbr-cbdt-decoding) - Hiroyuki Deguchi（2026-09）
 - [AIくさい文章から脱出する技術 ― 6モデル180サンプルで測った「バレる文章」の正体](https://www.docswell.com/s/kenimo49/57NLX7-ai-text-slop-escape) - 井本 賢（2026-08）
 - [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](https://speakerdeck.com/rudorudo11/people-who-frequently-use-chatgpt-for-writing-tasks-are-accurate-and-robust-detectors-of-ai-generated-text) - hajime kiyama（2025-08）
@@ -1112,6 +1112,7 @@ BERT 之后的预训练模型，以及 Transformer 的讲解资料。
 
 把 NLP／LLM 集成进实际服务与实际业务的案例。
 
+- [専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価](https://speakerdeck.com/hagino3000/building-ai-product-for-expert) - Takashi Nishibayashi（2026-11）
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史（2026-08）
 - [つくって納得、つかって実感！ 大規模言語モデルことはじめ ver2.0](https://speakerdeck.com/recruitengineers/fy2026_bootcamp_kiryu) - Recruit（2026-08）
 - [記録をかんたんに、提案をパーソナルに ── AIであすけんが目指すもの](https://speakerdeck.com/oprstchn/ji-lu-wokantanni-ti-an-wopasonaruni-aideasukengamu-zhi-sumono) - oprst（2026-07）

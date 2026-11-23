@@ -14,6 +14,13 @@
   "s": "入門・全体像"
  },
  {
+  "t": "Interspeech 2026でDeNAの音声開発者が見た音声技術の最前線",
+  "u": "https://engineering.dena.com/blog/2026/11/interspeech-2026/",
+  "a": "松永裕太（DeNA）",
+  "d": "2026-11-17",
+  "s": "学会チュートリアル"
+ },
+ {
   "t": "YANS2026 参加報告",
   "u": "https://www.sbintuitions.co.jp/blog/entry/2026/08/31/105922",
   "a": "平子潤, 松野智紀, 今井悠人（SB Intuitions）",
@@ -917,6 +924,41 @@
   "s": "ファインチューニング・事後学習"
  },
  {
+  "t": "ローカルLLM入門",
+  "u": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+  "a": "Tesla（ポート株式会社）",
+  "d": "2026-11-17",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "L40S 1台で社内RAGは何人まで使えるか",
+  "u": "https://zenn.dev/epicai_techblog/articles/29b509117755af",
+  "a": "a_shinohara",
+  "d": "2026-11-17",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "前編 LLM推論エンジンを作る",
+  "u": "https://zenn.dev/shozotanaka/articles/7e86f85974eebb",
+  "a": "ShozoTanaka",
+  "d": "2026-11-16",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "日本語で聞くと AI の電気は何倍？ 論文と同じ Qwen3 と問題で、Mac の GPU の電力を測ってみた",
+  "u": "https://zenn.dev/lecto/articles/c9b0474d1dd327",
+  "a": "tamoco（Lecto）",
+  "d": "2026-11-16",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "【IEEE DTDA 2026発表】GLM-5.1推論最適化：大規模LLMをGPUサーバー1台で動かす",
+  "u": "https://zenn.dev/fixstars/articles/glm51-dtda2026",
+  "a": "changgyu.choi（フィックスターズ）",
+  "d": "2026-11-16",
+  "s": "LLM の推論最適化・サービング"
+ },
+ {
   "t": "torch.compileでLLMの文章生成を速くしてみる—生成速度と初回コストの検証",
   "u": "https://zenn.dev/zenkigen_tech/articles/1739826e1d843d",
   "a": "てばさき（株式会社ZENKIGEN）",
@@ -1013,6 +1055,20 @@
   "a": "Aratako（松尾研究室）",
   "d": "2024-09-09",
   "s": "LLM の推論最適化・サービング"
+ },
+ {
+  "t": "LLM の長期記憶ベンチマーク LongMemEval を、直訳せずに日本の暮らしに合わせて作り直して LongMemEval-JA を公開しました",
+  "u": "https://qiita.com/hisashi-ito/items/e18a4bc402f9cc2de165",
+  "a": "hisashi-ito",
+  "d": "2026-11-19",
+  "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開",
+  "u": "https://sakana.ai/jfinbench/",
+  "a": "Sakana AI",
+  "d": "2026-11-17",
+  "s": "評価・ベンチマーク"
  },
  {
   "t": "約9Bまでの日本語 Decision Model 13種を公開データで比べた（精度・較正・順序頑健性）",
@@ -1209,6 +1265,13 @@
   "a": "Baku",
   "d": "2023-08-18",
   "s": "評価・ベンチマーク"
+ },
+ {
+  "t": "[AWS] S3Vectorsは全文検索エンジンとしてOpenSearchの代わりになるのか？",
+  "u": "https://qiita.com/kikuziro/items/cd1389f6a1601494895f",
+  "a": "kikuziro",
+  "d": "2026-11-17",
+  "s": "全文検索・検索基盤"
  },
  {
   "t": "最近アップデートが続く日本語トークナイザーで、BM25の検索精度を比べてみました",
@@ -1512,6 +1575,20 @@
   "s": "検索・RAG"
  },
  {
+  "t": "同じ内容でも言語でトークン数は何倍違う？日本語・中国語・韓国語・タイ語を6つのトークナイザーで比べてみた",
+  "u": "https://zenn.dev/aiforall/articles/5069b7c19696bf",
+  "a": "nishina（株式会社メンバーズ）",
+  "d": "2026-11-20",
+  "s": "LLM アプリケーション開発・運用"
+ },
+ {
+  "t": "知識を増やしても迷わせない ── 社内データ分析AIを育てる評価基盤と参照経路の設計",
+  "u": "https://tech.timee.co.jp/entry/2026/11/17/131601",
+  "a": "吉川（タイミー）",
+  "d": "2026-11-17",
+  "s": "LLM アプリケーション開発・運用"
+ },
+ {
   "t": "ローカルLLMはどんな業務で使えるのか？ DGX Spark + DeepSeek V4-FlashのSlackチャットボットを評価した",
   "u": "https://zenn.dev/sompojapan_dx/articles/05f34316118943",
   "a": "akira0g（損害保険ジャパン）",
@@ -1629,6 +1706,20 @@
   "a": "Nguyễn Trọng Phúc（LINEヤフー株式会社）",
   "d": "2025-06-09",
   "s": "AI エージェント・MCP"
+ },
+ {
+  "t": "日本語プロンプトインジェクション検知モデルを公開した（攻撃発見率0.930、誤検出率0.44%）",
+  "u": "https://zenn.dev/jpopendata/articles/2cc6a3888fc645",
+  "a": "Japan Open Data Lab",
+  "d": "2026-11-21",
+  "s": "LLM の安全性・セキュリティ"
+ },
+ {
+  "t": "Amazon Bedrock Guardrails で「この案件の情報」を止められるか、日本語の文 290 個で確かめてみた",
+  "u": "https://zenn.dev/aws_japan/articles/d3535c169857d0",
+  "a": "Miku Hoshino（アマゾン ウェブ サービス ジャパン）",
+  "d": "2026-11-18",
+  "s": "LLM の安全性・セキュリティ"
  },
  {
   "t": "オープンウェイトLLMの重みにバックドアを仕込む：LoRA 差分の SVD でわかること・わからないこと",
@@ -1883,6 +1974,13 @@
   "s": "テキストマイニング・トピックモデル"
  },
  {
+  "t": "日本語の個人情報を自動で検出・マスクする小さなモデルを公開した（F1 0.977、誤検出0件）",
+  "u": "https://zenn.dev/jpopendata/articles/a945ebb60ae7ab",
+  "a": "Japan Open Data Lab",
+  "d": "2026-11-20",
+  "s": "情報抽出・固有表現・アノテーション"
+ },
+ {
   "t": "【AmiVoice】セキュリティ事故が怖いので、AmiVoiceを使って通話録音から個人情報を消してみる",
   "u": "https://zenn.dev/subara3/articles/7ce96225a32a8d",
   "a": "Subara3",
@@ -1944,6 +2042,20 @@
   "a": "Hironsan",
   "d": "2018-05-28",
   "s": "情報抽出・固有表現・アノテーション"
+ },
+ {
+  "t": "日本のレシートを自宅PCでOCRする：15構成を実レシート11枚で比べた",
+  "u": "https://zenn.dev/chaki/articles/4545be3475fdb4",
+  "a": "chaki",
+  "d": "2026-11-20",
+  "s": "文書処理・OCR"
+ },
+ {
+  "t": "重みを消すだけで日本語OCRは良くなるか: Deletion Tuningを4つのVLMで検証した",
+  "u": "https://zenn.dev/craftgear/articles/4c008427e5ebbf",
+  "a": "CaptainEmo",
+  "d": "2026-11-17",
+  "s": "文書処理・OCR"
  },
  {
   "t": "介護保険の請求書類の読み取り誤りを、マスタ照合と計算で自動検出してみた",
@@ -2203,6 +2315,34 @@
   "a": "taku_sid",
   "d": "2025-04-23",
   "s": "マルチモーダル・Vision-and-Language"
+ },
+ {
+  "t": "日本語ASR句読点復元モデルを公開した（実ASRベンチF1 0.888、Whisper単体0.606）",
+  "u": "https://zenn.dev/jpopendata/articles/3c412512f68be8",
+  "a": "Japan Open Data Lab",
+  "d": "2026-11-22",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "whisper.cpp の prompt にゲームの語を渡して、語の聞き取りを 55% → 81% にした話",
+  "u": "https://qiita.com/ringo7pie/items/0c0f95d4b36d22e29504",
+  "a": "長谷川 英一",
+  "d": "2026-11-21",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "Sarashina3.2 ASR：日本語トップクラスの認識精度を実現！リアルタイム・専門用語にも強い音声認識モデル",
+  "u": "https://www.sbintuitions.co.jp/blog/entry/2026/11/20/131721",
+  "a": "鷲崎海, 小島淳嗣, 周藤唯（SB Intuitions）",
+  "d": "2026-11-20",
+  "s": "音声認識・音声処理"
+ },
+ {
+  "t": "固有名詞だらけの音声メモをAmiVoice APIで文字起こし：単語登録と音量そろえで誤り率を半分にした",
+  "u": "https://zenn.dev/classnow/articles/f245f53083a7ae",
+  "a": "classnow",
+  "d": "2026-11-19",
+  "s": "音声認識・音声処理"
  },
  {
   "t": "15秒黙ってから話した音声メモが、Whisperで「ご視聴ありがとうございました」だけになった",

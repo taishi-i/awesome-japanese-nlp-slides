@@ -2661,6 +2661,14 @@
   "blurb": "検索拡張生成（RAG）の設計・改善・評価。",
   "entries": [
    {
+    "title": "莫大な物量を支えるログシステム「RELog」の設計と実装／10年分の知見へのアクセスをLLMで実現する「REAssistAI」 [RE:2026 2026年10月2日登壇]",
+    "url": "https://www.docswell.com/s/CAPCOM_RandD/KL3Y9Q-RE2026-WEST-5",
+    "author": "カプコン技研",
+    "date": "2026-11-20",
+    "source": "docswell",
+    "added": "2026-11-24"
+   },
+   {
     "title": "BacklogのRAG 今ならこう作る - S3 Vectorsと自前パイプラインの勘所",
     "url": "https://speakerdeck.com/revsystem/2026-10-23-aws-community-builders-meetup-kyushu-2026",
     "author": "Tsuyoshi Yamasaki",
@@ -3236,6 +3244,14 @@
   "section": "AI エージェント・MCP",
   "blurb": "LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。",
   "entries": [
+   {
+    "title": "AIエージェントの「テストは通るのに本番で壊れる」を減らす",
+    "url": "https://speakerdeck.com/shibuiwilliam/agent-eval-talk-dot-pptx",
+    "author": "shibuiwilliam",
+    "date": "2026-11-17",
+    "source": "speakerdeck",
+    "added": "2026-11-24"
+   },
    {
     "title": "AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する",
     "url": "https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy",
@@ -5849,6 +5865,14 @@
   "blurb": "テキスト生成とその応用タスク。",
   "entries": [
    {
+    "title": "LLMごとの文章力を測ってみた話",
+    "url": "https://speakerdeck.com/yoshimura_datam/05-llm-goto-no-bunshouryoku-o-haka-te-mita-hanashi",
+    "author": "よしむら＠データマネジメント担当",
+    "date": "2026-11-21",
+    "source": "speakerdeck",
+    "added": "2026-11-24"
+   },
+   {
     "title": "20260427 Ehime DS Seminar: MBR-CBDT Decoding",
     "url": "https://speakerdeck.com/de9uch1/20260427-ehimedscseminar-mbr-cbdt-decoding",
     "author": "Hiroyuki Deguchi",
@@ -6445,6 +6469,14 @@
   "section": "産業応用・実務事例",
   "blurb": "実サービス・実業務に NLP / LLM を組み込んだ事例。",
   "entries": [
+   {
+    "title": "専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価",
+    "url": "https://speakerdeck.com/hagino3000/building-ai-product-for-expert",
+    "author": "Takashi Nishibayashi",
+    "date": "2026-11-16",
+    "source": "speakerdeck",
+    "added": "2026-11-24"
+   },
    {
     "title": "記録をかんたんに、提案をパーソナルに ── AIであすけんが目指すもの",
     "url": "https://speakerdeck.com/oprstchn/ji-lu-wokantanni-ti-an-wopasonaruni-aideasukengamu-zhi-sumono",

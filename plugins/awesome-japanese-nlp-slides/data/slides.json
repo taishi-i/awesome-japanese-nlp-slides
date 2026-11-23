@@ -2800,6 +2800,14 @@
   "src": "slideshare"
  },
  {
+  "t": "莫大な物量を支えるログシステム「RELog」の設計と実装／10年分の知見へのアクセスをLLMで実現する「REAssistAI」 [RE:2026 2026年10月2日登壇]",
+  "u": "https://www.docswell.com/s/CAPCOM_RandD/KL3Y9Q-RE2026-WEST-5",
+  "a": "カプコン技研",
+  "d": "2026-11-20",
+  "s": "検索・RAG",
+  "src": "docswell"
+ },
+ {
   "t": "BacklogのRAG 今ならこう作る - S3 Vectorsと自前パイプラインの勘所",
   "u": "https://speakerdeck.com/revsystem/2026-10-23-aws-community-builders-meetup-kyushu-2026",
   "a": "Tsuyoshi Yamasaki",
@@ -3389,6 +3397,14 @@
   "a": "shibuiwilliam",
   "d": "2026-08-10",
   "s": "LLM アプリケーション開発・運用",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "AIエージェントの「テストは通るのに本番で壊れる」を減らす",
+  "u": "https://speakerdeck.com/shibuiwilliam/agent-eval-talk-dot-pptx",
+  "a": "shibuiwilliam",
+  "d": "2026-11-17",
+  "s": "AI エージェント・MCP",
   "src": "speakerdeck"
  },
  {
@@ -6168,6 +6184,14 @@
   "src": "slideshare"
  },
  {
+  "t": "LLMごとの文章力を測ってみた話",
+  "u": "https://speakerdeck.com/yoshimura_datam/05-llm-goto-no-bunshouryoku-o-haka-te-mita-hanashi",
+  "a": "よしむら＠データマネジメント担当",
+  "d": "2026-11-21",
+  "s": "生成・要約・校正",
+  "src": "speakerdeck"
+ },
+ {
   "t": "20260427 Ehime DS Seminar: MBR-CBDT Decoding",
   "u": "https://speakerdeck.com/de9uch1/20260427-ehimedscseminar-mbr-cbdt-decoding",
   "a": "Hiroyuki Deguchi",
@@ -6781,6 +6805,14 @@
   "a": "Naoaki Okazaki",
   "d": "2019-09-25",
   "s": "解釈性・分析・言語学的視点",
+  "src": "speakerdeck"
+ },
+ {
+  "t": "専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価",
+  "u": "https://speakerdeck.com/hagino3000/building-ai-product-for-expert",
+  "a": "Takashi Nishibayashi",
+  "d": "2026-11-16",
+  "s": "産業応用・実務事例",
   "src": "speakerdeck"
  },
  {

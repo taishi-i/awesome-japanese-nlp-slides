@@ -15,7 +15,7 @@ layout: default
 日本語の自然言語処理（NLP）に関する発表スライドを集めた厳選リストです。
 学会チュートリアル、大学講義、OSS 開発者による技術解説、企業の実践事例などをトピック別に整理しています。
 
-882 件の資料を 32 カテゴリに分類しています。
+886 件の資料を 32 カテゴリに分類しています。
 
 > [!NOTE]
 > このリストは日々更新中です。新しいスライドを随時追加しています。
@@ -59,7 +59,7 @@ layout: default
 
 ## 🔍 Claude Code から検索する
 
-このリストの資料 882 件を Claude Code から検索できるプラグインを用意しています。
+このリストの資料 886 件を Claude Code から検索できるプラグインを用意しています。
 
 ```
 /plugin marketplace add taishi-i/awesome-japanese-nlp-slides
@@ -81,29 +81,26 @@ layout: default
 
 📝 [日本語NLPの発表スライド560件を整理し、Claude Codeから検索するスキル](https://zenn.dev/taishii/articles/523e4ffc13387d) で、この検索スキルを作った経緯を解説しています。
 
-🌐 企業や個人開発者が公開しているブログ記事・技術記事は[こちらの記事一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.ja.md)に別途まとめています（373 件）。
+🌐 企業や個人開発者が公開しているブログ記事・技術記事は[こちらの記事一覧](https://github.com/taishi-i/awesome-japanese-nlp-slides/blob/main/docs/ARTICLES.ja.md)に別途まとめています（393 件）。
 
 <details>
 <summary>🎉 最近追加されたスライド （クリックで開く）</summary>
 
 このリストに直近7日以内に追加されたスライドです。追加された日から7日間、ここに表示されます。
 
-**大規模言語モデル（概論・動向）**
-- [ローカルLLMの基本と近況 2611 / Local LLM basics and recent situation 2611](https://speakerdeck.com/kishida/20261113localllm) - Naoki Kishida（2026-11）
-
-**評価・ベンチマーク**
-- [ハルシネーション率って考えた事ありますか？](https://speakerdeck.com/suguru0719/ritsu-toudan-shiryou) - Suguru Ohishi（2026-11）
+**検索・RAG**
+- [莫大な物量を支えるログシステム「RELog」の設計と実装／10年分の知見へのアクセスをLLMで実現する「REAssistAI」 \[RE:2026 2026年10月2日登壇\]](https://www.docswell.com/s/CAPCOM_RandD/KL3Y9Q-RE2026-WEST-5) - カプコン技研（2026-11）
 
 **AI エージェント・MCP**
-- [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀（2026-11）
+- [AIエージェントの「テストは通るのに本番で壊れる」を減らす](https://speakerdeck.com/shibuiwilliam/agent-eval-talk-dot-pptx) - shibuiwilliam（2026-11）
 
-**LLM の安全性・セキュリティ**
-- [LLMをConfidential VMで動かす話](https://speakerdeck.com/lycorptech_jp/20261104a) - LINEヤフーTech (LY Corporation Tech)（2026-11）
+**生成・要約・校正**
+- [LLMごとの文章力を測ってみた話](https://speakerdeck.com/yoshimura_datam/05-llm-goto-no-bunshouryoku-o-haka-te-mita-hanashi) - よしむら＠データマネジメント担当（2026-11）
 
-**文書処理・OCR**
-- [文書画像からの情報抽出を行うエージェントを、軌跡の正解データ無しで作れるか](https://speakerdeck.com/sansantech/261112-3) - SansanTech（2026-11）
+**産業応用・実務事例**
+- [専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価](https://speakerdeck.com/hagino3000/building-ai-product-for-expert) - Takashi Nishibayashi（2026-11）
 
-_2026-11-16 時点_
+_2026-11-24 時点_
 
 </details>
 
@@ -536,6 +533,7 @@ LLM 全体を俯瞰する解説・招待講演。
 
 検索拡張生成（RAG）の設計・改善・評価。
 
+- [莫大な物量を支えるログシステム「RELog」の設計と実装／10年分の知見へのアクセスをLLMで実現する「REAssistAI」 \[RE:2026 2026年10月2日登壇\]](https://www.docswell.com/s/CAPCOM_RandD/KL3Y9Q-RE2026-WEST-5) - カプコン技研（2026-11）
 - [BacklogのRAG 今ならこう作る - S3 Vectorsと自前パイプラインの勘所](https://speakerdeck.com/revsystem/2026-10-23-aws-community-builders-meetup-kyushu-2026) - Tsuyoshi Yamasaki（2026-10）
 - [【Paper&Hacks vol.99】RAGの基盤を固めよう 〜 評価／検索システム／データ前処理 〜](https://www.docswell.com/s/matsuo-lab_llm/Z4NRNL-Paper&HacksVol.99) - 松尾研LLMコミュニティ（2026-09）
 - [【AI×DevOps Study #22】AI Agent のための RAG System２（全2回）](https://speakerdeck.com/scalar/aixdevops-study-22-ai-agent-no-tame-no-rag-system-chon-2-kai) - 深津航（2026-08）
@@ -620,6 +618,7 @@ LLM 全体を俯瞰する解説・招待講演。
 
 LLM に道具を使わせるエージェントの設計・評価・運用と、MCP によるツール連携。
 
+- [AIエージェントの「テストは通るのに本番で壊れる」を減らす](https://speakerdeck.com/shibuiwilliam/agent-eval-talk-dot-pptx) - shibuiwilliam（2026-11）
 - [AgentOps ケーススタディ：FMEA 作成支援エージェントで、評価と制御を実測する](https://www.docswell.com/s/takenori_kusaka/ZY848P-agentops-casestudy) - 日下 武紀（2026-11）
 - [グラフ基盤ワークフローで実現するLLMによる自動ゲームプレイ](https://speakerdeck.com/gree_tech/gurafu-kiban-waku-furo-de-jitsugen-suru-llm-niyoru-jidou) - gree_tech（2026-10）
 - [Compute-Use Agentの強化学習](https://www.docswell.com/s/MatsuoInstitute/5Y8643-2026-10-08-164941) - (株)松尾研究所（2026-10）
@@ -1027,6 +1026,7 @@ LLM に道具を使わせるエージェントの設計・評価・運用と、M
 
 テキスト生成とその応用タスク。
 
+- [LLMごとの文章力を測ってみた話](https://speakerdeck.com/yoshimura_datam/05-llm-goto-no-bunshouryoku-o-haka-te-mita-hanashi) - よしむら＠データマネジメント担当（2026-11）
 - [20260427 Ehime DS Seminar: MBR-CBDT Decoding](https://speakerdeck.com/de9uch1/20260427-ehimedscseminar-mbr-cbdt-decoding) - Hiroyuki Deguchi（2026-09）
 - [AIくさい文章から脱出する技術 ― 6モデル180サンプルで測った「バレる文章」の正体](https://www.docswell.com/s/kenimo49/57NLX7-ai-text-slop-escape) - 井本 賢（2026-08）
 - [People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text](https://speakerdeck.com/rudorudo11/people-who-frequently-use-chatgpt-for-writing-tasks-are-accurate-and-robust-detectors-of-ai-generated-text) - hajime kiyama（2025-08）
@@ -1114,6 +1114,7 @@ LLM に道具を使わせるエージェントの設計・評価・運用と、M
 
 実サービス・実業務に NLP / LLM を組み込んだ事例。
 
+- [専門家に使ってもらうAIプロダクトをつくる - 病院の医事課向けDPCコーディング支援システムの設計と評価](https://speakerdeck.com/hagino3000/building-ai-product-for-expert) - Takashi Nishibayashi（2026-11）
 - [【GCC2026】大規模言語モデルを活用した内製検索サービスの社内展開や業務活用](https://speakerdeck.com/bandainamcostudios/gcc2026-daikibo-gengo-moderu-o-katsuyou-shita-uchisei-kensaku-sabisu-no-shanai-tenkai-ya-gyoumu-katsuyou) - 髙橋 誠史（2026-08）
 - [つくって納得、つかって実感！ 大規模言語モデルことはじめ ver2.0](https://speakerdeck.com/recruitengineers/fy2026_bootcamp_kiryu) - Recruit（2026-08）
 - [記録をかんたんに、提案をパーソナルに ── AIであすけんが目指すもの](https://speakerdeck.com/oprstchn/ji-lu-wokantanni-ti-an-wopasonaruni-aideasukengamu-zhi-sumono) - oprst（2026-07）
